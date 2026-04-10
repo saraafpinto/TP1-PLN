@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="25.07.0">
+<page number="29" position="absolute" top="0" left="0" height="1190" width="914">
+	<fontspec id="0" size="21" family="HHGSOY+AvenirNextLTPro-UltLt" color="#000000"/>
+	<fontspec id="1" size="16" family="HHGSOY+AvenirNextLTPro" color="#000000"/>
+	<fontspec id="2" size="16" family="VUQYCW+AvenirNextLTPro" color="#000000"/>
+	<fontspec id="3" size="14" family="HHGSOY+AvenirNextLTPro" color="#000000"/>
+	<fontspec id="4" size="14" family="VUQYCW+AvenirNextLTPro" color="#000000"/>
+	<fontspec id="5" size="60" family="HHGSOY+AvenirNextLTPro" color="#000000"/>
+<text top="1171" left="806" width="24" height="25" font="0">27</text>
+<text top="-14" left="407" width="118" height="19" font="1"><b>QUADERNS 50 </b></text>
+<text top="-14" left="526" width="327" height="19" font="2"> DICCIONARI MULTILINGÜE DE LA COVID-19</text>
+<text top="1178" left="63" width="130" height="16" font="3"><b>Categories lèxiques</b></text>
+<text top="1178" left="63" width="88" height="16" font="4">n nom</text>
+<text top="1178" left="63" width="27" height="16" font="4">n pl </text>
+<text top="1178" left="122" width="67" height="16" font="4">nom plural</text>
+<text top="1178" left="63" width="27" height="16" font="4">n m </text>
+<text top="1178" left="122" width="78" height="16" font="4">nom masculí</text>
+<text top="1178" left="63" width="42" height="16" font="4">n m pl </text>
+<text top="1178" left="122" width="116" height="16" font="4">nom masculí plural</text>
+<text top="1178" left="63" width="19" height="16" font="4">n f </text>
+<text top="1178" left="122" width="74" height="16" font="4">nom femení</text>
+<text top="1178" left="63" width="34" height="16" font="4">n f pl </text>
+<text top="1178" left="122" width="112" height="16" font="4">nom femení plural</text>
+<text top="1178" left="63" width="37" height="16" font="4">n m, f </text>
+<text top="1178" left="122" width="131" height="16" font="4">nom masculí i femení</text>
+<text top="1178" left="63" width="36" height="16" font="4">n m/f </text>
+<text top="1178" left="122" width="135" height="16" font="4">nom masculí o femení</text>
+<text top="1178" left="63" width="109" height="16" font="4">adj adjectiu</text>
+<text top="1178" left="63" width="22" height="16" font="4">v tr </text>
+<text top="1178" left="122" width="80" height="16" font="4">verb transitiu</text>
+<text top="1178" left="63" width="215" height="16" font="4">v tr/intr  verb transitiu o intransitiu</text>
+<text top="1178" left="63" width="34" height="16" font="4">v intr </text>
+<text top="1178" left="122" width="91" height="16" font="4">verb intransitiu</text>
+<text top="1178" left="63" width="73" height="16" font="3"><b>Remissions</b></text>
+<text top="1178" left="63" width="24" height="16" font="4">sin. </text>
+<text top="1178" left="144" width="98" height="16" font="4">sinònim absolut</text>
+<text top="1178" left="63" width="227" height="16" font="4">sin. compl.  sinònim complementari</text>
+<text top="1178" left="63" width="225" height="16" font="4">den. com.   denominació comercial</text>
+<text top="1178" left="442" width="142" height="16" font="3"><b>Indicadors de llengua</b></text>
+<text top="1178" left="442" width="88" height="16" font="4">oc occità</text>
+<text top="1178" left="442" width="80" height="16" font="4">eu basc</text>
+<text top="1178" left="442" width="88" height="16" font="4">gl gallec</text>
+<text top="1178" left="442" width="20" height="16" font="4">es  </text>
+<text top="1178" left="493" width="46" height="16" font="4">castellà</text>
+<text top="1178" left="442" width="92" height="16" font="4">en anglès</text>
+<text top="1178" left="442" width="16" height="16" font="4">fr  </text>
+<text top="1178" left="493" width="44" height="16" font="4">francès</text>
+<text top="1178" left="442" width="115" height="16" font="4">pt portuguès</text>
+<text top="1178" left="442" width="16" height="16" font="4">pt </text>
+<text top="1178" left="493" width="165" height="16" font="4">[PT] portuguès de Portugal</text>
+<text top="1178" left="442" width="16" height="16" font="4">pt </text>
+<text top="1178" left="493" width="152" height="16" font="4">[BR] portuguès del Brasil</text>
+<text top="1178" left="442" width="120" height="16" font="4">nl neerlandès</text>
+<text top="1178" left="442" width="79" height="16" font="4">ar àrab</text>
+<text top="1178" left="442" width="76" height="16" font="3"><b>Altres codis</b></text>
+<text top="1178" left="442" width="25" height="16" font="4">sbl  </text>
+<text top="1178" left="493" width="42" height="16" font="4">símbol</text>
+<text top="1178" left="442" width="21" height="16" font="4">nc  </text>
+<text top="1178" left="493" width="79" height="16" font="4">nom científic</text>
+<text top="1178" left="442" width="30" height="16" font="4">CAS </text>
+<text top="1178" left="493" width="78" height="16" font="4">número CAS</text>
+<text top="1133" left="63" width="365" height="72" font="5"><b>Abreviacions</b></text>
+</page>
+</pdf2xml>

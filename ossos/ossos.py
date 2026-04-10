@@ -1,6 +1,8 @@
 import re
 import json
 
+# pdftohtml -xml -f 192 Dados/ossos.pdf Dados/ossos_anatomia.xml
+
 f = open("Dados/ossos_anatomia.xml", "r", encoding="utf8")
 texto = f.read()
 

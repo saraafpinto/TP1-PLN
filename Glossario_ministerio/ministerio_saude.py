@@ -1,5 +1,6 @@
 import re, json
 
+# pdftohtml -xml -f 15 -l 106 Dados/glossario_ministerio_saude.pdf Dados/glossario_ministerio.xml
 
 f = open("Dados/glossario_ministerio.xml", "r", encoding="utf8")
 texto_glos = f.read()
@@ -43,6 +44,8 @@ for termo, resto in lista_glos:
 
 
 ## SIGLAS
+
+# pdftohtml -xml -f 5 -l 9 Dados/glossario_ministerio_saude.pdf Dados/siglas.xml
 
 f = open("Dados/siglas_ministerio.xml", "r", encoding="utf8")
 txt_sig = f.read()
