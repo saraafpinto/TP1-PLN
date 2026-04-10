@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pdf2xml SYSTEM "pdf2xml.dtd">
+
+<pdf2xml producer="poppler" version="25.07.0">
+<page number="5" position="absolute" top="0" left="0" height="1263" width="892">
+	<fontspec id="0" size="27" family="Myriad" color="#ffffff"/>
+	<fontspec id="1" size="17" family="LMPIHG+AGaramondPro-Semibold" color="#000000"/>
+	<fontspec id="2" size="17" family="LMPIBH+AGaramondPro" color="#000000"/>
+	<fontspec id="3" size="48" family="Granjon" color="#ffffff"/>
+<image top="182" left="42" width="621" height="192" src="Dados/siglas-5_1.jpg"/>
+<image top="182" left="662" width="189" height="193" src="Dados/siglas-5_2.jpg"/>
+<image top="242" left="750" width="18" height="26" src="Dados/siglas-5_3.png"/>
+<image top="235" left="742" width="11" height="37" src="Dados/siglas-5_4.png"/>
+<image top="242" left="749" width="3" height="26" src="Dados/siglas-5_5.png"/>
+<image top="374" left="174" width="120" height="3" src="Dados/siglas-5_6.png"/>
+<image top="322" left="174" width="120" height="53" src="Dados/siglas-5_7.jpg"/>
+<text top="223" left="750" width="14" height="25" font="0">5</text>
+<text top="255" left="176" width="21" height="16" font="1"><b>AB</b></text>
+<text top="256" left="197" width="112" height="16" font="2"> – Atenção Básica</text>
+<text top="255" left="176" width="39" height="16" font="1"><b>ABEn</b></text>
+<text top="256" left="215" width="170" height="16" font="2"> – Associação Brasileira de </text>
+<text top="256" left="176" width="82" height="16" font="2">Enfermagem</text>
+<text top="255" left="176" width="39" height="16" font="1"><b>ADT </b></text>
+<text top="256" left="215" width="231" height="16" font="2">– Assistência Domiciliar Terapêutica</text>
+<text top="255" left="176" width="33" height="16" font="1"><b>AFE </b></text>
+<text top="256" left="209" width="235" height="16" font="2">– Autorização de Funcionamento de </text>
+<text top="256" left="176" width="55" height="16" font="2">Empresa</text>
+<text top="255" left="176" width="44" height="16" font="1"><b>AIDPI</b></text>
+<text top="256" left="221" width="211" height="16" font="2"> – Atenção Integrada às Doenças </text>
+<text top="256" left="176" width="146" height="16" font="2">Prevalentes na Infância</text>
+<text top="255" left="176" width="37" height="16" font="1"><b>AIDS</b></text>
+<text top="256" left="214" width="217" height="16" font="2"> – Síndrome da Imunodeﬁ ciência </text>
+<text top="256" left="176" width="64" height="16" font="2">Adquirida</text>
+<text top="255" left="176" width="30" height="16" font="1"><b>AIH</b></text>
+<text top="256" left="206" width="254" height="16" font="2"> – Autorização de Internação Hospitalar</text>
+<text top="255" left="176" width="25" height="16" font="1"><b>AIS</b></text>
+<text top="256" left="201" width="184" height="16" font="2"> – Ações Integradas de Saúde</text>
+<text top="255" left="176" width="57" height="16" font="1"><b>ANCED</b></text>
+<text top="256" left="234" width="224" height="16" font="2"> – Associação Nacional de Centros </text>
+<text top="256" left="176" width="62" height="16" font="2">de Defesa</text>
+<text top="255" left="176" width="32" height="16" font="1"><b>ANS</b></text>
+<text top="256" left="208" width="189" height="16" font="2"> – Agência Nacional de Saúde</text>
+<text top="255" left="176" width="58" height="16" font="1"><b>ANVISA</b></text>
+<text top="256" left="235" width="219" height="16" font="2"> – Agência Nacional de Vigilância </text>
+<text top="256" left="176" width="56" height="16" font="2">Sanitária</text>
+<text top="255" left="176" width="40" height="16" font="1"><b>APAC</b></text>
+<text top="256" left="217" width="233" height="16" font="2"> – Autorização de Procedimentos de </text>
+<text top="256" left="176" width="70" height="16" font="2">Alto Custo</text>
+<text top="255" left="176" width="33" height="16" font="1"><b>APH</b></text>
+<text top="256" left="210" width="181" height="16" font="2"> – Assistência Pré-Hospitalar</text>
+<text top="255" left="176" width="35" height="16" font="1"><b>ASAJ</b></text>
+<text top="256" left="211" width="242" height="16" font="2"> – Área de Saúde do Adolescente e do </text>
+<text top="256" left="176" width="40" height="16" font="2">Jovem</text>
+<text top="255" left="176" width="88" height="16" font="1"><b>BD-SIA/SUS</b></text>
+<text top="256" left="264" width="186" height="16" font="2"> – Banco de Dados Nacional </text>
+<text top="256" left="176" width="269" height="16" font="2">do Sistema de Informações Ambulatoriais </text>
+<text top="256" left="176" width="49" height="16" font="2">do SUS</text>
+<text top="255" left="176" width="33" height="16" font="1"><b>BLH</b></text>
+<text top="256" left="209" width="177" height="16" font="2"> – Banco de Leite Humano </text>
+<text top="255" left="176" width="29" height="16" font="1"><b>BPF</b></text>
+<text top="256" left="205" width="190" height="16" font="2"> – Boas Práticas de Fabricação</text>
+<text top="255" left="176" width="43" height="16" font="1"><b>BPPH</b></text>
+<text top="256" left="219" width="245" height="16" font="2"> – Banco de Preços Praticados na Área </text>
+<text top="256" left="176" width="67" height="16" font="2">Hospitalar</text>
+<text top="255" left="176" width="28" height="16" font="1"><b>BPS</b></text>
+<text top="256" left="205" width="185" height="16" font="2"> – Banco de Preços em Saúde</text>
+<text top="255" left="176" width="29" height="16" font="1"><b>BVS</b></text>
+<text top="256" left="206" width="195" height="16" font="2"> – Biblioteca Virtual em Saúde</text>
+<text top="255" left="176" width="31" height="16" font="1"><b>CAF</b></text>
+<text top="256" left="207" width="189" height="16" font="2"> – Cirurgia de alta Freqüência</text>
+<text top="255" left="483" width="40" height="16" font="1"><b>CAPS</b></text>
+<text top="256" left="522" width="230" height="16" font="2"> – Centro de Assistência Psicossocial</text>
+<text top="255" left="483" width="32" height="16" font="1"><b>CAT</b></text>
+<text top="256" left="514" width="207" height="16" font="2"> – Comunicação de Acidente de </text>
+<text top="256" left="483" width="56" height="16" font="2">Trabalho</text>
+<text top="255" left="483" width="35" height="16" font="1"><b>CBO</b></text>
+<text top="256" left="517" width="249" height="16" font="2"> – Conselho Brasileiro de Oftalmologia</text>
+<text top="255" left="483" width="42" height="16" font="1"><b>CCIH</b></text>
+<text top="256" left="525" width="240" height="16" font="2"> – Comissão de Controle de Infecção </text>
+<text top="256" left="483" width="67" height="16" font="2">Hospitalar</text>
+<text top="255" left="483" width="61" height="16" font="1"><b>CCPDM</b></text>
+<text top="256" left="543" width="222" height="16" font="2"> – Controle de Cadeia Produtiva e </text>
+<text top="256" left="483" width="215" height="16" font="2">de Distribuição de Medicamentos</text>
+<text top="255" left="483" width="54" height="16" font="1"><b>CCPDS</b></text>
+<text top="256" left="536" width="222" height="16" font="2"> – Controle de Cadeia Produtiva e </text>
+<text top="256" left="483" width="194" height="16" font="2">de Distribuição de Substâncias</text>
+<text top="255" left="483" width="48" height="16" font="1"><b>CDMS</b></text>
+<text top="256" left="531" width="230" height="16" font="2"> – Comitê de Desburocratização do </text>
+<text top="256" left="483" width="128" height="16" font="2">Ministério da Saúde</text>
+<text top="255" left="483" width="63" height="16" font="1"><b>CENADI</b></text>
+<text top="256" left="546" width="146" height="16" font="2"> – Centro Nacional de </text>
+<text top="256" left="483" width="208" height="16" font="2">Armazenagem e Distribuição de </text>
+<text top="256" left="483" width="108" height="16" font="2">Imunobiológicos</text>
+<text top="255" left="483" width="59" height="16" font="1"><b>CENEPI</b></text>
+<text top="256" left="541" width="146" height="16" font="2"> – Centro Nacional de </text>
+<text top="256" left="483" width="92" height="16" font="2">Epidemiologia</text>
+<text top="255" left="483" width="29" height="16" font="1"><b>CES</b></text>
+<text top="256" left="512" width="197" height="16" font="2"> – Conselho Estadual de Saúde</text>
+<text top="255" left="483" width="31" height="16" font="1"><b>CFT</b></text>
+<text top="256" left="514" width="247" height="16" font="2"> – Comissão de Farmácia e Terapêutica</text>
+<text top="255" left="483" width="28" height="16" font="1"><b>CIB</b></text>
+<text top="256" left="510" width="223" height="16" font="2"> – Comissão Intergestores Bipartite</text>
+<text top="255" left="483" width="30" height="16" font="1"><b>CID</b></text>
+<text top="256" left="513" width="209" height="16" font="2"> – Classiﬁ cação Internacional de </text>
+<text top="256" left="483" width="54" height="16" font="2">Doenças</text>
+<text top="255" left="483" width="42" height="16" font="1"><b>CIRH</b></text>
+<text top="256" left="524" width="243" height="16" font="2"> – Comissão Intersetorial de Recursos </text>
+<text top="256" left="483" width="63" height="16" font="2">Humanos</text>
+<text top="255" left="483" width="37" height="16" font="1"><b>CIST</b></text>
+<text top="256" left="519" width="245" height="16" font="2"> – Comissão Intersetorial de Saúde do </text>
+<text top="256" left="483" width="77" height="16" font="2">Trabalhador</text>
+<text top="255" left="483" width="29" height="16" font="1"><b>CIT</b></text>
+<text top="256" left="511" width="227" height="16" font="2"> – Comissão Intergestores Tripartite</text>
+<text top="255" left="483" width="38" height="16" font="1"><b>CMC</b></text>
+<text top="256" left="521" width="225" height="16" font="2"> – Sistema Central de Marcação de </text>
+<text top="256" left="483" width="63" height="16" font="2">Consultas</text>
+<text top="255" left="483" width="61" height="16" font="1"><b>CMDCA</b></text>
+<text top="256" left="544" width="226" height="16" font="2"> – Conselho Municipal de Direitos </text>
+<text top="256" left="483" width="180" height="16" font="2">da Criança e do Adolescente</text>
+<text top="255" left="483" width="35" height="16" font="1"><b>CMS</b></text>
+<text top="256" left="518" width="208" height="16" font="2"> – Conselho Municipal de Saúde</text>
+<text top="290" left="176" width="110" height="44" font="3"><b>Siglas</b></text>
+</page>
+<page number="6" position="absolute" top="0" left="0" height="1263" width="892">
+	<fontspec id="4" size="27" family="Myriad" color="#7e7e7e"/>
+<text top="218" left="124" width="14" height="25" font="4">6</text>
+<text top="226" left="121" width="62" height="16" font="1"><b>CNAIDS</b></text>
+<text top="226" left="183" width="191" height="16" font="2"> – Comissão Nacional de Aids</text>
+<text top="226" left="121" width="62" height="16" font="1"><b>CNCDO</b></text>
+<text top="226" left="183" width="175" height="16" font="2"> – Centrais de Notiﬁ cação, </text>
+<text top="226" left="121" width="223" height="16" font="2">Captação e Distribuição de Órgãos</text>
+<text top="226" left="121" width="105" height="16" font="1"><b>CN-DST/AIDS</b></text>
+<text top="226" left="226" width="166" height="16" font="2"> – Coordenação Nacional </text>
+<text top="226" left="121" width="266" height="16" font="2">de Doenças Sexualmente Transmissíveis e </text>
+<text top="226" left="121" width="28" height="16" font="2">Aids</text>
+<text top="226" left="121" width="47" height="16" font="1"><b>CNEN</b></text>
+<text top="226" left="168" width="216" height="16" font="2"> – Comissão Nacional de Energia </text>
+<text top="226" left="121" width="50" height="16" font="2">Nuclear</text>
+<text top="226" left="121" width="42" height="16" font="1"><b>CNES</b></text>
+<text top="226" left="163" width="165" height="16" font="2"> – Cadastro Nacional dos </text>
+<text top="226" left="121" width="171" height="16" font="2">Estabelecimentos de Saúde</text>
+<text top="226" left="121" width="55" height="16" font="1"><b>CNMM</b></text>
+<text top="226" left="176" width="146" height="16" font="2"> – Centro Nacional de </text>
+<text top="226" left="121" width="219" height="16" font="2">Monitoramento de Medicamentos</text>
+<text top="226" left="121" width="57" height="16" font="1"><b>CNRAC</b></text>
+<text top="226" left="178" width="218" height="16" font="2"> – Central Nacional de Regulação </text>
+<text top="226" left="121" width="142" height="16" font="2">de Alta Complexidade</text>
+<text top="226" left="121" width="33" height="16" font="1"><b>CNS</b></text>
+<text top="226" left="154" width="200" height="16" font="2"> – Conselho Nacional de Saúde</text>
+<text top="226" left="121" width="42" height="16" font="1"><b>CNSP</b></text>
+<text top="226" left="164" width="215" height="16" font="2"> – Conselho Nacional de Seguros </text>
+<text top="226" left="121" width="54" height="16" font="2">Privados</text>
+<text top="226" left="121" width="44" height="16" font="1"><b>CNTS</b></text>
+<text top="226" left="165" width="196" height="16" font="2"> – Confederação Nacional dos </text>
+<text top="226" left="121" width="154" height="16" font="2">Trabalhadores em Saúde</text>
+<text top="226" left="121" width="36" height="16" font="1"><b>COC</b></text>
+<text top="226" left="157" width="157" height="16" font="2"> – Casa de Oswaldo cruz</text>
+<text top="226" left="121" width="60" height="16" font="1"><b>COFINS</b></text>
+<text top="226" left="182" width="191" height="16" font="2"> – Contribuição Social para o </text>
+<text top="226" left="121" width="230" height="16" font="2">Financiamento da Seguridade Social</text>
+<text top="226" left="121" width="62" height="16" font="1"><b>COMAD</b></text>
+<text top="226" left="183" width="223" height="16" font="2"> – Conselhos Municipais Antidrogas</text>
+<text top="226" left="121" width="89" height="16" font="1"><b>CONASEMS</b></text>
+<text top="226" left="210" width="162" height="16" font="2"> – Conselho Nacional de </text>
+<text top="226" left="121" width="204" height="16" font="2">Secretários Municipais de Saúde</text>
+<text top="226" left="121" width="64" height="16" font="1"><b>CONASS</b></text>
+<text top="226" left="186" width="162" height="16" font="2"> – Conselho Nacional de </text>
+<text top="226" left="121" width="193" height="16" font="2">Secretários Estaduais de Saúde</text>
+<text top="226" left="121" width="60" height="16" font="1"><b>CONEN</b></text>
+<text top="226" left="181" width="170" height="16" font="2"> – Conselhos Estaduais de </text>
+<text top="226" left="121" width="90" height="16" font="2">Entorpecentes</text>
+<text top="226" left="121" width="57" height="16" font="1"><b>CONEP</b></text>
+<text top="226" left="178" width="223" height="16" font="2"> – Comissão Nacional de Ética em </text>
+<text top="226" left="121" width="53" height="16" font="2">Pesquisa</text>
+<text top="226" left="121" width="69" height="16" font="1"><b>CONFEN</b></text>
+<text top="226" left="190" width="150" height="16" font="2"> – Conselho Federal de </text>
+<text top="226" left="121" width="90" height="16" font="2">Entorpecentes</text>
+<text top="226" left="121" width="58" height="16" font="1"><b>CONSU</b></text>
+<text top="226" left="179" width="223" height="16" font="2"> – Conselho de Saúde Suplementar</text>
+<text top="226" left="121" width="45" height="16" font="1"><b>CPMF</b></text>
+<text top="226" left="166" width="210" height="16" font="2"> – Contribuição Provisória sobre </text>
+<text top="226" left="121" width="165" height="16" font="2">Movimentação Financeira</text>
+<text top="226" left="121" width="54" height="16" font="1"><b>CpqAM</b></text>
+<text top="226" left="175" width="186" height="16" font="2"> – Centro de Pesquisa Aggeu </text>
+<text top="226" left="121" width="67" height="16" font="2">Magalhães</text>
+<text top="226" left="427" width="57" height="16" font="1"><b>CPqGM</b></text>
+<text top="226" left="484" width="200" height="16" font="2"> – Centro de Pesquisa Gonçalo </text>
+<text top="226" left="427" width="42" height="16" font="2">Moniz</text>
+<text top="226" left="427" width="64" height="16" font="1"><b>CPqHEC</b></text>
+<text top="226" left="491" width="201" height="16" font="2"> – Centro de Pesquisa Hospital </text>
+<text top="226" left="427" width="103" height="16" font="2">Evandro Chagas</text>
+<text top="226" left="427" width="51" height="16" font="1"><b>CPqRR</b></text>
+<text top="226" left="478" width="227" height="16" font="2"> – Centro de Pesquisa René Rachou</text>
+<text top="226" left="427" width="69" height="16" font="1"><b>CRN-Aids</b></text>
+<text top="226" left="497" width="161" height="16" font="2"> – Centros de Referência </text>
+<text top="226" left="427" width="109" height="16" font="2">Nacional de Aids</text>
+<text top="226" left="427" width="31" height="16" font="1"><b>CST</b></text>
+<text top="226" left="458" width="238" height="16" font="2"> – Comissão de Saúde do trabalhador</text>
+<text top="226" left="427" width="59" height="16" font="1"><b>CT-DST</b></text>
+<text top="226" left="486" width="199" height="16" font="2"> – Centros de Treinamento em </text>
+<text top="226" left="427" width="233" height="16" font="2">Doenças Sexualmente Transmissíveis</text>
+<text top="226" left="427" width="71" height="16" font="1"><b>DATASUS</b></text>
+<text top="226" left="498" width="211" height="16" font="2"> – Departamento de Informática </text>
+<text top="226" left="427" width="49" height="16" font="2">do SUS</text>
+<text top="226" left="427" width="35" height="16" font="1"><b>DCB</b></text>
+<text top="226" left="462" width="227" height="16" font="2"> – Denominação Comum Brasileira</text>
+<text top="226" left="427" width="30" height="16" font="1"><b>DCI</b></text>
+<text top="226" left="458" width="253" height="16" font="2"> – Denominação Comum Internacional</text>
+<text top="226" left="427" width="46" height="16" font="1"><b>DIPAF</b></text>
+<text top="226" left="474" width="217" height="16" font="2"> – Divisão Nacional de Vigilância </text>
+<text top="226" left="427" width="276" height="16" font="2">Sanitária de Portos, Aeroportos e Fronteiras</text>
+<text top="226" left="427" width="37" height="16" font="1"><b>DSEI</b></text>
+<text top="226" left="464" width="198" height="16" font="2"> – Distrito Sanitários Especiais </text>
+<text top="226" left="427" width="61" height="16" font="2">Indígenas</text>
+<text top="226" left="427" width="33" height="16" font="1"><b>DST</b></text>
+<text top="226" left="460" width="249" height="16" font="2"> – Doenças Sexualmente Transmissíveis</text>
+<text top="226" left="427" width="31" height="16" font="1"><b>ECA</b></text>
+<text top="226" left="459" width="253" height="16" font="2"> – Estatuto da Criança e do Adolescente</text>
+<text top="226" left="427" width="40" height="16" font="1"><b>ENSP</b></text>
+<text top="226" left="468" width="230" height="16" font="2"> – Escola Nacional de Saúde Pública</text>
+<text top="226" left="427" width="40" height="16" font="1"><b>EPBA</b></text>
+<text top="226" left="467" width="232" height="16" font="2"> – Elenco de Procedimentos Básicos </text>
+<text top="226" left="427" width="63" height="16" font="2">Ampliado</text>
+<text top="226" left="427" width="44" height="16" font="1"><b>EPSJV</b></text>
+<text top="226" left="471" width="195" height="16" font="2"> – Escola Politécnica de Saúde </text>
+<text top="226" left="427" width="117" height="16" font="2">Joaquim Venâncio</text>
+<text top="226" left="427" width="28" height="16" font="1"><b>ESB</b></text>
+<text top="226" left="456" width="168" height="16" font="2"> – Equipes de Saúde Bucal</text>
+<text top="226" left="427" width="27" height="16" font="1"><b>ESF</b></text>
+<text top="226" left="454" width="199" height="16" font="2"> – Equipes de Saúde da Família</text>
+<text top="226" left="427" width="37" height="16" font="1"><b>EUM</b></text>
+<text top="226" left="464" width="177" height="16" font="2"> – Estudos de Utilização de </text>
+<text top="226" left="427" width="94" height="16" font="2">Medicamentos</text>
+<text top="226" left="427" width="28" height="16" font="1"><b>FAE</b></text>
+<text top="226" left="455" width="222" height="16" font="2"> – Fração Assistencial Especializada</text>
+<text top="226" left="427" width="39" height="16" font="1"><b>FAEC</b></text>
+<text top="226" left="466" width="211" height="16" font="2"> – Fundo de Ações Estratégicas e </text>
+<text top="226" left="427" width="89" height="16" font="2">Compensação</text>
+<text top="226" left="427" width="31" height="16" font="1"><b>FCT</b></text>
+<text top="226" left="459" width="189" height="16" font="2"> – Ficha Cadastral de Terceiro</text>
+<text top="226" left="427" width="57" height="16" font="1"><b>FENAM</b></text>
+<text top="226" left="484" width="225" height="16" font="2"> – Federação Nacional dos Médicos</text>
+<text top="226" left="427" width="65" height="16" font="1"><b>FENAPSI</b></text>
+<text top="226" left="493" width="171" height="16" font="2"> – Federação Nacional dos </text>
+<text top="226" left="427" width="65" height="16" font="2">Psicólogos</text>
+<text top="226" left="427" width="74" height="16" font="1"><b>FETRAMS</b></text>
+<text top="226" left="502" width="212" height="16" font="2"> – Federação das Entidades e dos </text>
+<text top="226" left="427" width="241" height="16" font="2">Trabalhadores do Ministério da Saúde</text>
+</page>
+<page number="7" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="219" left="750" width="14" height="25" font="4">7</text>
+<text top="255" left="176" width="55" height="16" font="1"><b>FIDEPS</b></text>
+<text top="256" left="232" width="156" height="16" font="2"> – Fator de Incentivo ao </text>
+<text top="256" left="176" width="272" height="16" font="2">Desenvolvimento do Ensino e da Pesquisa </text>
+<text top="256" left="176" width="62" height="16" font="2">em Saúde</text>
+<text top="255" left="176" width="31" height="16" font="1"><b>FNE</b></text>
+<text top="256" left="208" width="249" height="16" font="2"> – Federação Nacional dos Enfermeiros</text>
+<text top="255" left="176" width="30" height="16" font="1"><b>FNS</b></text>
+<text top="256" left="206" width="181" height="16" font="2"> – Fundo Nacional de Saúde</text>
+<text top="255" left="176" width="70" height="16" font="1"><b>FUNAD –</b></text>
+<text top="256" left="246" width="181" height="16" font="2"> Fundo Nacional Antidrogas</text>
+<text top="255" left="176" width="75" height="16" font="1"><b>FUNASA –</b></text>
+<text top="256" left="252" width="189" height="16" font="2"> Fundação Nacional de Saúde</text>
+<text top="255" left="176" width="53" height="16" font="1"><b>FUST –</b></text>
+<text top="256" left="229" width="191" height="16" font="2"> Fundo de Universalização de </text>
+<text top="256" left="176" width="189" height="16" font="2">Serviços de Telecomunicações</text>
+<text top="255" left="176" width="69" height="16" font="1"><b>GEISAT –</b></text>
+<text top="256" left="245" width="220" height="16" font="2"> Grupo Executivo Interministerial </text>
+<text top="256" left="176" width="158" height="16" font="2">de Saúde do Trabalhador</text>
+<text top="255" left="176" width="80" height="16" font="1"><b>GESCON –</b></text>
+<text top="256" left="256" width="205" height="16" font="2"> Sistema de Gestão Financeira e </text>
+<text top="256" left="176" width="87" height="16" font="2">de Convênios</text>
+<text top="255" left="176" width="54" height="16" font="1"><b>GPAB –</b></text>
+<text top="256" left="230" width="205" height="16" font="2"> Gestão Plena da Atenção Básica</text>
+<text top="255" left="176" width="64" height="16" font="1"><b>GPABA –</b></text>
+<text top="256" left="241" width="210" height="16" font="2"> Gestão Plena da Atenção Básica </text>
+<text top="256" left="176" width="62" height="16" font="2">Ampliada</text>
+<text top="255" left="176" width="57" height="16" font="1"><b>GPSM –</b></text>
+<text top="256" left="234" width="228" height="16" font="2"> Gestão Plena do Sistema Municipal</text>
+<text top="255" left="176" width="42" height="16" font="1"><b>HIV –</b></text>
+<text top="256" left="219" width="233" height="16" font="2"> Vírus da Imunodeﬁ ciência Humana</text>
+<text top="255" left="176" width="79" height="16" font="1"><b>HOSPUB –</b></text>
+<text top="256" left="256" width="197" height="16" font="2"> Sistema de Gerenciamento de </text>
+<text top="256" left="176" width="126" height="16" font="2">Unidade Hospitalar</text>
+<text top="255" left="176" width="44" height="16" font="1"><b>IAPI –</b></text>
+<text top="256" left="220" width="222" height="16" font="2"> Incentivo de Apoio e Diagnóstico </text>
+<text top="256" left="176" width="250" height="16" font="2">Ambulatorial e Hospitalar à População </text>
+<text top="256" left="176" width="56" height="16" font="2">Indígena</text>
+<text top="255" left="176" width="54" height="16" font="1"><b>IBAM –</b></text>
+<text top="256" left="230" width="146" height="16" font="2"> Instituto Brasileiro de </text>
+<text top="256" left="176" width="162" height="16" font="2">Administração Municipal</text>
+<text top="255" left="176" width="36" height="16" font="1"><b>IFF –</b></text>
+<text top="256" left="212" width="183" height="16" font="2"> Instituto Fernandes Figueira</text>
+<text top="255" left="176" width="53" height="16" font="1"><b>IHAC –</b></text>
+<text top="256" left="229" width="192" height="16" font="2"> Iniciativa Hospital Amigo da </text>
+<text top="256" left="176" width="50" height="16" font="2">Criança</text>
+<text top="255" left="176" width="53" height="16" font="1"><b>INCA –</b></text>
+<text top="256" left="229" width="189" height="16" font="2"> Instituto Nacional de Câncer</text>
+<text top="255" left="176" width="64" height="16" font="1"><b>INCQS –</b></text>
+<text top="256" left="240" width="216" height="16" font="2"> Instituto Nacional de Controle e </text>
+<text top="256" left="176" width="66" height="16" font="2">Qualidade</text>
+<text top="255" left="176" width="48" height="16" font="1"><b>INSS –</b></text>
+<text top="256" left="224" width="218" height="16" font="2"> Instituto Nacional de Seguridade </text>
+<text top="256" left="176" width="37" height="16" font="2">Social</text>
+<text top="255" left="176" width="124" height="16" font="1"><b>INTERGRASUS –</b></text>
+<text top="256" left="301" width="158" height="16" font="2"> Incentivo de Integração </text>
+<text top="256" left="176" width="174" height="16" font="2">no Sistema Único de Saúde</text>
+<text top="255" left="176" width="43" height="16" font="1"><b>IOC –</b></text>
+<text top="256" left="219" width="156" height="16" font="2"> Instituto Oswaldo Cruz</text>
+<text top="255" left="176" width="49" height="16" font="1"><b>IVH-E </b></text>
+<text top="256" left="225" width="223" height="16" font="2">– Índice de Valorização Hospitalar </text>
+<text top="256" left="176" width="94" height="16" font="2">de Emergência</text>
+<text top="255" left="483" width="53" height="16" font="1"><b>IVISA –</b></text>
+<text top="256" left="536" width="221" height="16" font="2"> Índice de Valorização do Impacto </text>
+<text top="256" left="483" width="147" height="16" font="2">em Vigilância Sanitária</text>
+<text top="255" left="483" width="40" height="16" font="1"><b>IVR –</b></text>
+<text top="256" left="522" width="225" height="16" font="2"> Índice de Valorização de Resultado</text>
+<text top="255" left="483" width="59" height="16" font="1"><b>LCMC –</b></text>
+<text top="256" left="542" width="227" height="16" font="2"> Levantamento da Comercialização </text>
+<text top="256" left="483" width="113" height="16" font="2">de Medicamentos</text>
+<text top="255" left="483" width="59" height="16" font="1"><b>LDNC –</b></text>
+<text top="256" left="541" width="213" height="16" font="2"> Lista de Doenças de Notiﬁ cação </text>
+<text top="256" left="483" width="83" height="16" font="2">Compulsória</text>
+<text top="255" left="483" width="30" height="16" font="1"><b>LF –</b></text>
+<text top="256" left="513" width="177" height="16" font="2"> Licença de Funcionamento</text>
+<text top="255" left="483" width="37" height="16" font="1"><b>MP –</b></text>
+<text top="256" left="520" width="120" height="16" font="2"> Medida Provisória</text>
+<text top="255" left="483" width="36" height="16" font="1"><b>MS –</b></text>
+<text top="256" left="518" width="132" height="16" font="2"> Ministério da Saúde</text>
+<text top="255" left="483" width="54" height="16" font="1"><b>NAPS –</b></text>
+<text top="256" left="536" width="219" height="16" font="2"> Núcleo de Assistência Psicossocial</text>
+<text top="255" left="483" width="56" height="16" font="1"><b>NOAS –</b></text>
+<text top="256" left="539" width="228" height="16" font="2"> Norma Operacional da Assistência </text>
+<text top="256" left="483" width="49" height="16" font="2">à Saúde</text>
+<text top="255" left="483" width="49" height="16" font="1"><b>NOB –</b></text>
+<text top="256" left="531" width="176" height="16" font="2"> Norma Operacional Básica</text>
+<text top="255" left="483" width="113" height="16" font="1"><b>NOB/RH-SUS –</b></text>
+<text top="256" left="595" width="136" height="16" font="2"> Norma Operacional </text>
+<text top="256" left="483" width="262" height="16" font="2">Básica de Recursos Humanos para o SUS</text>
+<text top="255" left="483" width="36" height="16" font="1"><b>NR –</b></text>
+<text top="256" left="519" width="166" height="16" font="2"> Norma Regulamentadora</text>
+<text top="255" left="483" width="53" height="16" font="1"><b>OGM –</b></text>
+<text top="256" left="535" width="186" height="16" font="2"> Organismos Geneticamente </text>
+<text top="256" left="483" width="79" height="16" font="2">Modiﬁ cados</text>
+<text top="255" left="483" width="49" height="16" font="1"><b>OMS –</b></text>
+<text top="256" left="531" width="204" height="16" font="2"> Organização Mundial da Saúde</text>
+<text top="255" left="483" width="52" height="16" font="1"><b>OPAS –</b></text>
+<text top="256" left="535" width="227" height="16" font="2"> Organização Pan-Americana da Saúde</text>
+<text top="255" left="483" width="41" height="16" font="1"><b>PAB –</b></text>
+<text top="256" left="524" width="149" height="16" font="2"> Piso da Atenção Básica</text>
+<text top="255" left="483" width="52" height="16" font="1"><b>PABA –</b></text>
+<text top="256" left="534" width="216" height="16" font="2"> Piso de Atenção Básica Ampliado</text>
+<text top="255" left="483" width="51" height="16" font="1"><b>PACS –</b></text>
+<text top="256" left="533" width="235" height="16" font="2"> Programa de Agentes Comunitários </text>
+<text top="256" left="483" width="57" height="16" font="2">de Saúde</text>
+<text top="255" left="483" width="60" height="16" font="1"><b>PAISM –</b></text>
+<text top="256" left="543" width="202" height="16" font="2"> Assistência Integral à Saúde da </text>
+<text top="256" left="483" width="47" height="16" font="2">Mulher</text>
+<text top="255" left="483" width="58" height="16" font="1"><b>PASNI –</b></text>
+<text top="256" left="541" width="187" height="16" font="2"> Programa Nacional de Auto-</text>
+<text top="256" left="483" width="265" height="16" font="2">Suﬁ ciência Nacional em Imunobiológicos</text>
+<text top="255" left="483" width="51" height="16" font="1"><b>PBVS –</b></text>
+<text top="256" left="534" width="222" height="16" font="2"> Piso Básico de Vigilância Sanitária</text>
+<text top="255" left="483" width="58" height="16" font="1"><b>PCCN –</b></text>
+<text top="256" left="540" width="168" height="16" font="2"> Programa de Combate às </text>
+<text top="256" left="483" width="145" height="16" font="2">Carências Nutricionais</text>
+<text top="255" left="483" width="53" height="16" font="1"><b>PCCS –</b></text>
+<text top="256" left="536" width="231" height="16" font="2"> Plano de Carreira, Cargos e Salários</text>
+<text top="255" left="483" width="43" height="16" font="1"><b>PCE –</b></text>
+<text top="256" left="526" width="222" height="16" font="2"> Piso para Consultas Especializadas</text>
+<text top="255" left="483" width="70" height="16" font="1"><b>PCMSO –</b></text>
+<text top="256" left="553" width="202" height="16" font="2"> Programa de Controle Médico </text>
+<text top="256" left="483" width="142" height="16" font="2">de Saúde Ocupacional</text>
+<text top="255" left="483" width="45" height="16" font="1"><b>PCT –</b></text>
+<text top="256" left="527" width="206" height="16" font="2"> Plano Nacional de Controle da </text>
+<text top="256" left="483" width="76" height="16" font="2">Tuberculose</text>
+</page>
+<page number="8" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="218" left="124" width="14" height="25" font="4">8</text>
+<text top="226" left="121" width="63" height="16" font="1"><b>PDAVS –</b></text>
+<text top="226" left="184" width="196" height="16" font="2"> Programa Desconcentrado de </text>
+<text top="226" left="121" width="183" height="16" font="2">Ações de Vigilância Sanitária</text>
+<text top="226" left="121" width="41" height="16" font="1"><b>PDI –</b></text>
+<text top="226" left="162" width="204" height="16" font="2"> Plano Diretor de Investimentos</text>
+<text top="226" left="121" width="46" height="16" font="1"><b>PDR –</b></text>
+<text top="226" left="167" width="210" height="16" font="2"> Plano Diretor de Regionalização</text>
+<text top="226" left="121" width="58" height="16" font="1"><b>PHPN –</b></text>
+<text top="226" left="179" width="227" height="16" font="2"> Programa de Humanização no Pré-</text>
+<text top="226" left="121" width="126" height="16" font="2">Natal e Nascimento</text>
+<text top="226" left="121" width="46" height="16" font="1"><b>PMS –</b></text>
+<text top="226" left="167" width="171" height="16" font="2"> Plano Municipal de Saúde</text>
+<text top="226" left="121" width="67" height="16" font="1"><b>PNASH –</b></text>
+<text top="226" left="188" width="214" height="16" font="2"> Programa Nacional de Avaliação </text>
+<text top="226" left="121" width="160" height="16" font="2">dos Serviços Hospitalares</text>
+<text top="226" left="121" width="72" height="16" font="1"><b>PNHAH –</b></text>
+<text top="226" left="193" width="150" height="16" font="2"> Programa Nacional de </text>
+<text top="226" left="121" width="251" height="16" font="2">Humanização da Assistência Hospitalar</text>
+<text top="226" left="121" width="59" height="16" font="1"><b>PNTN –</b></text>
+<text top="226" left="180" width="205" height="16" font="2"> Programa Nacional de Triagem </text>
+<text top="226" left="121" width="58" height="16" font="2">Neonatal</text>
+<text top="226" left="121" width="41" height="16" font="1"><b>PNI –</b></text>
+<text top="226" left="162" width="229" height="16" font="2"> Programa Nacional de Imunizações</text>
+<text top="226" left="121" width="45" height="16" font="1"><b>POP –</b></text>
+<text top="226" left="166" width="223" height="16" font="2"> Procedimento Operacional Padrão</text>
+<text top="226" left="121" width="37" height="16" font="1"><b>PPI –</b></text>
+<text top="226" left="159" width="223" height="16" font="2"> Programação Pactuada e Integrada</text>
+<text top="226" left="121" width="53" height="16" font="1"><b>PPRA –</b></text>
+<text top="226" left="174" width="220" height="16" font="2"> Programa de Prevenção de Riscos </text>
+<text top="226" left="121" width="72" height="16" font="2">Ambientais</text>
+<text top="226" left="121" width="46" height="16" font="1"><b>PRD –</b></text>
+<text top="226" left="167" width="174" height="16" font="2"> Projeto Redução de Danos</text>
+<text top="226" left="121" width="72" height="16" font="1"><b>PROESF –</b></text>
+<text top="226" left="193" width="148" height="16" font="2"> Projeto de Expansão e </text>
+<text top="226" left="121" width="218" height="16" font="2">Consolidação da Saúde da Família</text>
+<text top="226" left="121" width="73" height="16" font="1"><b>PROFAE –</b></text>
+<text top="226" left="194" width="210" height="16" font="2"> Projeto de Proﬁ ssionalzação dos </text>
+<text top="226" left="121" width="245" height="16" font="2">Trabalhadores da Área de Enfermagem</text>
+<text top="226" left="121" width="81" height="16" font="1"><b>PROMED –</b></text>
+<text top="226" left="202" width="208" height="16" font="2"> Projeto de Incentivo a Mudanças </text>
+<text top="226" left="121" width="222" height="16" font="2">Curriculares no Curso de Medicina</text>
+<text top="226" left="121" width="77" height="16" font="1"><b>PROSAD –</b></text>
+<text top="226" left="198" width="208" height="16" font="2"> Programa Saúde do Adolescente</text>
+<text top="226" left="121" width="39" height="16" font="1"><b>PSF –</b></text>
+<text top="226" left="160" width="178" height="16" font="2"> Programa Saúde da Família</text>
+<text top="226" left="121" width="49" height="16" font="1"><b>RAM –</b></text>
+<text top="226" left="170" width="211" height="16" font="2"> Reação Adversa a Medicamentos</text>
+<text top="226" left="121" width="44" height="16" font="1"><b>RCA –</b></text>
+<text top="226" left="166" width="215" height="16" font="2"> Repasse do Custeio Ambulatorial</text>
+<text top="226" left="121" width="47" height="16" font="1"><b>RDC –</b></text>
+<text top="226" left="169" width="217" height="16" font="2"> Resolução de Diretoria Colegiada</text>
+<text top="226" left="121" width="33" height="16" font="1"><b>RE –</b></text>
+<text top="226" left="154" width="135" height="16" font="2"> Resolução Especíﬁ ca</text>
+<text top="226" left="121" width="71" height="16" font="1"><b>REBLAS –</b></text>
+<text top="226" left="192" width="206" height="16" font="2"> Rede Brasileira de Laboratórios </text>
+<text top="226" left="121" width="129" height="16" font="2">Analíticos em Saúde</text>
+<text top="226" left="121" width="83" height="16" font="1"><b>REDOME –</b></text>
+<text top="226" left="205" width="169" height="16" font="2"> Registros de Doadores de </text>
+<text top="226" left="121" width="90" height="16" font="2">Medula Óssea</text>
+<text top="226" left="121" width="94" height="16" font="1"><b>REFORSUS –</b></text>
+<text top="226" left="215" width="185" height="16" font="2"> Reforço à Reorganização do </text>
+<text top="226" left="121" width="153" height="16" font="2">Sistema Único de Saúde</text>
+<text top="226" left="121" width="103" height="16" font="1"><b>RENAGENO –</b></text>
+<text top="226" left="225" width="121" height="16" font="2"> Rede Nacional de </text>
+<text top="226" left="121" width="87" height="16" font="2">Genotipagem</text>
+<text top="226" left="427" width="81" height="16" font="1"><b>RENAME –</b></text>
+<text top="226" left="508" width="138" height="16" font="2"> Relação Nacional de </text>
+<text top="226" left="427" width="160" height="16" font="2">Medicamentos Essenciais</text>
+<text top="226" left="427" width="75" height="16" font="1"><b>RENAST –</b></text>
+<text top="226" left="503" width="177" height="16" font="2"> Rede Nacional de Atenção </text>
+<text top="226" left="427" width="203" height="16" font="2">Integral à Saúde do Trabalhador</text>
+<text top="226" left="427" width="57" height="16" font="1"><b>RIPSA –</b></text>
+<text top="226" left="485" width="228" height="16" font="2"> Rede Interagencial de Informações </text>
+<text top="226" left="427" width="80" height="16" font="2">para a Saúde</text>
+<text top="226" left="427" width="50" height="16" font="1"><b>RNIS –</b></text>
+<text top="226" left="477" width="227" height="16" font="2"> Rede Nacional de Informações em </text>
+<text top="226" left="427" width="38" height="16" font="2">Saúde</text>
+<text top="226" left="427" width="53" height="16" font="1"><b>SADE –</b></text>
+<text top="226" left="481" width="181" height="16" font="2"> Serviço de Atendimento de </text>
+<text top="226" left="427" width="140" height="16" font="2">Demanda Espontânea</text>
+<text top="226" left="427" width="55" height="16" font="1"><b>SADT –</b></text>
+<text top="226" left="482" width="203" height="16" font="2"> Serviços de Apoio Diagnóstico </text>
+<text top="226" left="427" width="75" height="16" font="2">Terapêutico</text>
+<text top="226" left="427" width="58" height="16" font="1"><b>SAMU –</b></text>
+<text top="226" left="486" width="231" height="16" font="2"> Serviços de Atendimento Móvel de </text>
+<text top="226" left="427" width="57" height="16" font="2">Urgência</text>
+<text top="226" left="427" width="39" height="16" font="1"><b>SAS –</b></text>
+<text top="226" left="467" width="193" height="16" font="2"> Secretaria de Atenção à Saúde</text>
+<text top="226" left="427" width="52" height="16" font="1"><b>SBAC –</b></text>
+<text top="226" left="480" width="223" height="16" font="2"> Sistema Brasileiro de Avaliação de </text>
+<text top="226" left="427" width="94" height="16" font="2">Conformidade</text>
+<text top="226" left="427" width="41" height="16" font="1"><b>SBP –</b></text>
+<text top="226" left="468" width="209" height="16" font="2"> Sociedade Brasileira de Pediatria</text>
+<text top="226" left="427" width="38" height="16" font="1"><b>SES –</b></text>
+<text top="226" left="466" width="185" height="16" font="2"> Secretaria Estadual de Saúde</text>
+<text top="226" left="427" width="47" height="16" font="1"><b>SIAB –</b></text>
+<text top="226" left="474" width="228" height="16" font="2"> Sistema de Informação da Atenção </text>
+<text top="226" left="427" width="39" height="16" font="2">Básica</text>
+<text top="226" left="427" width="59" height="16" font="1"><b>SIA-SUS</b></text>
+<text top="226" left="486" width="171" height="16" font="2"> – Sistema de Informações </text>
+<text top="226" left="427" width="143" height="16" font="2">Ambulatoriais do SUS</text>
+<text top="226" left="427" width="55" height="16" font="1"><b>SIFAB –</b></text>
+<text top="226" left="482" width="218" height="16" font="2"> Sistema de Acompanhamento do </text>
+<text top="226" left="427" width="275" height="16" font="2">Incentivo à Assistência Farmacêutica Básica</text>
+<text top="226" left="427" width="59" height="16" font="1"><b>SIGAB –</b></text>
+<text top="226" left="487" width="197" height="16" font="2"> Sistema de Gerenciamento de </text>
+<text top="226" left="427" width="186" height="16" font="2">Unidade Ambulatorial Básica</text>
+<text top="226" left="427" width="59" height="16" font="1"><b>SIGAE –</b></text>
+<text top="226" left="486" width="197" height="16" font="2"> Sistema de Gerenciamento de </text>
+<text top="226" left="427" width="231" height="16" font="2">Unidade Ambulatorial Especializada</text>
+<text top="226" left="427" width="63" height="16" font="1"><b>SIG-CAP</b></text>
+<text top="226" left="491" width="197" height="16" font="2"> – Sistema de Informação para </text>
+<text top="226" left="427" width="226" height="16" font="2">Gestão de Processos de Capacitação</text>
+<text top="226" left="427" width="62" height="16" font="1"><b>SIH-SUS</b></text>
+<text top="226" left="489" width="171" height="16" font="2"> – Sistema de Informações </text>
+<text top="226" left="427" width="132" height="16" font="2">Hospitalares do SUS</text>
+<text top="226" left="427" width="42" height="16" font="1"><b>SIM –</b></text>
+<text top="226" left="469" width="196" height="16" font="2"> Sistema de Informações sobre </text>
+<text top="226" left="427" width="78" height="16" font="2">Mortalidade</text>
+<text top="226" left="427" width="63" height="16" font="1"><b>SIMAC –</b></text>
+<text top="226" left="490" width="219" height="16" font="2"> Sistema de Informações de Alta e </text>
+<text top="226" left="427" width="137" height="16" font="2">Média Complexidade</text>
+<text top="226" left="427" width="63" height="16" font="1"><b>SINAN –</b></text>
+<text top="226" left="490" width="196" height="16" font="2"> Sistema de Informações sobre </text>
+<text top="226" left="427" width="146" height="16" font="2">Agravos de Notiﬁ cação</text>
+</page>
+<page number="9" position="absolute" top="0" left="0" height="1263" width="892">
+<text top="219" left="750" width="14" height="25" font="4">9</text>
+<text top="255" left="176" width="69" height="16" font="1"><b>SINASC –</b></text>
+<text top="256" left="246" width="196" height="16" font="2"> Sistema de Informações sobre </text>
+<text top="256" left="176" width="96" height="16" font="2">Nascidos Vivos</text>
+<text top="255" left="176" width="84" height="16" font="1"><b>SINAVISA –</b></text>
+<text top="256" left="260" width="205" height="16" font="2"> Sistema Nacional de Vigilância </text>
+<text top="256" left="176" width="56" height="16" font="2">Sanitária</text>
+<text top="255" left="176" width="58" height="16" font="1"><b>SIOPS –</b></text>
+<text top="256" left="234" width="196" height="16" font="2"> Sistema de Informações sobre </text>
+<text top="256" left="176" width="202" height="16" font="2">Orçamentos Públicos em Saúde</text>
+<text top="255" left="176" width="62" height="16" font="1"><b>SIPAD – </b></text>
+<text top="256" left="239" width="213" height="16" font="2">Sistema Integrado de Passagens e </text>
+<text top="256" left="176" width="181" height="16" font="2">Diárias Relatório de Viagens</text>
+<text top="255" left="176" width="60" height="16" font="1"><b>SIPAR – </b></text>
+<text top="256" left="237" width="214" height="16" font="2">Sistema Integrado de Protocolo e </text>
+<text top="256" left="176" width="204" height="16" font="2">Arquivo do Ministério da Saúde</text>
+<text top="255" left="176" width="48" height="16" font="1"><b>SI-PNI</b></text>
+<text top="256" left="224" width="192" height="16" font="2"> – Sistema de Informações do </text>
+<text top="256" left="176" width="220" height="16" font="2">Programa Nacional de Imunização</text>
+<text top="255" left="176" width="35" height="16" font="1"><b>SIS –</b></text>
+<text top="256" left="211" width="248" height="16" font="2"> Secretaria de Gestão de Investimentos </text>
+<text top="256" left="176" width="120" height="16" font="2">em Saúde (extinta)</text>
+<text top="255" left="176" width="55" height="16" font="1"><b>SISAV –</b></text>
+<text top="256" left="231" width="224" height="16" font="2"> Sistema de Informações em Saúde </text>
+<text top="256" left="176" width="167" height="16" font="2">para Acidentes e Violência</text>
+<text top="255" left="176" width="81" height="16" font="1"><b>SISCOLO –</b></text>
+<text top="256" left="258" width="179" height="16" font="2"> Sistema de Informações do </text>
+<text top="256" left="176" width="245" height="16" font="2">Combate ao Câncer do Colo do Útero</text>
+<text top="255" left="176" width="95" height="16" font="1"><b>SISCOMEX –</b></text>
+<text top="256" left="271" width="142" height="16" font="2"> Sistema Integrado de </text>
+<text top="256" left="176" width="119" height="16" font="2">Comércio Exterior</text>
+<text top="255" left="176" width="62" height="16" font="1"><b>SISFAF –</b></text>
+<text top="256" left="238" width="221" height="16" font="2"> Sistema de Transferência Fundo a </text>
+<text top="256" left="176" width="42" height="16" font="2">Fundo</text>
+<text top="255" left="176" width="113" height="16" font="1"><b>SISHIPERDIA –</b></text>
+<text top="256" left="289" width="153" height="16" font="2"> Sistema de Informação </text>
+<text top="256" left="176" width="272" height="16" font="2">de Cadastramento e Acompanhamento de </text>
+<text top="256" left="176" width="159" height="16" font="2">Hipertensos e Diabéticos</text>
+<text top="255" left="176" width="86" height="16" font="1"><b>SISMAMA –</b></text>
+<text top="256" left="262" width="173" height="16" font="2"> Sistema de informação do </text>
+<text top="256" left="176" width="110" height="16" font="2">Câncer de Mama</text>
+<text top="255" left="176" width="116" height="16" font="1"><b>SISPRENATAL –</b></text>
+<text top="256" left="293" width="153" height="16" font="2"> Sistema de Informação </text>
+<text top="256" left="176" width="278" height="16" font="2">do Programa de Humanização do Pré-natal </text>
+<text top="256" left="176" width="87" height="16" font="2">e Nascimento</text>
+<text top="255" left="176" width="67" height="16" font="1"><b>SISREG –</b></text>
+<text top="256" left="244" width="217" height="16" font="2"> Sistema de Centrais de Regulação</text>
+<text top="255" left="176" width="67" height="16" font="1"><b>SISVAN –</b></text>
+<text top="256" left="244" width="212" height="16" font="2"> Sistema de Vigilância Alimentar </text>
+<text top="256" left="176" width="85" height="16" font="2">e Nutricional</text>
+<text top="255" left="176" width="44" height="16" font="1"><b>SMS –</b></text>
+<text top="256" left="221" width="196" height="16" font="2"> Secretaria Municipal de Saúde</text>
+<text top="255" left="176" width="44" height="16" font="1"><b>SNA –</b></text>
+<text top="256" left="220" width="198" height="16" font="2"> Sistema Nacional de Auditoria</text>
+<text top="255" left="176" width="58" height="16" font="1"><b>SNDC –</b></text>
+<text top="256" left="234" width="231" height="16" font="2"> Sistema de Doenças de Notiﬁ cação </text>
+<text top="256" left="176" width="83" height="16" font="2">Compulsória</text>
+<text top="255" left="176" width="67" height="16" font="1"><b>SNGPC –</b></text>
+<text top="256" left="243" width="137" height="16" font="2"> Sistema Nacional de </text>
+<text top="256" left="176" width="262" height="16" font="2">Gerenciamento de Produtos Controlados</text>
+<text top="255" left="483" width="45" height="16" font="1"><b>SNT –</b></text>
+<text top="256" left="527" width="211" height="16" font="2"> Sistema Nacional de Transplante</text>
+<text top="255" left="483" width="54" height="16" font="1"><b>SNVE –</b></text>
+<text top="256" left="536" width="205" height="16" font="2"> Sistema Nacional de Vigilância </text>
+<text top="256" left="483" width="99" height="16" font="2">Epidemiológica</text>
+<text top="255" left="483" width="39" height="16" font="1"><b>SPS –</b></text>
+<text top="256" left="521" width="206" height="16" font="2"> Secretaria de Políticas da Saúde </text>
+<text top="256" left="483" width="54" height="16" font="2">(extinta)</text>
+<text top="255" left="483" width="41" height="16" font="1"><b>SUS –</b></text>
+<text top="256" left="524" width="157" height="16" font="2"> Sistema Único de Saúde</text>
+<text top="255" left="483" width="60" height="16" font="1"><b>SUSEP –</b></text>
+<text top="256" left="543" width="191" height="16" font="2"> Superintendência de Seguros </text>
+<text top="256" left="483" width="54" height="16" font="2">Privados</text>
+<text top="255" left="483" width="40" height="16" font="1"><b>SVS –</b></text>
+<text top="256" left="522" width="222" height="16" font="2"> Secretaria de Vigilância em Saúde </text>
+<text top="255" left="483" width="41" height="16" font="1"><b>TAS –</b></text>
+<text top="256" left="523" width="222" height="16" font="2"> Terminal de Atendimento do SUS</text>
+<text top="255" left="483" width="53" height="16" font="1"><b>TARV –</b></text>
+<text top="256" left="536" width="151" height="16" font="2"> Terapia Anti-Retroviral</text>
+<text top="255" left="483" width="41" height="16" font="1"><b>TFA –</b></text>
+<text top="256" left="524" width="206" height="16" font="2"> Tetos Financeiros da Assistência</text>
+<text top="255" left="483" width="51" height="16" font="1"><b>TFAE –</b></text>
+<text top="256" left="534" width="220" height="16" font="2"> Teto Financeiro da Assistência do </text>
+<text top="256" left="483" width="43" height="16" font="2">Estado</text>
+<text top="255" left="483" width="57" height="16" font="1"><b>TFAM –</b></text>
+<text top="256" left="539" width="220" height="16" font="2"> Teto Financeiro da Assistência do </text>
+<text top="256" left="483" width="67" height="16" font="2">Município</text>
+<text top="255" left="483" width="45" height="16" font="1"><b>TFD –</b></text>
+<text top="256" left="528" width="200" height="16" font="2"> Tratamento Fora do Domicílio</text>
+<text top="255" left="483" width="66" height="16" font="1"><b>TFECD –</b></text>
+<text top="256" left="549" width="137" height="16" font="2"> Tetos Financeiros da </text>
+<text top="256" left="483" width="242" height="16" font="2">Epidemiologia e Controle de Doenças</text>
+<text top="255" left="483" width="45" height="16" font="1"><b>TFG –</b></text>
+<text top="256" left="527" width="151" height="16" font="2"> Teto Financeiro Global</text>
+<text top="255" left="483" width="54" height="16" font="1"><b>TFGE –</b></text>
+<text top="256" left="537" width="219" height="16" font="2"> Teto Financeiro Global do Estado</text>
+<text top="255" left="483" width="60" height="16" font="1"><b>TFGM –</b></text>
+<text top="256" left="542" width="175" height="16" font="2"> Teto Financeiro Global do </text>
+<text top="256" left="483" width="67" height="16" font="2">Município</text>
+<text top="255" left="483" width="51" height="16" font="1"><b>TFVS –</b></text>
+<text top="256" left="534" width="194" height="16" font="2"> Teto Financeiro da Vigilância </text>
+<text top="256" left="483" width="56" height="16" font="2">Sanitária</text>
+<text top="255" left="483" width="45" height="16" font="1"><b>TMI –</b></text>
+<text top="256" left="527" width="186" height="16" font="2"> Taxa de Mortalidade Infantil</text>
+<text top="255" left="483" width="43" height="16" font="1"><b>UBS –</b></text>
+<text top="256" left="526" width="163" height="16" font="2"> Unidade Básica de Saúde</text>
+<text top="255" left="483" width="64" height="16" font="1"><b>UCOFI –</b></text>
+<text top="256" left="546" width="180" height="16" font="2"> Unidade de Medicamentos </text>
+<text top="256" left="483" width="250" height="16" font="2">Controlados, Similares, Fitoterápicos e </text>
+<text top="256" left="483" width="44" height="16" font="2">Isentos</text>
+<text top="255" left="483" width="43" height="16" font="1"><b>UDI –</b></text>
+<text top="256" left="526" width="186" height="16" font="2"> Usuário de Drogas Injetáveis</text>
+<text top="255" left="483" width="43" height="16" font="1"><b>UPS –</b></text>
+<text top="256" left="525" width="214" height="16" font="2"> Unidades Prestadoras de Serviços</text>
+</page>
+<outline>
+<item page="3">Sumário</item>
+<item page="5">Siglas</item>
+<item page="11">Apresentação</item>
+<item page="13">Introdução</item>
+<item page="15">Glossário</item>
+<item page="107">Áreas temáticas da BVS Saúde Pública</item>
+<item page="113">Descritores organizados por categorias</item>
+<item page="125">Administração e planejamento em saúde</item>
+<item page="114">Acidentes e violência</item>
+<item page="115">Alimentação e nutrição</item>
+<item page="116">Ambiente e saúde</item>
+<item page="116">Atenção à saúde</item>
+<item page="117">Ciência e tecnologia em saúde</item>
+<item page="118">Ciências sociais em saúde</item>
+<item page="118">Comunicação em saúde</item>
+<item page="118">Demografia</item>
+<item page="118">Direito sanitário</item>
+<item page="119">Doenças</item>
+<item page="120">Drogas de uso terapêutico e social</item>
+<item page="121">Economia de saúde</item>
+<item page="121">Epidemiologia</item>
+<item page="121">Eqüidade em saúde e social</item>
+<item page="122">Ética e bioética</item>
+<item page="122">História da saúde pública</item>
+<item page="122">Medicamentos, vacinas e insumos</item>
+<item page="123">Políticas públicas e saúde</item>
+<item page="123">Promoção e educação em saúde</item>
+<item page="123">Saúde animal</item>
+<item page="123">Vigilância em saúde</item>
+<item page="124">Recursos humanos em saúde</item>
+<item page="125">Vocabulário Controlado do Ministério da Saúde</item>
+<item page="125">Categoria de Administração e Planejamento em saúde do Vocabulário Controlado do Ministério da Saúde</item>
+<item page="131">Bibliografi a consultada</item>
+<item page="143">Formulário de colaboração</item>
+</outline>
+</pdf2xml>
