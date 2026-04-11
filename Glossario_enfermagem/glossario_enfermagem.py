@@ -2,7 +2,7 @@ import re
 import json
 
 # 1. Carregar o XML como texto
-f = open("../Dados/glossario_enfermagem.xml", "r", encoding="utf8")
+f = open("glossario_enfermagem.xml", "r", encoding="utf8")
 texto = f.read()
 f.close()
 

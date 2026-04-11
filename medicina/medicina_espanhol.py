@@ -3,7 +3,7 @@ import json
 
 #ler ficheiro txt
 
-f = open("../Dados/medicina_espanhol.txt", "r", encoding="utf8") #se der problemas por 
+f = open("medicina_espanhol.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
 
 texto = re.sub(r'\s+Índice de denominacións españolas\s+\d+\n', '\n', texto)

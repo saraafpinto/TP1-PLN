@@ -1,7 +1,7 @@
 import re
 import json
 
-f = open("../Dados/medicina_latino.txt", "r", encoding="utf8") #se der problemas por 
+f = open("medicina_latino.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
 
 texto = re.sub(r'\s+Índice de denominacións latinas\s+\d+\n', '\n', texto)

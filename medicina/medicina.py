@@ -3,7 +3,7 @@ import json
 
 #ler ficheiro txt
 
-f = open("Dados/medicina.txt", "r", encoding="utf8") #se der problemas por 
+f = open("medicina.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
 
 # 1. Normalizar espaços e tabs
@@ -106,37 +106,9 @@ for c in conceitos[1:]:
         
         bloco_final = corpo_unido[fim_traducoes:].strip()
 
-        
-
-
-def gera_html(filename, conceitos_dict):
-    html = """
-    <html>
-        <head>
-        <title> Dicionário Médico </title>
-        <meta charset="UTF-8">
-        </head>
-        <body>"""
-
-    for c in conceitos_dict:
-        html = html + f"""
-        <div>
-            <p> <b> {c} </b> </p>
-            <p> {conceitos_dict[c]} </p>
-        </div>
-        <hr>
-        """
-    html = html + """</body>
-    </html>
-    """   
-
-    f_out = open(filename, "w", encoding="utf8")
-    f_out.write(html)
-
 def gera_json(filename, dicionario):
     f_out= open(filename, 'w', encoding='utf8')
     json.dump(dicionario, f_out, indent=4, ensure_ascii=False )
     f_out.close()
 
-#gera_html("medicina.html", conceitos_dict)
 gera_json("medicina.json", conceitos_dict)
