@@ -13,8 +13,6 @@ texto = re.sub(r'</?page.*?>', ' ', texto)
 
 texto = re.sub(r'</i></text>\s*<text.*?><i>', '', texto)
 texto = re.sub(r'&amp;', r'', texto)
-texto = re.sub(r'lter', r'filter', texto)
-
 
 padrao = r'(?<!<i>)<b>(.*?)</b>\s*(.*?)(?=(?<!<i>)<b>|$)'
 conceitos = re.findall(padrao, texto, flags=re.S)
@@ -61,7 +59,9 @@ for termo, bloco_texto in conceitos:
             "fonte": fonte
         }
 
-# 4. Gravar o JSON
-f_out = open("glossario_enfermagem.json", "w", encoding="utf-8")
-json.dump(res, f_out, indent=4, ensure_ascii=False)
-f_out.close()
+def gera_json(filename, dicionario):
+    f_out= open(filename, 'w', encoding='utf8')
+    json.dump(dicionario, f_out, indent=4, ensure_ascii=False )
+    f_out.close()
+
+gera_json("glossario_enfermagem.json", res)

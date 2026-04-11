@@ -5,7 +5,7 @@
     },
     "Abandono de idoso": {
         "definicao": "Maus-tratos emocionais, financeiros, nutricionais ou físicos; exploração física; abandono de uma pessoa idosa, geralmente por membros da família ou funcionários de uma instituição.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4626fifilter=ths_termall&q=abandono%20de%20idoso#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4626filter=ths_termall&q=abandono%20de%20idoso#Concepts"
     },
     "Abdômen": {
         "definicao": "Região corporal",
@@ -17,7 +17,7 @@
     },
     "Aborto": {
         "definicao": "Interrupção da gravidez pela morte do feto ou embrião, junto aos anexos ovulares.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50244fifilter=ths_termall&q=Aborto"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50244filter=ths_termall&q=Aborto"
     },
     "Abrangência": {
         "definicao": "Qualidade ou propriedade do que é abrangente.",
@@ -33,7 +33,7 @@
     },
     "Abstinência sexual": {
         "definicao": "Abster-se de relação sexual.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13126fifilter=ths_termall&q=abstin%C3%AAncia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13126filter=ths_termall&q=abstin%C3%AAncia"
     },
     "Abundante": {
         "definicao": "Que existe em grande quantidade ou abundância; copioso; farto.",
@@ -57,7 +57,7 @@
     },
     "Acidente": {
         "definicao": "Evento inesperado e não intencional, tipicamente resultando em lesões acidentais.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23889fifilter=ths_termall&q=acidenteA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23889filter=ths_termall&q=acidenteA"
     },
     "GLOSSÁRIO DA LINGUAGEM ESPECIAL DE ENFERMAGEM": {
         "definicao": "",
@@ -69,11 +69,11 @@
     },
     "Acidente ofídico (picada de cobra)": {
         "definicao": "Mordeduras por serpentes. A mordida de uma serpente venenosa é caracterizada por dor pungente no local do ferimento. O veneno injetado no sítio da mordida é capaz de produzir um efeito nocivo no sangue ou no sistema nervoso.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13290fifilter=ths_termall&q=acidente%20of%C3%ADdico"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13290filter=ths_termall&q=acidente%20of%C3%ADdico"
     },
     "Acolhimento": {
         "definicao": "Estratégia fundamental que consiste na reorganização do processo de trabalho de maneira a atender a todos que procuram os serviços de saúde, fortalecendo o princípio da universalidade e a busca da integralidade e da equidade. Tem como eixo estimular e promover re exões e ações de humanização dos serviços de saúde, fundamentadas na ética e na cidadania.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50296fifilter=ths_termall&q=Acolhimento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50296filter=ths_termall&q=Acolhimento"
     },
     "Acompanhar paciente": {
         "definicao": "Acompanhar.",
@@ -85,7 +85,7 @@
     },
     "Acuidade visual": {
         "definicao": "Clareza ou nitidez da visão ocular ou a habilidade dos olhos de enxergar detalhes nos. A acuidade visual depende das funções da retina, da transmissão nervosa e da habilidade interpretativa do encéfalo. A acuidade visual normal (humana) é expressa como 20/20, que indica que uma pessoa pode enxergar a 20 pés (aproximadamente 6,1 m), o que normalmente deve ser visto a essa distância. Também pode ser in uenciada por brilho, cor e contraste.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=24366fifilter=ths_termall&q=Acuidade%20visual"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=24366filter=ths_termall&q=Acuidade%20visual"
     },
     "Adesão": {
         "definicao": "Condição, positiva. Ação iniciada pela própria pessoa para promover o bem-estar, a recuperação e a reabilitação, seguindo as orientações sem se desviar e estando devotada a um quadro de ações ou comportamentos. Em concordância com o regime terapêutico, toma os medicamentos como orientado, muda comportamentos para melhor, apresenta sinais de melhora, busca os medicamentos na data devida e demonstra internalização do valor de comportamentos de cuidado com a saúde, assim como da obediência às instruções relativas ao tratamento (a adesão é frequentemente associada a apoio da família e de outros signi cativos, conhecimento sobre medicamentos e processo de doença, motivação pessoal ou relacionamento com pro ssional de saúde).",
@@ -173,7 +173,7 @@
     },
     "Alimentação": {
         "definicao": "Método regular de ingestão de comida e bebida adotado por uma pessoa ou animal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4067fifilter=ths_termall&q=alimenta%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4067filter=ths_termall&q=alimenta%C3%A7%C3%A3o"
     },
     "Alimentar": {
         "definicao": "Executar: Dar alimentos ou líquidos para alguém",
@@ -189,22 +189,22 @@
     },
     "Alojamento": {
         "definicao": "Ação de prover asilo ou alojamento provisório para um indivíduo ou grupo.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=35109fifilter=ths_termall&q=Alojamento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=35109filter=ths_termall&q=Alojamento"
     },
     "Alongamento": {
         "definicao": "Exercícios que esticam as bras musculares para aumentar a exibilidade entre o músculo e o tendão, melhorar a faixa de movimento ou a função musculoesquelética e impedir lesões.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52426fifilter=ths_termall&q=Alongamento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52426filter=ths_termall&q=Alongamento"
     },
     "Alta": {
         "definicao": "Evento ou episódio.",
         "fonte": "CIPE 2019/2020"
     },
-    "Afilteração": {
+    "Alteração": {
         "definicao": "Modi cação, mudança do estado normal.",
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
-    "Afilterado": {
-        "definicao": "Que sofreu afilteração.",
+    "Alterado": {
+        "definicao": "Que sofreu alteração.",
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
     "Alto": {
@@ -237,7 +237,7 @@
     },
     "Anamnese": {
         "definicao": "Aquisição de informação de um paciente sobre suas afecções médicas anteriores e seus tratamentos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8657fifilter=ths_termall&q=Anamnese"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8657filter=ths_termall&q=Anamnese"
     },
     "Andar": {
         "definicao": "Dar passos, caminhar.",
@@ -293,7 +293,7 @@
     },
     "Ardência (urticária)": {
         "definicao": "Reação vascular da pele, caracterizada por eritema e formação de feridas devido ao aumento localizado da permeabilidade vascular. O mecanismo causativo pode ser alergia, infecção ou estresse.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14983fifilter=ths_termall&q=ardencia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14983filter=ths_termall&q=ardencia"
     },
     "Articulação": {
         "definicao": "Componente do sistema musculoesquelético.",
@@ -309,7 +309,7 @@
     },
     "Assadura (dermatite de contato)": {
         "definicao": "Exantema. Doenças nas quais as erupções cutâneas (ou “ rashes ”) são uma manifestação proeminente. Classicamente, seis doenças desse tipo foram descritas com rashes similares; estas foram numeradas na ordem em que foram relatadas. Somente as seguintes designações numéricas: quarta (doença de Duke), quinta (eritema infeccioso) e sexta (exantema súbito), persistem como sinônimos ocasionais na terminologia atual.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5175fifilter=ths_termall&q=assadura"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5175filter=ths_termall&q=assadura"
     },
     "Assistência": {
         "definicao": "Ato ou efeito de proteger, amparar, auxiliar.",
@@ -333,7 +333,7 @@
     },
     "Atenção à saúde": {
         "definicao": "Refere-se a todos os aspectos da provisão e distribuição de serviços de saúde a uma população. A atenção à saúde engloba todo o conjunto de ações, em todos os níveis de governo, para o atendimento das demandas pessoais e das exigências ambientais, compreendendo três grandes campos: a) o da assistência; b) o das intervenções ambientais, no seu sentido mais amplo; e c) o das políticas externas no setor saúde.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3709fifilter=ths_termall&q=aten%C3%A7%C3%A3o% 20a%20saude#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3709filter=ths_termall&q=aten%C3%A7%C3%A3o% 20a%20saude#Concepts"
     },
     "Atenção diferenciada": {
         "definicao": "As ações em saúde devem ser socio-culturalmente adaptadas, levando em consideração particularidades culturais, epidemiológicas e logísticas para o atendimento das comunidades indígenas.",
@@ -353,10 +353,10 @@
     },
     "Atraso de desenvolvimento": {
         "definicao": "Situação de crescimento abaixo do padrão ou capacidade diminuída de manter a função normal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5284fifilter=ths_termall&q=Atraso%20de%20desenvolvimento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5284filter=ths_termall&q=Atraso%20de%20desenvolvimento"
     },
     "Aumentar": {
-        "definicao": "Afilterar: Ajustar alguma coisa para conseguir um resultado maior (ou melhor).",
+        "definicao": "Alterar: Ajustar alguma coisa para conseguir um resultado maior (ou melhor).",
         "fonte": "CIPE 2019/2020"
     },
     "Ausculta": {
@@ -373,7 +373,7 @@
     },
     "Automedicação": {
         "definicao": "Autoadministração de medicação que não tenha sido prescrita por um médico, ou de maneira não supervisionada por um médico.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13037fifilter=ths_termall&q=Automedica%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13037filter=ths_termall&q=Automedica%C3%A7%C3%A3o"
     },
     "Autorizar": {
         "definicao": "Gerenciar: Dar permissão, garantir autoridade.",
@@ -385,7 +385,7 @@
     },
     "Avaliação de enfermagem": {
         "definicao": "Avaliação da natureza e extensão dos problemas de enfermagem apresentados pelo paciente usando o planejamento da assistência ao paciente.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9916fifilter=ths_termall&q=Avalia%C3%A7%C3%A3o %20de%20enfermagem"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9916filter=ths_termall&q=Avalia%C3%A7%C3%A3o %20de%20enfermagem"
     },
     "Avô": {
         "definicao": "Membro da família.",
@@ -469,7 +469,7 @@
     },
     "de sangue": {
         "definicao": "O termo “bolsa plástica” é utilizado para de nir o recipiente completo com o tubo de coleta e agulha, os tubos de saída, as soluções anticoagulantes e/ou preservadoras e os tubos de transferência e recipientes associados, quando existentes.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51535fifilter=ths_termall&q=Bolsas%20pl%C3%A1sticas%20para%20preserva%C3%A7%C3%A3o%20de%20sangue"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51535filter=ths_termall&q=Bolsas%20pl%C3%A1sticas%20para%20preserva%C3%A7%C3%A3o%20de%20sangue"
     },
     "Borda": {
         "definicao": "Extremidade de uma superfície; beira, beirada, bordo.",
@@ -521,11 +521,11 @@
     },
     "Calendário de vacinação": {
         "definicao": "Serviços organizados para aplicar procedimentos imunológicos na prevenção de várias doenças. Os programas estão disponíveis em locais com amplo raio de ação: escolas, hospitais, órgãos de saúde pública, etc. São também oferecidos de modo amplo a diferentes grupos populacionais ou a diversos níveis administrativos: comunitário, municipal, estadual, nacional ou internacional.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=31393fifilter=ths_termall&q=calend%C3%A1rio%20de %20vacina%C3%A7%C3%A3o#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=31393filter=ths_termall&q=calend%C3%A1rio%20de %20vacina%C3%A7%C3%A3o#Concepts"
     },
     "Calha de rio": {
         "definicao": "Curso pelo qual ui uma torrente. Sua largura e sua profundidade são determinadas pelo tipo de solo e de substrato ecológico, assim como pela intensidade de sua torrente.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=34929fifilter=ths_termall&q=leito%20rio#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=34929filter=ths_termall&q=leito%20rio#Concepts"
     },
     "Calmo": {
         "definicao": "Que está em calma; que não apresenta movimento, agitação, perturbação; quieto, sossegado.",
@@ -569,11 +569,11 @@
     },
     "Cefaleia": {
         "definicao": "Sintoma de DOR na região craniana. Pode ser uma ocorrência ou manifestação benigna isolada de uma ampla variedade de transtornos da cefaleia.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6412fifilter=ths_termall&q=cefaleia#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6412filter=ths_termall&q=cefaleia#Concepts"
     },
     "Cegueira": {
         "definicao": "Incapacidade de enxergar ou ausência da percepção visual. Essa afecção pode ser o resultado de doenças oculares, doenças do nervo óptico, doenças do quiasma óptico ou doenças cerebrais que afetam as vias visuais ou o lobo occipital.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28259fifilter=ths_termall&q=Cegueira"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28259filter=ths_termall&q=Cegueira"
     },
     "Censo vacinal": {
         "definicao": "Registro contendo a história vacinal de cada indivíduo.",
@@ -585,7 +585,7 @@
     },
     "Chá": {
         "definicao": "Infusão de folhas como uma bebida.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14041fifilter=ths_termall&q=ch%C3%A1"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14041filter=ths_termall&q=ch%C3%A1"
     },
     "Chibé": {
         "definicao": "Refresco feito com água, farinha de mandioca e açúcar.",
@@ -601,11 +601,11 @@
     },
     "Cianose": {
         "definicao": "Descoloração azulada ou púrpura da pele e mucosas devido a um aumento na quantidade de hemoglobina desoxigenada no sangue ou um defeito estrutural na molécula de hemoglobina.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3510fifilter=ths_termall&q=Cianose"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3510filter=ths_termall&q=Cianose"
     },
     "Cicatrização": {
         "definicao": "Restauração da integridade de um tecido traumatizado.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=15343fifilter=ths_termall&q=Cicatriza%C3%A7%C3% A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=15343filter=ths_termall&q=Cicatriza%C3%A7%C3% A3o"
     },
     "Cirurgia": {
         "definicao": "Tratar.",
@@ -617,15 +617,15 @@
     },
     "Clampeamento": {
         "definicao": "Ato de constringir.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3269fifilter=ths_termall&q=clampeamento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3269filter=ths_termall&q=clampeamento"
     },
     "Classi cação": {
         "definicao": "O arranjo sistemático de entidades em qualquer campo em classes de categorias baseado em características comuns como propriedades, morfologia, assunto ou tema etc.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2990fifilter=ths_termall&q=CLASSIFICA%C3%87%C3% 83O"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2990filter=ths_termall&q=CLASSIFICA%C3%87%C3% 83O"
     },
     "Classi cação de risco": {
         "definicao": "Estimativa qualitativa ou quantitativa da probabilidade de efeitos adversos decorrentes da exposição a riscos especí cos à saúde ou da ausência de efeitos bené cos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=32048fifilter=ths_termall&q=classica%C3%A7%C3% A3o%20de%20risco#Conceptsc"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=32048filter=ths_termall&q=classica%C3%A7%C3% A3o%20de%20risco#Conceptsc"
     },
     "Cliente": {
         "definicao": "Pessoa que consulta habitualmente o mesmo médico, dentista etc.",
@@ -641,7 +641,7 @@
     },
     "Coceira": {
         "definicao": "Sensação de coceira intensa que produz a necessidade de friccionar ou coçar a pele para obter alívio.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11976fifilter=ths_termall&q=COCEIRA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11976filter=ths_termall&q=COCEIRA"
     },
     "Coleta do exame de preventivo": {
         "definicao": "",
@@ -665,7 +665,7 @@
     },
     "Colo do útero": {
         "definicao": "Porção compreendendo o pescoço do útero (entre o istmo inferior e a vagina), que forma o canal cervical.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2624fifilter=ths_termall&q=COLO%20DO%20UTERO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2624filter=ths_termall&q=COLO%20DO%20UTERO"
     },
     "Colocar": {
         "definicao": "Instalar: colocar, pôr, ajustar aparelhos, equipamentos etc., em posição para serem utilizados.",
@@ -677,11 +677,11 @@
     },
     "Colostro": {
         "definicao": "Líquido amarelo, seroso, ralo, secretado pelas glândulas mamárias durante a gravidez e imediatamente após o parto (antes do início da lactação). Composto por substâncias imunologicamente ativas, células sanguíneas brancas, água, proteína, gordura e carboidratos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3157fifilter=ths_termall&q=COLOSTRO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3157filter=ths_termall&q=COLOSTRO"
     },
     "Coluna vertebral": {
         "definicao": "Coluna vertebral ou espinal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13515fifilter=ths_termall&q=COLUNA%20VERTEBRAL"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13515filter=ths_termall&q=COLUNA%20VERTEBRAL"
     },
     "Comorbidade": {
         "definicao": "Presença de doenças coexistentes ou adicionais em relação ao diagnóstico inicial ou à doença índice que é o objetivo do estudo. A comorbidade pode afetar o desempenho de indivíduos",
@@ -689,7 +689,7 @@
     },
     "Competência pro ssional": {
         "definicao": "A capacidade para executar os deveres de uma pro ssão em geral ou de executar uma tarefa pro ssional especial com habilidade de qualidade aceitável.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11795fifilter=ths_termall&q=COMPET%C3%8ANCIA%20PROFISSIONAL"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11795filter=ths_termall&q=COMPET%C3%8ANCIA%20PROFISSIONAL"
     },
     "Complementar": {
         "definicao": "Dar complemento a ou receber complemento; complementar(-se); concluir(-se).",
@@ -721,7 +721,7 @@
     },
     "Comprimido": {
         "definicao": "Forma sólida de administração, de peso, tamanho e formato variáveis, que pode ser moldada ou comprimida, e contém uma substância medicinal em forma pura ou diluída.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13990fifilter=ths_termall&q=COMPRIMIDO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13990filter=ths_termall&q=COMPRIMIDO"
     },
     "Comprometimento": {
         "definicao": "Ação ou fato de comprometer(-se).",
@@ -781,7 +781,7 @@
     },
     "Conselheiro": {
         "definicao": "Pro ssional treinado para fornecer informação, orientação e recomendações a clientes individuais ou famílias para apoiar suas tomadas de decisão e o desenvolvimento de habilidades de enfrentamento.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=56820fifilter=ths_termall&q=CONSELHEIROc"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=56820filter=ths_termall&q=CONSELHEIROc"
     },
     "Constipação": {
         "definicao": "Processo do Sistema Gastrointestinal, prejudicado: Diminuição na frequência de defecação, acompanhada por di culdade ou passagem incompleta de fezes; passagem de fezes excessivamente secas e endurecidas.",
@@ -789,7 +789,7 @@
     },
     "Constrangimento": {
         "definicao": "Sentimento de autoconsciência, vergonha ou embaraço.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57815fifilter=ths_termall&q=CONSTRANGIMENTO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57815filter=ths_termall&q=CONSTRANGIMENTO"
     },
     "Consulta": {
         "definicao": "Ato ou efeito de consultar.",
@@ -837,7 +837,7 @@
     },
     "Cordão umbilical": {
         "definicao": "Estrutura exível semelhante a uma corda, que conecta um feto em desenvolvimento à placenta em mamíferos. O cordão contém vasos sanguíneos que transportam oxigênio e nutrientes da mãe ao feto e resíduos para longe do feto.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869fifilter=ths_termall&q=CORD%C3%83O%20UMBILICAL"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869filter=ths_termall&q=CORD%C3%83O%20UMBILICAL"
     },
     "Coração": {
         "definicao": "Componente do sistema cardiovascular.",
@@ -845,7 +845,7 @@
     },
     "Coriza": {
         "definicao": "Excesso de drenagem nasal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59533fifilter=ths_termall&q=CORIZA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59533filter=ths_termall&q=CORIZA"
     },
     "Corpo": {
         "definicao": "Estrutura corporal.",
@@ -873,7 +873,7 @@
     },
     "Cotovelo": {
         "definicao": "Região do membro superior, entre o braço e o antebraço, que circunda a articulação do cotovelo, em especial posteriormente.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4624fifilter=ths_termall&q=COTOVELO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4624filter=ths_termall&q=COTOVELO"
     },
     "Couro cabeludo": {
         "definicao": "Região corporal.",
@@ -905,7 +905,7 @@
     },
     "Crise convulsiva": {
         "definicao": "Distúrbios clínicos ou subclínicos da função cortical devido a descarga súbita, anormal, excessiva e desorganizada de células cerebrais. As manifestações clínicas incluem fenômenos motores, sensoriais e psíquicos. Os ataques recidivantes são normalmente referidos como epilepsia ou “transtornos de ataques”.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13024fifilter=ths_termall&q=crises%20convulsivas"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13024filter=ths_termall&q=crises%20convulsivas"
     },
     "Cronograma": {
         "definicao": "Inscrição feita com letras de função numérica em que se indica a data de um evento.",
@@ -921,7 +921,7 @@
     },
     "Cuidados com a higiene": {
         "definicao": "Ação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869fifilter=ths_termall&q=cord%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869filter=ths_termall&q=cord%C3%A3o"
     },
     "Cuidados com a pele": {
         "definicao": "Ação.",
@@ -937,7 +937,7 @@
     },
     "Cuidados de enfermagem": {
         "definicao": "Cuidados prestados ao paciente pela equipe de enfermagem.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9918fifilter=ths_termall&q=CUIDADOS%20DE%20ENFERMAGEM"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9918filter=ths_termall&q=CUIDADOS%20DE%20ENFERMAGEM"
     },
     "Culpa": {
         "definicao": "Emoção, negativa: Sentimento de ter feito algo errado; con ito interno de valores ou tensões quando a pessoa se comporta abaixo do conjunto de padrões estabelecidos para si mesmo. Os sentimentos de culpa são direcionados a si mesmo, em vez de dirigidos aos outros.",
@@ -1013,11 +1013,11 @@
     },
     "Dentista": {
         "definicao": "Indivíduos autorizados a praticar odontologia.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3830fifilter=ths_termall&q=DENTISTA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3830filter=ths_termall&q=DENTISTA"
     },
     "Depressão": {
         "definicao": "Estados depressivos, geralmente de intensidade moderada quando comparados ao transtorno depressivo maior, presente nos transtornos neuróticos e psicóticos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3664fifilter=ths_termall&q=DESBRIDAMENTOd"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3664filter=ths_termall&q=DESBRIDAMENTOd"
     },
     "Dependência": {
         "definicao": "Condição.",
@@ -1025,7 +1025,7 @@
     },
     "Dermatite": {
         "definicao": "Qualquer in amação da pele.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3892fifilter=ths_termall&q=DERMATITE"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3892filter=ths_termall&q=DERMATITE"
     },
     "Desa o": {
         "definicao": "Ato de desa ar.",
@@ -1033,7 +1033,7 @@
     },
     "Desbridamento": {
         "definicao": "A remoção de material estranho e tecido desvitalizado ou contaminado de – ou adjacente a – uma lesão traumática ou infectada até que o tecido sadio circundante seja exposto.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3664fifilter=ths_termall&q=DESBRIDAMENTO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3664filter=ths_termall&q=DESBRIDAMENTO"
     },
     "Descamação": {
         "definicao": "Ato ou efeito de descamar(-se); escamação.",
@@ -1041,7 +1041,7 @@
     },
     "Descanso": {
         "definicao": "Liberdade de atividade.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12566fifilter=ths_termall&q=DESCANSO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12566filter=ths_termall&q=DESCANSO"
     },
     "Desconforto": {
         "definicao": "Condição, prejudicada.",
@@ -1061,7 +1061,7 @@
     },
     "Desenvolvimento da criança": {
         "definicao": "Maturação sequencial contínua ( siológica e psicológica) desde o nascimento de um indivíduo, não incluindo a adolescência.",
-        "fonte": "https://decs.bvsalud.org/ths? fifilter=ths_termall&q=DESENVOLVIMENTO+DA+CRIAN%C3%87A"
+        "fonte": "https://decs.bvsalud.org/ths? filter=ths_termall&q=DESENVOLVIMENTO+DA+CRIAN%C3%87A"
     },
     "Desgaste": {
         "definicao": "Ação ou efeito de desgastar(-se).",
@@ -1093,7 +1093,7 @@
     },
     "Dieta": {
         "definicao": "Método regular de ingestão de comida e bebida adotado por uma pessoa ou animal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4067fifilter=ths_termall&q=DIETA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4067filter=ths_termall&q=DIETA"
     },
     "Di culdade": {
         "definicao": "Qualidade ou caráter do que é difícil.",
@@ -1109,7 +1109,7 @@
     },
     "Di culdade no parto": {
         "definicao": "Problemas médicos associados ao trabalho de parto, como apresentação pélvica, trabalho de parto prematuro, hemorragia ou outros. Essas complicações podem afetar o bem-estar da mãe, do feto ou de ambos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7922fifilter=ths_termall&q=parto"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7922filter=ths_termall&q=parto"
     },
     "Di culdade para amamentar": {
         "definicao": "Amamentação.",
@@ -1117,11 +1117,11 @@
     },
     "Dilatação": {
         "definicao": "O ato de dilatar.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4149fifilter=ths_termall&q=DILATA%C3%87%C3%83O"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4149filter=ths_termall&q=DILATA%C3%87%C3%83O"
     },
     "Dimensionamento de pessoal": {
         "definicao": "Redução de pessoal para cortar custos ou alcançar maior e ciência.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33925fifilter=ths_termall&q=DIMENSIONAMENTO%20DE%20PESSOAL"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33925filter=ths_termall&q=DIMENSIONAMENTO%20DE%20PESSOAL"
     },
     "Diminuição": {
         "definicao": "Ação ou efeito de diminuir(-se).",
@@ -1149,7 +1149,7 @@
     },
     "(DSEI)": {
         "definicao": "Distrito Sanitário Especial Indígena. Compreende a articulação dos recursos sociais existentes em um território ou região, com vista à resolutividade dos problemas de saúde da população, pautada numa organização regionalizada de serviços de atenção.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23547fifilter=ths_termall&q=DISTRITO%20SANIT%C3%81RIO%20ESPECIAL%20IND%C3%8DGENA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23547filter=ths_termall&q=DISTRITO%20SANIT%C3%81RIO%20ESPECIAL%20IND%C3%8DGENA"
     },
     "Disúria": {
         "definicao": "Dor: Dor uretral ou vesical com sensações de queimação sentidas ao urinar.",
@@ -1157,22 +1157,22 @@
     },
     "Diurese": {
         "definicao": "Aumento na excreção de urina.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id =4293fifilter=ths_termall&q=DIURESE"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id =4293filter=ths_termall&q=DIURESE"
     },
     "Doença": {
         "definicao": "Processo patológico de nido com um quadro característico de sinais e sintomas. Pode afetar o corpo inteiro ou quaisquer de suas partes. Sua etiologia, patologia e prognóstico podem ser conhecidos ou desconhecidos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id =28564fifilter=ths_termall&q=DOEN%C3%87A"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id =28564filter=ths_termall&q=DOEN%C3%87A"
     },
     "Doente": {
         "definicao": "Indivíduos participantes do sistema de cuidados de saúde com o propósito de receber procedimentos terapêuticos, diagnósticos ou preventivos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10554fifilter=ths_termall&q=DOENTEd"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10554filter=ths_termall&q=DOENTEd"
     },
     "Domicílio": {
         "definicao": "Elementos residenciais que caracterizam uma população. São aplicáveis para determinar a demanda e utilização de serviços de saúde.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27804fifilter=ths_termall&q=DOMIC%C3%8DLIO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27804filter=ths_termall&q=DOMIC%C3%8DLIO"
     },
     "Dor": {
-        "definicao": "Percepção, prejudicada: Aumento de sensação desagradável no corpo; relato subjetivo de sofrimento, expressão facial de dor, afilteração no tônus muscular, comportamento autoprotetor, foco de atenção reduzido, afilteração do tempo de percepção, afastamento de contato social, processo de pensamento prejudicado, comportamento distraído, inquietação e perda do apetite.",
+        "definicao": "Percepção, prejudicada: Aumento de sensação desagradável no corpo; relato subjetivo de sofrimento, expressão facial de dor, alteração no tônus muscular, comportamento autoprotetor, foco de atenção reduzido, alteração do tempo de percepção, afastamento de contato social, processo de pensamento prejudicado, comportamento distraído, inquietação e perda do apetite.",
         "fonte": "CIPE 2019/2020"
     },
     "Dor abdominal": {
@@ -1181,7 +1181,7 @@
     },
     "Dor aguda": {
         "definicao": "Sensação de desconforto intenso, angustiante ou dolorosa, associada a traumatismo ou doença, com local, hora e características bem de nidas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=54517fifilter=ths_termall&q=DOR%20AGUDA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=54517filter=ths_termall&q=DOR%20AGUDA"
     },
     "Dor artrítica": {
         "definicao": "Dor musculoesquelética: Desconforto moderado a severo, proveniente de uma condição in amatória; possivelmente inclui articulações edemaciadas.",
@@ -1189,7 +1189,7 @@
     },
     "Dor crônica": {
         "definicao": "Sensação de dor que persiste por mais que poucos meses. Pode ou não estar associada a trauma ou doença e pode persistir depois que a lesão inicial estiver cicatrizada. Sua localização, características e periodicidade são mais imprecisas do que as da dor aguda.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=54522fifilter=ths_termall&q=DOR%20CR%C3%94NICA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=54522filter=ths_termall&q=DOR%20CR%C3%94NICA"
     },
     "Dor fantasma": {
         "definicao": "Dor neurogênica: Sensação de dor em uma parte do corpo ou órgão que tenha sido removido, tal como a amputação; as sensações de dor antes da cirurgia predispõem sensações de dor fantasma posteriormente; as sensações de dor são normalmente descritas como pruriginosas, constantes, com contrações excruciantes, torturantes e insuportáveis.",
@@ -1197,7 +1197,7 @@
     },
     "Dor lombar": {
         "definicao": "Dor aguda ou crônica nas regiões lombar ou sacral podendo estar associada a entorses e distensões dos ligamentos dos músculos, deslocamento do disco intervertebral e outras afecções.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=30665fifilter=ths_termall&q=DOR%20LOMBAR"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=30665filter=ths_termall&q=DOR%20LOMBAR"
     },
     "Dor muscular": {
         "definicao": "Dor musculoesquelética: Sensação de dor originada por tensão muscular e distensão, associada a exercício físico, infecções e doenças musculoesqueléticas; a sensação de dor é normalmente d",
@@ -1209,19 +1209,19 @@
     },
     "Dormência": {
         "definicao": "Sensibilidade ausente ou reduzida à estimulação cutânea.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7165fifilter=ths_termall&q=DORM%C3%8ANCIA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7165filter=ths_termall&q=DORM%C3%8ANCIA"
     },
     "Dorso": {
         "definicao": "Superfície posterior de um primata na vertical a partir dos ombros até o quadril, ou a superfície dorsal de tetrápodes.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1439fifilter=ths_termall&q=DORSO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1439filter=ths_termall&q=DORSO"
     },
     "Dosagem": {
         "definicao": "Processo pelo qual é possível determinar o peso dos elementos químicos contidos em uma substância ou mistura (adaptado do Dicionário Houaiss).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51811fifilter=ths_termall&q=DOSAGEM"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51811filter=ths_termall&q=DOSAGEM"
     },
     "Drenagem": {
         "definicao": "Remoção de líquidos ou descarga do corpo, como de uma ferida, úlcera ou cavidade.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27990fifilter=ths_termall&q=DRENAGEM"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27990filter=ths_termall&q=DRENAGEM"
     },
     "Dreno": {
         "definicao": "Dispositivo para transporte ou drenagem.",
@@ -1241,11 +1241,11 @@
     },
     "Educação em saúde": {
         "definicao": "A educação em saúde objetiva desenvolver nas pessoas um sentido de responsabilidade como indivíduo, membro de uma família e de uma comunidade, para com a saúde, tanto individual como coletivamente.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28480fifilter=ths_termall&q=educa%C3%A7%C3%A3o% 20em%20sa%C3%BAde"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28480filter=ths_termall&q=educa%C3%A7%C3%A3o% 20em%20sa%C3%BAde"
     },
     "Educação Permanente": {
         "definicao": "Programas educacionais destinados a informar os indivíduos sobre recentes avanços em seu campo particular de interesse. Eles não conduzem a qualquer posição convencional avançada.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4563fifilter=ths_termall&q=educa%C3%A7%C3%A3o%20permanente"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4563filter=ths_termall&q=educa%C3%A7%C3%A3o%20permanente"
     },
     "Educar": {
         "definicao": "Orientar: Dar conhecimento sobre algo a alguém.",
@@ -1265,7 +1265,7 @@
     },
     "Emergência": {
         "definicao": "Situação ou condição que requer intervenção imediata para evitar resultados adversos sérios.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4705fifilter=ths_termall&q=EMERG%C3%8ANCIA"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4705filter=ths_termall&q=EMERG%C3%8ANCIA"
     },
     "Encaminhar": {
         "definicao": "Coordenar: Enviar ou dirigir uma pessoa para alguém ou alguma coisa.",
@@ -1277,7 +1277,7 @@
     },
     "Enfermagem": {
         "definicao": "Campo da enfermagem voltado para promoção, manutenção e restauração da saúde.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29491fifilter=ths_termall&q=enfermagem"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29491filter=ths_termall&q=enfermagem"
     },
     "Enfermaria": {
         "definicao": "Unidade de atenção à saúde.",
@@ -1285,11 +1285,11 @@
     },
     "Enfermeiro": {
         "definicao": "Pro ssional graduado(a) em uma escola acreditada de enfermagem e que passou pelo exame de licenciamento nacional para praticar enfermagem. Presta serviços a pacientes que requerem assistência para recuperar ou manter sua saúde física ou mental.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9912fifilter=ths_termall&q=enfermeiro"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9912filter=ths_termall&q=enfermeiro"
     },
     "Enfermeiro obstetra": {
         "definicao": "Enfermeiro(a) pro ssional com pós- graduação em tocologia.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9906fifilter=ths_termall&q=enfermeiroe"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9906filter=ths_termall&q=enfermeiroe"
     },
     "EPI": {
         "definicao": "Equipamento de Proteção Individual.",
@@ -1309,7 +1309,7 @@
     },
     "Equipe multipro ssional": {
         "definicao": "Equipe multidisciplinar comumente organizada sob a direção de um médico; cada membro da equipe tem responsabilidades especí cas e toda a equipe contribui para a assistência ao paciente.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10542fifilter=ths_termall&q=equipe%20multiprossional"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10542filter=ths_termall&q=equipe%20multiprossional"
     },
     "Eritema": {
         "definicao": "Agregação de entidade, prejudicada: Erupção eritematosa da pele, de diferentes cores e protuberância; edema local, urticária, vesículas e prurido.",
@@ -1341,7 +1341,7 @@
     },
     "Estatura": {
         "definicao": "Distância do solo à coroa da cabeça, com o corpo em pé em superfície plana e totalmente estendida.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1852fifilter=ths_termall&q=estatura"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1852filter=ths_termall&q=estatura"
     },
     "Esterilizar": {
         "definicao": "Tornar estéril, livrar(-se) de germes.",
@@ -1361,7 +1361,7 @@
     },
     "Estratégias de saúde": {
         "definicao": "Amplas linhas de ação requeridas em todos os setores para colocar em execução a política de saúde.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29653fifilter=ths_termall&q=estrat%C3%A9gias%20de% 20sa%C3%BAde"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29653filter=ths_termall&q=estrat%C3%A9gias%20de% 20sa%C3%BAde"
     },
     "Estresse": {
         "definicao": "Condição, prejudicada: Sentimento de estar tenso e ansioso, de tal modo a estar incapaz de funcionar apropriadamente, tanto física como mentalmente; sentimento de desconforto, associado a experiências desagradáveis, dor e sensação de corpo e mente cansada; distúrbio no estado físico e mental de um indivíduo.",
@@ -1377,7 +1377,7 @@
     },
     "Etnia": {
         "definicao": "Grupo social a que uma pessoa pertence e com que se identi ca ou é identi cado por outros, como resultado de uma mistura de fatores diversos: cultura, linguagem, dieta, religião, ascendência e características físicas tradicionalmente associadas à raça.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23904fifilter=ths_termall&q=etnia."
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23904filter=ths_termall&q=etnia."
     },
     "Eupneico": {
         "definicao": "Relativo a ou que representa eupneia.",
@@ -1464,7 +1464,7 @@
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
     "Febre": {
-        "definicao": "Termorregulação, prejudicada: Elevação anormal da temperatura corporal, afilteração no ponto de controle do termostato interno, associada a aumento da frequência respiratória e da atividade metabólica, taquicardia com pulso cheio ou pulso fraco, inquietação, cefaleia ou confusão. A rápida elevação da febre é acompanhada de calafrios, tremores, sensação de frio, pele seca e pálida; a crise ou queda da febre é acompanhada de pele ruborizada e quente e sudorese.",
+        "definicao": "Termorregulação, prejudicada: Elevação anormal da temperatura corporal, alteração no ponto de controle do termostato interno, associada a aumento da frequência respiratória e da atividade metabólica, taquicardia com pulso cheio ou pulso fraco, inquietação, cefaleia ou confusão. A rápida elevação da febre é acompanhada de calafrios, tremores, sensação de frio, pele seca e pálida; a crise ou queda da febre é acompanhada de pele ruborizada e quente e sudorese.",
         "fonte": "CIPE 2019/2020"
     },
     "Fêmur": {
@@ -1489,11 +1489,11 @@
     },
     "Fíbula": {
         "definicao": "Osso da perna, lateral à tíbia (e menor que esta). Proporcionalmente a seu comprimento, é o mais delgado dos ossos longos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5495fifilter=ths_termall&q=f%C3%ADbula"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5495filter=ths_termall&q=f%C3%ADbula"
     },
     "Fígado": {
         "definicao": "Grande órgão glandular lobulado no abdômen de vertebrados, responsável por desintoxicação, metabolismo, síntese e armazenamento de várias substâncias.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8272fifilter=ths_termall&q=f%C3%ADgado"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8272filter=ths_termall&q=f%C3%ADgado"
     },
     "Filho": {
         "definicao": "Pessoa que descende, que se origina de determinada família, grupo social.",
@@ -1513,7 +1513,7 @@
     },
     "Fístula": {
         "definicao": "Comunicação anormal observada com maior frequência entre dois órgãos internos ou entre um órgão interno e a superfície corporal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5538fifilter=ths_termall&q=f%C3%ADstula"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5538filter=ths_termall&q=f%C3%ADstula"
     },
     "Flanco": {
         "definicao": "Região corporal.",
@@ -1521,7 +1521,7 @@
     },
     "Floresta": {
         "definicao": "Ecossistema dominado por árvores e outras vegetações arbóreas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=25854fifilter=ths_termall&q= oresta"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=25854filter=ths_termall&q= oresta"
     },
     "Fome": {
         "definicao": "Percepção: Sensação de forte desejo por alimento; a sensação é frequentemente referida à boca e ao estômago; dor ou desconforto, condição de exaustão devido à falta de alimentos. Associada a movimentos de levar a mão à boca, de sucção, rotação e movimentos da boca em bebês (ou lactentes).",
@@ -1529,15 +1529,15 @@
     },
     "Fontanelas cranianas": {
         "definicao": "Qualquer uma das aberturas cobertas por seis membranas entre as suturas cranianas do crânio do feto ou recém-nascido. As fontanelas geralmente se fecham algum tempo após o nascimento.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52968fifilter=ths_termall&q=fontanelas%20cranianas"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52968filter=ths_termall&q=fontanelas%20cranianas"
     },
     "Força": {
-        "definicao": "Agente físico capaz de afilterar o estado de repouso ou de movimento uniforme de um corpo material; qualidade do que é forte; robustez, vigor físico.",
+        "definicao": "Agente físico capaz de alterar o estado de repouso ou de movimento uniforme de um corpo material; qualidade do que é forte; robustez, vigor físico.",
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
     "Formigamento": {
         "definicao": "Sensações cutâneas subjetivas (frio, aquecimento, formigamento, pressão etc.) que são vivenciadas espontaneamente na ausência de estimulação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10481fifilter=ths_termall&q=formigamento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10481filter=ths_termall&q=formigamento"
     },
     "Fralda": {
         "definicao": "Dispositivo para absorver ou coletar.",
@@ -1565,11 +1565,11 @@
     },
     "Fruta": {
         "definicao": "O ovário desenvolvido de uma planta, podendo ser carnudo ou seco, que porta a(s) semente(s).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5774fifilter=ths_termall&q=fruta#Details"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5774filter=ths_termall&q=fruta#Details"
     },
     "Fumo": {
         "definicao": "Gênero de plantas (família Solanaceae ) cujos membros contêm nicotina (e outros produtos químicos biologicamente ativos) e cujas folhas secas são usadas para tabagismo.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14415fifilter=ths_termall&q=fumof"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14415filter=ths_termall&q=fumof"
     },
     "Função": {
         "definicao": "Atividade natural ou característica de um órgão, aparelho, engrenagem.",
@@ -1581,7 +1581,7 @@
     },
     "Furúnculo": {
         "definicao": "Infecção cutânea persistente marcada pela presença de furúnculos, frequentemente crônicos e recorrentes. Em humanos, o agente causador corresponde a várias espécies de Staphylococcus .",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5804fifilter=ths_termall&q=fur%C3%BAnculo"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5804filter=ths_termall&q=fur%C3%BAnculo"
     },
     "Futuro": {
         "definicao": "Ponto no tempo ou intervalo de tempo.",
@@ -1589,11 +1589,11 @@
     },
     "Garganta": {
         "definicao": "Tubo bromuscular em forma de funil que leva os alimentos ao esôfago e o ar à laringe e aos pulmões. Situa-se posteriormente à cavidade nasal, à cavidade oral e à laringe, estendendo-se da base do crânio à borda inferior da cartilagem cricoide (anteriormente) e à borda inferior da vértebra C6 (posteriormente). É dividida em nasofaringe, orofaringe e hipofaringe (laringofaringe).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10803fifilter=ths_termall&q=garganta"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10803filter=ths_termall&q=garganta"
     },
     "Gengiva": {
         "definicao": "Tecido oral circundando e ligado aos dentes.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6020fifilter=ths_termall&q=gengiva"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6020filter=ths_termall&q=gengiva"
     },
     "Gestação (Gravidez)": {
         "definicao": "Processo do sistema reprodutivo: Situação de crescimento e nutrição de um feto em desenvolvimento no corpo, durando aproximadamente um período de 266 dias desde o dia da fertilização até o nascimento; a gravidez é normal, saudável, mas envolve mudanças rápidas e inevitáveis das funções corporais. O início da gravidez é indicado pela cessação da menstruação, enjoos matinais, aumento das mamas, pigmentação dos mamilos.",
@@ -1605,7 +1605,7 @@
     },
     "Glicemia": {
         "definicao": "Glicose no sangue.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1812fifilter=ths_termall&q=glicemia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1812filter=ths_termall&q=glicemia"
     },
     "Glicose": {
         "definicao": "Substância corporal.",
@@ -1617,7 +1617,7 @@
     },
     "Gravidez de alto risco": {
         "definicao": "Gravidez em que a mãe e/ou o feto correm risco de morbidade ou mortalidade maior que o normal. entre as causas estão a falta de cuidado pré-natal adequado, antecedentes obstétricos (aborto espontâneo), doença materna pré- existente, doença induzida pela gravidez (hipertensão gestacional) e gravidez múltipla, bem como idade materna avançada (maior que 35 anos).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=32069fifilter=ths_termall&q=GRAVIDEZ%20DE%20ALTO%20RISCO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=32069filter=ths_termall&q=GRAVIDEZ%20DE%20ALTO%20RISCO"
     },
     "Grupo": {
         "definicao": "Conjunto de coisas: Um agrupamento de seres humanos vistos como uma unidade social ou como um todo coletivo. A unidade social constituída pelo grupo como um todo é vista como algo mais do que os indivíduos e suas relações, que constituem as partes do grupo.",
@@ -1637,11 +1637,11 @@
     },
     "Hemoptise": {
         "definicao": "Expectorar ou cuspir sangue originário de qualquer parte do trato respiratório, geralmente oriundo de hemorragia no parênquima pulmonar (alvéolos pulmonares) e nas artérias brônquicas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6621fifilter=ths_termall&q=Hemoptise"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6621filter=ths_termall&q=Hemoptise"
     },
     "Hidratação": {
         "definicao": "Terapia cujo objetivo básico é restaurar os níveis normais do volume e da composição dos líquidos corporais, relacionada ao equilíbrio hidroeletrolítico.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5574fifilter=ths_termall&q=hidrata%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5574filter=ths_termall&q=hidrata%C3%A7%C3%A3o"
     },
     "Higiene": {
         "definicao": "Executar: Banhar, trocar as roupas, produzir-se (com acessórios), associada a padrões culturais e nível socioeconômico.",
@@ -1649,7 +1649,7 @@
     },
     "Higiene bucal": {
         "definicao": "Prática de higiene pessoal da boca que compreende a manutenção da limpeza oral e do tônus tecidual, e a preservação geral da saúde bucal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10090fifilter=ths_termall&q=higiene"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10090filter=ths_termall&q=higiene"
     },
     "Hipertensão": {
         "definicao": "Processo do sistema circulatório, prejudicado: Fluxo de sangue através dos vasos com pressão maior do que a normal.",
@@ -1672,7 +1672,7 @@
         "fonte": "CIPE 2019/2020"
     },
     "Hipotermia": {
-        "definicao": "Termorregulação, prejudicada: Diminuição da capacidade de afilterar o termostato interno, redução da temperatura corporal, frio, pele seca e pálida, tremores, preenchimento capilar lento, taquicardia, leito ungueal cianótico, hipertensão, piloereção associada a exposição prolongada ao frio, disfunção do sistema nervoso central ou do sistema endócrino sob condições de frio ou de indução arti cial de uma temperatura corporal abaixo do normal por razões terapêuticas.",
+        "definicao": "Termorregulação, prejudicada: Diminuição da capacidade de alterar o termostato interno, redução da temperatura corporal, frio, pele seca e pálida, tremores, preenchimento capilar lento, taquicardia, leito ungueal cianótico, hipertensão, piloereção associada a exposição prolongada ao frio, disfunção do sistema nervoso central ou do sistema endócrino sob condições de frio ou de indução arti cial de uma temperatura corporal abaixo do normal por razões terapêuticas.",
         "fonte": "CIPE 2019/2020"
     },
     "Horário": {
@@ -1705,11 +1705,11 @@
     },
     "Imunização": {
         "definicao": "Estimulação deliberada da resposta imune do hospedeiro.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29482fifilter=ths_termall&q=Imuniza%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29482filter=ths_termall&q=Imuniza%C3%A7%C3%A3o"
     },
     "Inalação": {
         "definicao": "Respiração para dentro.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27924fifilter=ths_termall&q=Inala%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27924filter=ths_termall&q=Inala%C3%A7%C3%A3o"
     },
     "Inchaço": {
         "definicao": "Aumento de volume; dilatação. Anasarca, edema, tumor.",
@@ -1721,7 +1721,7 @@
     },
     "Indígena": {
         "definicao": "Descendentes que se identi cam como membros de um grupo que habitava um país ou uma região quando chegaram pessoas de diferentes culturas ou origens étnicas. Elas frequentemente mantêm seus idiomas, cultura e crenças distintas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59129fifilter=ths_termall&q=ind%C3%ADgena"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59129filter=ths_termall&q=ind%C3%ADgena"
     },
     "Indivíduo": {
         "definicao": "Animal: Um ser humano.",
@@ -1789,7 +1789,7 @@
     },
     "Intensidade da dor": {
         "definicao": "Escalas, questionários, testes e outros métodos utilizados para avaliar a severidade e duração da dor em pacientes ou animais experimentais, com o objetivo de ajudar no diagnóstico, terapêutica e estudos siológicos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=19283fifilter=ths_termall&q=intensidade"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=19283filter=ths_termall&q=intensidade"
     },
     "Intervenção": {
         "definicao": "Ação.",
@@ -1797,11 +1797,11 @@
     },
     "Intoxicação": {
         "definicao": "Afecção ou estado físico produzido por ingestão, injeção, inalação ou exposição a um agente nocivo.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11471fifilter=ths_termall&q=intoxica%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11471filter=ths_termall&q=intoxica%C3%A7%C3%A3o"
     },
     "Investigação": {
         "definicao": "Investigação crítica e exaustiva ou experimentação, tendo por objetivo a descoberta de fatos novos e sua interpretação correta, a revisão de conclusões, teorias ou leis aceitas à luz de fatos recentemente descobertos, ou a aplicação prática dessas conclusões, teorias ou leis novas ou revisadas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12527fifilter=ths_termall&q=investiga%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12527filter=ths_termall&q=investiga%C3%A7%C3%A3o"
     },
     "Irmão": {
         "definicao": "Membro da família.",
@@ -1821,7 +1821,7 @@
     },
     "Joelho": {
         "definicao": "Região na extremidade inferior que envolve imediatamente e inclui a articulação do joelho.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id =7892fifilter=ths_termall&q=joelho.pdf"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id =7892filter=ths_termall&q=joelho.pdf"
     },
     "Lábio": {
         "definicao": "Região corporal.",
@@ -1837,15 +1837,15 @@
     },
     "Lactente": {
         "definicao": "Criança entre 1 e 23 meses de idade.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7399fifilter=ths_termall&q=lactente"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7399filter=ths_termall&q=lactente"
     },
     "Leite materno": {
         "definicao": "Leite produzido por glândulas mamárias humanas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9082fifilter=ths_termall&q=leite%20materno"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9082filter=ths_termall&q=leite%20materno"
     },
     "Leito": {
         "definicao": "Equipamento no qual se pode deitar e dormir, especialmente quando utilizado para cuidados em pacientes hospitalares.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1532fifilter=ths_termall&q=leito"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1532filter=ths_termall&q=leito"
     },
     "Lesão": {
         "definicao": "Trauma.",
@@ -1853,7 +1853,7 @@
     },
     "Letargia": {
         "definicao": "Estado geral de lentidão, desatenção ou desinteresse com um quadro de cansaço, di culdade de concentração e realização de simples tarefas. Pode estar relacionado a depressão ou toxicomania.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52113fifilter=ths_termall&q=letargia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=52113filter=ths_termall&q=letargia"
     },
     "Liderança comunitária": {
         "definicao": "Liderança: Pessoas ou grupos que in uenciam a comunidade e trazem mudanças, alcançando metas, gerenciando con itos e questionamentos, e fornecendo orientação.",
@@ -1873,7 +1873,7 @@
     },
     "Linguagem": {
         "definicao": "Meio, verbal ou não verbal, de comunicar ideias ou sentimentos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7980fifilter=ths_termall&q=linguagem"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=7980filter=ths_termall&q=linguagem"
     },
     "Lóquios": {
         "definicao": "Fluxo vaginal sanguinolento e seroso, de origem uterina, que se produz após o parto por aproximadamente um mês.",
@@ -1889,7 +1889,7 @@
     },
     "Luxação": {
         "definicao": "Deslocamento de ossos de suas posições normais em uma articulação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4265fifilter=ths_termall&q=luxa%C3%A7%C3%A3oid= 7892fifilter=ths_termall&q=joelho.pdfm"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4265filter=ths_termall&q=luxa%C3%A7%C3%A3oid= 7892filter=ths_termall&q=joelho.pdfm"
     },
     "Maca": {
         "definicao": "Lona retangular distendida sobre uma armação usada para transportar doentes, acidentados ou mortos. Cama provida de rodízios para transporte de enfermos, especialmente dentro dos hospitais.",
@@ -1901,7 +1901,7 @@
     },
     "Magreza": {
         "definicao": "Estado de gordura insu ciente no corpo, geralmente de nido por apresentar um peso corporal menor que os padrões físico- esqueléticos. Dependendo da idade, do sexo e dos antecedentes genéticos, um índice de massa corporal menor que 18,5 é considerado abaixo do peso.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14231fifilter=ths_termall&q=magreza"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14231filter=ths_termall&q=magreza"
     },
     "Maloca": {
         "definicao": "Aldeia indígena. Grande choça usada como habitação por várias famílias índias, especialmente sul- americanas.",
@@ -1917,7 +1917,7 @@
     },
     "Mandíbula": {
         "definicao": "O maior (e o mais forte) osso da face; constitui o maxilar inferior, que sustenta os dentes inferiores.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8506fifilter=ths_termall&q=mandibula"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8506filter=ths_termall&q=mandibula"
     },
     "Manhã": {
         "definicao": "Ponto no tempo ou intervalo de tempo.",
@@ -1941,7 +1941,7 @@
     },
     "Massagem": {
         "definicao": "Conjunto de manipulações sistemáticas e cientí cas dos tecidos corporais de melhor e ciência, com as mãos, com o propósito de in uenciar os sistemas Nervoso e Muscular e a circulação geral.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8577fifilter=ths_termall&q=massagem"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8577filter=ths_termall&q=massagem"
     },
     "Material": {
         "definicao": "Entidade.",
@@ -1957,11 +1957,11 @@
     },
     "Medicalização": {
         "definicao": "Processo pelo qual problemas não médicos são de nidos e tratados como problemas médicos, geralmente em termos de doenças ou distúrbios.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=55124fifilter=ths_termall&q=medicaliza%C3%A7%C3 %A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=55124filter=ths_termall&q=medicaliza%C3%A7%C3 %A3o"
     },
     "Medicina tradicional": {
         "definicao": "Sistema de medicina baseado em crenças culturais e práticas passadas de geração em geração. O conceito inclui rituais místicos e mágicos (terapias espirituais), toterapia e outros tratamentos que podem não ser esclarecidos pela medicina atual.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8686fifilter=ths_termall&q=medicina%20tradicional"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=8686filter=ths_termall&q=medicina%20tradicional"
     },
     "Médico": {
         "definicao": "Prestador (ou provedor) de cuidados.",
@@ -1977,11 +1977,11 @@
     },
     "Membro inferior": {
         "definicao": "Região do membro inferior nos animais que se estende da região glútea até o pé, incluindo as nádegas, o quadril e a perna.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36500fifilter=ths_termall&q=membro%20inferior"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36500filter=ths_termall&q=membro%20inferior"
     },
     "Membro superior": {
         "definicao": "Região do membro superior nos animais que se estende da região deltoide até a mão, incluindo o braço, a axila e o ombro.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36501fifilter=ths_termall&q=membro%20superior"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36501filter=ths_termall&q=membro%20superior"
     },
     "Memória": {
         "definicao": "Processo psicológico: Atos mentais pelos quais sensações, impressões e ideias são estocadas e lembradas; registro mental, retenção e lembrança de experiências passadas, conhecimento, ideias, sensações e pensamentos.",
@@ -2020,16 +2020,16 @@
         "fonte": "CIPE 2019/2020"
     },
     "Morbidade": {
-        "definicao": "Qualquer afilteração, subjetiva ou objetiva, na condição de bem-estar siológico ou psicológico.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28631fifilter=ths_termall&q=morbidade"
+        "definicao": "Qualquer alteração, subjetiva ou objetiva, na condição de bem-estar siológico ou psicológico.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28631filter=ths_termall&q=morbidade"
     },
     "Mortalidade": {
         "definicao": "Todas as mortes noti cadas em uma população; [taxa de] letalidade: capacidade de levar à morte; a taxa de letalidade é a proporção de óbitos dentre os casos de determinada doença.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28632fifilter=ths_termall&q=mortalidade"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28632filter=ths_termall&q=mortalidade"
     },
     "Mortalidade infantil": {
         "definicao": "Óbitos ocorridos desde o nascimento até 365 dias depois em uma dada população. Mortalidade pós-neonatal representa as mortes ocorridas entre 28 e 365 dias após o nascimento. Mortalidade neonatal representa as mortes ocorridas até 27 dias após o nascimento.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28105fifilter=ths_termall&q=mortalidade"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28105filter=ths_termall&q=mortalidade"
     },
     "Morte": {
         "definicao": "Evento ou episódio.",
@@ -2041,7 +2041,7 @@
     },
     "Muco": {
         "definicao": "Secreção viscosa das mucosas que contém mucina, células sanguíneas brancas, água, sais inorgânicos e células esfoliadas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9285fifilter=ths_termall&q=muco"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9285filter=ths_termall&q=muco"
     },
     "Mucosa": {
         "definicao": "Epitélio com células secretoras de muco, como as células caliciformes, que forma o revestimento de muitas cavidades do corpo, como trato gastrointestinal, trato respiratório e trato reprodutivo. A",
@@ -2049,11 +2049,11 @@
     },
     "Mucosa oral": {
         "definicao": "Revestimento da cavidade oral, incluindo gengiva, palato, lábio, bochecha, soalho da boca e outras estruturas. A mucosa geralmente é um epitélio escamoso estrati cado não queratinizado que reveste músculos, ossos ou glândulas, e pode mostrar graus variados de queratinização em locais especí cos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9255fifilter=ths_termall&q=mucosa"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9255filter=ths_termall&q=mucosa"
     },
     "Mulher": {
         "definicao": "Seres humanos do sexo feminino (literalmente do inglês Human females : Fêmeas humanas) como entidades culturais, psicológicas, sociológicas, políticas e econômicas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=15329fifilter=ths_termall&q=mulher"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=15329filter=ths_termall&q=mulher"
     },
     "Multípara": {
         "definicao": "Pessoa que pariu mais de uma vez.",
@@ -2061,7 +2061,7 @@
     },
     "Músculo": {
         "definicao": "Componente do sistema musculoesquelético.",
-        "fonte": "CIPE 2019/2020 =7892 filter=ths_termallq=j oelho.pdf n"
+        "fonte": "CIPE 2019/2020 =7892 lter=ths_termallq=j oelho.pdf n"
     },
     "Nariz": {
         "definicao": "Componente do sistema sensorial.",
@@ -2069,11 +2069,11 @@
     },
     "Nascimento": {
         "definicao": "Processo de nascimento de um ou mais lhos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=37660fifilter=ths_termall&q=nascimento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=37660filter=ths_termall&q=nascimento"
     },
     "Natimorto": {
         "definicao": "Evento em que um feto é nascido morto (ou natimorto); Óbito Fetal Tardio ou nascido morto ou natimorto é o óbito com 28 semanas ou mais de geração.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51252fifilter=ths_termall&q=natimorto"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=51252filter=ths_termall&q=natimorto"
     },
     "Náusea": {
         "definicao": "Percepção, prejudicada: Sensação de enjoo com tendência para vomitar; sensação desagradável vagamente relacionada ao epigástrio e o abdômen, agravada pelo sabor ou pelo cheiro.",
@@ -2097,7 +2097,7 @@
     },
     "Noti cação": {
         "definicao": "Aviso o cial sobre atos ou fatos de interesse da pessoa noti cada.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36428fifilter=ths_termall&q=notica%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=36428filter=ths_termall&q=notica%C3%A7%C3%A3o"
     },
     "Nutrição": {
         "definicao": "Ato ou efeito de nutrir(-se); nutrimento. Fonte de sustento; alimento, nutrimento.",
@@ -2109,11 +2109,11 @@
     },
     "Óbito": {
         "definicao": "Cessação irreversível de todas as funções corpóreas manifestadas por ausência de respiração espontânea e perda total das funções cardiovascular e cerebral.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3660fifilter=ths_termall&q=obito"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3660filter=ths_termall&q=obito"
     },
     "Óbito fetal": {
         "definicao": "Morte do ser em desenvolvimento no útero. O nascimento de um feto morto é natimorto. Óbito fetal é a morte de um produto da concepção antes da expulsão ou da extração completa do corpo da mãe, independentemente da duração da gravidez; indica o óbito o fato de o feto, depois da separação, não respirar nem apresentar nenhum outro sinal de vida, como batimentos do coração, pulsações do cordão umbilical ou movimentos efetivos dos músculos de contração voluntária. Para ns estatísticos, comparação internacional, e o uso da Classi cação Internacional de Doenças (CID): se o produto da concepção, nesta ordem, (1) pesar menos que 500 g, tiver (2) idade gestacional de menos de 22 semanas completadas ou (3) comprimento coroa-calcanhar de menos de 25 cm, ele é de nido como um aborto. Se o produto da concepção pesar pelo menos 500 g ou tiver idade gestacional de pelo menos 22 semanas completas ou comprimento coroa-calcanhar de pelo menos 25 cm, é de nido como natimorto.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5424fifilter=ths_termall&q=obito"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5424filter=ths_termall&q=obito"
     },
     "Observar": {
         "definicao": "Determinar: Notar e olhar cuidadosamente alguém ou alguma coisa.",
@@ -2125,7 +2125,7 @@
     },
     "Odor": {
         "definicao": "Porções voláteis de substâncias químicas perceptíveis pelo sentido do olfato.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9998fifilter=ths_termall&q=odor"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9998filter=ths_termall&q=odor"
     },
     "Óleo": {
         "definicao": "Material.",
@@ -2161,15 +2161,15 @@
     },
     "Ostomia": {
         "definicao": "Construção cirúrgica de um orifício arti cial (estoma) para stulização externa de um ducto ou vaso por inserção de um tubo com ou sem sonda de apoio.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22955fifilter=ths_termall&q=ostomia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22955filter=ths_termall&q=ostomia"
     },
     "Ouvido": {
         "definicao": "Sistema auditivo e de equilíbrio do corpo. Consiste em três partes: orelha externa, orelha média e orelha interna. As ondas sonoras são transmitidas através deste órgão, onde vibrações são transduzidas para [outra forma de] sinais que passam pelo nervo acústico até o sistema nervoso central. A orelha interna contém, ainda, o órgão vestibular, que mantém o equilíbrio transduzindo sinais para o nervo vestibular.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4487fifilter=ths_termall&q=ouvido"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4487filter=ths_termall&q=ouvido"
     },
     "Oxigênio": {
         "definicao": "Elemento com símbolo atômico O, número atômico 8 e peso atômico [15.99903; 15.99977]. É o elemento mais abundante da Terra e essencial à respiração.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10269fifilter=ths_termall&q=oxigenioop"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10269filter=ths_termall&q=oxigenioop"
     },
     "PA": {
         "definicao": "Pressão arterial.",
@@ -2193,11 +2193,11 @@
     },
     "Palidez": {
         "definicao": "Manifestação clínica constituída por palidez não natural da pele.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10354fifilter=ths_termall&q=palidez"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10354filter=ths_termall&q=palidez"
     },
     "Palpação": {
         "definicao": "Aplicação dos dedos com uma pressão suave na superfície do corpo para se determinar a consistência de partes inferiores em diagnósticos físicos; inclui palpação para a determinação dos contornos dos órgãos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10361fifilter=ths_termall&q=palpa%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10361filter=ths_termall&q=palpa%C3%A7%C3%A3o"
     },
     "Papel de médico": {
         "definicao": "Papel de prestador (ou provedor) de cuidados.",
@@ -2229,7 +2229,7 @@
     },
     "Parturiente": {
         "definicao": "Mulheres que estão grávidas, como entidades culturais, psicológicas ou sociológicas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=37736fifilter=ths_termall&q=Parturiente"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=37736filter=ths_termall&q=Parturiente"
     },
     "PC": {
         "definicao": "Perímetro Cefálico.",
@@ -2245,7 +2245,7 @@
     },
     "Pé diabético": {
         "definicao": "Problemas comuns no pé de pessoas com diabetes mellitus, causados por qualquer uma das combinações dos fatores, como neuropatias diabéticas, doenças vasculares periféricas e infecção. Com a perda da sensação e circulação de citária, as lesões e infecções, com frequência, levam a sérias úlceras do pé, gangrena e amputação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=31512fifilter=ths_termall&q=P%C3%A9%20diabetico"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=31512filter=ths_termall&q=P%C3%A9%20diabetico"
     },
     "Peito": {
         "definicao": "Região corporal.",
@@ -2265,11 +2265,11 @@
     },
     "Perda": {
         "definicao": "Refere-se ao processo completo de pesar e luto e está associado a um sentimento profundo de perda e tristeza.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22845fifilter=ths_termall&q=perda"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22845filter=ths_termall&q=perda"
     },
     "Perfusão": {
         "definicao": "Procedimento terapêutico que envolve a injeção de líquido em um órgão ou tecido.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10669fifilter=ths_termall&q=perfus%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10669filter=ths_termall&q=perfus%C3%A3o"
     },
     "Perímetro abdominal": {
         "definicao": "",
@@ -2277,11 +2277,11 @@
     },
     "(circunferência abdominal)": {
         "definicao": "Medida da circunferência do abdômen, correlacionada positivamente à gordura acumulada nessa região do corpo. É um preditor independente de risco de diabetes tipo II, doença arterial coronariana e hipertensão em adultos e idosos, com pontos de corte especí cos para cada sexo. Em homens, indica risco acima de 102 cm e, em mulheres, acima de 88 cm.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50314fifilter=ths_termall&q=abdominal"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50314filter=ths_termall&q=abdominal"
     },
     "Perímetro cefálico": {
         "definicao": "Medida das dimensões da cabeça.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28264fifilter=ths_termall&q=per%C3%ADmetro%20cefalico"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28264filter=ths_termall&q=per%C3%ADmetro%20cefalico"
     },
     "Perímetro torácico": {
         "definicao": "Medida que circula o tórax.",
@@ -2317,11 +2317,11 @@
     },
     "Picada": {
         "definicao": "Lesões in igidas por dentes ou envenenamento causado por venenos de animais.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1758fifilter=ths_termall&q=picada"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1758filter=ths_termall&q=picada"
     },
     "Picada de escorpião": {
         "definicao": "Efeitos locais e sistêmicos causados pelas picadas de escorpiões.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=55227fifilter=ths_termall&q=picada%20de%20escorpi%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=55227filter=ths_termall&q=picada%20de%20escorpi%C3%A3o"
     },
     "Pirose": {
         "definicao": "Processo do Sistema Gastrointestinal, prejudicado",
@@ -2329,7 +2329,7 @@
     },
     "Placenta": {
         "definicao": "Órgão materno-fetal de mamíferos, altamente vascularizado, sendo o principal local de transporte de oxigênio, nutrientes e resíduos fetais. Na placenta há uma porção fetal (vilosidades coriônicas, provenientes dos trofoblastos) e uma porção materna (decídua, proveniente do endométrio uterino). A placenta produz uma série de hormônios esteroides, proteicos e peptídicos (hormônios placentários).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11351fifilter=ths_termall&q=Placenta"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11351filter=ths_termall&q=Placenta"
     },
     "Planejamento familiar": {
         "definicao": "Processo familiar: Processo comportamental para regular o número e o espaçamento das crianças na família, levando em consideração os costumes, a lei, o número ideal ou aceitável de crianças e adultos na família ou a valorização de um sexo sobre outro.",
@@ -2361,11 +2361,11 @@
     },
     "Pomada": {
         "definicao": "Preparações semi-sólidas usadas topicamente para obtenção de efeitos emolientes protetores ou como veículo para administração local de medicamentos. As bases das pomadas são várias misturas de gorduras, ceras, óleos animais e vegetais, e hidrocarbonetos sólidos e líquidos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10009fifilter=ths_termall&q=pomada"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10009filter=ths_termall&q=pomada"
     },
     "População": {
         "definicao": "Número total de pessoas ou animais que habitam uma determinada região ou área.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11594fifilter=ths_termall&q=popula%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=11594filter=ths_termall&q=popula%C3%A7%C3%A3o"
     },
     "Posição": {
         "definicao": "Estado.",
@@ -2381,7 +2381,7 @@
     },
     "Prematuro": {
         "definicao": "Lactente humano nascido antes de 37 semanas de gestação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22228fifilter=ths_termall&q=Prematuro"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22228filter=ths_termall&q=Prematuro"
     },
     "Pré-natal": {
         "definicao": "Assistência médica prestada à gestante durante os nove meses de gravidez que visa evitar problemas para a mãe e a criança nesse período e no momento do parto.",
@@ -2409,7 +2409,7 @@
     },
     "Prevenção": {
         "definicao": "Conjunto de ações que visa erradicar, eliminar ou reduzir o impacto de determinada doença ou incapacidade, ou, ainda, conter sua dispersão.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50219fifilter=ths_termall&q=preven%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50219filter=ths_termall&q=preven%C3%A7%C3%A3o"
     },
     "Preventivo do câncer": {
         "definicao": "",
@@ -2437,11 +2437,11 @@
     },
     "Pro ssional de saúde": {
         "definicao": "Indivíduo que trabalha na provisão de serviços de saúde, quer como médico individual ou empregado de instituições e programas de saúde, pro ssional de saúde treinado ou não, sujeito ou não a regulamento público.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=30349fifilter=ths_termall&q=prossional%20da%20sa %C3%BAde"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=30349filter=ths_termall&q=prossional%20da%20sa %C3%BAde"
     },
     "Promoção de saúde": {
         "definicao": "Incentivo ou estímulo entre os consumidores, por meio de informações sobre saúde, programas preventivos e acesso a cuidados médicos, dos comportamentos que, mais provavelmente, otimizarão os potenciais de saúde (físicos e psicossociais). Promoção da saúde é o processo de capacitação do indivíduo para melhorar e controlar sua saúde, alcançar o estado de completo bem-estar físico, mental e social; um indivíduo ou grupo deve ser capaz de identi car aspirações, satisfazer necessidades e mudar ou lidar com seu ambiente. Saúde é vista, portanto, como um meio de vida e não um objetivo. Política de promoção de saúde envolve abordagens diversas, mas complementares, levando em conta as diferenças sociais, culturais e econômicas de cada país.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6444fifilter=ths_termall&q=promo%C3%A7%C3%A3o %20de%20sa%C3%BAde"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=6444filter=ths_termall&q=promo%C3%A7%C3%A3o %20de%20sa%C3%BAde"
     },
     "Prontuário": {
         "definicao": "Lugar onde são guardadas coisas de que se pode precisar a qualquer momento.",
@@ -2465,7 +2465,7 @@
     },
     "Puericultura": {
         "definicao": "Cuidados prestados à criança em casa ou instituições.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2700fifilter=ths_termall&q=puericultura"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=2700filter=ths_termall&q=puericultura"
     },
     "Puérpera": {
         "definicao": "Mulher que deu à luz há bem pouco tempo.",
@@ -2473,7 +2473,7 @@
     },
     "Puerpério": {
         "definicao": "Em fêmeas, compreende o período logo após o nascimento do bebê (parto).",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=38861fifilter=ths_termall&q=puerp%C3%A9rio"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=38861filter=ths_termall&q=puerp%C3%A9rio"
     },
     "Pulmão": {
         "definicao": "Componente do sistema respiratório.",
@@ -2489,7 +2489,7 @@
     },
     "Pupila": {
         "definicao": "Abertura na íris através da qual a luz passa.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27782fifilter=ths_termall&q=pupilaq"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27782filter=ths_termall&q=pupilaq"
     },
     "Qualidade": {
         "definicao": "Propriedade que determina a essência ou a natureza de um ser ou coisa.",
@@ -2573,7 +2573,7 @@
     },
     "Relaxamento": {
         "definicao": "Atividade que reduz as sensações de tensão e efeitos do estresse siológico.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12485fifilter=ths_termall&q=Relaxamento"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12485filter=ths_termall&q=Relaxamento"
     },
     "Remédio": {
         "definicao": "Substância ou recurso utilizado para combater uma dor, uma doença.",
@@ -2585,7 +2585,7 @@
     },
     "Repouso": {
         "definicao": "Liberdade de atividade.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12566fifilter=ths_termall&q=repouso"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12566filter=ths_termall&q=repouso"
     },
     "Requisitar": {
         "definicao": "Coordenar: Pedir a alguém para fazer alguma coisa; ordenar alguma coisa.",
@@ -2597,7 +2597,7 @@
     },
     "Respiração": {
         "definicao": "Ato de respirar com os pulmões, consistindo em inalação ou captação do ar ambiente para os pulmões e expiração ou expulsão do ar modi cado, que contém mais dióxido de carbono que o ar inalado Não está incluída a respiração tissular (= consumo de oxigênio) ou respiração celular.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12540fifilter=ths_termall&q=respira%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=12540filter=ths_termall&q=respira%C3%A7%C3%A3o"
     },
     "Responder": {
         "definicao": "Ação: Replicar, responder, ato de reagir.",
@@ -2617,7 +2617,7 @@
     },
     "Rigidez da nuca": {
         "definicao": "Contração muscular mantida de forma involuntária e contínua, frequentemente uma manifestação de doenças dos gânglios da base. Quando um músculo afetado é estirado passivamente, o grau de resistência permanece constante, independentemente da velocidade com que o músculo é estendido. Essa característica ajuda na distinção entre rigidez e espasticidade muscular.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9318fifilter=ths_termall&q=rigidez%20da%20nuca"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9318filter=ths_termall&q=rigidez%20da%20nuca"
     },
     "Rim": {
         "definicao": "Componente do Sistema Urinário.",
@@ -2661,7 +2661,7 @@
     },
     "Sal": {
         "definicao": "Sal de sódio ubíquo que é comumente usado para temperar comida.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23461fifilter=ths_exact_termq=CLORETO+DE+S%C3 %93DIO"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23461filter=ths_exact_termq=CLORETO+DE+S%C3 %93DIO"
     },
     "SAMU": {
         "definicao": "Serviço de Atendimento Móvel de Urgência.",
@@ -2681,7 +2681,7 @@
     },
     "Saturação do oxigênio": {
         "definicao": "Extensão na qual a hemoglobina é saturada com oxigênio, medida caracteristicamente do sangue arterial. Pode ser medida por vários métodos (por exemplo, oxímetro de pulso, análise de gás no sangue). O baixo nível de saturação do oxigênio sanguíneo indica uma afecção chamada hipoxemia.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59727fifilter=ths_termall&q=satura%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=59727filter=ths_termall&q=satura%C3%A7%C3%A3o"
     },
     "Saúde": {
         "definicao": "Condição: Um processo dinâmico de adaptação e relação com o ambiente, satisfazendo as necessidades e alcançando o potencial máximo de bem-estar físico, mental, espiritual e social; não meramente a ausência de doença ou enfermidade.",
@@ -2689,15 +2689,15 @@
     },
     "Saúde indígena": {
         "definicao": "Saúde que contempla os aspectos de assistência ao povo indígena, como o saneamento básico, a nutrição, a habilitação, o meio ambiente, a demarcação de terras, a educação sanitária e a integração institucional. Este tipo de assistência possui uma abordagem diferenciada e global.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50240fifilter=ths_termall&q=sa%C3%BAde%20ind%C3%ADgena"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=50240filter=ths_termall&q=sa%C3%BAde%20ind%C3%ADgena"
     },
     "Saúde mental": {
         "definicao": "Bem-estar emocional, psicológico e social de um indivíduo ou grupo.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28451fifilter=ths_termall&q=sa%C3%BAde%20mental"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28451filter=ths_termall&q=sa%C3%BAde%20mental"
     },
     "Saúde pública": {
         "definicao": "Ramo da medicina voltado para a prevenção e o controle de doenças e de ciências, bem como para a promoção da saúde física e mental da população tanto nos níveis internacional e nacional como no estadual e municipal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28455fifilter=ths_termall&q=sa%C3%BAde%20p%C3 %BAblica"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28455filter=ths_termall&q=sa%C3%BAde%20p%C3 %BAblica"
     },
     "Seca": {
         "definicao": "Desastre natural: Secura prolongada, falta de chuva.",
@@ -2717,7 +2717,7 @@
     },
     "Sensação": {
         "definicao": "Processo no qual células receptoras sensoriais transduzem estímulos periféricos (físicos ou químicos) em impulsos nervosos que são, então, transmitidos para os vários centros sensoriais do sistema nervoso central.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13060fifilter=ths_termall&q=sensa%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13060filter=ths_termall&q=sensa%C3%A7%C3%A3o"
     },
     "Sentimento": {
         "definicao": "Ato ou efeito de sentir(-se).",
@@ -2737,7 +2737,7 @@
     },
     "Sexo": {
         "definicao": "Totalidade das características nas estruturas reprodutivas, funções, fenótipo e genótipo, que distinguem o organismo masculino do feminino.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13104fifilter=ths_termall&q=sexo"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13104filter=ths_termall&q=sexo"
     },
     "SIASI": {
         "definicao": "Sistema de Informação da Atenção à Saúde Indígena.",
@@ -2745,7 +2745,7 @@
     },
     "Sinais vitais": {
         "definicao": "Sinais de vida que podem ser monitorados ou medidos, a saber: pulso, frequência respiratória, temperatura corporal e pressão sanguínea.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=53683fifilter=ths_termall&q=Sinais%20vitais"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=53683filter=ths_termall&q=Sinais%20vitais"
     },
     "Sinal": {
         "definicao": "Fenômeno.",
@@ -2793,7 +2793,7 @@
     },
     "Sudorese": {
         "definicao": "Processo de secreção exógena das glândulas sudoríparas, que inclui o suor aquoso das glândulas écrinas e o complexo de líquidos viscosos das glândulas apócrinas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13927fifilter=ths_termall&q=sudorese"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13927filter=ths_termall&q=sudorese"
     },
     "Suicídio": {
         "definicao": "Comportamento, autodestrutivo: Executar atividades suicidas, que conduzam à própria morte.",
@@ -2813,7 +2813,7 @@
     },
     "Surdez": {
         "definicao": "Termo geral para perda completa da habilidade em ouvir por ambas as orelhas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3655fifilter=ths_termall&q=surdez"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=3655filter=ths_termall&q=surdez"
     },
     "Surto": {
         "definicao": "Aumento signi cativo e rápido; arrancada.",
@@ -2865,7 +2865,7 @@
     },
     "Tempo de permanência": {
         "definicao": "A duração média de tempo durante a qual os poluentes, como fumaça, químicos tóxicos, radioatividade, permanecem na atmosfera desde o momento em que a poluição começa.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=35101fifilter=ths_termall&q=tempo%20de%20permanencia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=35101filter=ths_termall&q=tempo%20de%20permanencia"
     },
     "Tentativa de suicídio": {
         "definicao": "Comportamento, autodestrutivo: Tentativa de matar a si próprio.",
@@ -2881,11 +2881,11 @@
     },
     "Terminologia": {
         "definicao": "Obra que consiste em listas dos termos técnicos ou expressões usadas em um campo especí co. Estas listas podem, ou não, ser formalmente adotadas ou sancionadas para o uso.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33673fifilter=ths_termall&q=terminologia"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33673filter=ths_termall&q=terminologia"
     },
     "Território sociocultural": {
         "definicao": "O Território como espaço de relações, no qual se manifesta a vida cotidiana dos indivíduos e das populações. É resultante de um acúmulo de situações históricas, econômicas, ambientais, sociais e culturais que promovem condições particulares para a produção de saúde. Ter o território de produção da saúde como referência de relações e atuação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57875fifilter=ths_termall&q=territ%C3%B3rio%20sociocultural"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57875filter=ths_termall&q=territ%C3%B3rio%20sociocultural"
     },
     "Testar": {
         "definicao": "Avaliar: Experimentar ou fazer um teste com alguém ou alguma coisa.",
@@ -2932,7 +2932,7 @@
         "fonte": "CIPE 2019/2020"
     },
     "Tremor": {
-        "definicao": "Processo do sistema musculoesquelético, prejudicado: Tremulação rítmica não intencional, tremor, afilternância involuntária da contração e do relaxamento muscular pela oposição de grupos de músculos esqueléticos, associada ao aumento de tremor durante movimentos intencionais, ocorrendo em pessoas idosas, em algumas famílias, e associado a predisposição genética e a doenças neurodegenerativas",
+        "definicao": "Processo do sistema musculoesquelético, prejudicado: Tremulação rítmica não intencional, tremor, alternância involuntária da contração e do relaxamento muscular pela oposição de grupos de músculos esqueléticos, associada ao aumento de tremor durante movimentos intencionais, ocorrendo em pessoas idosas, em algumas famílias, e associado a predisposição genética e a doenças neurodegenerativas",
         "fonte": "CIPE 2019/2020"
     },
     "Triagem": {
@@ -2965,7 +2965,7 @@
     },
     "Umbigo": {
         "definicao": "Depressão no centro da parede abdominal, marcando o ponto onde o cordão umbilical entrava no feto.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14871fifilter=ths_termall&q=umbigo"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14871filter=ths_termall&q=umbigo"
     },
     "Unha": {
         "definicao": "Componente do Sistema Tegumentar: Estrutura achatada e elástica, com textura córnea, presente no nal dos dedos das mãos e dos pés, contendo raiz, corpo e margem livre na extremidade distal. A integridade e a função das unhas das mãos e dos pés estão relacionadas com a textura, o comprimento e a espessura, de modo a proteger as bordas dos dedos das mãos e dos pés e ajudar a apanhar pequenos objetos. Relaciona-se, também, com o comprimento, a cor e a aparência, incluindo a limpeza.",
@@ -3005,7 +3005,7 @@
     },
     "Vacinação": {
         "definicao": "Administração de vacinas para estimulação da resposta imune no hospedeiro. Isto inclui qualquer preparação que objetive a pro laxia imunológica ativa.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29592fifilter=ths_termall&q=Vacina%C3%A7%C3%A3o"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=29592filter=ths_termall&q=Vacina%C3%A7%C3%A3o"
     },
     "Vagina": {
         "definicao": "Cavidade corporal.",
@@ -3017,11 +3017,11 @@
     },
     "Vermelhidão": {
         "definicao": "Vermelhidão transitória, especialmente da face, que pode ser devido a febre, determinadas drogas, esforço ou estresse.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5616fifilter=ths_termall&q=vermelhidao#Concepts"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=5616filter=ths_termall&q=vermelhidao#Concepts"
     },
     "Vertigem": {
         "definicao": "Ilusão de movimento, tanto do mundo externo girando em volta do indivíduo como do indivíduo girando no espaço. Vertigem pode estar associada a transtornos da orelha interna, nervo vestibular, tronco encefálico ou córtex cerebral. As lesões no lobo temporal e no lobo parietal podem ser associadas a ataques focais que podem apresentar vertigem como manifestação ictal.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27888fifilter=ths_termall&q=vertigem"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=27888filter=ths_termall&q=vertigem"
     },
     "Via aérea": {
         "definicao": "Via corporal.",
@@ -3033,14 +3033,14 @@
     },
     "Vida": {
         "definicao": "Estado que distingue organismos de matéria inorgânica, manifestado por crescimento, metabolismo, reprodução e adaptação. Inclui o curso de existência, a soma de experiências, o modo de existir ou o fato de ser. Através dos séculos, indagações sobre a natureza da vida têm cruzado os limites da loso a, da biologia, da medicina forense, da antropologia etc., tanto em literatura de cção quanto em literatura cientí ca.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33191fifilter=ths_termall&q=vida"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=33191filter=ths_termall&q=vida"
     },
     "Vigilância": {
         "definicao": "Condição: Nível de atenção ou vigilância; prestar atenção a alguma coisa, estar pronto para agir.",
         "fonte": "CIPE 2019/2020"
     },
     "Vigilância epidemiológica": {
-        "definicao": "Conjunto de atividades que permite reunir a informação indispensável para conhecer, a qualquer momento, o comportamento ou a história natural das doenças, bem como detectar ou prever afilterações de seus fatores condicionantes, a m de recomendar oportunamente,",
+        "definicao": "Conjunto de atividades que permite reunir a informação indispensável para conhecer, a qualquer momento, o comportamento ou a história natural das doenças, bem como detectar ou prever alterações de seus fatores condicionantes, a m de recomendar oportunamente,",
         "fonte": ""
     },
     "Vínculo": {
