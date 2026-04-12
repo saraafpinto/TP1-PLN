@@ -4,74 +4,81 @@ import json
 
 # pdftohtml -f 29 -l 29 -xml Dados/diccionari-multilinguee-de-la-covid-19.pdf Dados/abreviaturas.xml 
 
-f = open("Dados/abreviaturas.xml", "r", encoding="utf8")
+f = open("abreviaturas.xml", "r", encoding="utf8")
 texto = f.read()
 
-# Apanha a posição esquerda (left), a fonte (font) e o texto de todas as tags <text>
-tags_brutas = re.findall(r'<text[^>]*left="(\d+)"[^>]*font="([34])"[^>]*>(.*?)</text>', texto)
+# ==========================================
+# 2. MARCAÇÃO ESTRUTURAL (O Segredo do Regex)
+# ==========================================
+# Transformamos as coordenadas XML em "Etiquetas textuais" antes de apagar as tags
 
-# Limpar tags <b> de dentro dos textos
-elementos = []
-for left, font, texto in tags_brutas:
-    texto_limpo = re.sub(r'<[^>]+>', '', texto).strip()
-    if texto_limpo:
-        elementos.append((left, font, texto_limpo))
+# [CAT] -> Títulos de Categoria (font="3")
+texto = re.sub(r'<text[^>]*font="3"[^>]*>(.*?)</text>', r'[CAT] \1', texto)
 
+# [L] -> Abreviações que começam na margem esquerda exata (63 ou 442)
+texto = re.sub(r'<text[^>]*left="(?:63|442)"[^>]*font="4"[^>]*>(.*?)</text>', r'[L] \1', texto)
+
+# [R] -> Descrições que estão mais à direita (qualquer 'left' diferente de 63 e 442)
+texto = re.sub(r'<text[^>]*left="(?!63|442)\d+"[^>]*font="4"[^>]*>(.*?)</text>', r'[R] \1', texto)
+
+# Limpamos TODAS as outras tags HTML que sobraram (incluindo as de lixo como <fontspec>)
+texto = re.sub(r'<[^>]+>', '', texto)
+
+# Limpar lixos conhecidos do cabeçalho
+texto = re.sub(r'QUADERNS.*?COVID-19', ' ', texto)
+texto = re.sub(r'Abreviacions', ' ', texto)
+
+# ==========================================
+# 3. EXTRAÇÃO EM DOIS NÍVEIS (Regex de Blocos)
+# ==========================================
 resultado = {}
-categoria_atual = "Sem Categoria"
-i = 0
 
-# Dicionario
-while i < len(elementos):
-    left, font, texto = elementos[i]
-    
-    # REGRA 1: Título da Categoria (Fonte 3)
-    if font == "3":
-        categoria_atual = texto
-        if categoria_atual not in resultado:
-            resultado[categoria_atual] = {}
-        i += 1
-        continue
-        
-    # REGRA 2: Abreviação (Fonte 4 e alinhada à esquerda na coluna: 63 ou 442)
-    if font == "4" and left in ["63", "442"]:
-        abrev = ""
-        desc = ""
-        
-        # O próximo elemento é a descrição? (Verifica se está mais à direita: ex. 122, 144, 493)
-        if i + 1 < len(elementos) and elementos[i+1][1] == "4" and elementos[i+1][0] not in ["63", "442"]:
-            # O PDF separou em duas tags: [Abrev] -> [Desc]
-            abrev = texto
-            desc = elementos[i+1][2]
-            i += 2 # Saltamos a descrição porque já a guardámos
-            
+# NÍVEL 1: Apanhar o bloco inteiro de cada Categoria
+# O Regex apanha: [CAT] -> (Nome) -> (Conteúdo até ao próximo [CAT])
+padrao_categorias = r'\[CAT\]\s*([^\[]+)(.*?)(?=\[CAT\]|$)'
+categorias = re.findall(padrao_categorias, texto, flags=re.S)
+
+for nome_cat, conteudo_cat in categorias:
+    nome_cat = nome_cat.strip()
+    resultado[nome_cat] = {}
+
+    # NÍVEL 2: Apanhar cada item dentro dessa categoria
+    # Começa no [L] e vai até ao próximo [L] ou até ao fim do bloco
+    padrao_itens = r'\[L\]\s*(.*?)\s*(?=\[L\]|$)'
+    itens = re.findall(padrao_itens, conteudo_cat, flags=re.S)
+
+    for item in itens:
+        item = item.strip()
+        if not item: continue
+
+        # --- Lógica de Separação (Abreviação vs Descrição) ---
+        if '[R]' in item:
+            # O PDF separou em duas caixas textuais no XML
+            partes = item.split('[R]')
+            abrev = partes[0].strip()
+            desc = partes[1].strip() if len(partes) > 1 else ""
+
+        elif re.search(r'\s{2,}', item):
+            # Estava na mesma caixa, mas separada por múltiplos espaços (ex: sin. compl.)
+            partes = re.split(r'\s{2,}', item, maxsplit=1)
+            abrev = partes[0].strip()
+            desc = partes[1].strip()
+
         else:
-            # Tentar partir por 2 ou mais espaços (resolve o "v tr/intr", "sin. compl.")
-            partes = re.split(r'\s{2,}', texto)
-            
-            if len(partes) == 2:
-                abrev, desc = partes[0], partes[1]
-            else:
-                # Se falhar, é porque só tem 1 espaço (Ex: "n nom", "adj adjectiu")
-                # Então partimos no primeiro espaço que aparecer
-                partes = texto.split(" ", 1)
-                abrev = partes[0]
-                desc = partes[1] if len(partes) > 1 else ""
-            i += 1
-            
-        # GUARDAR O DADO 
-        if abrev in resultado[categoria_atual]:
-            existente = resultado[categoria_atual][abrev]
+            # Estava na mesma caixa apenas com um espaço (ex: "n nom")
+            partes = item.split(' ', 1)
+            abrev = partes[0].strip()
+            desc = partes[1].strip() if len(partes) > 1 else ""
+
+        # --- GUARDAR O DADO ---
+        if abrev in resultado[nome_cat]:
+            existente = resultado[nome_cat][abrev]
             if isinstance(existente, list):
                 existente.append(desc)
             else:
-                resultado[categoria_atual][abrev] = [existente, desc]
+                resultado[nome_cat][abrev] = [existente, desc]
         else:
-            resultado[categoria_atual][abrev] = desc
-
-    else:
-        # Lixo ou formatações estranhas, avança
-        i += 1
+            resultado[nome_cat][abrev] = desc
 
 def gera_json(filename, dicionario):
     f_out = open(filename, 'w', encoding='utf8')

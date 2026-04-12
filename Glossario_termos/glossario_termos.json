@@ -1,0 +1,5432 @@
+{
+    "micrograma": {
+        "significado": "a milionésima parte de um grama"
+    },
+    "perioral": {
+        "significado": "à volta da boca"
+    },
+    "periorbital": {
+        "significado": "à volta da órbita"
+    },
+    "perivascular": {
+        "significado": "à volta dos vasos sanguíneos"
+    },
+    "depressão": {
+        "significado": "abaixamento, abatimento, prostração"
+    },
+    "abcesso": {
+        "significado": "abcesso, tumor"
+    },
+    "empiema": {
+        "significado": "abcesso; acumulação de pus"
+    },
+    "perfuração": {
+        "significado": "abertura; orifício"
+    },
+    "extracção": {
+        "significado": "ablação"
+    },
+    "castração": {
+        "significado": "ablação dos órgãos sexuais, capação, eviração, emasculação"
+    },
+    "anastomose": {
+        "significado": "abocamento / comunicação natural ou artificial entre dois vasos ou nervos"
+    },
+    "aborto": {
+        "significado": "abortamento, desmancho"
+    },
+    "ressorção": {
+        "significado": "absorção de água e de solutos por células vivas"
+    },
+    "absorção": {
+        "significado": "absorvimento, absorvência"
+    },
+    "hipótese": {
+        "significado": "abstracção, suposição"
+    },
+    "escabiose": {
+        "significado": "acaríase sarcóptica, sarna"
+    },
+    "catálise": {
+        "significado": "acção de certos corpos sobre outros"
+    },
+    "oxidação": {
+        "significado": "acção de enferrujar"
+    },
+    "aspiração": {
+        "significado": "acção de inalar, extracção de líquidos ou gases"
+    },
+    "micção": {
+        "significado": "acção de urinar, urinação"
+    },
+    "taquicardia": {
+        "significado": "aceleração da frequência cardíaca"
+    },
+    "secundário": {
+        "significado": "acessório, anexo, indesejável"
+    },
+    "acidez": {
+        "significado": "acidade, azedume"
+    },
+    "aminoácido": {
+        "significado": "ácido aninado"
+    },
+    "adaptação": {
+        "significado": "acomodação"
+    },
+    "concomitante": {
+        "significado": "acompanhante"
+    },
+    "habitual": {
+        "significado": "acostumado"
+    },
+    "reconstituição": {
+        "significado": "acrescentar um solvente a um medicamento em pó; tipo de regeneração de uma superfície lesionada; retorno à forma líquida do soro ou plasma sanguíneo previamente dessecado"
+    },
+    "potenciação": {
+        "significado": "activação de uma droga por outra"
+    },
+    "potencialização": {
+        "significado": "activação de uma droga por outra"
+    },
+    "adrenérgico": {
+        "significado": "activado por adrenalina"
+    },
+    "actividade": {
+        "significado": "actividade"
+    },
+    "hipertiroidismo": {
+        "significado": "actividade excessiva da tiróide"
+    },
+    "hipotiroidismo": {
+        "significado": "actividade insuficiente da tiróide"
+    },
+    "largo espectro": {
+        "significado": "activo com vários grupos de germes"
+    },
+    "anamnésia": {
+        "significado": "acto de relembrar os antecedentes do doente"
+    },
+    "protrombina": {
+        "significado": "actor II da coagulação sanguínea; trombogénio / factor II da coagulação sanguínea; trombogénio"
+    },
+    "uremia": {
+        "significado": "acumulação de ureia no sangue; urinemia"
+    },
+    "esteatose": {
+        "significado": "acumulação excessiva de glóbulos gordos nos tecidos"
+    },
+    "acumulação": {
+        "significado": "acumulamento"
+    },
+    "cumulativo": {
+        "significado": "acumulativo"
+    },
+    "aderência": {
+        "significado": "adesão, união viciosa das superfícies orgânicas"
+    },
+    "pré-": {
+        "significado": "administração de medicamentos como sedativos antes de uma anestesia gera"
+    },
+    "sensibilização": {
+        "significado": "administração de um antigénio para induzir uma resposta imunitária"
+    },
+    "aplicação": {
+        "significado": "administração de um medicamento ou emprego de uma medida física"
+    },
+    "instilação": {
+        "significado": "administração gota-a-gota (solução oftálmica)"
+    },
+    "parenteral": {
+        "significado": "administrado por via não oral"
+    },
+    "adulto": {
+        "significado": "adulto"
+    },
+    "ventilação": {
+        "significado": "aeragem, arejamento, aeração"
+    },
+    "cirrose": {
+        "significado": "afecção do fígado"
+    },
+    "regulação": {
+        "significado": "afinação, ajustamento"
+    },
+    "prolapso": {
+        "significado": "afundamento ou queda (ex.: útero, recto, cordão umbilical)"
+    },
+    "mediador": {
+        "significado": "agente intermediário, substância química que transmite algo / (agente) intermediário, substância química que transmite algo"
+    },
+    "mucolítico": {
+        "significado": "agente que destrói ou dissolve a mucina"
+    },
+    "ceratolítico": {
+        "significado": "agente que dissolve a parte córnea da pele"
+    },
+    "uricossúrico": {
+        "significado": "agente que promove a secreção urinária do ácido úrico"
+    },
+    "relaxante": {
+        "significado": "agente que reduz a tensão"
+    },
+    "agravação": {
+        "significado": "agravamento, pioramento, piora"
+    },
+    "agregação": {
+        "significado": "agregado, associação"
+    },
+    "agressividade": {
+        "significado": "agressividade"
+    },
+    "acuidade": {
+        "significado": "agudez(a)"
+    },
+    "agudo": {
+        "significado": "agudo"
+    },
+    "alcoolismo": {
+        "significado": "alcoolismo"
+    },
+    "alergia cruzada": {
+        "significado": "alergia a substâncias similares"
+    },
+    "idiossincrasia": {
+        "significado": "alergia a uma substância específica"
+    },
+    "alérgico": {
+        "significado": "alérgico"
+    },
+    "atópico": {
+        "significado": "alérgico"
+    },
+    "demência": {
+        "significado": "alienação mental, desarranjo mental, loucura"
+    },
+    "nutriente": {
+        "significado": "alimentar, alimentício, nutritivo, nutrício, substancial"
+    },
+    "alimentar": {
+        "significado": "alimentício"
+    },
+    "alcalose": {
+        "significado": "alteração da relação ácido-base no sangue"
+    },
+    "acidose": {
+        "significado": "alteração do equilíbrio ácido básico do sangue e líquidos teciduais"
+    },
+    "lipodistrofia": {
+        "significado": "alteração do metabolismo dos lípidos (obesidade das mulheres na região glútea e nas pernas)"
+    },
+    "disgeusia": {
+        "significado": "alteração do paladar"
+    },
+    "lesão": {
+        "significado": "alteração mórbida na função ou estrutura de um órgão"
+    },
+    "modificar": {
+        "significado": "alterar"
+    },
+    "alternativo": {
+        "significado": "alternativo"
+    },
+    "alucinação": {
+        "significado": "alucinação"
+    },
+    "cavidade": {
+        "significado": "alvéolo, recesso, buraco"
+    },
+    "ambulante": {
+        "significado": "ambulatório"
+    },
+    "osteomalacia": {
+        "significado": "amolecimento dos ossos"
+    },
+    "convalescença": {
+        "significado": "analepsia; restabelecimento das forças (depois de uma doença)"
+    },
+    "idêntico": {
+        "significado": "análogo"
+    },
+    "escarlatina": {
+        "significado": "anasarca, febre petequial, elefância"
+    },
+    "anatómico": {
+        "significado": "anatómico"
+    },
+    "sonambulismo": {
+        "significado": "andar dormindo, em sonhos"
+    },
+    "tonsilite": {
+        "significado": "angina (tonsilar), amigdalite, esquinência, antiadite, inflamação das amígdalas"
+    },
+    "angina de peito": {
+        "significado": "angina de peito, esternalgia"
+    },
+    "linfangite": {
+        "significado": "angioleucite, inflamação dos vasos linfáticos"
+    },
+    "ansiedade": {
+        "significado": "angústia"
+    },
+    "enurese": {
+        "significado": "aniscuria, incontinência de urina"
+    },
+    "aberrante": {
+        "significado": "anormal"
+    },
+    "anormal": {
+        "significado": "anormal"
+    },
+    "pré-natal": {
+        "significado": "antes do nascimento, durante a evolução da gravidez"
+    },
+    "anticorpo": {
+        "significado": "anti-soma, anti-substância, corpo imune, antítropo"
+    },
+    "antialérgico": {
+        "significado": "antialérgico"
+    },
+    "antineoplástico": {
+        "significado": "anticanceroso"
+    },
+    "revulsivo": {
+        "significado": "antiléptico, contra-irritante, que provoca uma irritação destinada a aliviar outra"
+    },
+    "antipruriginoso": {
+        "significado": "antiprurítico, antipruritoso"
+    },
+    "anúria": {
+        "significado": "anurese, que não urina"
+    },
+    "furunculose": {
+        "significado": "aparecimento de furúnculos"
+    },
+    "leucoplasia": {
+        "significado": "aparecimento de uma mancha branca que pode preceder o aparecimento de um cancro nesse órgão"
+    },
+    "apneia": {
+        "significado": "apneustia; ausência de respiração"
+    },
+    "indicar": {
+        "significado": "apontar"
+    },
+    "pós-parto": {
+        "significado": "após o parto"
+    },
+    "pós-prandial": {
+        "significado": "após uma refeição"
+    },
+    "apresentação": {
+        "significado": "apresentação do feto em relação ao colo uterino"
+    },
+    "adequado": {
+        "significado": "apropriado, próprio"
+    },
+    "aproximado": {
+        "significado": "aproximado"
+    },
+    "predisposição": {
+        "significado": "aptidão do organismo para contrair certas doenças; vocação"
+    },
+    "opistótono": {
+        "significado": "arqueamento posterior da cabeça e membros inferiores"
+    },
+    "eructação": {
+        "significado": "arroto"
+    },
+    "inalação": {
+        "significado": "aspiração de gases e vapores"
+    },
+    "identificação": {
+        "significado": "assimilação inconsciente com outra pessoa"
+    },
+    "insulto": {
+        "significado": "ataque"
+    },
+    "inibição": {
+        "significado": "atenuação, supressão ou bloqueamento de uma função ou reacção"
+    },
+    "pulverizador": {
+        "significado": "atomizador, vaporizador, aparelho de pulverizar"
+    },
+    "hipotrofia": {
+        "significado": "atraso de desenvolvimento"
+    },
+    "peroral": {
+        "significado": "através da boca (ingestão de remédios, por exemplo)"
+    },
+    "percutâneo": {
+        "significado": "através da pele"
+    },
+    "transcutâneo": {
+        "significado": "através da pele intacta"
+    },
+    "pico do débito": {
+        "significado": "auge ou pico do fluxo, do débito"
+    },
+    "diabetes": {
+        "significado": "aumento anormal da diurese; doença caracterizada pela presença de açúcar na origina)"
+    },
+    "fibrose": {
+        "significado": "aumento anormal do tecido conjuntivo"
+    },
+    "hiperceratose": {
+        "significado": "aumento da espessura da capa córnea da pele"
+    },
+    "hipertricose": {
+        "significado": "aumento da espessura do pêlo do corpo"
+    },
+    "hiperbárico": {
+        "significado": "aumento da pressão de O2 no sangue"
+    },
+    "hiperestesia": {
+        "significado": "aumento da sensibilidade nervosa"
+    },
+    "hipertermia": {
+        "significado": "aumento da temperatura, acaloramento"
+    },
+    "hipertensão": {
+        "significado": "aumento da tensão"
+    },
+    "hipertonia": {
+        "significado": "aumento da tensão no olho"
+    },
+    "eosinofilia": {
+        "significado": "aumento das células eosinófilas no sangue"
+    },
+    "hiperlipidemia": {
+        "significado": "aumento de lípidos no sangue"
+    },
+    "hipercapnia": {
+        "significado": "aumento de O2 no sangue"
+    },
+    "hiperuricemia": {
+        "significado": "aumento do ácido úrico / excesso de ácido úrico no sangue"
+    },
+    "hiperplasia": {
+        "significado": "aumento do desenvolvimento"
+    },
+    "hepatomegalia": {
+        "significado": "aumento do fígado"
+    },
+    "leucocitose": {
+        "significado": "aumento do número de glóbulos brancos em circulação"
+    },
+    "cardiomegália": {
+        "significado": "aumento do tamanho do coração"
+    },
+    "hipervolemia": {
+        "significado": "aumento dos fluidos no organismo"
+    },
+    "ginecomastia": {
+        "significado": "aumento dos peitos"
+    },
+    "trombocitose": {
+        "significado": "aumento exagerado do número de plaquetas no sangue"
+    },
+    "átrio": {
+        "significado": "aurículo"
+    },
+    "auscultação": {
+        "significado": "auscultar (os ruídos produzidos no interior de um organismo) com o estetoscópio"
+    },
+    "acinesia": {
+        "significado": "ausência de movimento, acinese"
+    },
+    "amenorreia": {
+        "significado": "ausência de períodos menstruais"
+    },
+    "atonia": {
+        "significado": "ausência o deficiência da tensão de um tecido ou órgão"
+    },
+    "replicação": {
+        "significado": "autoduplicação, réplica"
+    },
+    "automatismo": {
+        "significado": "automatismo"
+    },
+    "assistir": {
+        "significado": "auxiliar, presenciar, ajudar"
+    },
+    "avaliação": {
+        "significado": "avaliação"
+    },
+    "pirose": {
+        "significado": "azia, sensação de calor no estômago"
+    },
+    "hipotermia": {
+        "significado": "baixa de temperatura"
+    },
+    "jacto": {
+        "significado": "banho por duche"
+    },
+    "ascite": {
+        "significado": "barriga de água, hidropisia da cavidade abdominal, hidroperitoneu"
+    },
+    "abdómen": {
+        "significado": "barriga, ventre"
+    },
+    "substrato": {
+        "significado": "base, substância básica"
+    },
+    "experimental": {
+        "significado": "baseado em ensaios"
+    },
+    "empírico": {
+        "significado": "baseado na experiência"
+    },
+    "pulsação": {
+        "significado": "batimento cardíaco ou o fluxo do sangue nas artérias"
+    },
+    "recipiente": {
+        "significado": "beneficiário"
+    },
+    "varíola bovina": {
+        "significado": "bexigas da vaca"
+    },
+    "biológico": {
+        "significado": "biológico"
+    },
+    "bloqueio": {
+        "significado": "bloqueio"
+    },
+    "ampola": {
+        "significado": "bolha, pequeno tumor"
+    },
+    "âmnio": {
+        "significado": "bolsa membranosa que contém o líquido amniótico onde flutua o bebé"
+    },
+    "esclerótica": {
+        "significado": "branco do olho"
+    },
+    "bronquial": {
+        "significado": "brônquico, dos brônquios"
+    },
+    "brônquio": {
+        "significado": "brônquio"
+    },
+    "hidrocefalia": {
+        "significado": "cabeça de água"
+    },
+    "taquiarritmia": {
+        "significado": "cadência rápida do ritmo do coração; arritmia rápida"
+    },
+    "calciúria": {
+        "significado": "cálcio nas urinas"
+    },
+    "nefrólito": {
+        "significado": "cálculo renal, cálculo do rim"
+    },
+    "neuroléptico": {
+        "significado": "calmante do sistema nervoso"
+    },
+    "sedativo": {
+        "significado": "calmante, anódino, paregórico"
+    },
+    "neoplástico": {
+        "significado": "canceroso, neoplásico"
+    },
+    "mielomatose": {
+        "significado": "cancro da medula do osso, doença de Kahler"
+    },
+    "endotélio": {
+        "significado": "capa interna que reveste as cavidades cardíacas e os vasos sanguíneos e linfáticos"
+    },
+    "contractibilidade": {
+        "significado": "capacidade de contracção"
+    },
+    "tolerância": {
+        "significado": "capacidade de suportar doses elevadas de uma droga tóxica"
+    },
+    "variabilidade": {
+        "significado": "capacidade de variação"
+    },
+    "reactividade": {
+        "significado": "capacidade para apresentar reacções"
+    },
+    "específico": {
+        "significado": "característico de uma espécie ou de uma doença"
+    },
+    "nodoso": {
+        "significado": "caracterizado por pequenos nós sólidos"
+    },
+    "cardiológico": {
+        "significado": "cardiológico"
+    },
+    "alopecia": {
+        "significado": "careca, calvície, calva"
+    },
+    "deficiência": {
+        "significado": "carência"
+    },
+    "gânglio": {
+        "significado": "caroço"
+    },
+    "adenite": {
+        "significado": "caroço inflamado, inflamação das glândulas"
+    },
+    "gastrite": {
+        "significado": "catarro gástrico"
+    },
+    "enterite": {
+        "significado": "catarro intestinal, colite"
+    },
+    "alérgeno": {
+        "significado": "causa alergia"
+    },
+    "factor": {
+        "significado": "causa, agente, meio; número"
+    },
+    "causal": {
+        "significado": "causal"
+    },
+    "lúmen": {
+        "significado": "cavidade ou canal dentro de um órgão em forma de tubo"
+    },
+    "cefalalgia": {
+        "significado": "cefaleia, dor de cabeça"
+    },
+    "hemeralopia": {
+        "significado": "cegueira diurna"
+    },
+    "químio-receptor": {
+        "significado": "célula capaz de receber substâncias químicas"
+    },
+    "recombinante": {
+        "significado": "célula com nova combinação genética, não herdada dos pais"
+    },
+    "mastócito": {
+        "significado": "célula de Mast"
+    },
+    "cerúmen": {
+        "significado": "cera dos ouvidos"
+    },
+    "menopausa": {
+        "significado": "cessação da menstruação na mulher"
+    },
+    "úlcera": {
+        "significado": "chaga, ferida"
+    },
+    "odor": {
+        "significado": "cheiro"
+    },
+    "aromático": {
+        "significado": "cheiroso"
+    },
+    "quelóide": {
+        "significado": "cicatriz defeituosa"
+    },
+    "cicatrização": {
+        "significado": "cicatrização"
+    },
+    "periódico": {
+        "significado": "cíclico, regular"
+    },
+    "anovulatório": {
+        "significado": "ciclo sem óvulo"
+    },
+    "cicloderma": {
+        "significado": "cicloderma"
+    },
+    "farmacocinética": {
+        "significado": "ciência que se ocupa do efeito exercido pelo organismo sobre o medicamento"
+    },
+    "circulação": {
+        "significado": "circulação"
+    },
+    "indicação": {
+        "significado": "circunstância que indica a utilização de uma terapia"
+    },
+    "cirúrgico": {
+        "significado": "cirúrgico, relativo a uma operação"
+    },
+    "classificação": {
+        "significado": "classificação"
+    },
+    "enema": {
+        "significado": "clister, irrigação"
+    },
+    "trombose": {
+        "significado": "coagulação do sangue numa artéria ou veia, com bloqueio da circulação"
+    },
+    "trombo": {
+        "significado": "coágulo de sangue num vaso sanguíneo"
+    },
+    "co-enzima": {
+        "significado": "coenzima, co-factor"
+    },
+    "dispareunia": {
+        "significado": "coito doloroso"
+    },
+    "colo do útero": {
+        "significado": "colo do útero"
+    },
+    "cianose": {
+        "significado": "coloração azulada da pele e das mucosas"
+    },
+    "melanose": {
+        "significado": "coloração obscura superficial da pele ou das mucosas"
+    },
+    "buloso": {
+        "significado": "com bolhas ou ampolas"
+    },
+    "aniónico": {
+        "significado": "com carga negativa"
+    },
+    "bilateral": {
+        "significado": "com dois lados, relativo a dois lados"
+    },
+    "escamoso": {
+        "significado": "com escamas"
+    },
+    "tubular": {
+        "significado": "com forma de tubo; tubuloso"
+    },
+    "análogo": {
+        "significado": "com função semelhante mas diferente origem (diz-se de estruturas anatómicas)"
+    },
+    "hipotenso": {
+        "significado": "com tensão ou pressão baixa"
+    },
+    "normotenso": {
+        "significado": "com tensão ou pressão normal"
+    },
+    "antianginoso": {
+        "significado": "combate as anginas"
+    },
+    "antitoxina": {
+        "significado": "combate as toxinas bacterianas"
+    },
+    "combinação": {
+        "significado": "combinação"
+    },
+    "lipoproteína": {
+        "significado": "combinação de uma gordura e uma proteína"
+    },
+    "síntese": {
+        "significado": "combinação; formação de substâncias in vitro por meios artificiais"
+    },
+    "prurido": {
+        "significado": "comichão"
+    },
+    "choque": {
+        "significado": "comoção, abalo, golpe"
+    },
+    "compensação": {
+        "significado": "compensação"
+    },
+    "competitivo": {
+        "significado": "competitivo"
+    },
+    "adicional": {
+        "significado": "complementar"
+    },
+    "complemento": {
+        "significado": "complemento"
+    },
+    "síndroma": {
+        "significado": "complexo mórbido, conjunto de sintomas"
+    },
+    "sequela": {
+        "significado": "complicação mais ou menos tardia de uma doença, doença consecutiva"
+    },
+    "complicação": {
+        "significado": "complicação, agravamento"
+    },
+    "amina": {
+        "significado": "composto químico relacionado com o amoníaco"
+    },
+    "complexo": {
+        "significado": "composto, grupo"
+    },
+    "fístula": {
+        "significado": "comunicação anormal entre dois órgãos entre si ou com o exterior"
+    },
+    "osmolalidade": {
+        "significado": "concentração de partículas osmoticamente activas em solução"
+    },
+    "osmolaridade": {
+        "significado": "concentração de partículas osmoticamente activas em solução"
+    },
+    "concreto": {
+        "significado": "concreto"
+    },
+    "estado": {
+        "significado": "condição, situação; crise ou ponto culminante"
+    },
+    "canal": {
+        "significado": "conduto"
+    },
+    "electrólito": {
+        "significado": "condutor de segunda classe, ácido para acumuladores"
+    },
+    "confusão": {
+        "significado": "confusão"
+    },
+    "enfarte": {
+        "significado": "congestão e bloqueamento de um vaso sanguíneo; infarto, infartação"
+    },
+    "conjugação": {
+        "significado": "conjugação"
+    },
+    "flora intestinal": {
+        "significado": "conjunto de bactérias no intestino grosso"
+    },
+    "metabolismo": {
+        "significado": "conjunto de reacções bioquímicas dentro do organismo"
+    },
+    "tirotoxicose": {
+        "significado": "conjunto de sintomas devido a um excesso de hormonas tiróides"
+    },
+    "herpes simplex": {
+        "significado": "conjunto de vesículas inflamadas à volta da boca"
+    },
+    "conselho": {
+        "significado": "conselho, aviso"
+    },
+    "conserva": {
+        "significado": "conserva"
+    },
+    "integridade": {
+        "significado": "conservação inalterada"
+    },
+    "retenção": {
+        "significado": "conservação, dentro do corpo, de materiais ou líquidos que se excretam normalmente"
+    },
+    "maculopapular": {
+        "significado": "consistente em manchas e pápulas, borbulhas"
+    },
+    "tricíclico": {
+        "significado": "constituído por três anéis entrelaçados"
+    },
+    "deplecção": {
+        "significado": "consumo anormal de substâncias pelo próprio corpo"
+    },
+    "infecção": {
+        "significado": "contágio mútuo entre duas pessoas por doenças infecciosas diferentes / infecção"
+    },
+    "séptico": {
+        "significado": "contaminado por germes, podre"
+    },
+    "simultâneo": {
+        "significado": "contemporâneo"
+    },
+    "progressivo": {
+        "significado": "continuado, que avança lentamente"
+    },
+    "anti-helmíntico": {
+        "significado": "contra as lombrigas, contra as bichas"
+    },
+    "antiemético": {
+        "significado": "contra os vómitos"
+    },
+    "contra-indicação": {
+        "significado": "contra-indicação"
+    },
+    "contracção": {
+        "significado": "contracção"
+    },
+    "fasciculação": {
+        "significado": "contracção de grupos de músculos"
+    },
+    "broncoconstricção": {
+        "significado": "contracção dos brônquios"
+    },
+    "retracção": {
+        "significado": "contracção, retraimento, encolhimento de um órgão ou tecido / retirada, supressão"
+    },
+    "fibrilação": {
+        "significado": "contracções desordenadas e ineficientes do coração"
+    },
+    "convulsão": {
+        "significado": "contracções involuntárias desordenadas de músculos"
+    },
+    "contracepção": {
+        "significado": "contraconcepção, anticoncepção"
+    },
+    "espasticidade": {
+        "significado": "contractura muscular"
+    },
+    "paradoxal": {
+        "significado": "contraditório, inabitual"
+    },
+    "antídoto": {
+        "significado": "contraveneno"
+    },
+    "vigilância": {
+        "significado": "controlo ou supervisão com ajuda de um monitor / estado de alerta ou observação"
+    },
+    "convencional": {
+        "significado": "convencional"
+    },
+    "eclampsia": {
+        "significado": "convulsões e queda da tensão nas mulheres grávidas"
+    },
+    "coordenação": {
+        "significado": "coordenação"
+    },
+    "coito": {
+        "significado": "cópula, acto sexual"
+    },
+    "livedo": {
+        "significado": "cor avermelhada da pele"
+    },
+    "acrocianose": {
+        "significado": "cor azulada das extremidades (mãos-pés)"
+    },
+    "imobilização": {
+        "significado": "corpo em repouso, ou alguma das suas partes"
+    },
+    "corpo lúteo": {
+        "significado": "corpo que se forma no ovário após a ovulação"
+    },
+    "físico": {
+        "significado": "corporal, que se percebe pelos sentidos"
+    },
+    "partícula": {
+        "significado": "corpúsculo, parte elementar"
+    },
+    "lóquios": {
+        "significado": "corrimento após o parto"
+    },
+    "leucorreia": {
+        "significado": "corrimento mucoso de cor branca oriundo da vagina; flores-brancas"
+    },
+    "rinorreia": {
+        "significado": "corrimento nasal"
+    },
+    "cáustico": {
+        "significado": "corrosivo"
+    },
+    "incisão": {
+        "significado": "corte"
+    },
+    "osteotomia": {
+        "significado": "corte cirúrgico do osso"
+    },
+    "episiotomia": {
+        "significado": "corte vaginal para facilitar o parto"
+    },
+    "ressecção": {
+        "significado": "corte, extirpação cirúrgica parcial ou total de um órgão"
+    },
+    "rágade": {
+        "significado": "corte, fissura"
+    },
+    "córtice": {
+        "significado": "córtex, cortiça; camada exterior distinta de um órgão"
+    },
+    "corticosteróide": {
+        "significado": "corticóide; hormonas essenciais à vida formada no córtex das glândulas supra-renais"
+    },
+    "claudicação": {
+        "significado": "coxeadura"
+    },
+    "estabilização": {
+        "significado": "criação de um estado estável"
+    },
+    "epilepsia": {
+        "significado": "crises convulsivas"
+    },
+    "vítreo": {
+        "significado": "cristalino"
+    },
+    "esputo": {
+        "significado": "cuspo, cuspe, saliva, escarro"
+    },
+    "homogéneo": {
+        "significado": "da mesma categoria, da mesma espécie, de estrutura igual; que tem as mesmas funções"
+    },
+    "coloidal": {
+        "significado": "da natureza da cola de gelatina"
+    },
+    "cutâneo": {
+        "significado": "da pele"
+    },
+    "lacrimal": {
+        "significado": "das lágrimas"
+    },
+    "idiopático": {
+        "significado": "de causa desconhecida, primário, espontâneo"
+    },
+    "crónico": {
+        "significado": "de desenvolvimento lento, de longa duração"
+    },
+    "equivalente": {
+        "significado": "de igual valor"
+    },
+    "nocturno": {
+        "significado": "de noite, da noite"
+    },
+    "benigno": {
+        "significado": "de pouca gravidade"
+    },
+    "repetitivo": {
+        "significado": "de repetição"
+    },
+    "exócrino": {
+        "significado": "de secreção externa"
+    },
+    "monocomponente": {
+        "significado": "de um só componente"
+    },
+    "unilateral": {
+        "significado": "de um só lado"
+    },
+    "veia varicosa": {
+        "significado": "de varicose, isto é, inflamação provocada por varizes; varicosidade"
+    },
+    "ocasional": {
+        "significado": "de vez em quando"
+    },
+    "decoro": {
+        "significado": "decência; pundonor; coisa preventiva"
+    },
+    "análise": {
+        "significado": "decomposição"
+    },
+    "ictiose": {
+        "significado": "defeito hereditário da pele; pele de peixe"
+    },
+    "fibrose cística": {
+        "significado": "defeito hereditário de muitas glândulas"
+    },
+    "leucopenia": {
+        "significado": "deficiência de glóbulos brancos no sangue"
+    },
+    "défice": {
+        "significado": "deficiência, falta"
+    },
+    "malformação": {
+        "significado": "deformação"
+    },
+    "osteodistrofia": {
+        "significado": "deformação, distrofia, dos ossos"
+    },
+    "calcificação": {
+        "significado": "degenerescência calcária, infiltração calcária"
+    },
+    "ingestão": {
+        "significado": "deglutição de alimentos ou outras substâncias para o interior do tubo digestivo"
+    },
+    "degradação": {
+        "significado": "degradação"
+    },
+    "catabolismo": {
+        "significado": "degradação das substâncias alimentares no organismo"
+    },
+    "involução": {
+        "significado": "degradação e perda funcional dos órgãos com a idade; regressão das dimensões do útero e das estruturas envolventes após o parto"
+    },
+    "supino": {
+        "significado": "deitado de costas"
+    },
+    "decúbito": {
+        "significado": "deitado de costas; formação de necroses na pele ou nas mucosas por permanência prolongada na cama"
+    },
+    "mania": {
+        "significado": "delírio maníaco, delírio furioso"
+    },
+    "paranóia": {
+        "significado": "delírio, loucura raciocinante, monomania"
+    },
+    "excessivo": {
+        "significado": "demasiado"
+    },
+    "intraindividual": {
+        "significado": "dentro do indivíduo"
+    },
+    "dependência": {
+        "significado": "dependência de drogas"
+    },
+    "dependente": {
+        "significado": "dependente"
+    },
+    "pós-operativo": {
+        "significado": "depois de uma operação"
+    },
+    "pós-natal": {
+        "significado": "depois do nascimento"
+    },
+    "cálculo": {
+        "significado": "depósito calcário (nos dentes) / pedra"
+    },
+    "ateromatose": {
+        "significado": "depósito de gorduras nas artérias"
+    },
+    "sedimentação": {
+        "significado": "depósito de partículas sólidas de uma solução no fundo de um recipiente"
+    },
+    "tofo": {
+        "significado": "depósito nos tecidos, principalmente de ácido úrico e seus sais, característico da gota"
+    },
+    "sedimento": {
+        "significado": "depósito, assento, lia, pé, borra(s)"
+    },
+    "reservatório": {
+        "significado": "depósito, cavidade que serve de armazém"
+    },
+    "derivado": {
+        "significado": "derivado"
+    },
+    "microssómico": {
+        "significado": "derivado dos microssomas"
+    },
+    "eczema": {
+        "significado": "dermatite; inflamação da pele"
+    },
+    "efusão": {
+        "significado": "derrame"
+    },
+    "extravasação": {
+        "significado": "derrame do fluido de um vaso para os tecidos circundantes devido a uma lesão"
+    },
+    "equimose": {
+        "significado": "derrame sanguíneo na pele traumatizada; contusão"
+    },
+    "agitação": {
+        "significado": "desassossego, inquietação, excitação"
+    },
+    "pitiríase": {
+        "significado": "descamação da pele"
+    },
+    "esfoliação": {
+        "significado": "descamação, escamação / (d)escamação"
+    },
+    "detecção": {
+        "significado": "descoberta, revelação"
+    },
+    "disforia": {
+        "significado": "desconforto psíquico, mal-estar, indisposição"
+    },
+    "dissociação": {
+        "significado": "desdobramento; descomposição de uma célula"
+    },
+    "tenesmo": {
+        "significado": "desejo doloroso e ineficaz de urinar ou defecar"
+    },
+    "líbido": {
+        "significado": "desejo sexual"
+    },
+    "de(s)compensação": {
+        "significado": "desengano (do doente da gravidade do seu mal)"
+    },
+    "evolução": {
+        "significado": "desenvolvimento"
+    },
+    "atraso": {
+        "significado": "desenvolvimento atrasado"
+    },
+    "aplasia": {
+        "significado": "desenvolvimento defeituoso"
+    },
+    "hirsutismo": {
+        "significado": "desenvolvimento exagerado do sistema piloso"
+    },
+    "displasia": {
+        "significado": "desenvolvimento histológico anormal"
+    },
+    "prejudicial": {
+        "significado": "desfavorável, adverso"
+    },
+    "esfoladela": {
+        "significado": "desgaste, raspagem, erosão de origem químico-física"
+    },
+    "erosão": {
+        "significado": "desgaste; destruição ou ulceração de um tecido"
+    },
+    "anisocoria": {
+        "significado": "desigualdade do diâmetro das pupilas"
+    },
+    "anti-séptico": {
+        "significado": "desinfectante, que mata os micróbios ou fungos"
+    },
+    "deslocação": {
+        "significado": "deslocação (de um osso, por exemplo)"
+    },
+    "luxação": {
+        "significado": "deslocação dos ossos de uma articulação"
+    },
+    "protrusão": {
+        "significado": "deslocação para a frente de um órgão"
+    },
+    "desorientação": {
+        "significado": "desorientação"
+    },
+    "de(s)polarização": {
+        "significado": "despolarização"
+    },
+    "ovulação": {
+        "significado": "desprendimento natural do óvulo"
+    },
+    "destilar": {
+        "significado": "destilar, separar (por destilação)"
+    },
+    "artrose": {
+        "significado": "destruição das articulações"
+    },
+    "fungicida": {
+        "significado": "destruição de fungos"
+    },
+    "osteólise": {
+        "significado": "destruição dos ossos"
+    },
+    "estrabismo": {
+        "significado": "desvio de um olho da sua direcção normal"
+    },
+    "perversão": {
+        "significado": "desvio sexual"
+    },
+    "detergente": {
+        "significado": "detergente"
+    },
+    "cárie": {
+        "significado": "deterioração dentária"
+    },
+    "biopsia": {
+        "significado": "diagnóstico através da remoção de uma porção do tecido vivo para exame"
+    },
+    "curva": {
+        "significado": "diagrama"
+    },
+    "diâmetro": {
+        "significado": "diâmetro"
+    },
+    "hemofilia": {
+        "significado": "dificuldade de coagulação do sangue"
+    },
+    "obstipação": {
+        "significado": "dificuldade de expelir os excrementos, prisão de ventre"
+    },
+    "dispneia": {
+        "significado": "dificuldade de respirar"
+    },
+    "disúria": {
+        "significado": "dificuldade em urinar"
+    },
+    "disfagia": {
+        "significado": "dificuldade na deglutição"
+    },
+    "discinesia": {
+        "significado": "dificuldade nos movimentos voluntários"
+    },
+    "diálise": {
+        "significado": "difusão selectiva mediante uma membrana que serve como filtro molecular"
+    },
+    "broncodilatação": {
+        "significado": "dilação dos brônquios"
+    },
+    "dilatação pupilar": {
+        "significado": "dilatação das pupilas"
+    },
+    "telangiectasia": {
+        "significado": "dilatação de vasos terminais, sobretudo na cara"
+    },
+    "vasodilatação": {
+        "significado": "dilatação dos vasos sanguíneos"
+    },
+    "bronquectasia": {
+        "significado": "dilatação patológica dos brônquios"
+    },
+    "surdez": {
+        "significado": "diminuição da audição / surdez"
+    },
+    "oliguria": {
+        "significado": "diminuição da produção de urina"
+    },
+    "desintoxicação": {
+        "significado": "diminuição das propriedades nocivas de um veneno"
+    },
+    "hipoxemie": {
+        "significado": "diminuição de O2 no sangue"
+    },
+    "hipoxia": {
+        "significado": "diminuição de O2 no sangue"
+    },
+    "hipocalemia": {
+        "significado": "diminuição de potássio no sangue"
+    },
+    "isquemia": {
+        "significado": "diminuição de suprimento arterial a um órgão ou região a níveis condicionantes de lesão tecidular ainda reversível"
+    },
+    "pacitopenia": {
+        "significado": "diminuição de todos os glóbulos brancos"
+    },
+    "oligomenorreia": {
+        "significado": "diminuição do fluxo menstrual"
+    },
+    "hipoglicemia": {
+        "significado": "diminuição do nível de glicose no sangue"
+    },
+    "trombocitopenia": {
+        "significado": "diminuição do número de plaquetas no sangue"
+    },
+    "hipovolemia": {
+        "significado": "diminuição do sangue circulante"
+    },
+    "hiperventilação": {
+        "significado": "diminuição do volume de ar que entra nos pulmões; respiração lenta e superficial / respiração difícil, rápida e profunda; aumento do volume de ar que entra nos pulmões"
+    },
+    "granulopenia": {
+        "significado": "diminuição dos glóbulos brancos"
+    },
+    "remissão": {
+        "significado": "diminuição temporal dos sintomas de uma doença"
+    },
+    "directo": {
+        "significado": "directo"
+    },
+    "anterógrado": {
+        "significado": "dirigido para a frente"
+    },
+    "disgenesia": {
+        "significado": "disgenese: desenvolvimento embrionário defeituoso"
+    },
+    "difuso": {
+        "significado": "disperso"
+    },
+    "disposição": {
+        "significado": "disposição"
+    },
+    "alastrar": {
+        "significado": "dispsersão da infecção; alastramento"
+    },
+    "solvente": {
+        "significado": "dissolvente / (líquido) dissolvente"
+    },
+    "emulsionar": {
+        "significado": "dissolver uma substância noutra"
+    },
+    "proptose": {
+        "significado": "distensão excessiva de qualquer parte do corpo; deslocamento de um órgão para a frente; proptoma"
+    },
+    "distribuição": {
+        "significado": "distribuição"
+    },
+    "mitose": {
+        "significado": "divisão cinética, cariocinese, divisão celular indirecta"
+    },
+    "cronotrópico": {
+        "significado": "diz respeito à regularidade e frequência de um ritmo cardíaco"
+    },
+    "oportunista": {
+        "significado": "diz-se do microrganismo que produz doenças unicamente em determinadas circunstâncias"
+    },
+    "documento": {
+        "significado": "documento"
+    },
+    "pênfigo": {
+        "significado": "doença bulhosa da pele"
+    },
+    "micose": {
+        "significado": "doença causada por fungos"
+    },
+    "dermatose": {
+        "significado": "doença da pele"
+    },
+    "psoríase": {
+        "significado": "doença da pele caracterizada por descamação"
+    },
+    "dermatomicose": {
+        "significado": "doença da pele causada pelos fungos"
+    },
+    "dermatofitia": {
+        "significado": "doença da pele causada pelos fungos do grupo dos dermatófitos"
+    },
+    "neurodermatite": {
+        "significado": "doença da pele derivada de causas emocionais"
+    },
+    "eritrasma": {
+        "significado": "doença da pele que aparece sobretudo na face interna das coxas, virilhas e axilas"
+    },
+    "artropatia": {
+        "significado": "doença das articulações"
+    },
+    "raquitismo": {
+        "significado": "doença de Glisson, nodosidade das articulações"
+    },
+    "púrpura": {
+        "significado": "doença de Werlhof, caracterizada por manchas de cor vermelha devidas à ocorrência de hemorragias subcutâneas"
+    },
+    "colopatia": {
+        "significado": "doença do cólon"
+    },
+    "cor pulmonar": {
+        "significado": "doença do coração causada por perturbações pulmonares"
+    },
+    "cardiopatia": {
+        "significado": "doença do coração, enfermidade do coração"
+    },
+    "otosclerose": {
+        "significado": "doença do labirinto ósseo do ouvido"
+    },
+    "hemopatia": {
+        "significado": "doença do sangue"
+    },
+    "pneumopatia": {
+        "significado": "doença dos pulmões"
+    },
+    "toxoplasmose": {
+        "significado": "doença infecciosa causada por Toxoplasma gondi"
+    },
+    "tracoma": {
+        "significado": "doença infecciosa da conjuntiva e da córnea do olho"
+    },
+    "disenteria": {
+        "significado": "doença intestinal que causa a diarreia"
+    },
+    "iatorgénico": {
+        "significado": "doença provocada pelos médicos ou pelo tratamento"
+    },
+    "encefalopatia": {
+        "significado": "doença que afecta o funcionamento do cérebro"
+    },
+    "leucemia": {
+        "significado": "doença que afecta os órgãos formadores do sangue, caracterizada pelo aumento dos glóbulos brancos em circulação"
+    },
+    "nefropatia": {
+        "significado": "doença renal"
+    },
+    "glumerolonefrite": {
+        "significado": "doença renal com inflamação dos glomérulos"
+    },
+    "varicela": {
+        "significado": "doença viral; bexigas loucas"
+    },
+    "paciente": {
+        "significado": "doente"
+    },
+    "cefaleia": {
+        "significado": "dor de cabeça, enxaqueca"
+    },
+    "gastralgia": {
+        "significado": "dor do estômago, gastrodinia, cardialgia"
+    },
+    "coxalgia": {
+        "significado": "dor na articulação da coxa"
+    },
+    "epigastralgia": {
+        "significado": "dor na boca do estômago"
+    },
+    "glossodinia": {
+        "significado": "dor na língua"
+    },
+    "lumbago": {
+        "significado": "dor na parte inferior da coluna vertebral"
+    },
+    "artralgia": {
+        "significado": "dor nas articulações"
+    },
+    "mastodinia": {
+        "significado": "dor nos peitos"
+    },
+    "overdosagem": {
+        "significado": "dosagem excessiva"
+    },
+    "dose": {
+        "significado": "dose"
+    },
+    "overdose": {
+        "significado": "dose excessiva"
+    },
+    "dose de ataque": {
+        "significado": "dose inicial"
+    },
+    "dose única": {
+        "significado": "dose única"
+    },
+    "dose-padrão": {
+        "significado": "dose-padrão"
+    },
+    "dosagem": {
+        "significado": "dose, doseamento, dosificação"
+    },
+    "analéptico": {
+        "significado": "droga estimulante do sistema nervoso"
+    },
+    "midriático": {
+        "significado": "droga que dilata a pupila"
+    },
+    "ecografia": {
+        "significado": "ecografia"
+    },
+    "efeito de ressonância": {
+        "significado": "efeito de ressonância"
+    },
+    "taquifilaxia": {
+        "significado": "efeito decrescente de um medicamento"
+    },
+    "toxicidade": {
+        "significado": "efeito nocivo de uma substância química"
+    },
+    "tremulação": {
+        "significado": "efeito ondulatório, flutuação"
+    },
+    "efeito": {
+        "significado": "efeito secundário indesejado de uma medida terapêutica ou medicamento / resultado"
+    },
+    "efectivo": {
+        "significado": "eficaz, eficiente"
+    },
+    "eficaz": {
+        "significado": "eficiente"
+    },
+    "ejaculação": {
+        "significado": "ejaculação"
+    },
+    "biossíntese": {
+        "significado": "elaboração de um produto por um organismo vivo"
+    },
+    "elástico": {
+        "significado": "elástico"
+    },
+    "polipeptídeo": {
+        "significado": "elemento de uma proteína; composto de dois ou mais aminoácidos unidos por ligações peptídicas"
+    },
+    "depuração": {
+        "significado": "eliminação de certas substâncias do sangue"
+    },
+    "poliúria": {
+        "significado": "eliminação de grandes quantidades de urina por dia"
+    },
+    "galactorreia": {
+        "significado": "eliminação espontânea do leite"
+    },
+    "excreção": {
+        "significado": "eliminação prlo próprio organismo; eliminação de um medicamento sem substituição"
+    },
+    "eliminação": {
+        "significado": "eliminação; remoção"
+    },
+    "comatoso": {
+        "significado": "em coma, que se acompanha de coma"
+    },
+    "discóide": {
+        "significado": "em forma de disco"
+    },
+    "papilar": {
+        "significado": "em forma de papila ou verruga"
+    },
+    "sigmóide": {
+        "significado": "em forma de sigma, da letra S"
+    },
+    "vesicular": {
+        "significado": "em forma de vesícula, vesiculado"
+    },
+    "in vitro": {
+        "significado": "em laboratório"
+    },
+    "quiescente": {
+        "significado": "em repouso"
+    },
+    "inactivo": {
+        "significado": "em repouso, anérgico"
+    },
+    "perianal": {
+        "significado": "em volta do ânus"
+    },
+    "embolismo": {
+        "significado": "embolia"
+    },
+    "letargia": {
+        "significado": "embriaguez, sonolência"
+    },
+    "diarreia": {
+        "significado": "emissão frequente de fezes líquidas"
+    },
+    "emocional": {
+        "significado": "emocional"
+    },
+    "maceração": {
+        "significado": "empolamento por contacto com líquidos, extracção de drogas por humedecimento, extracção a frio"
+    },
+    "emulsão": {
+        "significado": "emulsão"
+    },
+    "induração": {
+        "significado": "endurecimento anormal de um tecido"
+    },
+    "liquenificação": {
+        "significado": "endurecimento da pele"
+    },
+    "esclerose": {
+        "significado": "endurecimento ou dureza"
+    },
+    "ambliopia": {
+        "significado": "enfraquecimento da vista"
+    },
+    "aerofagia": {
+        "significado": "engolir ar"
+    },
+    "prova": {
+        "significado": "ensaio, experiência, análise"
+    },
+    "inteligência": {
+        "significado": "entendimento, intelecto, mente"
+    },
+    "glote": {
+        "significado": "entrada da faringe para a via aérea principal"
+    },
+    "intercostal": {
+        "significado": "entre as costelas"
+    },
+    "intervertebral": {
+        "significado": "entre as vértebras"
+    },
+    "intersticial": {
+        "significado": "entre duas partes, isto é, no tecido conjuntivo"
+    },
+    "interindividual": {
+        "significado": "entre indivíduos"
+    },
+    "obstrução": {
+        "significado": "entupimento"
+    },
+    "intoxicação": {
+        "significado": "envenenamento"
+    },
+    "renina": {
+        "significado": "enzima (hormona) produzida pelos rins"
+    },
+    "enzima": {
+        "significado": "enzima"
+    },
+    "penicilinase": {
+        "significado": "enzima encontrada nos organismos penicilino-resistentes"
+    },
+    "protéase": {
+        "significado": "enzima proteolítica, enzina que destrói as proteínas"
+    },
+    "transaminase": {
+        "significado": "enzimas hepáticas (do fígado)"
+    },
+    "epidemia": {
+        "significado": "epidemia"
+    },
+    "grande mal": {
+        "significado": "epilepsia generalizada"
+    },
+    "episódio": {
+        "significado": "episódio"
+    },
+    "discrasia": {
+        "significado": "equilíbrio defeituoso dos quatro humores; composição alterada do líquido corporal"
+    },
+    "priapismo": {
+        "significado": "erecção anormal e persistente"
+    },
+    "urticária": {
+        "significado": "erupção cutânea caracterizada pelo aparecimento de manchas vermelhas e prurido intenso"
+    },
+    "enantema": {
+        "significado": "erupção nas mucosas"
+    },
+    "exantema": {
+        "significado": "erupção vermelha da pele"
+    },
+    "hemoptise": {
+        "significado": "escarros de sangue, hemorragia pulmonar"
+    },
+    "numular": {
+        "significado": "escarros em forma de moeda nas tuberculoses pulmonares"
+    },
+    "despigmentação": {
+        "significado": "escassez ou carência total de pigmentação da pele"
+    },
+    "arteriosclerose": {
+        "significado": "esclerose das artérias"
+    },
+    "drenagem": {
+        "significado": "escoamento, despejo"
+    },
+    "oculto": {
+        "significado": "escondido, secrecto"
+    },
+    "estruma(s)": {
+        "significado": "escrófula(s), bócio, engrossamento dos tiróides"
+    },
+    "pertosse": {
+        "significado": "esgana, coqueluche, tosse convuls(iv)a"
+    },
+    "espasmo": {
+        "significado": "espasmo"
+    },
+    "bronco-espasmo": {
+        "significado": "espasmo dos brônquios, asma"
+    },
+    "trismo": {
+        "significado": "espasmo dos músculos mandibulares; tétano"
+    },
+    "contratura": {
+        "significado": "espasmo, contracção persistente e involuntária de um ou mais"
+    },
+    "espástico": {
+        "significado": "espasmódico, convulsivo"
+    },
+    "espasmódico": {
+        "significado": "espástico, convulsivo"
+    },
+    "espécie": {
+        "significado": "espécie; preparação terapêutica, mistura de ervas"
+    },
+    "amnésia": {
+        "significado": "esquecimento, perda de memória"
+    },
+    "estabilidade": {
+        "significado": "estabilidade"
+    },
+    "preeclampsia": {
+        "significado": "estado antenatal que precede as convulsões eclâmpticas"
+    },
+    "tetania": {
+        "significado": "estado caracterizado por cãibras e convulsões musculares"
+    },
+    "homeostase": {
+        "significado": "estado de equilíbrio orgânico"
+    },
+    "imaturidade": {
+        "significado": "estado de quem não alcançou o seu pleno desenvolvimento"
+    },
+    "pirexia": {
+        "significado": "estado febril"
+    },
+    "condição": {
+        "significado": "estado geral, capacidade física de um indivíduo"
+    },
+    "hemostasia": {
+        "significado": "estancamento do sangue"
+    },
+    "estase": {
+        "significado": "estancamento do sangue ou de qualquer outro líquido orgânico"
+    },
+    "normalização": {
+        "significado": "estandardização, padronização, unificação"
+    },
+    "hermético": {
+        "significado": "estanque (ao ar), impermeável (ao ar)"
+    },
+    "estatístico": {
+        "significado": "estatístico"
+    },
+    "assepsia": {
+        "significado": "esterilização, ausência de micróbios"
+    },
+    "asséptico": {
+        "significado": "esterilizado, sem germes"
+    },
+    "hiperestimulação": {
+        "significado": "estimulação excessiva"
+    },
+    "activar": {
+        "significado": "estimular ou acelerar, reactivar"
+    },
+    "irritação": {
+        "significado": "estímulo, estimulação, excitação"
+    },
+    "distensão": {
+        "significado": "estiramento excessivo de um músculo"
+    },
+    "estenose": {
+        "significado": "estreitamento de um conduto, aperto, constrição"
+    },
+    "vasoconstrição": {
+        "significado": "estreitamento dos vasos sanguíneos; angiostenose"
+    },
+    "estrutural": {
+        "significado": "estrutural"
+    },
+    "etiologia": {
+        "significado": "estudo da origem de uma doença"
+    },
+    "antibiograma": {
+        "significado": "estudo da sensibilidade de um micróbio a vários antibióticos"
+    },
+    "otorrinolaringologia": {
+        "significado": "estudo das doenças do ouvido, nariz e garganta"
+    },
+    "observação": {
+        "significado": "estudo de um fenómeno"
+    },
+    "farmacodinâmica": {
+        "significado": "estudo do efeito de um medicamento sobre o organismo"
+    },
+    "paracentese": {
+        "significado": "esvaziamento por punção"
+    },
+    "evacuação": {
+        "significado": "evacuação"
+    },
+    "defecação": {
+        "significado": "evacuação dos excrementos"
+    },
+    "passagem": {
+        "significado": "evacuação intestinal"
+    },
+    "erupção": {
+        "significado": "evacuação súbita de sangue, pus, etc."
+    },
+    "antioxidante": {
+        "significado": "evita a deterioração de um produto por oxidação"
+    },
+    "gonioscopia": {
+        "significado": "exame do ângulo da câmara interna do olho"
+    },
+    "cistoscopia": {
+        "significado": "exame do interior da bexiga com o cistoscópio"
+    },
+    "electrocardiografia": {
+        "significado": "exame e inscrição em registo dos movimentos cardíacos"
+    },
+    "endoscopia": {
+        "significado": "exame interno por via directa com o endoscópio"
+    },
+    "ceto-acidose": {
+        "significado": "excesso de ácidos e corpos cetónicos no sangue"
+    },
+    "hipercenesia": {
+        "significado": "excesso de actividade motriz"
+    },
+    "menorragia": {
+        "significado": "excesso de fluxo de sangue na menstruação"
+    },
+    "hiperglicemia": {
+        "significado": "excesso de glicose no sangue"
+    },
+    "esteatorreia": {
+        "significado": "excesso de gordura nas fezes; estearreia, seborreia"
+    },
+    "papiloedema": {
+        "significado": "excesso de líquido nos tecidos (edema) do disco óptico, da papila"
+    },
+    "edema": {
+        "significado": "excesso de líquido nos tecidos sob a pele; inchaço"
+    },
+    "obesidade": {
+        "significado": "excesso de peso corporal por acumulação de gordura"
+    },
+    "hipercalemia": {
+        "significado": "excesso de potássio no sangue"
+    },
+    "hiperemia": {
+        "significado": "excesso de sangue nos vasos de órgão"
+    },
+    "congestão": {
+        "significado": "excesso de sangue numa parte do organismo"
+    },
+    "hipervitaminose": {
+        "significado": "excesso de vitaminas no organismo"
+    },
+    "estimulante": {
+        "significado": "excitante"
+    },
+    "natriurese": {
+        "significado": "excreção de quantidades anormais de sódio na urina"
+    },
+    "seborreia": {
+        "significado": "excreção excessiva de substâncias gordas"
+    },
+    "condiloma": {
+        "significado": "excrescência similar à verruga"
+    },
+    "potencial": {
+        "significado": "existente mas não activo"
+    },
+    "dilatação": {
+        "significado": "expansão de um órgão; alargamento"
+    },
+    "ensaio": {
+        "significado": "experiência, análise"
+    },
+    "expiração": {
+        "significado": "expiração"
+    },
+    "mímica": {
+        "significado": "expressão de ideias ou pensamentos por meio de gestos"
+    },
+    "hiperidrose": {
+        "significado": "exsudação excessiva"
+    },
+    "manifestação": {
+        "significado": "exteriorização de uma doença"
+    },
+    "externo": {
+        "significado": "externo, estranho"
+    },
+    "microscópico": {
+        "significado": "extremamente pequeno"
+    },
+    "produção": {
+        "significado": "fabricação, geração"
+    },
+    "factor de risco": {
+        "significado": "factor de risco"
+    },
+    "motilidade": {
+        "significado": "faculdade de se mover espontaneamente"
+    },
+    "arritmia": {
+        "significado": "falata de ritmo regular, pulsação irregular"
+    },
+    "pseudo-tumor": {
+        "significado": "falso tumor"
+    },
+    "anergia": {
+        "significado": "falta de acção, inactividade"
+    },
+    "desidratação": {
+        "significado": "falta de água no corpo"
+    },
+    "anosmia": {
+        "significado": "falta de cheiro"
+    },
+    "instabilidade": {
+        "significado": "falta de equilíbrio"
+    },
+    "miastenia": {
+        "significado": "falta de força, fraqueza muscular"
+    },
+    "anoxia": {
+        "significado": "falta de oxigénio no organismo por respiração deficiente"
+    },
+    "anemia": {
+        "significado": "falta de sangue"
+    },
+    "insónia": {
+        "significado": "falta de sono, insonolência"
+    },
+    "privação": {
+        "significado": "falta ou carência"
+    },
+    "agalactia": {
+        "significado": "falta ou diminuição da secreção do leite"
+    },
+    "psicoléptico": {
+        "significado": "fármaco com efeito sedente"
+    },
+    "antiácido": {
+        "significado": "fármaco com o excesso de acidez do estômago"
+    },
+    "bio-equivalente": {
+        "significado": "fármaco com potência e efeito similares a outra"
+    },
+    "antibiótico": {
+        "significado": "fármaco para tratar infecções"
+    },
+    "anticoagulante": {
+        "significado": "fármaco que impede a coagulação do sangue"
+    },
+    "reconvalescença": {
+        "significado": "fase de recuperação"
+    },
+    "hiperpirexia": {
+        "significado": "febre elevada"
+    },
+    "concepção": {
+        "significado": "fecundação"
+    },
+    "impregnação": {
+        "significado": "fecundação do óvulo;"
+    },
+    "ligamento": {
+        "significado": "feixe fibroso entre dos ossos numa articulação"
+    },
+    "fissura": {
+        "significado": "fenda"
+    },
+    "laceração": {
+        "significado": "ferida irregular"
+    },
+    "contusão": {
+        "significado": "ferida; lesão interna por golpe, compressão ou choque"
+    },
+    "fertilidade": {
+        "significado": "fertilidade"
+    },
+    "embrião": {
+        "significado": "feto"
+    },
+    "melena": {
+        "significado": "fezes negras pela presença de sangue"
+    },
+    "validez": {
+        "significado": "fiabilidade de um processo de prova"
+    },
+    "fibrina": {
+        "significado": "fibrina"
+    },
+    "hemodiálise": {
+        "significado": "filtragem da circulação do sangue"
+    },
+    "filtração": {
+        "significado": "filtragem, filtramento"
+    },
+    "terminal": {
+        "significado": "final, último"
+    },
+    "fixação": {
+        "significado": "fixação; detenção do desenvolvimento da personalidade numa determinada etapa; apego a outra pessoa"
+    },
+    "angiite": {
+        "significado": "flebite, inflamação de uma veia"
+    },
+    "flexão": {
+        "significado": "flexão"
+    },
+    "humor": {
+        "significado": "fluido corporal"
+    },
+    "corrimento": {
+        "significado": "flúor branco"
+    },
+    "variação": {
+        "significado": "flutuação, oscilação; alteração, mudança, modificação das propriedades"
+    },
+    "refluxo": {
+        "significado": "fluxo de retorno"
+    },
+    "microcirculação": {
+        "significado": "fluxo de sangue em todo o sistema de vasos minúsculos"
+    },
+    "extracelular": {
+        "significado": "fora das células"
+    },
+    "periférico": {
+        "significado": "fora do centro, fora do sistema nervoso central"
+    },
+    "extracorporal": {
+        "significado": "fora do corpo"
+    },
+    "microvilosidade": {
+        "significado": "forma de velosidade à superfície de uma célula"
+    },
+    "coagulação": {
+        "significado": "formação de coágulos no sangue"
+    },
+    "cristalização": {
+        "significado": "formação de cristais"
+    },
+    "cristalúria": {
+        "significado": "formação de cristais na urina"
+    },
+    "eritropoiese": {
+        "significado": "formação de glóbulos vermelhos"
+    },
+    "lactação": {
+        "significado": "formação de leite"
+    },
+    "supuração": {
+        "significado": "formação de pus"
+    },
+    "ossificação": {
+        "significado": "formação do osso ou de substância óssea"
+    },
+    "diurese": {
+        "significado": "formação e excreção de urina"
+    },
+    "(d)escamação": {
+        "significado": "formação excessiva de escamas na pele"
+    },
+    "anemia aplástica": {
+        "significado": "formação insuficiente das células do sangue"
+    },
+    "micrografia": {
+        "significado": "fotografia como através do microscópio; análise com o microscópio"
+    },
+    "fracção de ejecção": {
+        "significado": "fracção de ejecção"
+    },
+    "fractura": {
+        "significado": "fractura, rotura, quebra"
+    },
+    "sequestro": {
+        "significado": "fragmento de tecido morto separado do tecido são"
+    },
+    "lassitude": {
+        "significado": "fraqueza, cansaço"
+    },
+    "astenia": {
+        "significado": "fraqueza, cansaço físico intenso"
+    },
+    "'blister'": {
+        "significado": "frasco de X comprimidos recobertos de plástico"
+    },
+    "flácido": {
+        "significado": "frouxo, mole, languido"
+    },
+    "pediculose": {
+        "significado": "ftiríase, doença pedicular, infestação por piolhos"
+    },
+    "função": {
+        "significado": "função"
+    },
+    "insuficiência": {
+        "significado": "função inadequada de um órgão ou sistema"
+    },
+    "fundamental": {
+        "significado": "fundamental"
+    },
+    "fungo": {
+        "significado": "fungo, tumor em forma de fungo"
+    },
+    "disartria": {
+        "significado": "gaguez"
+    },
+    "doença de Raynaud": {
+        "significado": "gangrena simétrica das extremidades"
+    },
+    "difteria": {
+        "significado": "garrotilho"
+    },
+    "flatulência": {
+        "significado": "gases no estômago ou no intestino, ventosidade, aerenterectasia"
+    },
+    "microspório": {
+        "significado": "género de fungos ascomicetes, parasitas no homem"
+    },
+    "procriação": {
+        "significado": "geração, reprodução, propagação"
+    },
+    "ginecológico": {
+        "significado": "ginecológico"
+    },
+    "glicose": {
+        "significado": "glicose"
+    },
+    "glicósido": {
+        "significado": "glicósido"
+    },
+    "leucócito": {
+        "significado": "glóbulo branco"
+    },
+    "lípido": {
+        "significado": "gordura ou substância idêntica"
+    },
+    "gradual": {
+        "significado": "gradual"
+    },
+    "hiperalgesia": {
+        "significado": "grande sensibilidade à dor"
+    },
+    "maciço": {
+        "significado": "grande, amplo"
+    },
+    "gangrena": {
+        "significado": "grangrena, esfacelo"
+    },
+    "viscosidade": {
+        "significado": "grau de fluidez das substâncias em estado líquido ou gasoso"
+    },
+    "intensidade": {
+        "significado": "grau de força ou tensão"
+    },
+    "concentração": {
+        "significado": "grau, riqueza"
+    },
+    "gestação": {
+        "significado": "gravidez"
+    },
+    "gravidez": {
+        "significado": "gravidez"
+    },
+    "influenza": {
+        "significado": "gripe violenta e epidémica"
+    },
+    "citocrómio": {
+        "significado": "grupo de opostos aparentados com a hemoglobina do sangue"
+    },
+    "hemólise": {
+        "significado": "hematólise, globulólise, desintegração das células sanguíneas"
+    },
+    "epistaxe": {
+        "significado": "hemorragia nasal"
+    },
+    "hematoma": {
+        "significado": "hemorragia para dentro dos tecidos"
+    },
+    "metrorragia": {
+        "significado": "hemorragia sanguínea uterina não menstrual"
+    },
+    "hereditariedade": {
+        "significado": "hereditariedade"
+    },
+    "hidratação": {
+        "significado": "hidratação"
+    },
+    "carboidrato": {
+        "significado": "hidrato de carbono"
+    },
+    "hidroxilação": {
+        "significado": "hidroxilação"
+    },
+    "higiénico": {
+        "significado": "higiénico"
+    },
+    "alergia": {
+        "significado": "hipersensibilidade"
+    },
+    "hiperostose": {
+        "significado": "hipertrofia de um osso"
+    },
+    "esplenomegalia": {
+        "significado": "hipertrofia do baço, aumento de tamanho ou volume do baço"
+    },
+    "prostatismo": {
+        "significado": "hipertrofia e obstrução da próstata"
+    },
+    "miopia": {
+        "significado": "hipometropia, visão curta, vista-curta"
+    },
+    "mineralocorticóide": {
+        "significado": "hormonas mineralocorticosteróides"
+    },
+    "ACTH": {
+        "significado": "hormônio adreno-córticotrófico, corticotrofina"
+    },
+    "somatrotopina": {
+        "significado": "hormônio do crescimento / hormona do crescimento"
+    },
+    "progestogeno": {
+        "significado": "hormônio que prepara o útero para a recepção e desenvolvimento do óvulo fecundado / hormona que prepara o útero para a recepção e desenvolvimento do óvulo fecundado"
+    },
+    "icterícia": {
+        "significado": "icterícia"
+    },
+    "obsessão": {
+        "significado": "ideia fixa"
+    },
+    "diagnóstico": {
+        "significado": "identificação ou reconhecimento das doenças"
+    },
+    "homólogo": {
+        "significado": "igual"
+    },
+    "distorção": {
+        "significado": "imagem deformada, torção"
+    },
+    "fungistático": {
+        "significado": "impede a multiplicação de fungos"
+    },
+    "nidação": {
+        "significado": "implantação do óvulo na cavidade uterina"
+    },
+    "inserção": {
+        "significado": "implantação; ponto de união entre um músculo e um osso"
+    },
+    "implicação": {
+        "significado": "implicação"
+    },
+    "relevante": {
+        "significado": "importante"
+    },
+    "inércia": {
+        "significado": "inactividade, incapacidade de se mover espontaneamente"
+    },
+    "inorgânico": {
+        "significado": "inanimado, sem vida"
+    },
+    "anorexia": {
+        "significado": "inapetência, falta de apetite"
+    },
+    "inerente": {
+        "significado": "inato, implantado naturalmente"
+    },
+    "incompetência": {
+        "significado": "incapacidade"
+    },
+    "esterilidade": {
+        "significado": "incapacidade de fecundar ou conceber"
+    },
+    "impotência": {
+        "significado": "incapacidade de realização do coito; falta de virilidade; anandria, assinodia"
+    },
+    "intolerância": {
+        "significado": "incapacidade de suportar um medicamento"
+    },
+    "acatisia": {
+        "significado": "incapacidade em permanecer sentado"
+    },
+    "incarceração": {
+        "significado": "incarceração"
+    },
+    "angioedema": {
+        "significado": "inchaço sem inflamação"
+    },
+    "incidência": {
+        "significado": "incidência"
+    },
+    "incidental": {
+        "significado": "incidental"
+    },
+    "tendência": {
+        "significado": "inclinação, propensão"
+    },
+    "inclusivo": {
+        "significado": "incluso"
+    },
+    "nictúria": {
+        "significado": "incontinência das urinas durante a noite"
+    },
+    "mineralização": {
+        "significado": "incorporação de substâncias minerais por meio de tecidos do organismo"
+    },
+    "fagocitose": {
+        "significado": "incorporação e digestão de partículas no interior de uma célula"
+    },
+    "investigação": {
+        "significado": "indagação, pesquisa"
+    },
+    "autónomo": {
+        "significado": "independente, fora do controlo consciente"
+    },
+    "instrução": {
+        "significado": "indicações"
+    },
+    "indicativo": {
+        "significado": "indicativo"
+    },
+    "apatia": {
+        "significado": "indiferença, aversão"
+    },
+    "individual": {
+        "significado": "individual"
+    },
+    "angioneurótico": {
+        "significado": "indivíduo com eretismo do aparelho vascular e vasomotor, de origem nervosa"
+    },
+    "teratogénico": {
+        "significado": "indutor de malformações fetais"
+    },
+    "agranulocitose": {
+        "significado": "inexistência de glóbulos no sangue, doença de Pfeiffer"
+    },
+    "gonorreia": {
+        "significado": "infecção bacteriana pelo gonococo que invade as mucosas da uretra e do útero; esquentamento"
+    },
+    "pioderma": {
+        "significado": "infecção da pele"
+    },
+    "impetigo": {
+        "significado": "infecção das camadas exteriores da pele; impetigem"
+    },
+    "iridociclite": {
+        "significado": "infecção de um dos anexos da vista"
+    },
+    "osteomielite": {
+        "significado": "infecção dos ossos"
+    },
+    "erisipela": {
+        "significado": "infecção grave e contagiosa da pele por estreptococos"
+    },
+    "intertrigo": {
+        "significado": "infecção na pele das dobras"
+    },
+    "candidíase": {
+        "significado": "infecção por fungo do género Candida"
+    },
+    "piogénico": {
+        "significado": "infeccioso, que produz pus"
+    },
+    "infiltração": {
+        "significado": "infiltração"
+    },
+    "invalidar": {
+        "significado": "infirmar"
+    },
+    "inflamação": {
+        "significado": "inflamação"
+    },
+    "pielonefrite": {
+        "significado": "inflamação conjunta do rim e da pélvis renal"
+    },
+    "celulite": {
+        "significado": "inflamação crónica do tecido celular"
+    },
+    "mastoidite": {
+        "significado": "inflamação da apófise mastóide no ouvido"
+    },
+    "cistite": {
+        "significado": "inflamação da bexiga"
+    },
+    "conjuntivite": {
+        "significado": "inflamação da conjuntiva"
+    },
+    "ceratite": {
+        "significado": "inflamação da córnea"
+    },
+    "ceratoconjuntivite": {
+        "significado": "inflamação da córnea e da conjuntiva do olho"
+    },
+    "peritonite": {
+        "significado": "inflamação da envoltura do abdominal"
+    },
+    "pericardite": {
+        "significado": "inflamação da envoltura do coração"
+    },
+    "faringite": {
+        "significado": "inflamação da garganta"
+    },
+    "balanite": {
+        "significado": "inflamação da glande do pénis"
+    },
+    "parotidite": {
+        "significado": "inflamação da glândula salivar; papeira"
+    },
+    "paniculite": {
+        "significado": "inflamação da gordura abdominal"
+    },
+    "irite": {
+        "significado": "inflamação da íris"
+    },
+    "laringite": {
+        "significado": "inflamação da laringe"
+    },
+    "glossite": {
+        "significado": "inflamação da língua"
+    },
+    "endocardite": {
+        "significado": "inflamação da membrana de revestimento interno do coração"
+    },
+    "catarro": {
+        "significado": "inflamação da membrana mucosa do nariz"
+    },
+    "estomatite": {
+        "significado": "inflamação da mucosa da boca"
+    },
+    "dermatite": {
+        "significado": "inflamação da pele"
+    },
+    "pielite": {
+        "significado": "inflamação da pélvis renal"
+    },
+    "prostatite": {
+        "significado": "inflamação da próstata"
+    },
+    "traqueíte": {
+        "significado": "inflamação da traqueia"
+    },
+    "salpingite": {
+        "significado": "inflamação da trompa uterina, da trompa auditiva"
+    },
+    "uretrite": {
+        "significado": "inflamação da uretra"
+    },
+    "uveíte": {
+        "significado": "inflamação da úvea"
+    },
+    "colecistite": {
+        "significado": "inflamação da vesícula biliar"
+    },
+    "artrite": {
+        "significado": "inflamação das articulações"
+    },
+    "meningite": {
+        "significado": "inflamação das meninges"
+    },
+    "blefarite": {
+        "significado": "inflamação das pálpebras"
+    },
+    "flebite": {
+        "significado": "inflamação das paredes de uma veia"
+    },
+    "espondilite": {
+        "significado": "inflamação das vértebras"
+    },
+    "colangite": {
+        "significado": "inflamação das vias biliares"
+    },
+    "foliculite": {
+        "significado": "inflamação de um ou mais folículos pilosos"
+    },
+    "tendinite": {
+        "significado": "inflamação de um tendão"
+    },
+    "tenossinovite": {
+        "significado": "inflamação de um tendão e da sua veia; tecite"
+    },
+    "orquite": {
+        "significado": "inflamação de um testículo"
+    },
+    "bursite": {
+        "significado": "inflamação de uma bolsa"
+    },
+    "sinusite": {
+        "significado": "inflamação de uma bolsa ou cavidade, especialmente dos ossos do crânio"
+    },
+    "sinovite": {
+        "significado": "inflamação de uma membrana sinovial"
+    },
+    "tromboflebite": {
+        "significado": "inflamação de uma veia com obstrução por um coágulo sanguíneo"
+    },
+    "fleimão": {
+        "significado": "inflamação difusa"
+    },
+    "encefalite": {
+        "significado": "inflamação do cérebro"
+    },
+    "paroníquia": {
+        "significado": "inflamação do dedo perto da unha; panarício"
+    },
+    "epicondilite": {
+        "significado": "inflamação do epicôndilo (tuberosidade exterior do útero)"
+    },
+    "esofagite": {
+        "significado": "inflamação do esófago"
+    },
+    "gastrenterite": {
+        "significado": "inflamação do estômago e do intestino delgado"
+    },
+    "hepatite": {
+        "significado": "inflamação do fígado"
+    },
+    "ileite": {
+        "significado": "inflamação do íleo (última parte do intestino delgado), doença de Crohen"
+    },
+    "colite": {
+        "significado": "inflamação do intestino grosso, catarro intestinal, enterite"
+    },
+    "miocardite": {
+        "significado": "inflamação do miocárdio"
+    },
+    "rinite": {
+        "significado": "inflamação do nariz, nasite, defluxo, constipação (nasal), catarro nasal"
+    },
+    "pancreatite": {
+        "significado": "inflamação do pâncreas"
+    },
+    "proctite": {
+        "significado": "inflamação do recto"
+    },
+    "nefrite": {
+        "significado": "inflamação do rim"
+    },
+    "bronquite": {
+        "significado": "inflamação dos brônquios"
+    },
+    "enterocolite": {
+        "significado": "inflamação dos intestinos delgado e grosso"
+    },
+    "vulvovaginite": {
+        "significado": "inflamação dos órgãos genitais externos femininos, incluindo a vagina"
+    },
+    "vasculite": {
+        "significado": "inflamação dos pequenos vasos sanguíneos"
+    },
+    "periartrite": {
+        "significado": "inflamação dos tecidos que rodeiam uma articulação"
+    },
+    "otite": {
+        "significado": "inflamação no ouvido"
+    },
+    "poliartrite": {
+        "significado": "inflamação simultânea de várias articulações"
+    },
+    "gengivite": {
+        "significado": "inflamação superficial da gengivas"
+    },
+    "anexite": {
+        "significado": "inflamações dos ovários e da trompa"
+    },
+    "inotrópico": {
+        "significado": "influencia a actividade do coração"
+    },
+    "infundir": {
+        "significado": "infundir"
+    },
+    "infusão": {
+        "significado": "infusão"
+    },
+    "componente": {
+        "significado": "ingrediente"
+    },
+    "mielossupressão": {
+        "significado": "inibição da actividade da medula"
+    },
+    "pacemaker": {
+        "significado": "iniciador do ritmo do coração; regulador cardíaco"
+    },
+    "inicial": {
+        "significado": "inicial"
+    },
+    "injecção": {
+        "significado": "injecção"
+    },
+    "injecção bolus": {
+        "significado": "injecção rápida"
+    },
+    "contaminação": {
+        "significado": "inquinamento, poluição"
+    },
+    "anestesia": {
+        "significado": "insensibilidade à dor"
+    },
+    "frigidez": {
+        "significado": "insensibilidade sexual, anafrodisia"
+    },
+    "inspiração": {
+        "significado": "inspiração"
+    },
+    "lábil": {
+        "significado": "instável, facilmente alterável"
+    },
+    "pessário": {
+        "significado": "instrumento que se coloca na vagina como dispositivo contraceptivo; supositório vaginal"
+    },
+    "neutropenia": {
+        "significado": "insuficiência de glóbulos brancos"
+    },
+    "intacto": {
+        "significado": "intacto"
+    },
+    "interno": {
+        "significado": "interior"
+    },
+    "intermediário": {
+        "significado": "intermediário"
+    },
+    "hospitalização": {
+        "significado": "internar num hospital"
+    },
+    "interpretação": {
+        "significado": "interpretação"
+    },
+    "intervalo": {
+        "significado": "interstício, espaço; entremeio"
+    },
+    "intrínseco": {
+        "significado": "intimamente relacionado com uma porção"
+    },
+    "salicismo": {
+        "significado": "intoxicação com aspirina"
+    },
+    "ergotismo": {
+        "significado": "intoxicação crónica pelo uso alimentar do centeio atacado de cravagem"
+    },
+    "septicémia": {
+        "significado": "intoxicação do sangue por microrganismos"
+    },
+    "toxemia": {
+        "significado": "intoxicação do sangue; toxinemia"
+    },
+    "intubação": {
+        "significado": "introdução de um tubo num órgão oco"
+    },
+    "cateterismo": {
+        "significado": "introdução de uma sonda numa cavidade"
+    },
+    "ionograma": {
+        "significado": "ionograma"
+    },
+    "atípico": {
+        "significado": "irregular, anormal"
+    },
+    "anomalia": {
+        "significado": "irregularidade"
+    },
+    "excitação": {
+        "significado": "irritação, estímulo, estimulação"
+    },
+    "isolar": {
+        "significado": "isolar"
+    },
+    "abstinência": {
+        "significado": "jejum"
+    },
+    "adolescente": {
+        "significado": "jovem"
+    },
+    "lateral": {
+        "significado": "lateral"
+    },
+    "irrigação": {
+        "significado": "lavagem com eliminação do líquido utilizado"
+    },
+    "bradicinesia": {
+        "significado": "lentidão dos movimentos"
+    },
+    "alveolite": {
+        "significado": "lesão dos alvéolos pulmonares"
+    },
+    "retinopatia": {
+        "significado": "lesão patológica que afecta a retina"
+    },
+    "fatal": {
+        "significado": "letal, letífero, mortífero"
+    },
+    "linear": {
+        "significado": "linear"
+    },
+    "liposoma": {
+        "significado": "liposoma"
+    },
+    "exsudado": {
+        "significado": "líquido que aparece numa superfície inflamada"
+    },
+    "estria": {
+        "significado": "lista, raia; fibras nervosas cerebrais"
+    },
+    "lobo": {
+        "significado": "lóbulo"
+    },
+    "tópico": {
+        "significado": "local"
+    },
+    "loco-regional": {
+        "significado": "local e regional"
+    },
+    "locomotor": {
+        "significado": "locomotor"
+    },
+    "capacidade": {
+        "significado": "lotação, potência"
+    },
+    "dispepsia": {
+        "significado": "má digestão"
+    },
+    "hipertrofia": {
+        "significado": "maior crescimento de um tecido por aumento, sem multiplicação, das suas células"
+    },
+    "indisposição": {
+        "significado": "mal-estar"
+    },
+    "mastite": {
+        "significado": "mamite, inflamação dos peitos"
+    },
+    "cloasma": {
+        "significado": "manchas irregulares que aparecem geralmente na cara"
+    },
+    "hipomania": {
+        "significado": "mania ligeira"
+    },
+    "fenómeno": {
+        "significado": "manifestação, sinal, sintoma"
+    },
+    "mecanismo": {
+        "significado": "maquinismo, órgão, artifício, dispositivo"
+    },
+    "virilização": {
+        "significado": "masculinização"
+    },
+    "tálamo": {
+        "significado": "massa importante de núcleos cinzentos"
+    },
+    "massagem": {
+        "significado": "massagem"
+    },
+    "substância": {
+        "significado": "matéria"
+    },
+    "pigmentação": {
+        "significado": "matéria orgânica corante da pele"
+    },
+    "fezes": {
+        "significado": "matérias fecais, excrementos"
+    },
+    "útero": {
+        "significado": "matriz"
+    },
+    "pernicioso": {
+        "significado": "mau, grave, maligno"
+    },
+    "máximo (adj)": {
+        "significado": "máximo"
+    },
+    "máximo (subst)": {
+        "significado": "máximo, limite superior"
+    },
+    "mediar": {
+        "significado": "mediar, interpor"
+    },
+    "médico": {
+        "significado": "medical, medicinal"
+    },
+    "medicinal": {
+        "significado": "medical, médico; que tem qualidades curativas"
+    },
+    "medicação": {
+        "significado": "medicamentação; aplicação de medicamentos"
+    },
+    "fármaco": {
+        "significado": "medicamento"
+    },
+    "antifúngico": {
+        "significado": "medicamento com os cogumelos ou leveduras parasitas no homem"
+    },
+    "antiepiléptico": {
+        "significado": "medicamento contra a epilepsia"
+    },
+    "placebo": {
+        "significado": "medicamento destinado mais a agradar do que a beneficiar o"
+    },
+    "colírio": {
+        "significado": "medicamento para cuidar dos olhos"
+    },
+    "antiarrítmico": {
+        "significado": "medicamento para tratamento da irregularidade da pulsação cardíaca"
+    },
+    "laxativo": {
+        "significado": "medicamento purgante"
+    },
+    "quimioterápico": {
+        "significado": "medicamento que ataca os micróbios parasitas ou as células de um cancro"
+    },
+    "opiato": {
+        "significado": "medicamento que contém ópio (droga)"
+    },
+    "alcalina": {
+        "significado": "medicamento que contém um álcali"
+    },
+    "tuberculostático": {
+        "significado": "medicamento que inibe o crescimento do bacilo da tuberculose"
+    },
+    "espasmolítico": {
+        "significado": "medicamento que serve para resolver os espasmos"
+    },
+    "tranquilizante": {
+        "significado": "medicamento que serve para tranquilizar; calmante"
+    },
+    "profilaxia": {
+        "significado": "medicina preventiva"
+    },
+    "bio-disponibilidade": {
+        "significado": "medida de actividade de um medicamento ingerido"
+    },
+    "prevenção": {
+        "significado": "medidas destinadas a evitar doenças ou acidentes"
+    },
+    "mediano": {
+        "significado": "médio"
+    },
+    "fobia": {
+        "significado": "medo despropositado persistente"
+    },
+    "megaloblástico": {
+        "significado": "megaloblástico"
+    },
+    "megacolo": {
+        "significado": "megalócon, cólon anormalmente dilatado, doença de Hirschsprung"
+    },
+    "meio de contraste": {
+        "significado": "meio para visualização radiográfica"
+    },
+    "membrana": {
+        "significado": "membrana"
+    },
+    "membrana celular": {
+        "significado": "membrana de uma célula"
+    },
+    "tímpano": {
+        "significado": "membrana ou cavidade do ouvido médio"
+    },
+    "dura-máter": {
+        "significado": "membrana que envolve o sistema nervoso central"
+    },
+    "pénis": {
+        "significado": "membro viril, falo, pene, verga"
+    },
+    "extremidade": {
+        "significado": "membros superior e inferior"
+    },
+    "psíquico": {
+        "significado": "mental"
+    },
+    "indução": {
+        "significado": "método de aplicação de uma anestesia geral; provocação de um processo"
+    },
+    "procedimento": {
+        "significado": "método, processo"
+    },
+    "micobactéria": {
+        "significado": "micobactéria"
+    },
+    "microrganismo": {
+        "significado": "micróbio"
+    },
+    "saprófito": {
+        "significado": "microrganismo que vive a expensas de matérias orgânicas em decomposição; parasita que não causa doenças"
+    },
+    "metastase": {
+        "significado": "migração de doença, aparecimento de um cancro à distância"
+    },
+    "miosite": {
+        "significado": "miíte, inflamação de um músculo voluntário"
+    },
+    "mínimo (adj)": {
+        "significado": "mínimo, ínfimo"
+    },
+    "mínimo (subst)": {
+        "significado": "mínimo, limite inferior"
+    },
+    "mialgia": {
+        "significado": "miodinia, dor muscular"
+    },
+    "açúcar invertido": {
+        "significado": "mistura de glicose e frutose"
+    },
+    "fontanela": {
+        "significado": "molarinha do recém-nascido"
+    },
+    "hipotonia": {
+        "significado": "moleza"
+    },
+    "mononucleose": {
+        "significado": "mononucleose"
+    },
+    "patológico": {
+        "significado": "mórbido, relacionado com uma doença determinada"
+    },
+    "necrose": {
+        "significado": "morte celular, esfacelo, gangrena"
+    },
+    "propulsivo": {
+        "significado": "motor"
+    },
+    "peristaltismo": {
+        "significado": "movimento automático do intestino"
+    },
+    "extensão": {
+        "significado": "movimento de endireitar uma articulação"
+    },
+    "difusão": {
+        "significado": "movimento de moléculas num fluido de uma zona de alta concentração para outra de baixa concentração; dispersão"
+    },
+    "tique": {
+        "significado": "movimento involuntário que se produz repetidamente"
+    },
+    "nistagmo": {
+        "significado": "movimento reflexo do globo ocular (dos olhos)"
+    },
+    "coreia": {
+        "significado": "movimentos bruscos incontrolados nas crianças"
+    },
+    "atetose": {
+        "significado": "movimentos descontrolados, atesia, doença de Hammond"
+    },
+    "mucociliar": {
+        "significado": "mucociliar"
+    },
+    "mucosa": {
+        "significado": "mucosa / (membrana) mucosa"
+    },
+    "muco": {
+        "significado": "mucosidade; pituíta, monco, ranho"
+    },
+    "transformação": {
+        "significado": "mudança de forma ou estrutura, alteração"
+    },
+    "seroconversão": {
+        "significado": "mudança de um prova serológica de negativa para positiva"
+    },
+    "mutação": {
+        "significado": "mudança do material genético"
+    },
+    "mutismo": {
+        "significado": "mudez"
+    },
+    "selectivo": {
+        "significado": "muito exigente quanto à indicação"
+    },
+    "nulípara": {
+        "significado": "mulher que nunca deu à luz / [mulher] que nunca deu à luz"
+    },
+    "esfíncter": {
+        "significado": "músculo constritor, que aperta"
+    },
+    "agonista": {
+        "significado": "músculo que participa com outro num movimento; medicamento que estimula células de maneira natural"
+    },
+    "antagonista": {
+        "significado": "músculo que produz movimento contrário ao de outro músculo; substância que anula a acção de outra"
+    },
+    "epigástrico": {
+        "significado": "na boca do estômago"
+    },
+    "passivo": {
+        "significado": "não activo"
+    },
+    "incompatível": {
+        "significado": "não adequado para administração simultânea"
+    },
+    "inadequado": {
+        "significado": "não apropriado"
+    },
+    "exceptuado": {
+        "significado": "não compreendido, sem contar"
+    },
+    "esporádico": {
+        "significado": "não epidérmico ou não amplamente difundido; ocasional"
+    },
+    "inespecífico": {
+        "significado": "não específico, não característico"
+    },
+    "artificial": {
+        "significado": "não natural"
+    },
+    "incontinência": {
+        "significado": "não segura as fezes ou as urinas"
+    },
+    "atóxico": {
+        "significado": "não tóxico, não venenoso, não nocivo"
+    },
+    "rinofaringite": {
+        "significado": "nasofaringite, retrofaringite, angina retronasal"
+    },
+    "hipovitaminose": {
+        "significado": "necessidade de uma ou várias vitaminas essenciais"
+    },
+    "nervosidade": {
+        "significado": "nervosismo"
+    },
+    "polinevrite": {
+        "significado": "neurite múltipla; inflamação de muitos nervos um por cada vez"
+    },
+    "papilite": {
+        "significado": "neuropapilite, inflamação de uma papila"
+    },
+    "ciática": {
+        "significado": "nevralgia ciática"
+    },
+    "neuralgia": {
+        "significado": "nevralgia, dor viva que se sente no trajecto dos nervos"
+    },
+    "neurite": {
+        "significado": "nevrite, inflamação de um nervo"
+    },
+    "neuropatia": {
+        "significado": "nevropatia, doença nervosa"
+    },
+    "neurótico": {
+        "significado": "nevrótico, neuropático, nevropático"
+    },
+    "implantação": {
+        "significado": "nidação do embrião na mucosa do útero da mãe, cerca de seis dias após a concepção"
+    },
+    "niilidade": {
+        "significado": "niilismo, isto é, sensação de falta de esperança por parte do homem; nada"
+    },
+    "calcemia": {
+        "significado": "nível de cálcio no sangue"
+    },
+    "intravascular": {
+        "significado": "no interior de um vaso sanguíneo"
+    },
+    "intraocular": {
+        "significado": "no interior do globo ocular"
+    },
+    "intramuscular": {
+        "significado": "no interior do músculo"
+    },
+    "in situ": {
+        "significado": "no seu lugar"
+    },
+    "mielotóxico": {
+        "significado": "nocivo para a medula do osso"
+    },
+    "fisiológico": {
+        "significado": "normal, não devido a uma doença; relativo ao estudo das funções dos organismos vivos"
+    },
+    "estandardizar": {
+        "significado": "normalizar, unificar, padronizar"
+    },
+    "reinfecção": {
+        "significado": "nova infecção num mesmo agente, depois de ter curado a primeira"
+    },
+    "superinfecção": {
+        "significado": "nova infecção que surge como complicação de outra já existente"
+    },
+    "frequência": {
+        "significado": "número de períodos"
+    },
+    "fracção": {
+        "significado": "número fraccionário (número) quebrado; porção, parte"
+    },
+    "trófico": {
+        "significado": "nutritivo"
+    },
+    "nadir": {
+        "significado": "o ponto mais baixo"
+    },
+    "oclusão": {
+        "significado": "obliteração, fecho, de um canal ou de uma abertura natural"
+    },
+    "barreira": {
+        "significado": "obstrução"
+    },
+    "tromboembolismo": {
+        "significado": "obstrução de um vaso sanguíneo com material trombótico"
+    },
+    "imunização": {
+        "significado": "obtenção da imunidade pelo organismo"
+    },
+    "ocitócico": {
+        "significado": "ocitócito, agente que faz acelerar parto estimulando o útero"
+    },
+    "íleo": {
+        "significado": "oclusão intestinal"
+    },
+    "oculomucocutâneo": {
+        "significado": "oculomucocutâneo"
+    },
+    "exoftalmia": {
+        "significado": "olhos salientes"
+    },
+    "complexo QRS": {
+        "significado": "onda rápida, ondas iniciais do complexo ventricular"
+    },
+    "catarata": {
+        "significado": "opacidade do cristalino do olho"
+    },
+    "intervenção": {
+        "significado": "operação"
+    },
+    "histerectomia": {
+        "significado": "operação cirúrgica do útero"
+    },
+    "bacilo": {
+        "significado": "organismo microscópico em forma de filamento recto ou curvo"
+    },
+    "protozoário": {
+        "significado": "organismos unicelulares"
+    },
+    "orientação": {
+        "significado": "orientação"
+    },
+    "ânus": {
+        "significado": "orifício de saída do intestino, cu"
+    },
+    "orofacial": {
+        "significado": "orofacial"
+    },
+    "ortopédico": {
+        "significado": "ortopédico"
+    },
+    "osteoartrite": {
+        "significado": "osteoartrose; inflamação articular que atinge também o osso"
+    },
+    "paciente de risco": {
+        "significado": "paciente de risco"
+    },
+    "punção": {
+        "significado": "paracentese, puntura"
+    },
+    "assistolia": {
+        "significado": "paragem cardíaco"
+    },
+    "paralelo": {
+        "significado": "paralelo"
+    },
+    "doença de Parkinson": {
+        "significado": "paralisia agitante"
+    },
+    "cicloplegia": {
+        "significado": "paralisia da pupila do globo ocular"
+    },
+    "paraplegia": {
+        "significado": "paralisia das pernas e parte inferior do corpo"
+    },
+    "hemiplegia": {
+        "significado": "paralisia de um lado do corpo"
+    },
+    "paresia": {
+        "significado": "paralisia incompleta, parcial"
+    },
+    "poliomielite": {
+        "significado": "paralisia infantil"
+    },
+    "parâmetro": {
+        "significado": "parâmetro, critério"
+    },
+    "parasítico": {
+        "significado": "parasitário; referente aos organismos que vivem à custa de outros organismos"
+    },
+    "opalescente": {
+        "significado": "parecido com o ópalo ou que tem cores como ele"
+    },
+    "afinidade": {
+        "significado": "parentesco, analogia, semelhança"
+    },
+    "paroxísmico": {
+        "significado": "paroxístico, agudo"
+    },
+    "córnea": {
+        "significado": "parte anterior transparente do olho"
+    },
+    "citoplasma": {
+        "significado": "parte da célula não ocupada pelo núcleo"
+    },
+    "estomatológico": {
+        "significado": "parte da medicina que estuda a boca e suas doenças"
+    },
+    "obstetrício": {
+        "significado": "parte da medicina que se ocupa da gravidez, parto e puerpério; obstétrico, tocológico"
+    },
+    "segmento": {
+        "significado": "parte de um organismo ou órgão"
+    },
+    "região": {
+        "significado": "parte do corpo"
+    },
+    "jejuno": {
+        "significado": "parte do intestino delgado desde o duodeno até ao íleo"
+    },
+    "parênquima": {
+        "significado": "parte funcional de um órgão"
+    },
+    "duodeno": {
+        "significado": "parte inicial do intestino delgado"
+    },
+    "suspensão": {
+        "significado": "partículas existentes na água que não foram por ela dissolvidas"
+    },
+    "parto": {
+        "significado": "parto"
+    },
+    "antecedente": {
+        "significado": "passado do paciente"
+    },
+    "transitório": {
+        "significado": "passageiro"
+    },
+    "trânsito": {
+        "significado": "passagem"
+    },
+    "transferência": {
+        "significado": "passagem de um sintoma ou doença para outro(a)"
+    },
+    "patógeno": {
+        "significado": "patogénico, que causa doença"
+    },
+    "película líquida": {
+        "significado": "película líquida"
+    },
+    "piloerecção": {
+        "significado": "pelos ou cabelos em pé, erecção do pelo ou cabelo"
+    },
+    "adsorção": {
+        "significado": "penetração pela pele ou pelas mucosas, consumo"
+    },
+    "penetração": {
+        "significado": "penetração, perfuração"
+    },
+    "incisivo": {
+        "significado": "penetrante"
+    },
+    "reflexivo": {
+        "significado": "pensativo, reflexivo"
+    },
+    "vial": {
+        "significado": "pequena ampola, frasco"
+    },
+    "pápula": {
+        "significado": "pequena elevação sólida e circunscrita da pele"
+    },
+    "petéquias": {
+        "significado": "pequenas manchas avermelhado-rouxas na pele"
+    },
+    "Petit mal; epilepsia menor": {
+        "significado": "pequeno mal, epilepsia com ataques pouco intensos"
+    },
+    "ossículo": {
+        "significado": "pequeno osso; ossinho"
+    },
+    "óvulo": {
+        "significado": "pequeno ovo"
+    },
+    "mecela": {
+        "significado": "pequenos fragmentos presentes em dispersão coloidal"
+    },
+    "ataxia": {
+        "significado": "perca da coordenação muscular"
+    },
+    "percepção": {
+        "significado": "percepção"
+    },
+    "objectivo": {
+        "significado": "perceptível aos sentidos externos; meta"
+    },
+    "afasia": {
+        "significado": "perda da capacidade de comunicar"
+    },
+    "escotoma": {
+        "significado": "perda da faculdade visual em zonas bem circunscritas do campo visual; escotomia"
+    },
+    "despersonalização": {
+        "significado": "perda da própria personalidade"
+    },
+    "hemorragia": {
+        "significado": "perda de sangue"
+    },
+    "spotting": {
+        "significado": "perda de sangue pela vagina"
+    },
+    "caquexia": {
+        "significado": "perda do peso e enfraquecimento físico"
+    },
+    "ausência": {
+        "significado": "perda momentânea do conhecimento"
+    },
+    "estupor": {
+        "significado": "perda parcial ou quase total da consciência; obnubilação, torpor"
+    },
+    "síncope": {
+        "significado": "perda súbita da consciência por descida da pressão sanguínea no cérebro; desmaio"
+    },
+    "hemoperfusão": {
+        "significado": "perfusão no sangue"
+    },
+    "perfusão": {
+        "significado": "perfusão; transfusão"
+    },
+    "distal": {
+        "significado": "periférico, distante do tronco"
+    },
+    "ciclo": {
+        "significado": "período"
+    },
+    "perioperativo": {
+        "significado": "período de hospitalização aquando de uma operação"
+    },
+    "puberdade": {
+        "significado": "período de maturidade sexual"
+    },
+    "puerpério": {
+        "significado": "período de restabelecimento após o parto"
+    },
+    "fase": {
+        "significado": "período dentro de uma evolução constante"
+    },
+    "incubação": {
+        "significado": "período entre o contágio e a manifestação da doença; choco"
+    },
+    "permanente": {
+        "significado": "permanente"
+    },
+    "perene": {
+        "significado": "perpétuo"
+    },
+    "persistente": {
+        "significado": "perseverante"
+    },
+    "contínuo": {
+        "significado": "persistente"
+    },
+    "cinético": {
+        "significado": "pertencente a ou que produz o movimento"
+    },
+    "anogenital": {
+        "significado": "pertencente à região do anus e dos órgãos genitais"
+    },
+    "inguinal": {
+        "significado": "pertencente à virilha"
+    },
+    "capilar": {
+        "significado": "pertencente ao cabelo, filiforme"
+    },
+    "coclear": {
+        "significado": "pertencente ao caracol ósseo do ouvido interno"
+    },
+    "intratecal": {
+        "significado": "pertencente ao lúmen de uma bainha ou canal"
+    },
+    "femoral": {
+        "significado": "pertencente ao osso da coxa"
+    },
+    "sintomático": {
+        "significado": "pertencente aos sintomas"
+    },
+    "interferência": {
+        "significado": "perturbação"
+    },
+    "distrofia": {
+        "significado": "perturbação da nutrição de vários tecidos do organismo"
+    },
+    "disfunção": {
+        "significado": "perturbação do funcionamento de um órgão; alteração de função"
+    },
+    "delírio": {
+        "significado": "perturbação mental por traumatismo, febre, envenenamento, etc. com confusão mental"
+    },
+    "dador": {
+        "significado": "pessoa que oferece um órgão, sangue, etc"
+    },
+    "pH": {
+        "significado": "pH"
+    },
+    "crise": {
+        "significado": "pioramento repentino, ataque"
+    },
+    "exacerbação": {
+        "significado": "pioramento, gravamento"
+    },
+    "placenta": {
+        "significado": "placenta"
+    },
+    "pleurisia": {
+        "significado": "pleurite, inflamação da membrana que reveste os pulmões e a cavidade torácica"
+    },
+    "polivalente": {
+        "significado": "plurivalente, multivalente"
+    },
+    "broncopneumonia": {
+        "significado": "pneumonia dos brônquios"
+    },
+    "potência": {
+        "significado": "poder; capacidade sexual; poder de um medicamento produzir efeitos"
+    },
+    "orgasmo": {
+        "significado": "ponto mais elevado da excitação sexual"
+    },
+    "população": {
+        "significado": "população"
+    },
+    "acidental": {
+        "significado": "por acaso, sem importância"
+    },
+    "sublingual": {
+        "significado": "por baixo da língua, hipoglosso"
+    },
+    "exógeno": {
+        "significado": "por causas externas; introduzido no corpo do exterior"
+    },
+    "supraventricular": {
+        "significado": "por cima de uma pequena cavidade"
+    },
+    "rotineiramente": {
+        "significado": "por rotina, por hábito"
+    },
+    "retrobulbar": {
+        "significado": "por trás do bolbo raquiano, por trás do globo ocular"
+    },
+    "retroesternal": {
+        "significado": "por trás do esterno"
+    },
+    "mobilidade": {
+        "significado": "possibilidade de realizar movimentos activos, por ex., uma articulação"
+    },
+    "subagudo": {
+        "significado": "pouco agudo"
+    },
+    "perinatal": {
+        "significado": "pouco antes ou depois do nascimento"
+    },
+    "hipoplasia": {
+        "significado": "pouco desenvolvido"
+    },
+    "pré-carga": {
+        "significado": "pré-carga"
+    },
+    "precipitação": {
+        "significado": "precipitado, depósito"
+    },
+    "plasminogénio": {
+        "significado": "precursor inactivo da plasmina"
+    },
+    "vagotonia": {
+        "significado": "predominância do vago"
+    },
+    "dominância": {
+        "significado": "predomínio de um gene ou de um carácter"
+    },
+    "prepúcio": {
+        "significado": "prega de pele que recobre a glande do pénis ou o clítoris"
+    },
+    "válvula": {
+        "significado": "prega existente num canal permitindo o fluxo num único sentido"
+    },
+    "hipocondria": {
+        "significado": "preocupação indevida de uma pessoa pela sua saúde"
+    },
+    "extracto": {
+        "significado": "preparação concentrada de uma droga"
+    },
+    "grânulos": {
+        "significado": "preparação farmacológica em forma de grânulos"
+    },
+    "galénico": {
+        "significado": "preparado a partir de drogas vegetais em vez de substâncias químicas"
+    },
+    "didralcoólico": {
+        "significado": "preparado com alcool diluído"
+    },
+    "solução": {
+        "significado": "preparado líquido que contém várias substâncias químicas solúveis; soluto, licor; meio"
+    },
+    "cosmético": {
+        "significado": "preparado para a higiene e beleza"
+    },
+    "preparação": {
+        "significado": "preparado, confecção, solução, fabricação"
+    },
+    "bacteriemia": {
+        "significado": "presença de bactérias no sangue"
+    },
+    "creatinemia": {
+        "significado": "presença de creatina no sangue"
+    },
+    "glicosúria": {
+        "significado": "presença de glicose nas urinas"
+    },
+    "metemoglobinemia": {
+        "significado": "presença de metemoglobina no sangue de que resulta a cianose"
+    },
+    "colelitíase": {
+        "significado": "presença de pedras nas condutas biliares, litíase biliar"
+    },
+    "diverticulite": {
+        "significado": "presença de pequenas saliências ou bolsas em pontos fracos do intestino grosso, diverticulose"
+    },
+    "enfisema": {
+        "significado": "presença excessiva de ar nos pulmões ou tecidos corporais"
+    },
+    "congénito": {
+        "significado": "presente desde a nascença, mas não necessariamente hereditário"
+    },
+    "tensão": {
+        "significado": "pressão"
+    },
+    "glaucoma": {
+        "significado": "pressão anormal no globo ocular"
+    },
+    "hipotensão": {
+        "significado": "pressão sanguínea anormalmente baixa"
+    },
+    "menarca": {
+        "significado": "primeira menstruação"
+    },
+    "primeira vacinação": {
+        "significado": "primeira vacina"
+    },
+    "primeira passagem": {
+        "significado": "primeiro passo"
+    },
+    "primário": {
+        "significado": "primeiro, principal, originário"
+    },
+    "paralisia": {
+        "significado": "privação ou diminuição considerável do movimento voluntário e da sensibilidade"
+    },
+    "esterilização": {
+        "significado": "procedimento que torna um indivíduo incapaz de reproduzir"
+    },
+    "biodegração": {
+        "significado": "procedimento que transforma sistemas vivos em substâncias químicas nocivas"
+    },
+    "ulceração": {
+        "significado": "processo de formação de uma úlcera; helcose"
+    },
+    "espermatogénese": {
+        "significado": "processo de formação dos espermatozóides"
+    },
+    "mobilização": {
+        "significado": "processo de tornar móvel uma parte fixa ou uma substância presa"
+    },
+    "metaplasia": {
+        "significado": "processo de transformação de células ou tecidos noutros distintos"
+    },
+    "ionização": {
+        "significado": "processo pelo qual são produzidos iões numa substância"
+    },
+    "neutralização": {
+        "significado": "processo pelo qual uma coisa perde eficácia"
+    },
+    "diatermia": {
+        "significado": "produção de calor num tecido por correntes eléctricas de alta frequência"
+    },
+    "hiperaldosteronismo": {
+        "significado": "produção excessiva de aldoresterona pela glândula supra-renal"
+    },
+    "aditivo": {
+        "significado": "produto acrescentado"
+    },
+    "produto liofilizado": {
+        "significado": "produto preparado mediante congelação e desidratação"
+    },
+    "morfinomimético": {
+        "significado": "produtos com efeito idêntico ao da morfina"
+    },
+    "micótico": {
+        "significado": "produzido por fungos"
+    },
+    "semi-sintético": {
+        "significado": "produzido por manipulação química de substâncias naturais"
+    },
+    "prognose": {
+        "significado": "prognóstico"
+    },
+    "endometriose": {
+        "significado": "proliferação da mucosa uterina fora do seu lugar habitual"
+    },
+    "transmissão": {
+        "significado": "propagação"
+    },
+    "reprodução": {
+        "significado": "propagação, multiplicação; cópia"
+    },
+    "proporcional": {
+        "significado": "proporcional"
+    },
+    "permeabilidade": {
+        "significado": "propriedade de uma membrana deixar passar as substâncias"
+    },
+    "constitucional": {
+        "significado": "próprio à constituição de um indivíduo"
+    },
+    "endémico": {
+        "significado": "próprio a uma região ou população específica"
+    },
+    "glúten": {
+        "significado": "proteína de diversos cereais"
+    },
+    "proteína plasmática": {
+        "significado": "proteína do plasma"
+    },
+    "albumina": {
+        "significado": "proteína principal no sangue"
+    },
+    "colagénio": {
+        "significado": "proteína que constitui o principal componente do tecido conjuntivo"
+    },
+    "proteína": {
+        "significado": "prótido"
+    },
+    "aneurisma": {
+        "significado": "protuberância num ponto fraco de uma artéria"
+    },
+    "duplamente cego": {
+        "significado": "prova dita duplamente cego"
+    },
+    "paravenoso": {
+        "significado": "próximo de uma veia"
+    },
+    "prurítico": {
+        "significado": "pruriginoso, que faz comichão"
+    },
+    "pseudomembranoso": {
+        "significado": "pseudomenbranoso"
+    },
+    "psicológico": {
+        "significado": "psicológico"
+    },
+    "psicose": {
+        "significado": "psicopatia, alienação (mental), doença mental"
+    },
+    "esquizofrenia": {
+        "significado": "psicose, doença mental em que o doente se alheia do mundo que o rodeia e se refugia em si mesmo"
+    },
+    "pneumonia": {
+        "significado": "pulmonia, inflamação dos pulmões e brônquios respiratórios"
+    },
+    "extra-sístole": {
+        "significado": "pulsação fora do tempo"
+    },
+    "purgativo": {
+        "significado": "purgante, que produz evacuação do intestino"
+    },
+    "antraz": {
+        "significado": "pústula maligna, baceira, mal-do-baço, mal-do-sangue"
+    },
+    "pustuloso": {
+        "significado": "pustulento, com formação de pústulas"
+    },
+    "organismo": {
+        "significado": "qualquer coisa viva individual"
+    },
+    "miopatia": {
+        "significado": "qualquer doença muscular"
+    },
+    "hidrófilo": {
+        "significado": "que absorve a água, é atraído pela água"
+    },
+    "prematuro": {
+        "significado": "que acontece antes do tempo (normal)"
+    },
+    "subclínico": {
+        "significado": "que acontece sem manifestação de sintomas"
+    },
+    "anabólico": {
+        "significado": "que activa o desenvolvimento fisiológico"
+    },
+    "indirecto": {
+        "significado": "que actua através de um agente intermédio"
+    },
+    "colinérgico": {
+        "significado": "que actua por intermédio da acetilcolina"
+    },
+    "vasomotor": {
+        "significado": "que afecta o calibre dos vasos"
+    },
+    "cervical": {
+        "significado": "que afecta o colo ou o colo de um órgão"
+    },
+    "sistémico": {
+        "significado": "que afecta o corpo de forma total; geral, generalizado"
+    },
+    "psicotrópico": {
+        "significado": "que afecta o estado mental"
+    },
+    "mastigatório": {
+        "significado": "que afecta os músculos da mastigação; que deve mastigar-se"
+    },
+    "cerebrovascular": {
+        "significado": "que afecta os vasos cerebrais"
+    },
+    "sinergético": {
+        "significado": "que age simultaneamente com outra coisa"
+    },
+    "cardiosselectivo": {
+        "significado": "que age só no coração"
+    },
+    "vasoactivo": {
+        "significado": "que age sobre os vasos sanguíneos"
+    },
+    "diurético": {
+        "significado": "que ajuda a aumentar o fluxo de urina"
+    },
+    "analgésico": {
+        "significado": "que alivia a dor"
+    },
+    "paliativo": {
+        "significado": "que alivia as dores mas não cura"
+    },
+    "demulcente": {
+        "significado": "que alivia as zonas inflamadas; suavizante"
+    },
+    "emoliente": {
+        "significado": "que amolece a pele"
+    },
+    "preliminar": {
+        "significado": "que antecede o principal ou que o prepara"
+    },
+    "adstringente": {
+        "significado": "que aperta os tecidos, secura da pele"
+    },
+    "polimorfo": {
+        "significado": "que apresenta diversas formas"
+    },
+    "anafiláctico": {
+        "significado": "que aumenta a sensibilidade do organismo para um veneno"
+    },
+    "arritmogénico": {
+        "significado": "que causa arritmia, pulsão irregular"
+    },
+    "pirogénico": {
+        "significado": "que causa febre"
+    },
+    "imunogénico": {
+        "significado": "que causa imunidade"
+    },
+    "anxiolítico": {
+        "significado": "que combate a ansiedade, tranquilizante"
+    },
+    "antitumor": {
+        "significado": "que combate a formação de tumores"
+    },
+    "anti-infeccioso": {
+        "significado": "que combate a infecção"
+    },
+    "antiflogístico": {
+        "significado": "que combate a inflamação, anti-inflamatório"
+    },
+    "transruretal": {
+        "significado": "que conduz através da uretra ou a atravessa"
+    },
+    "mucopurulento": {
+        "significado": "que contém muco e pus"
+    },
+    "purulento": {
+        "significado": "que contém ou produz pus"
+    },
+    "quaternário": {
+        "significado": "que contém quatro elementos"
+    },
+    "vasopressor": {
+        "significado": "que contrai os vasos sanguíneos"
+    },
+    "curativo": {
+        "significado": "que cura, terapêutico"
+    },
+    "retrógrado": {
+        "significado": "que degenera, retrógrado, regressivo, retrocedente"
+    },
+    "desinfectante": {
+        "significado": "que desinfecta"
+    },
+    "antibacteriano": {
+        "significado": "que destrói as bactérias"
+    },
+    "oncolítico": {
+        "significado": "que destrói as células cancerosas"
+    },
+    "antiviral": {
+        "significado": "que destrói ou impede o desenvolvimento de vírus"
+    },
+    "proteolítico": {
+        "significado": "que digere ou hidrolisa as proteínas"
+    },
+    "imunossupressor": {
+        "significado": "que diminui a defesa do organismo"
+    },
+    "fibrinolítico": {
+        "significado": "que dissolve a fibrina"
+    },
+    "lipofílico": {
+        "significado": "que dissolve as gorduras; que pode tornar-se obeso"
+    },
+    "trombolítico": {
+        "significado": "que dissolve ou desintegra um trombo"
+    },
+    "miorrelaxante": {
+        "significado": "que distende os músculos"
+    },
+    "cardiogénico": {
+        "significado": "que é consequência de uma deficiência do coração"
+    },
+    "citotóxico": {
+        "significado": "que é tóxico para as células; detém o crescimento dos tecidos"
+    },
+    "multidose": {
+        "significado": "que encerra muitas doses"
+    },
+    "corresponder": {
+        "significado": "que equivale"
+    },
+    "extremo": {
+        "significado": "que está afastado"
+    },
+    "in vivo": {
+        "significado": "que está situado ou ocorre num corpo vivo"
+    },
+    "gonadotrópico": {
+        "significado": "que estimula as glândulas sexuais"
+    },
+    "cardiotónico": {
+        "significado": "que estimula o coração"
+    },
+    "tensioactivo": {
+        "significado": "que exerce efeito sobre a tensão superficial"
+    },
+    "oculogiro": {
+        "significado": "que faz girar os olhos"
+    },
+    "fotofobia": {
+        "significado": "que foge da luz (que tem aversão à luz)"
+    },
+    "ulcerogénico": {
+        "significado": "que gera úlceras"
+    },
+    "antiexudativo": {
+        "significado": "que impede a exsudação, a transpiração"
+    },
+    "antitrombótico": {
+        "significado": "que impede a formação de coágulos no sangue e dissolve-os"
+    },
+    "contraceptivo": {
+        "significado": "que impede a gravidez"
+    },
+    "anti-inflamatório": {
+        "significado": "que impede a inflamação"
+    },
+    "antimicótico": {
+        "significado": "que impede a reprodução dos fungos"
+    },
+    "bacteriostático": {
+        "significado": "que impede o desenvolvimento das bactérias"
+    },
+    "antimicrobiano": {
+        "significado": "que impede o desenvolvimento de micróbios"
+    },
+    "antiestrogénico": {
+        "significado": "que impede ou contraria o efeito das hormonas estrogénicas"
+    },
+    "positivo": {
+        "significado": "que indica a presença de um transtorno"
+    },
+    "salúrico": {
+        "significado": "que induz a eliminação de sal pela urina"
+    },
+    "mutagénico": {
+        "significado": "que induz mutações genéticas"
+    },
+    "vagolítico": {
+        "significado": "que inibe o nervo vago"
+    },
+    "bactericida": {
+        "significado": "que mata as bactérias"
+    },
+    "espermicida": {
+        "significado": "que mata os espermatozóides"
+    },
+    "motor": {
+        "significado": "que move, motriz"
+    },
+    "antiproliferativo": {
+        "significado": "que não deixa as células multiplicarem-se"
+    },
+    "atrofia": {
+        "significado": "que não desenvolveu"
+    },
+    "antidiurético": {
+        "significado": "que não faz urinar"
+    },
+    "resistente": {
+        "significado": "que não reage a determinados medicamentos"
+    },
+    "inoperável": {
+        "significado": "que não se pode curar com operação cirúrgica"
+    },
+    "anidro": {
+        "significado": "que não tem água"
+    },
+    "azospermia": {
+        "significado": "que não tem espermatóides"
+    },
+    "Gram-negativo": {
+        "significado": "que não toma o corante de Gram"
+    },
+    "pré-clínico": {
+        "significado": "que ocorre antes da doença ser clinicamente reconhecível"
+    },
+    "pré-menstrual": {
+        "significado": "que ocorre antes da menstruação"
+    },
+    "pós-menopáusico": {
+        "significado": "que ocorre após a menopausa"
+    },
+    "pós-traumático": {
+        "significado": "que ocorre depois de um traumatismo"
+    },
+    "intermitente": {
+        "significado": "que ocorre em intervalos"
+    },
+    "citostático": {
+        "significado": "que pára a multiplicação das células"
+    },
+    "transdérmico": {
+        "significado": "que passa através da pele"
+    },
+    "invasivo": {
+        "significado": "que penatra, que invade"
+    },
+    "neurovegetativo": {
+        "significado": "que pertence ou é relativo ao sistema nervoso vegetativo"
+    },
+    "reversível": {
+        "significado": "que pode desaparecer totalmente com a supressão da causa"
+    },
+    "compatível": {
+        "significado": "que pode ser administrado juntamente com outro medicamento"
+    },
+    "pré-operatório": {
+        "significado": "que precede uma operação"
+    },
+    "precursor": {
+        "significado": "que precede, dianteiro"
+    },
+    "degenerativo": {
+        "significado": "que produz degeneração"
+    },
+    "tónico": {
+        "significado": "que produz e restabelece o tom normal; que se caracteriza por tensão contínua"
+    },
+    "soporífico": {
+        "significado": "que produz sono, soporífero"
+    },
+    "produtivo": {
+        "significado": "que produz tecido novo (diz-se de uma inflamação); que produz escarros e muco (diz-se da tosse)"
+    },
+    "protectivo": {
+        "significado": "que protege, protector"
+    },
+    "letal": {
+        "significado": "que provoca a morte"
+    },
+    "carcinogénico": {
+        "significado": "que provoca o cancro, cancerígeno"
+    },
+    "antipirético": {
+        "significado": "que reduz a febre, antitérmico, febrífugo, antifebril"
+    },
+    "complacente": {
+        "significado": "que se compadece com os males ou desventuras de outrem; simpático"
+    },
+    "endógeno": {
+        "significado": "que se desenvolve ou surge num organismo"
+    },
+    "pré-sinático": {
+        "significado": "que se encontra adiante da zona de contacto entre dois neuronas"
+    },
+    "ectópico": {
+        "significado": "que se encontra ou produz fora do lugar habitual"
+    },
+    "miscível": {
+        "significado": "que se pode misturar"
+    },
+    "diurno": {
+        "significado": "que se produz durante o dia"
+    },
+    "sedentário": {
+        "significado": "que se senta habitualmente; de hábitos inactivos"
+    },
+    "trivalente": {
+        "significado": "que se une com três átomos de hidrogénio ou os substitui"
+    },
+    "endócrino": {
+        "significado": "que secreta hormonas"
+    },
+    "sistemático": {
+        "significado": "que segue um sistema, um método"
+    },
+    "integumentário": {
+        "significado": "que serve de cobertura, como a pele; integumental"
+    },
+    "terapêutico": {
+        "significado": "que serve para curar"
+    },
+    "antitússico": {
+        "significado": "que suprime ou combate a tosse"
+    },
+    "isotónico": {
+        "significado": "que tem a mesma tensão ou concentração"
+    },
+    "neutrófilo": {
+        "significado": "que tem afinidade com corantes neutros"
+    },
+    "bifásico": {
+        "significado": "que tem duas fases"
+    },
+    "ferropénico": {
+        "significado": "que tem falta de ferro"
+    },
+    "febril": {
+        "significado": "que tem febre, pirético"
+    },
+    "hidrófobo": {
+        "significado": "que tem horror à água ou foge dela"
+    },
+    "psicogénico": {
+        "significado": "que tem origem emocional ou psicológica"
+    },
+    "psicossomático": {
+        "significado": "que tem sintomas corporais de origem psíquica, emocional e mental"
+    },
+    "multípara": {
+        "significado": "que teve vários filhos"
+    },
+    "anestésico": {
+        "significado": "que tira a sensibilidade"
+    },
+    "Gram-positivo": {
+        "significado": "que toma o corante de Gram"
+    },
+    "antimitótico": {
+        "significado": "que trava a divisão e crescimento das células"
+    },
+    "aeróbio": {
+        "significado": "que vive no ar"
+    },
+    "anaeróbio": {
+        "significado": "que vive sem ar"
+    },
+    "recorrente": {
+        "significado": "que volta à sua origem"
+    },
+    "ptose": {
+        "significado": "queda de um órgão"
+    },
+    "colapso": {
+        "significado": "queda rápida da tensão arterial; enfraquecimento de um órgão"
+    },
+    "quelação": {
+        "significado": "quelante"
+    },
+    "químico": {
+        "significado": "químico"
+    },
+    "radioactividade": {
+        "significado": "radioactividade"
+    },
+    "radiografia": {
+        "significado": "radiografia"
+    },
+    "arteriografia": {
+        "significado": "radiografia das artérias"
+    },
+    "flebografia": {
+        "significado": "radiografia das veias"
+    },
+    "colangiografia": {
+        "significado": "radiografia de contraste das condutas biliares"
+    },
+    "urografia": {
+        "significado": "radiografia de uma parte do aparelho urinário"
+    },
+    "tomografia": {
+        "significado": "radiografia de uma secção do corpo ou de um órgão"
+    },
+    "radiológico": {
+        "significado": "radiológico"
+    },
+    "dendrítico": {
+        "significado": "ramificado, relativo às dendrites (fibras nervosas)"
+    },
+    "osteoporose": {
+        "significado": "rarefacção dos minerais nos ossos; desmineralização esquelética"
+    },
+    "curetagem": {
+        "significado": "raspagem"
+    },
+    "reabsorção": {
+        "significado": "reabsorção cutânea, dental"
+    },
+    "reacção": {
+        "significado": "reacção"
+    },
+    "resposta": {
+        "significado": "reacção a um estímulo"
+    },
+    "auto-imune": {
+        "significado": "reacção anormal do organismo contra um dos seus próprios tecidos"
+    },
+    "hidrólise": {
+        "significado": "reacção de desdobramento de uma molécula por acção da água"
+    },
+    "dermografia": {
+        "significado": "reacção local da pele a uma irritação mecânica ou efeito de pressão"
+    },
+    "activo": {
+        "significado": "reactivo, eficaz"
+    },
+    "reagente": {
+        "significado": "reactivo, substância utilizada para produzir uma reacção química"
+    },
+    "ressuscitação": {
+        "significado": "reanimação de doentes que pareciam mortos, como após afogamento, etc."
+    },
+    "reavaliação": {
+        "significado": "reavaliação"
+    },
+    "refractário": {
+        "significado": "rebelde, que não cede facilmente com o tratamento"
+    },
+    "prescrição": {
+        "significado": "receita"
+    },
+    "receptor": {
+        "significado": "receptor"
+    },
+    "recuperação": {
+        "significado": "recuperação, aproveitamento"
+    },
+    "plexo": {
+        "significado": "rede de vasos linfáticos, nervos ou veias"
+    },
+    "minimizar": {
+        "significado": "reduzir (ao mínimo), limitar"
+    },
+    "micronizar": {
+        "significado": "reduzir a pó fino"
+    },
+    "referência": {
+        "significado": "referência"
+    },
+    "entero-hepático": {
+        "significado": "referente ao intestino e ao fígado"
+    },
+    "colorectal": {
+        "significado": "referente ao intestino grosso e à sua parte final"
+    },
+    "urogenital": {
+        "significado": "referente aos órgãos urinários e genitais; geniturinário"
+    },
+    "vascular": {
+        "significado": "referente aos vasos sanguíneos"
+    },
+    "oftálmico": {
+        "significado": "referente ou pertencente ao olho ou à vista"
+    },
+    "reflexo": {
+        "significado": "reflexo"
+    },
+    "hiper-reflexia": {
+        "significado": "reflexos aumentados"
+    },
+    "posologia": {
+        "significado": "regime de administração do medicamento"
+    },
+    "regional": {
+        "significado": "regional"
+    },
+    "electroencefalografia": {
+        "significado": "registo das ondas cerebrais (para detecção de tumores)"
+    },
+    "critério": {
+        "significado": "regra"
+    },
+    "menstruação": {
+        "significado": "regras"
+    },
+    "retroacção": {
+        "significado": "regulação"
+    },
+    "termorregulação": {
+        "significado": "regulação do calor ou da temperatura"
+    },
+    "recidivista": {
+        "significado": "reincidente, pessoa que repete os actos delinquentes depois de receber tratamento"
+    },
+    "interacção": {
+        "significado": "relação entre dois elementos"
+    },
+    "correlação": {
+        "significado": "relação recíproca ou mútua"
+    },
+    "sistólico": {
+        "significado": "relacionado com a contracção músculo cardíaco"
+    },
+    "lombar": {
+        "significado": "relacionado com a parte inferior da coluna vertebral"
+    },
+    "postural": {
+        "significado": "relacionado com a postura ou a posição"
+    },
+    "lenticular": {
+        "significado": "relacionado com o cristalino"
+    },
+    "anginoso": {
+        "significado": "relativo a angina"
+    },
+    "coronário": {
+        "significado": "relativo a artérias e veias do coração"
+    },
+    "aural": {
+        "significado": "relativo à aura, percebido pelo ouvido"
+    },
+    "bucofaríngeo": {
+        "significado": "relativo à boca e à garganta"
+    },
+    "bucal": {
+        "significado": "relativo à boca, oral"
+    },
+    "oral": {
+        "significado": "relativo à boca, pela boca"
+    },
+    "epifisário": {
+        "significado": "relativo à cabeça de um osso largo"
+    },
+    "facial": {
+        "significado": "relativo à cara"
+    },
+    "orbital": {
+        "significado": "relativo à cavidade óssea que contém o globo ocular; orbitário"
+    },
+    "microbiológico": {
+        "significado": "relativo à ciência dos microrganismos (organismos minúsculos)"
+    },
+    "toxicológico": {
+        "significado": "relativo à ciência que estuda os venenos"
+    },
+    "farmacológico": {
+        "significado": "relativo à ciência que investiga os medicamentos"
+    },
+    "teratológico": {
+        "significado": "relativo à ciência que se ocupa do desenvolvimento anormal e das malformações congénitas"
+    },
+    "clínico": {
+        "significado": "relativo à clínica; baseado na observação e no tratamento"
+    },
+    "espinal": {
+        "significado": "relativo à coluna vertebral"
+    },
+    "neuromuscular": {
+        "significado": "relativo à correlação entre os nervos e os músculos"
+    },
+    "osmótico": {
+        "significado": "relativo à difusão de um líquido através de uma membrana"
+    },
+    "digestivo": {
+        "significado": "relativo à digestão"
+    },
+    "péptico": {
+        "significado": "relativo à digestão; úlcera gástrica"
+    },
+    "diastólico": {
+        "significado": "relativo à disástole (fase de relaxamento do músculo cardíaco)"
+    },
+    "miótico": {
+        "significado": "relativo à divisão dos cromossomas e replicação das células"
+    },
+    "electrofisiológico": {
+        "significado": "relativo à electrofisiologia (estudo das reacções produzidas nos seres vivos por excitações eléctricas)"
+    },
+    "energético": {
+        "significado": "relativo à energia"
+    },
+    "farmacêutico": {
+        "significado": "relativo à farmácia"
+    },
+    "físico-químico": {
+        "significado": "relativo à física e à química"
+    },
+    "androgénico": {
+        "significado": "relativo à geração do homem"
+    },
+    "paratiróide": {
+        "significado": "relativo à glândula paratiróide"
+    },
+    "hematológico": {
+        "significado": "relativo à hematologia (estudo do sangue e das suas afecções)"
+    },
+    "hipofisário": {
+        "significado": "relativo à hipófice"
+    },
+    "histológico": {
+        "significado": "relativo à histologia (parte da anatomia que trata dos tecidos orgânicos)"
+    },
+    "infantil": {
+        "significado": "relativo à infância"
+    },
+    "mamário": {
+        "significado": "relativo à mama"
+    },
+    "geriátrico": {
+        "significado": "relativo à medicina que trata as doenças dos velhos"
+    },
+    "medular": {
+        "significado": "relativo à medula de qualquer tipo"
+    },
+    "micológico": {
+        "significado": "relativo à micologia (estudo dos cogumelos)"
+    },
+    "auricular": {
+        "significado": "relativo à orelha; relativo a uma das câmaras superiores do coração"
+    },
+    "palpebral": {
+        "significado": "relativo à pálpebra"
+    },
+    "parietal": {
+        "significado": "relativo à parede de uma cavidade; relativo ao osso frontal"
+    },
+    "oftalmológico": {
+        "significado": "relativo à parte da medicina que estuda os olhos"
+    },
+    "pediátrico": {
+        "significado": "relativo à parte da medicina que trata das crianças"
+    },
+    "glomerular": {
+        "significado": "relativo à parte filtrante dos rins"
+    },
+    "pélvico": {
+        "significado": "relativo à parte inferior do tronco do corpo"
+    },
+    "lítico": {
+        "significado": "relativo à pedra, que rompe, que influi na destruição da célula"
+    },
+    "dermatológico": {
+        "significado": "relativo à pele"
+    },
+    "epidérmico": {
+        "significado": "relativo à pele"
+    },
+    "ortostático": {
+        "significado": "relativo à posição do pé ou causado por ele"
+    },
+    "psiquiátrico": {
+        "significado": "relativo à psiquiatria"
+    },
+    "qualitativo": {
+        "significado": "relativo à qualidade"
+    },
+    "quantitativo": {
+        "significado": "relativo à quantidade"
+    },
+    "bioquímico": {
+        "significado": "relativo à química dos processos vitais e organismos vivos"
+    },
+    "perineal": {
+        "significado": "relativo à região limitada pelo escroto-ânus, no homem, e pela vulva-ânus, na mulher"
+    },
+    "respiratório": {
+        "significado": "relativo à respiração"
+    },
+    "retinal": {
+        "significado": "relativo à retina"
+    },
+    "cíclico": {
+        "significado": "relativo a um ciclo, que passa por etapas sucessivas"
+    },
+    "traumático": {
+        "significado": "relativo a um trauma ou traumatismo, ou causado por ele"
+    },
+    "vestibular": {
+        "significado": "relativo a um vestíbulo ou que se dirige para ele"
+    },
+    "artério-venoso": {
+        "significado": "relativo a uma artéria e a uma veia"
+    },
+    "sinusal": {
+        "significado": "relativo a uma bolsa ou cavidade, particularmente na câmara superior do coração"
+    },
+    "límbico": {
+        "significado": "relativo a uma borda ou margem"
+    },
+    "atrial": {
+        "significado": "relativo a uma câmara superior do coração"
+    },
+    "atrioventricular": {
+        "significado": "relativo a uma câmara superior e a um ventrículo do coração"
+    },
+    "nefrótico": {
+        "significado": "relativo a uma doença dos rins ou causado por ela"
+    },
+    "maníaco": {
+        "significado": "relativo a uma mania"
+    },
+    "ventricular": {
+        "significado": "relativo a uma pequena cavidade"
+    },
+    "visceral": {
+        "significado": "relativo a uma víscera"
+    },
+    "vaginal": {
+        "significado": "relativo à vagina"
+    },
+    "biliar": {
+        "significado": "relativo à vesícula biliar e ao fígado"
+    },
+    "visual": {
+        "significado": "relativo à visão"
+    },
+    "óptico": {
+        "significado": "relativo à vista ou ao nervo ótptico"
+    },
+    "sináptico": {
+        "significado": "relativo à zona de contacto entre dois neuronas"
+    },
+    "anal": {
+        "significado": "relativo ao ânus"
+    },
+    "anorectal": {
+        "significado": "relativo ao anus e ao intestino grosso"
+    },
+    "bulbar": {
+        "significado": "relativo ao bolbo (raquidiano)"
+    },
+    "oncótico": {
+        "significado": "relativo ao cancro"
+    },
+    "cerebelar": {
+        "significado": "relativo ao cerebelo"
+    },
+    "cerebral": {
+        "significado": "relativo ao cérebro"
+    },
+    "cerebrospinal": {
+        "significado": "relativo ao cérebro e à medula espinal, cefalorraquídeo"
+    },
+    "clitórico": {
+        "significado": "relativo ao clítoris"
+    },
+    "cognitivo": {
+        "significado": "relativo ao conhecimento; intelectivo"
+    },
+    "venéreo": {
+        "significado": "relativo ao contacto sexual ou transmitido por ele"
+    },
+    "cardíaco": {
+        "significado": "relativo ao coração"
+    },
+    "cardiorespiratório": {
+        "significado": "relativo ao coração e à respiração"
+    },
+    "cardiopulmonar": {
+        "significado": "relativo ao coração e pulmões"
+    },
+    "cardiovascular": {
+        "significado": "relativo ao coração e vasos sanguíneos"
+    },
+    "somático": {
+        "significado": "relativo ao corpo: desenvolvimento somático, por exemplo"
+    },
+    "cortical": {
+        "significado": "relativo ao córtex"
+    },
+    "craniano": {
+        "significado": "relativo ao crânio"
+    },
+    "vegetativo": {
+        "significado": "relativo ao crescimento e à nutrição; que funciona de maneira involuntária ou inconsciente; em repouso; relativo às plantas; relativo à reprodução assexual"
+    },
+    "cromossómico": {
+        "significado": "relativo ao cromossoma"
+    },
+    "dorsal": {
+        "significado": "relativo ao dorso, às costas"
+    },
+    "esquelético": {
+        "significado": "relativo ao esqueleto, magro"
+    },
+    "gastro-esofágico": {
+        "significado": "relativo ao estômago e ao esófago"
+    },
+    "gastroduodenal": {
+        "significado": "relativo ao estômago e ao intestino delgado"
+    },
+    "gastrintestinal": {
+        "significado": "relativo ao estômago e aos intestinos"
+    },
+    "serológico": {
+        "significado": "relativo ao estudo da imunidade pelo soro"
+    },
+    "epidemiológico": {
+        "significado": "relativo ao estudo da propagação das doenças"
+    },
+    "bacteriológico": {
+        "significado": "relativo ao estudo das bactérias"
+    },
+    "hemopoiético": {
+        "significado": "relativo ao fabrico de glóbulos vermelhos"
+    },
+    "fetal": {
+        "significado": "relativo ao feto"
+    },
+    "hepático": {
+        "significado": "relativo ao fígado"
+    },
+    "hepatobiliar": {
+        "significado": "relativo ao fígado e às condutas biliares"
+    },
+    "nosocomial": {
+        "significado": "relativo ao hospital e às doenças que ali se tratam, hospitalar"
+    },
+    "fetoplacentário": {
+        "significado": "relativo ao intercâmbio entre o feto e placenta"
+    },
+    "intestinal": {
+        "significado": "relativo ao intestino"
+    },
+    "juvenil": {
+        "significado": "relativo ao jovem"
+    },
+    "sinovial": {
+        "significado": "relativo ao líquido secretado pela membrana sinovial ou que o secreta"
+    },
+    "fálico": {
+        "significado": "relativo ao membro viril"
+    },
+    "mesentérico": {
+        "significado": "relativo ao mesentério, membrana que contém os vasos sanguíneos mesentéricos"
+    },
+    "muscular": {
+        "significado": "relativo ao músculo; com musculatura bem desenvolvida"
+    },
+    "nasal": {
+        "significado": "relativo ao nariz"
+    },
+    "nasolacrimal": {
+        "significado": "relativo ao nariz e ao aparelho lacrimal"
+    },
+    "vagal": {
+        "significado": "relativo ao nervo vago, décimo nervo craniano"
+    },
+    "ocular": {
+        "significado": "relativo ao olho ou à vista"
+    },
+    "auditivo": {
+        "significado": "relativo ao ouvido e à audição"
+    },
+    "ovárico": {
+        "significado": "relativo ao ovário"
+    },
+    "neonatal": {
+        "significado": "relativo ao primeiro mês de vida"
+    },
+    "rectal": {
+        "significado": "relativo ao recto, ânos"
+    },
+    "renal": {
+        "significado": "relativo ao rim"
+    },
+    "imune": {
+        "significado": "relativo ao sistema imunitário; insensível"
+    },
+    "neurológico": {
+        "significado": "relativo ao sistema nervoso ou à neurologia"
+    },
+    "torácico": {
+        "significado": "relativo ao tórax ou que o afecta"
+    },
+    "umeral": {
+        "significado": "relativo ao úmero (osso do braço - do ombro até ao cotovelo)"
+    },
+    "ventral": {
+        "significado": "relativo ao ventre; abdominal"
+    },
+    "broncopulmonar": {
+        "significado": "relativo aos brônquios e pulmões"
+    },
+    "psicomotor": {
+        "significado": "relativo aos efeitos motores da actividade cerebral ou psíquica"
+    },
+    "humoral": {
+        "significado": "relativo aos fluidos corporais"
+    },
+    "genético": {
+        "significado": "relativo aos genes"
+    },
+    "linfocítico": {
+        "significado": "relativo aos linfócitos, células com núcleo redondo"
+    },
+    "neural": {
+        "significado": "relativo aos nervos; situado na região da coluna vertebral"
+    },
+    "geniturinário": {
+        "significado": "relativo aos órgãos genitais e urinários"
+    },
+    "genital": {
+        "significado": "relativo aos órgãos sexuais"
+    },
+    "vulvar": {
+        "significado": "relativo aos órgãos sexuais externos da mulher"
+    },
+    "maxilar": {
+        "significado": "relativo aos ossos da cara onde se encontram fixados os dentes"
+    },
+    "pulmonar": {
+        "significado": "relativo aos pulmões"
+    },
+    "imunológico": {
+        "significado": "relativo aos sistema imunitário"
+    },
+    "testicular": {
+        "significado": "relativo aos testículos"
+    },
+    "viral": {
+        "significado": "relativo aos vírus ou causado por eles"
+    },
+    "arterial": {
+        "significado": "relativo às artérias"
+    },
+    "articular": {
+        "significado": "relativo às articulações"
+    },
+    "hepatocelular": {
+        "significado": "relativo às células do fígado"
+    },
+    "endotóxico": {
+        "significado": "relativo às endotoxinas"
+    },
+    "fecal": {
+        "significado": "relativo às fezes"
+    },
+    "gonádico": {
+        "significado": "relativo às glândulas sexuais"
+    },
+    "hormonal": {
+        "significado": "relativo às hormonas"
+    },
+    "molecular": {
+        "significado": "relativo às moléculas ou composto por elas"
+    },
+    "mucocutâneo": {
+        "significado": "relativo às mucosas e à pele ou que as afecta"
+    },
+    "neuronal": {
+        "significado": "relativo às neuronas"
+    },
+    "arteriolar": {
+        "significado": "relativo às pequenas artérias"
+    },
+    "sensorial": {
+        "significado": "relativo às sensações"
+    },
+    "venoso": {
+        "significado": "relativo às veias, provido de veias"
+    },
+    "vertebral": {
+        "significado": "relativo às vértebras"
+    },
+    "caudal": {
+        "significado": "relativo ou em direcção da cauda"
+    },
+    "antiasmático": {
+        "significado": "remédio contra a asma"
+    },
+    "expectorante": {
+        "significado": "remédio para desprender o muco dos pulmões e facilitar a tosse"
+    },
+    "medicamento": {
+        "significado": "remédio, medicina"
+    },
+    "ooforectomia": {
+        "significado": "remoção cirúrgica de um ovário"
+    },
+    "regeneração": {
+        "significado": "renovação ou preparação de tecidos ou de partes desaparecidas"
+    },
+    "renovascular": {
+        "significado": "renovascular"
+    },
+    "abrupto": {
+        "significado": "repentino, brusco"
+    },
+    "intervalo QT": {
+        "significado": "representa a duração total da sístole eléctrica ventricular"
+    },
+    "proliferação": {
+        "significado": "reprodução, multiplicação"
+    },
+    "resistência cruzada": {
+        "significado": "resistência a antibióticos similares"
+    },
+    "imunidade": {
+        "significado": "resistência natural às infecções"
+    },
+    "rigidez": {
+        "significado": "resistência, robustez"
+    },
+    "responder": {
+        "significado": "responder"
+    },
+    "desfibrilhação": {
+        "significado": "restabelecimento da pulsação cardíaca"
+    },
+    "residual": {
+        "significado": "restante, que deposita"
+    },
+    "reactivação": {
+        "significado": "restauração da actividade num corpo inactivo"
+    },
+    "reidratação": {
+        "significado": "restauração da água ou do conteúdo líquido num organismo"
+    },
+    "localização": {
+        "significado": "restrição a uma área determinada"
+    },
+    "local": {
+        "significado": "restricto, não geral"
+    },
+    "retardamento": {
+        "significado": "retardo, atraso no desenvolvimento de determinada actividade"
+    },
+    "colestase": {
+        "significado": "retenção de fel nas condutas"
+    },
+    "azotemia": {
+        "significado": "retenção no sangue de produtos azotados"
+    },
+    "redução": {
+        "significado": "retorno à forma inicial ou normal"
+    },
+    "regressão": {
+        "significado": "retorno a um estado ou fase anterior; desaparecimento dos sintomas ou de um processo anormal; involução"
+    },
+    "revestimento intestinal": {
+        "significado": "revestimento intestinal"
+    },
+    "bradicardia": {
+        "significado": "ritmo cardíaco lento"
+    },
+    "bradipneia": {
+        "significado": "ritmo respiratório lento"
+    },
+    "dentição": {
+        "significado": "rompimento dos dentes"
+    },
+    "torção": {
+        "significado": "rotação de um órgão em torno de si mesmo"
+    },
+    "rotatividade": {
+        "significado": "rotatividade"
+    },
+    "rouquidão": {
+        "significado": "rouquidão"
+    },
+    "rubor": {
+        "significado": "ruborização"
+    },
+    "eritema": {
+        "significado": "ruborização, inflamação da pele"
+    },
+    "borborigmo": {
+        "significado": "ruído no ventre pela deslocação de gases"
+    },
+    "ronco": {
+        "significado": "ruído respiratório anormal; ressono"
+    },
+    "maligno": {
+        "significado": "ruim; de evolução fatal"
+    },
+    "rotura": {
+        "significado": "ruptura, fractura dos tecidos ou de um órgão"
+    },
+    "cloaca": {
+        "significado": "saco terminal do tubo digestivo (aves e répteis)"
+    },
+    "comoção": {
+        "significado": "sacudidela violenta, golpe violento, pressão violenta"
+    },
+    "piloro": {
+        "significado": "saída do estômago"
+    },
+    "salino": {
+        "significado": "salgado, que contém sais"
+    },
+    "hematúria": {
+        "significado": "sangue nas urinas, emissão de sangue pelas vias urinárias"
+    },
+    "rubéola": {
+        "significado": "sarampo alemão"
+    },
+    "secreção": {
+        "significado": "secreção"
+    },
+    "salivação": {
+        "significado": "secreção de saliva, ptialismo, sialorreia, polissialia, fluxo salivar"
+    },
+    "diaforese": {
+        "significado": "secreção de suor / transpiração, (secreção de) suor"
+    },
+    "hipersecreção": {
+        "significado": "secreção excessiva de uma glândula"
+    },
+    "xerostomia": {
+        "significado": "secura ocular"
+    },
+    "xeroftalmia": {
+        "significado": "secura, ulceração da córnea por falta de vitamina A"
+    },
+    "polidipsia": {
+        "significado": "sede excessiva persistente; sintoma de diabetes mellitus descompensada"
+    },
+    "electivo": {
+        "significado": "selectivo"
+    },
+    "agamaglobulinémia": {
+        "significado": "sem gamoglobinas"
+    },
+    "conservador": {
+        "significado": "sem intervenção cirúrgica"
+    },
+    "negativo": {
+        "significado": "sem resultado, não positivo, abaixo da linha zero"
+    },
+    "irreversível": {
+        "significado": "sem retorno"
+    },
+    "assintomático": {
+        "significado": "sem sintomas"
+    },
+    "aquoso": {
+        "significado": "semelhante à água"
+    },
+    "reumatóide": {
+        "significado": "semelhante ao reumatismo"
+    },
+    "euforia": {
+        "significado": "sensação anormal de bem-estar"
+    },
+    "palpitação": {
+        "significado": "sensação de batimentos cardíacos rápidos e irregulares"
+    },
+    "pernas sem repouso": {
+        "significado": "sensação de formigueiro profundo em ambas as pernas"
+    },
+    "parestesia": {
+        "significado": "sensação de formigueiro, picadelas"
+    },
+    "aura": {
+        "significado": "sensação no início de um acesso de doença"
+    },
+    "vertigem": {
+        "significado": "sensação rotatória associada a náusea; tontura de cabeça"
+    },
+    "fotossensibilidade": {
+        "significado": "sensibilidade à luz, resposta normal da pele à luz"
+    },
+    "hipersensibilidade": {
+        "significado": "sensibilidade excessiva, alergia"
+    },
+    "fotossensibilização": {
+        "significado": "sensibilização à luz, reacção normal da pele à luz"
+    },
+    "necrólise": {
+        "significado": "separação e esfoliação do tecido por morte celular"
+    },
+    "comensal": {
+        "significado": "ser vivo que convive com outro organismo hóspede"
+    },
+    "luético": {
+        "significado": "sifilítico"
+    },
+    "significante": {
+        "significado": "significativo"
+    },
+    "conjugado": {
+        "significado": "simultâneo"
+    },
+    "sintoma": {
+        "significado": "sinal"
+    },
+    "mácula": {
+        "significado": "sinal, mancha, cicatriz, estigma"
+    },
+    "sintomatologia": {
+        "significado": "sintomas combinados de uma doença"
+    },
+    "musculatura": {
+        "significado": "sistema muscular do corpo ou das suas partes"
+    },
+    "estado de equilíbrio": {
+        "significado": "situação em que uma variável se mantém imutável"
+    },
+    "intravenoso": {
+        "significado": "situado dentro de uma veia"
+    },
+    "precordial": {
+        "significado": "situado diante do coração"
+    },
+    "peridual": {
+        "significado": "situado em torno da envoltura do sistema nervoso central"
+    },
+    "extrapiramidal": {
+        "significado": "situado fora da via piramidal"
+    },
+    "extravascular": {
+        "significado": "situado fora de um vaso"
+    },
+    "extra-renal": {
+        "significado": "situado fora dos rins"
+    },
+    "basal": {
+        "significado": "situado junto de uma base, normal"
+    },
+    "próximo": {
+        "significado": "situado mais perto do centro do tronco"
+    },
+    "hipotalámico": {
+        "significado": "situado na metade inferior do cérebro; relativo ao hipotálamo"
+    },
+    "subaracnóide": {
+        "significado": "situado ou produzido por baixo da aracnóide"
+    },
+    "subcapsular": {
+        "significado": "situado por baixo de uma cápsula"
+    },
+    "subcutâneo": {
+        "significado": "sob a pele, hipodérmico"
+    },
+    "epidural": {
+        "significado": "sobre ou por fora da dura-mater"
+    },
+    "aerossol": {
+        "significado": "solução de um produto destinado à inalação"
+    },
+    "licor": {
+        "significado": "solução, soluto"
+    },
+    "soluço": {
+        "significado": "soluço, singulto"
+    },
+    "cateter": {
+        "significado": "sonda, algália"
+    },
+    "hipnótico": {
+        "significado": "sonífero"
+    },
+    "narcótico": {
+        "significado": "sonífero; agente que produz insensibilidade, estupor ou anestesia"
+    },
+    "sonolência": {
+        "significado": "sonolência"
+    },
+    "soro": {
+        "significado": "soro"
+    },
+    "hipogonadismo": {
+        "significado": "sub-desenvolvimento dos órgãos sexuais"
+    },
+    "subconjuntival": {
+        "significado": "subconjuntival"
+    },
+    "subjectivo": {
+        "significado": "subjectivo; reacção específica, pessoal"
+    },
+    "curarizar": {
+        "significado": "submeter o curativo a cura; substância que afecta os músculos"
+    },
+    "agente": {
+        "significado": "substância activa"
+    },
+    "antígeno": {
+        "significado": "substância considerada estranha pelo organismo"
+    },
+    "metabolito": {
+        "significado": "substância derivada de um medicamento dentro do organismo"
+    },
+    "excipiente": {
+        "significado": "substância inerte num preparado farmacológico"
+    },
+    "colesterol": {
+        "significado": "substância lipóide que se encontra na maior parte dos tecidos"
+    },
+    "oligoelemento": {
+        "significado": "substância mineral em quantidades mínimas da dieta alimentar"
+    },
+    "alcalóide": {
+        "significado": "substância orgânica azotada com propriedades alcalinas"
+    },
+    "descongestionante": {
+        "significado": "substância que alivia a congestão nasal"
+    },
+    "antidepressivo": {
+        "significado": "substância que alivia a depressão"
+    },
+    "anticolinérgico": {
+        "significado": "substância que bloqueia os nervos parassimpáticos"
+    },
+    "anti-histamina": {
+        "significado": "substância que combate a acção da histamina"
+    },
+    "antispasmódico": {
+        "significado": "substância que combate as contraturas, cãibras e convulsões"
+    },
+    "adjuvante": {
+        "significado": "substância que contribui para a auxiliar"
+    },
+    "correcção": {
+        "significado": "substância que corrige a acção ou o sabor de um medicamento; compensação, rectificação"
+    },
+    "germicida": {
+        "significado": "substância que destrói os germes"
+    },
+    "anti-hipertensivo": {
+        "significado": "substância que diminui a pressão sanguínea"
+    },
+    "parassimpaticomimétrico": {
+        "significado": "substância que estimula directamente o sistema colinérgico ou parassimpático"
+    },
+    "simpaticomimético": {
+        "significado": "substância que estimula o sistema nervoso simpático"
+    },
+    "anticonvulsivante": {
+        "significado": "substância que evita as convulsões"
+    },
+    "colerético": {
+        "significado": "substância que favorece a produção de fel"
+    },
+    "base": {
+        "significado": "substância que forma sal combinada com um ácido; veículo neutro de um medicamento; superfície ou parte inferior de um órgão"
+    },
+    "betamimético": {
+        "significado": "substância que imita a acção dos receptores adrenérgicos B"
+    },
+    "tirostático": {
+        "significado": "substância que inibe a biossíntese e/ou a secreção de hormonas tiróides"
+    },
+    "adrenolítico": {
+        "significado": "substância que inibe a resposta à adrenalina"
+    },
+    "emético": {
+        "significado": "substância que provoca vómitos"
+    },
+    "antidiabético": {
+        "significado": "substância que reduz a concentração de açúcar no sangue"
+    },
+    "expansor plasmático": {
+        "significado": "substância que se injecta para aumentar o volume sanguíneo"
+    },
+    "neurotransmissor": {
+        "significado": "substância que transmite impulsos nervosos por via química"
+    },
+    "alcilação": {
+        "significado": "substância radical alquil por um átomo de H num composto cíclico"
+    },
+    "modulador": {
+        "significado": "substância reguladora"
+    },
+    "prostaglandina(s)": {
+        "significado": "substâncias derivadas de ácidos gordos"
+    },
+    "prótese": {
+        "significado": "substituição artificial de um órgão; anaplerose"
+    },
+    "substituição": {
+        "significado": "substituição, troca"
+    },
+    "alternar": {
+        "significado": "sucessão de duas ou mais acções ou administrações de medicamentos"
+    },
+    "complementar": {
+        "significado": "suplementar, adicional, auxiliar"
+    },
+    "suplemento": {
+        "significado": "suplemento, adicional"
+    },
+    "supositório": {
+        "significado": "supositório"
+    },
+    "supressivo": {
+        "significado": "supressivo"
+    },
+    "inervação": {
+        "significado": "suprimento nervoso ou a condução de impulsos nervosos de um local para outro"
+    },
+    "otorreia": {
+        "significado": "supuração, corrimento do ouvido"
+    },
+    "septo": {
+        "significado": "tabique de separação"
+    },
+    "tardio": {
+        "significado": "tardio"
+    },
+    "placa dentária": {
+        "significado": "tártaro"
+    },
+    "morbidez(a)": {
+        "significado": "taxa de doentes numa população"
+    },
+    "mortalidade": {
+        "significado": "taxa de falecimentos de uma população"
+    },
+    "epitélio": {
+        "significado": "tecido de cobertura ou de revestimento interior; pele ou mucosas"
+    },
+    "neuroleptanalgesia": {
+        "significado": "técnica de preparação dos doentes para operações cirúrgicas"
+    },
+    "período de latência": {
+        "significado": "tempo de espera"
+    },
+    "diátese": {
+        "significado": "tendência para um determinado tipo de doença"
+    },
+    "tono": {
+        "significado": "tensão"
+    },
+    "stress": {
+        "significado": "tensão, vida [moderna] agitada"
+    },
+    "teórico": {
+        "significado": "teórico"
+    },
+    "monoterapia": {
+        "significado": "terapia com um medicamento de cada vez"
+    },
+    "dessensibilização": {
+        "significado": "terapia destinada a reduzir uma alergia"
+    },
+    "politerapia": {
+        "significado": "terapia múltipla"
+    },
+    "termal": {
+        "significado": "térmico, que faz referência ao calor ou à temperatura"
+    },
+    "erecção": {
+        "significado": "tesão; entumescimento do pénis / 'tesão'; entumescimento do pénis"
+    },
+    "tétano": {
+        "significado": "tétano"
+    },
+    "meteorismo": {
+        "significado": "timpanismo, timpanite, dilatação do ventre (devido a gases)"
+    },
+    "tinea pedis": {
+        "significado": "tinha do pé; pé-de-atleta."
+    },
+    "clássico": {
+        "significado": "típico, característico"
+    },
+    "esteróide": {
+        "significado": "tipo de composto químico"
+    },
+    "estrogénio": {
+        "significado": "tipo de hormona sexual feminina"
+    },
+    "xantoma": {
+        "significado": "tipo de tumor benigno da pele; xantelasma"
+    },
+    "distonia": {
+        "significado": "tonicidade anormal dos tecidos"
+    },
+    "contacto": {
+        "significado": "toque; indivíduo que esteve em relação com pessoa portadora de doença contagiosa"
+    },
+    "torsade de pointes": {
+        "significado": "torsade de pointes"
+    },
+    "torcicolo": {
+        "significado": "torticolo"
+    },
+    "cardiotóxico": {
+        "significado": "tóxico para o coração"
+    },
+    "fetotóxico": {
+        "significado": "tóxico para o feto/embrião"
+    },
+    "hepatotóxico": {
+        "significado": "tóxico para o fígado"
+    },
+    "ototóxico": {
+        "significado": "tóxico para o órgão auditivo"
+    },
+    "neurotóxico": {
+        "significado": "tóxico para os nervos"
+    },
+    "nefrotóxico": {
+        "significado": "tóxico para os rins"
+    },
+    "toxicomania": {
+        "significado": "toxicodependência (dependência de uma droga)"
+    },
+    "antipsicótico": {
+        "significado": "tranquilizante"
+    },
+    "fermentação": {
+        "significado": "transformação de substâncias orgânicas noutras substâncias orgânicas"
+    },
+    "metabolização": {
+        "significado": "transformação de uma substância noutra durante o metabolismo"
+    },
+    "biotransformação": {
+        "significado": "transformação química de um composto no organismo"
+    },
+    "conversão": {
+        "significado": "transformação; transformação das emoções em manifestações corporais"
+    },
+    "transfusão": {
+        "significado": "transfusão"
+    },
+    "condução": {
+        "significado": "transmissão"
+    },
+    "transplantação": {
+        "significado": "transplante"
+    },
+    "veículo": {
+        "significado": "transportador; excipiente"
+    },
+    "oxigenação": {
+        "significado": "transporte e saturação de oxigénio"
+    },
+    "cardiomiopatia": {
+        "significado": "transtorno crónico que afecta o músculo cardíaco"
+    },
+    "mal-absorção": {
+        "significado": "transtorno da absorção intestinal de nutrientes"
+    },
+    "dismenorreia": {
+        "significado": "transtorno da menstruação"
+    },
+    "porfíria": {
+        "significado": "transtorno do metabolismo das porfirinas"
+    },
+    "posterior": {
+        "significado": "traseiro"
+    },
+    "antibioterapia": {
+        "significado": "tratamento com antibióticos"
+    },
+    "terapia": {
+        "significado": "tratamento das doenças, terapêutica"
+    },
+    "digitalização": {
+        "significado": "tratamento de uma doença com digital"
+    },
+    "quimioterapia": {
+        "significado": "tratamento do cancro com substâncias químicas"
+    },
+    "radioterapia": {
+        "significado": "tratamento por radiações; curieterapia"
+    },
+    "tremor": {
+        "significado": "tremor / tremor que aparece ao efectuar um movimento voluntário coordenado"
+    },
+    "tubercular": {
+        "significado": "tubercular"
+    },
+    "tracto (gastrintestinal)": {
+        "significado": "tubo digestivo, incluindo a boca, esófago, estômago, intestinos delgado e grosso, recto, ânos e glândulas anexas (vesícula biliar e pâncreas)"
+    },
+    "cânula": {
+        "significado": "tubo utilizado em cirurgia"
+    },
+    "tubo": {
+        "significado": "tubo, cano"
+    },
+    "quisto": {
+        "significado": "tumefacção anormal com conteúdo líquido; ciste"
+    },
+    "linfadenopatia": {
+        "significado": "tumefacção de um ou mais gânglios linfáticos"
+    },
+    "adenoma": {
+        "significado": "tumor benigno"
+    },
+    "epitelioma": {
+        "significado": "tumor da pele ou da mucosa"
+    },
+    "sarcoma": {
+        "significado": "tumor maligno"
+    },
+    "mieloma": {
+        "significado": "tumor maligno das células da medula do osso; cancro do sangue"
+    },
+    "linfoma": {
+        "significado": "tumor maligno gerado no tecido linfóide"
+    },
+    "carcinoma": {
+        "significado": "tumor maligno, cancro, câncer"
+    },
+    "hérnia": {
+        "significado": "tumor mole com abertura de membrana"
+    },
+    "melanona": {
+        "significado": "tumor pigmentado, geralmente maligno, da pele ou das mucosas"
+    },
+    "úlcera péptica": {
+        "significado": "úlcera causada pela acção do suco gástrico; úlcera duodenal"
+    },
+    "úlcera crural": {
+        "significado": "úlcera da perna"
+    },
+    "umeroscapular": {
+        "significado": "umeroscapular"
+    },
+    "coloníquia": {
+        "significado": "unha em forma de colher"
+    },
+    "incorporação": {
+        "significado": "união de uma substância no interior do organismo"
+    },
+    "associação": {
+        "significado": "união, acoplamento, coordenação"
+    },
+    "uniforme": {
+        "significado": "uniforme"
+    },
+    "urgência": {
+        "significado": "urgência"
+    },
+    "urinário": {
+        "significado": "urinário"
+    },
+    "vacina": {
+        "significado": "vacina"
+    },
+    "vacinação": {
+        "significado": "vacina"
+    },
+    "título": {
+        "significado": "valor, grau, proporção"
+    },
+    "diferenciação": {
+        "significado": "variação; desenvolvimento de células e tecidos em diversos sentidos"
+    },
+    "múltiplo": {
+        "significado": "variado"
+    },
+    "comedão": {
+        "significado": "variedade de acne"
+    },
+    "tumor": {
+        "significado": "vegetação, excrescência, neoplasma"
+    },
+    "hemorróides": {
+        "significado": "veias distendidas na junção do recto e do canal anal; almorróidas, almorródias"
+    },
+    "senilidade": {
+        "significado": "velhice"
+    },
+    "toxina": {
+        "significado": "veneno"
+    },
+    "tóxico": {
+        "significado": "venenoso"
+    },
+    "sopro": {
+        "significado": "vibração audível por auscultação, ruído"
+    },
+    "supervisão": {
+        "significado": "vigilância, inspecção, controlo"
+    },
+    "alerta": {
+        "significado": "vigilante"
+    },
+    "(herpes) zóster": {
+        "significado": "vírus instalado à volta das células sensitivas"
+    },
+    "visão": {
+        "significado": "visão"
+    },
+    "xantopsia": {
+        "significado": "visão amarelada"
+    },
+    "diplopia": {
+        "significado": "visão dupla"
+    },
+    "manifesto": {
+        "significado": "visível"
+    },
+    "regurgitação": {
+        "significado": "voltar à boca [por exemplo, alimentos sólidos que...]"
+    },
+    "capacidade vital": {
+        "significado": "volume de gás que pode expulsar-se dos pulmões"
+    },
+    "voluntário": {
+        "significado": "voluntário"
+    },
+    "emésis": {
+        "significado": "vómito"
+    },
+    "vómito": {
+        "significado": "vómito"
+    },
+    "hematémese": {
+        "significado": "vómitos de sangue"
+    },
+    "hiperémese": {
+        "significado": "vómitos excessivos"
+    },
+    "náusea": {
+        "significado": "vontade de vomitar; enjoo; repugnância, sentimento de repulsão"
+    },
+    "espectro": {
+        "significado": "zona de actividade de um antibiótico"
+    },
+    "zona de pressão": {
+        "significado": "zona de excitabilidade aumentada (trigger zone)"
+    },
+    "tinitus (aurium)": {
+        "significado": "zumbido do ouvido"
+    },
+    "blister": {
+        "significado": "frasco de X comprimidos recobertos de plástico"
+    },
+    "droga": {
+        "significado": "&#34;dooping&#34;"
+    },
+    "efeito colateral": {
+        "significado": "efeito secundário indesejado de uma medida terapêutica ou medicamento"
+    },
+    "focalização": {
+        "significado": "restrição a uma área determinada"
+    },
+    "herpes zóster": {
+        "significado": "vírus instalado à volta das células sensitivas"
+    },
+    "infecção cruzada": {
+        "significado": "contágio mútuo entre duas pessoas por doenças infecciosas diferentes"
+    },
+    "óptimo": {
+        "significado": "o mais propício ou favorável"
+    },
+    "pré-medicação": {
+        "significado": "administração de medicamentos como sedativos antes de uma anestesia geral"
+    },
+    "tremor intencional": {
+        "significado": "tremor que aparece ao efectuar um movimento voluntário coordenado"
+    }
+}
