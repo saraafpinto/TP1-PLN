@@ -1,0 +1,248 @@
+A
+access to information – acesso à informação
+accountabillity – accountability
+action – ação
+activities – atividades
+administrative unit – unidades
+advisory committee – comitê consultivo
+agreement; negotiation – pactuação
+allocation of resources – alocação de recursos
+analysis – análise
+analytical indicator – indicador analítico
+assessment model; evaluation model – modelo de avaliação
+assessment of indicators – análise de indicadores
+assessment of results – avaliação de resultados
+audit – auditoria
+B
+baseline – linha de base
+baseline; parameter – parâmetro
+benchmarking – benchmarking
+big data – big data
+brainstorming – brainstorming
+budget – orçamento
+business intelligence – business intelligence
+C
+calculation formula – fórmula de cálculo
+calculation method – memória de cálculo
+calculation of indicators – cálculo do indicador
+catalog of interventions – catálogo de intervenções
+collegiate bodies – órgãos colegiados
+89
+Terminologia Inglês-Português
+collegiate body – colegiado
+compliance – compliance
+coordination – articulação
+cost-benefit – custo-benefício
+cost-effectiveness – custo-efetividade
+creation of indicators – elaboração de indicadores
+cycle of public policies – ciclo de políticas públicas
+dashboard; information panel – painel de informação
+D
+data – dado
+data aggregation – agregação de dados
+data analysis – análise de dados
+data collection – coleta de dados
+data science – ciência de dados
+data sources – fontes de dados
+data visualizaton – visualização de dados
+databank – banco de dados
+database – base de dados
+datalake – datalake
+dataset – conjunto de dados
+decision making – tomada de decisão
+E
+effectiveness indicator – indicador de efetividade
+efficacy indicator – indicador de eficácia
+efficiency indicator – indicador de eficiência
+effort indicator – indicador de esforço
+evaluation methodology – metodologia de avaliação
+evaluation research – pesquisa avaliativa
+evaluation; assessment – avaliação
+evidence based analysis – análise baseada em evidências
+evidence-based decision making – evidências para tomada de decisão
+ex-ante analysis – análise ex-ante
+excellence indicator – indicador de excelência
+ex-post analysis – análise ex-post
+Glossário Temático
+90
+F
+feasibility analysis – análise de viabilidade
+follow-up – acompanhamento
+G
+goal – meta
+good practices – boas práticas
+governability – governabilidade
+government planning – planejamento governamental
+guideline – diretrizes
+H
+health actions – ações de saúde
+health assessment; health evaluation – avaliação em saúde
+health care facility – estabelecimento assistencial de saúde
+health indicator – indicador de saúde
+health information – informação em saúde
+health information interoperability – interoperabilidade da informação
+em saúde
+health information manager – gestor de informação em saúde
+health information systems – sistemas de informação em saúde
+health planning – planejamento em saúde
+health public policy – política pública de saúde
+health public value – valor público em saúde
+health services – serviços de saúde
+health situation room – sala de situação de saúde
+health situational analysis – análise de situação em saúde
+health value – valor em saúde
+I
+impact assessment – avaliação de impacto
+impact indicator – indicador de impacto
+implantation – implantação
+implementation – implementação
+Monitoramento e Avaliação
+91
+implementation indicator – indicador de execução
+implementation method – forma de implementação
+implemented policy – política implementada
+index – índice
+indicator – indicador
+indicator interpretation – interpretação do indicador
+individual and institutional performance assessment – avaliação de
+desempenho individual e institucional
+information – informação
+information custodian – custodiante da informação
+information dissemination – disseminação da informação
+information documentation – documentação da informação
+information exchange – intercâmbio de informação
+information management – gestão da informação
+information quality – qualidade da informação
+information science – ciência da informação
+information security – segurança da informação
+infrastructure indicator – indicador de infraestrutura
+input indicator – indicador de insumo
+inspection; control – controle
+institutional performance – desempenho institucional
+institutionalization of monitoring and evaluation – institucionalização do
+monitoramento e avaliação
+interim area; intermediate area – área meio
+interim results; intermediate results – resultados intermediários
+intersectoral actions – ações intersetoriais
+intervention – intervenção
+intervention description sheet – ficha de descrição da intervenção
+K
+knowledge management – gestão do conhecimento
+knowledge production – produção de conhecimento
+L
+legal grounds – base legal
+level of implementation; degree of implementation – grau de
+Glossário Temático
+92
+implantação
+limitation of the indicator – limitação do indicador
+linked entities – entidades vinculadas
+logic model – modelo lógico
+logical framework – marco lógico
+M
+machine learning – machine learning
+management indicator – indicador de gestão
+management instruments; management tools – instrumentos de gestão
+management level – esferas de gestão
+management model – modelo de gestão
+matrix of indicators – matriz de indicadores
+measurement – mensuração
+metadata – metadados
+method – método
+methodology – metodologia
+minimum basic dataset – conjunto mínimo de dados
+monitoring – monitoramento
+monitoring and evaluation culture – cultura de monitoramento e
+avaliação
+monitoring authority – responsável pelo monitoramento
+monitoring panel – painel de monitoramento
+N
+network – rede
+O
+open data – dados abertos
+open government – governo aberto
+organizational skills – competências organizacionais
+outcome indicator – indicador de resultado
+Monitoramento e Avaliação
+93
+P
+pact – pacto
+performance indicator – indicador de desempenho
+performance indicator reference sheet – ficha de qualificação do
+indicador
+plan – plano
+planning – planejamento
+policy – política
+policy formulation; policy development – formulação de políticas
+policy implementation – execução da política
+political agenda – agenda política
+population basis – base populacional
+problem; issue – problema
+process – processo
+process assessment – avaliação de processo
+process indicator – indicador de processo
+product – produto
+product indicator – indicador de produto
+program – programa
+project – projeto
+prospective analysis – análise prospectiva
+public governance – governança pública
+public policy – política pública
+public value – valor público
+Q
+qualitative data – dados qualitativos
+quantitative data – dados quantitativos
+R
+record – registro
+reference index – índice de referência
+regulation – normativo
+regulatory impact analysis – análise de impacto regulatório
+reliability – confiabilidade
+Glossário Temático
+94
+resources – recursos
+risk – risco
+risk analysis – análise de risco
+risk management – gestão de risco
+S
+savings indicator – indicador de economicidade
+scenario; situation – cenário
+scope – escopo
+situational analysis – análise situacional
+social control – controle social
+social indicator – indicador social
+social policy – política social
+source – fonte
+sources of information – fontes de informação
+stakeholders – partes interessadas
+strategic agenda – agenda estratégica
+strategic analysis – análise estratégica
+strategic framework – referencial estratégico
+strategic information – informação estratégica
+strategic information matrix – matriz de informação estratégica
+strategic management – gestão estratégica
+strategic objectives – objetivos estratégicos
+strategic planning – planejamento estratégico
+strategy – estratégia
+synthesis measure – medida-síntese
+synthetic indicator – indicador sintético
+systematic approach for health monitoring and evaluation – sistemática
+de monitoramento e avaliação em saúde
+T
+target area – área finalística
+target audience – público-alvo
+target; objective – objetivo
+territory – território
+transparency – transparência
+Monitoramento e Avaliação
+95
+tripartite management; management shared among three administrative
+levels – gestão tripartite
+U
+unit of measurement – unidade de medida
+use of the indicator – uso do indicador
+V
+value chain – cadeia de valor
+Glossário Temático
+96
+
