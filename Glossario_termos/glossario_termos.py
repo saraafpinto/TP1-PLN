@@ -47,11 +47,7 @@ extraidos_1 = re.findall(padrao_1, texto, flags=re.S)
 padrao_2 = r'<b>([^<]+)</b>\s*,\s*<i>([^<]+)</i>\s*\(pop\)'
 extraidos_2 = re.findall(padrao_2, texto, flags=re.S)
 
-<<<<<<< HEAD
 # Colocamos tudo numa única lista garantindo a ordem: (Termo, Definição)
-=======
-# Colocamos tudo numa única lista garantindo a ordem: (Termo, Significado)
->>>>>>> 81b2d2ac48e4b7d6f829cf8fa037cfdd884c55ee
 conceitos = [(termo, definicao) for definicao, termo in extraidos_1]
 conceitos += [(termo, definicao) for termo, definicao in extraidos_2]
 
@@ -71,11 +67,7 @@ for termo_raw, definicao_raw in conceitos:
         if definicao in dicionario_medico and termo in dicionario_medico[definicao]["definicao"]:
             continue
             
-<<<<<<< HEAD
-        # 2. Juntar definições ao mesmo termo
-=======
         # 2. Juntar definicao ao mesmo termo
->>>>>>> 81b2d2ac48e4b7d6f829cf8fa037cfdd884c55ee
         elif termo in dicionario_medico:
             if definicao not in dicionario_medico[termo]["definicao"]:
                 dicionario_medico[termo]["definicao"] += f" / {definicao}"
@@ -83,7 +75,6 @@ for termo_raw, definicao_raw in conceitos:
         # 3. Termo novo
         else:
             dicionario_medico[termo] = {"definicao": definicao}
-<<<<<<< HEAD
 
 # ==========================================
 # 6. CONVERSÃO PARA O FORMATO FINAL (LISTA DE OBJETOS)
@@ -94,8 +85,6 @@ for termo, dados in dicionario_medico.items():
         "termo": termo,
         "definicao": dados["definicao"]
     })
-=======
->>>>>>> 81b2d2ac48e4b7d6f829cf8fa037cfdd884c55ee
 
 # ==========================================
 # 3. EXPORTAR PARA JSON
