@@ -1,42 +1,34 @@
-import re
+import pdfplumber
 
-# 1. Ler o XML original
-with open("diccionari.xml", "r", encoding="utf-8") as f:
-    xml_bruto = f.read()
+def extrair_texto_pdf(pdf_path, txt_path):
+    linhas_finais = []
 
-# 2. Separar por páginas
-paginas = re.findall(r'<page number="(\d+)".*?>(.*?)</page>', xml_bruto, flags=re.S)
-xml_estruturado = '<?xml version="1.0" encoding="UTF-8"?>\n<pdf2xml>\n'
+    with pdfplumber.open(pdf_path) as pdf:
+        # Extrair das páginas 28 a 181 (onde está o dicionário)
+        for i in range(28, 182):
+            page = pdf.pages[i]
+            mid = page.width / 2.0
 
-print("A processar e ordenar colunas...")
+            # Coluna Esquerda
+            esq_text = page.within_bbox((0, 0, mid, page.height)).extract_text()
+            if esq_text: linhas_finais.extend(esq_text.split('\n'))
 
-for num, conteudo in paginas:
-    # REGEX MELHORADO: Apanha top e left e ignora o resto dos atributos
-    # Grupo 1: top, Grupo 2: left, Grupo 3: font, Grupo 4: conteúdo
-    tags = re.findall(r'<text[^>]*top="(\d+)"[^>]*left="(\d+)"[^>]*font="(\d+)"[^>]*>(.*?)</text>', conteudo, flags=re.S)
-    
-    if not tags:
-        continue
+            # Coluna Direita
+            dir_text = page.within_bbox((mid, 0, page.width, page.height)).extract_text()
+            if dir_text: linhas_finais.extend(dir_text.split('\n'))
 
-    # Ordenar: Coluna (left < 450) primeiro, depois altura (top)
-    lista_ordenada = sorted(tags, key=lambda x: (1 if int(x[1]) < 450 else 2, int(x[0])))
-    
-    xml_estruturado += f'<page number="{num}">\n'
-    for top, left, font, txt in lista_ordenada:
-        # Limpeza de lixo e entidades HTML comuns
-        txt_limpo = re.sub(r'<[^>]+>', ' ', txt).strip() # remove tags internas para validar conteúdo
+    linhas_limpas = []
+    for l in linhas_finais:
+        l = l.strip()
+        if not l: continue
+        # Limpeza pesada de lixo
+        if "QUADERNS 50" in l or "DICCIONARI MULTILINGÜE" in l: continue
+        if l in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Z", "QUAD", "Diccionari"]: continue
         
-        # Filtros de segurança
-        if not txt_limpo or txt_limpo in [";", ",", ".", "…"]: 
-            continue
-        if "QUADERNS 50" in txt_limpo or "DICCIONARI MULTILINGÜE" in txt_limpo:
-            continue
-            
-        # IMPORTANTE: Mantemos o txt original com as tags <b> e <i> para a extração
-        xml_estruturado += f'  <text font="{font}" top="{top}" left="{left}">{txt.strip()}</text>\n'
-    xml_estruturado += '</page>\n'
+        linhas_limpas.append(l)
 
-xml_estruturado += '</pdf2xml>'
+    with open(txt_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(linhas_limpas))
 
-with open("diccionari_limpo.xml", "w", encoding="utf-8") as f:
-    f.write(xml_estruturado)
+if __name__ == "__main__":
+    extrair_texto_pdf('diccionari-multilinguee-de-la-covid-19.pdf', 'dicionario_bruto.txt')
