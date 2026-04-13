@@ -28,7 +28,7 @@ for font, texto_bloco in matches:
     elif font == "1" and definicao_atual:
         # ALTERAÇÃO AQUI: Criamos um dicionário novo para cada par e adicionamos à lista
         novo_conceito = {
-            "designacao": texto_limpo,
+            "termo": texto_limpo,
             "definicao": definicao_atual
         }
         lista_conceitos.append(novo_conceito)

@@ -48,33 +48,33 @@ padrao_2 = r'<b>([^<]+)</b>\s*,\s*<i>([^<]+)</i>\s*\(pop\)'
 extraidos_2 = re.findall(padrao_2, texto, flags=re.S)
 
 # Colocamos tudo numa única lista garantindo a ordem: (Termo, Significado)
-conceitos = [(termo, significado) for significado, termo in extraidos_1]
-conceitos += [(termo, significado) for termo, significado in extraidos_2]
+conceitos = [(termo, definicao) for definicao, termo in extraidos_1]
+conceitos += [(termo, definicao) for termo, definicao in extraidos_2]
 
 # ==========================================
 # 5. CONSTRUÇÃO DO DICIONÁRIO
 # ==========================================
 dicionario_medico = {}
 
-for termo_raw, significado_raw in conceitos:
+for termo_raw, definicao_raw in conceitos:
     
     # Limpar espaços extra (substitui duplos espaços por um simples)
     termo = re.sub(r'\s+', ' ', termo_raw).strip()
-    significado = re.sub(r'\s+', ' ', significado_raw).strip()
+    definicao = re.sub(r'\s+', ' ', definicao_raw).strip()
 
-    if termo and significado:
+    if termo and definicao:
         # 1. Proteção contra inversões (ex: acomodação/adaptação)
-        if significado in dicionario_medico and termo in dicionario_medico[significado]["significado"]:
+        if definicao in dicionario_medico and termo in dicionario_medico[definicao]["definicao"]:
             continue
             
-        # 2. Juntar significados ao mesmo termo
+        # 2. Juntar definicao ao mesmo termo
         elif termo in dicionario_medico:
-            if significado not in dicionario_medico[termo]["significado"]:
-                dicionario_medico[termo]["significado"] += f" / {significado}"
+            if definicao not in dicionario_medico[termo]["definicao"]:
+                dicionario_medico[termo]["definicao"] += f" / {definicao}"
                 
         # 3. Termo novo
         else:
-            dicionario_medico[termo] = {"significado": significado}
+            dicionario_medico[termo] = {"definicao": definicao}
 
 # ==========================================
 # 3. EXPORTAR PARA JSON

@@ -35,6 +35,7 @@ for c in conceitos[1:]:
             "area": "",
             "traducoes": {},
             "sinonimos": [],
+            "variantes": [],
             "nota": "",
             "entrada_extra": {}
         }
@@ -59,7 +60,7 @@ for c in conceitos[1:]:
 
         # 2. TENTAR EXTRAIR A ÁREA (Tudo o que vem antes da primeira sigla ou marcador)
         # Procuramos o início até encontrar 'es ', 'en ', 'pt ', 'la ', 'SIN.-' ou 'Nota.-'
-        match_area = re.search(r'^(.*?)(?=\s*(?:\$|es|en|pt|la|SIN\.-|Nota\.-))', corpo_unido)
+        match_area = re.search(r'^(.*?)(?=\s*(?:\$|es|en|pt|la|SIN\.-|VAR\.-|Nota\.-))', corpo_unido)
         if match_area:
             conceitos_dict[designacao]["area"] = match_area.group(1).strip()
         else:
@@ -68,15 +69,23 @@ for c in conceitos[1:]:
                 conceitos_dict[designacao]["area"] = corpo_unido
 
         # 4. EXTRAIR SINÓNIMOS (SIN.-)
-        m_sin = re.search(r'SIN\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|Vid\.-|#)|$)', corpo_unido)
+        m_sin = re.search(r'SIN\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|VAR\.-|Vid\.-|#)|$)', corpo_unido)
         if m_sin:
             # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
             sins_raw = m_sin.group(1).strip().rstrip('.')
             sins = sins_raw.split(';')
             conceitos_dict[designacao]["sinonimos"] = [s.strip() for s in sins]
 
+        # 4. EXTRAIR Variantes (VAR)
+        m_sin = re.search(r'VAR\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|Vid\.-|#)|$)', corpo_unido)
+        if m_sin:
+            # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
+            sins_raw = m_sin.group(1).strip().rstrip('.')
+            sins = sins_raw.split(';')
+            conceitos_dict[designacao]["variantes"] = [s.strip() for s in sins]
+
         # 5. EXTRAIR NOTAS (Nota.-)
-        m_nota = re.search(r'Nota\.-\s+(.*?)(?=\s*(?:\b(?:es|en|pt|la)\b|SIN\.-|Vid\.-|#)|$)', corpo_unido)
+        m_nota = re.search(r'Nota\.-\s+(.*?)(?=\s*(?:\b(?:es|en|pt|la)\b|SIN\.|-VAR\.-|Vid\.-|#)|$)', corpo_unido)
         if m_nota:
             conceitos_dict[designacao]["nota"] = m_nota.group(1).strip()
             corpo_unido = corpo_unido.replace(m_nota.group(0), "")
