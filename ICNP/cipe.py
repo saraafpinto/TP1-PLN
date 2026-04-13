@@ -46,9 +46,9 @@ for codigo, eixo, termo_raw, descricao_raw in conceitos:
     
     # Prevenção: só guarda se tiver capturado texto válido
     if termo:
-        dicionario_cipe[codigo] = {
+        dicionario_cipe[termo] = {
+            "id": codigo,
             "eixo": eixo.strip(),
-            "termo": termo,
             "definicao": descricao
         }
 

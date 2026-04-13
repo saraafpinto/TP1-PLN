@@ -112,7 +112,7 @@ def consolidar_final():
 
     # --- 2. PROCESSAR WIPO E MULTILINGUE (Verificação e Enriquecimento) ---
     # Só adiciona informação se o termo PT já existir no dicionário
-    fontes_multi = ["wipo.json", "multilingue.json"]
+    fontes_multi = ["WIPO/wipo.json", "Dmultilingue/conceitos/conceitos_dicionario.json"]
     
     for filename in fontes_multi:
         if not os.path.exists(filename): continue
