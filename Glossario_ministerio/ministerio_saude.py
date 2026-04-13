@@ -2,7 +2,7 @@ import re, json
 
 # pdftohtml -xml -f 15 -l 106 Dados/glossario_ministerio_saude.pdf Dados/glossario_ministerio.xml
 
-f = open("Dados/glossario_ministerio.xml", "r", encoding="utf8")
+f = open("glossario_ministerio.xml", "r", encoding="utf8")
 texto_glos = f.read()
 
 ## GLOSSARIO
@@ -21,10 +21,11 @@ texto_glos = re.sub(r'</b>\s*\n\s*<b>', ' ', texto_glos)
 # Findall que para no próximo bold ou no fim do ficheiro
 lista_glos = re.findall(r'<b>(.*?)</b>(.*?)(?=<b>|\Z)', texto_glos, re.DOTALL)
 
-glossario = {}
+# A ALTERAÇÃO: Agora "glossario" é uma lista (Array) em vez de um dicionário!
+glossario = [] 
+
 for termo, resto in lista_glos:
     t = termo.strip().replace('\n', ' ')
-
     conteudo = resto.strip()
 
     if "*" in conteudo:
@@ -40,14 +41,19 @@ for termo, resto in lista_glos:
     
     # Validar se o termo é real (não deve ser apenas um número de página)
     if not d.isdigit() and len(d) > 3:
-        glossario[t] = {"Categoria": c, "Descricao": d}
+        # A ALTERAÇÃO: Fazer o append do objeto criado
+        glossario.append({
+            "termo": t,
+            "categoria": c,
+            "definicao": d
+        })
 
 
 ## SIGLAS
 
 # pdftohtml -xml -f 5 -l 9 Dados/glossario_ministerio_saude.pdf Dados/siglas.xml
 
-f = open("Dados/siglas_ministerio.xml", "r", encoding="utf8")
+f = open("siglas_ministerio.xml", "r", encoding="utf8")
 txt_sig = f.read()
 
 # Limpezas básicas para siglas

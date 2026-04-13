@@ -1,7 +1,7 @@
 import re
 import json
 
-f = open("Dados/WIPOPearl_COVID-19_Glossary.xml", "r", encoding="utf8")
+f = open("WIPOPearl_COVID-19_Glossary.xml", "r", encoding="utf8")
 texto = f.read()
 
 # Remove as tags de página e imagens
@@ -69,9 +69,9 @@ for correspondencia in correspondencias:
         i += 2
         
     glossario[termo] = {
-        "Descricao": descricao,
-        "Categoria": categoria,
-        "Traducoes": traducoes
+        "definicao": descricao,
+        "categoria": categoria,
+        "traducoes": traducoes
     }
 
 

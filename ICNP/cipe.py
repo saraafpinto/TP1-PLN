@@ -49,7 +49,7 @@ for codigo, eixo, termo_raw, descricao_raw in conceitos:
         dicionario_cipe[codigo] = {
             "eixo": eixo.strip(),
             "termo": termo,
-            "descricao": descricao
+            "definicao": descricao
         }
 
 

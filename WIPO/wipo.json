@@ -1,8 +1,8 @@
 {
     "acute respiratory distress syndrome": {
-        "Descricao": "ARDS Respiratory disease characterized by the rapid onset of widespread inflammation in the lungs.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "ARDS Respiratory disease characterized by the rapid onset of widespread inflammation in the lungs.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةمزلاتم ةقئاضلا ةيسفنتلا ةداحلا",
             "DE": "akutes Atemnotsyndrom des Erwachsenen, (syn.) ARDS",
             "ES": "síndrome de dificultad respiratoria aguda, (syn.) SDRA",
@@ -15,9 +15,9 @@
         }
     },
     "adaptive immunity": {
-        "Descricao": "acquired immunity Immunity acquired during a person’s lifetime upon exposure to an infectious agent either by previous infection or immunization.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "acquired immunity Immunity acquired during a person’s lifetime upon exposure to an infectious agent either by previous infection or immunization.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ةعانم ةبستكم ، (syn.) ةعانم ةَّيفُيكت ، ةعانم ةفيكتم",
             "DE": "erworbene Immunität, (syn.) adaptive Immunität",
             "ES": "inmunidad adquirida, (syn.) inmunidad adaptativa",
@@ -30,9 +30,9 @@
         }
     },
     "aerosol": {
-        "Descricao": "Suspension of solid or liquid particles in a gas.",
-        "Categoria": "CHEM, Chemical elements &amp; compounds",
-        "Traducoes": {
+        "definicao": "Suspension of solid or liquid particles in a gas.",
+        "categoria": "CHEM, Chemical elements &amp; compounds",
+        "traducoes": {
             "AR": "ءابه يوج ، (syn.) لوسوريأ",
             "": "",
             "DE": "Aerosol",
@@ -46,9 +46,9 @@
         }
     },
     "ageusia": {
-        "Descricao": "Disorder characterized by loss of taste.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Disorder characterized by loss of taste.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "دقف ةساح قوذلا ، (syn.) نادقف ةساح قوذلا ، دقف ةساح قوذتلا",
             "DE": "Ageusie",
             "ES": "ageusia",
@@ -61,9 +61,9 @@
         }
     },
     "airborne transmission": {
-        "Descricao": "aerosol transmission Mode of indirect transmission of an infectious disease that occurs when an infectious agent is carried by dust or droplet nuclei suspended in the air in the form of aerosols. COVID-19 Glossary 5",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "aerosol transmission Mode of indirect transmission of an infectious disease that occurs when an infectious agent is carried by dust or droplet nuclei suspended in the air in the form of aerosols. COVID-19 Glossary 5",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا نع قيرط ءاوهلا ، (syn.) لاقتنا نع قيرط ذاذر ، لاقتنا ربع ءاوهلا",
             "DE": "Übertragung durch Tröpfchenkerne",
             "ES": "transmisión aérea, (syn.) transmisión por aerosoles",
@@ -77,9 +77,9 @@
         }
     },
     "angiotensin-converting enzyme": {
-        "Descricao": "ACE Class of ectoenzymes found in, e.g., the lungs, heart, skin, or blood vessels, whose function is to cleave circulating peptides, among which angiotensinogen, which are then used to regulate specific cell functions.",
-        "Categoria": "SCIE, Biochemistry",
-        "Traducoes": {
+        "definicao": "ACE Class of ectoenzymes found in, e.g., the lungs, heart, skin, or blood vessels, whose function is to cleave circulating peptides, among which angiotensinogen, which are then used to regulate specific cell functions.",
+        "categoria": "SCIE, Biochemistry",
+        "traducoes": {
             "AR": "ميزنا وحم ل يجنلال نيسنيتو",
             "DE": "Angiotensin-konvertierendes Enzym, (syn.) ACE",
             "ES": "enzima convertidora de la angiotensina, (syn.) ECA",
@@ -92,9 +92,9 @@
         }
     },
     "anosmia": {
-        "Descricao": "Disorder characterized by loss of smell.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Disorder characterized by loss of smell.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "نادقف ةساح شلا م",
             "DE": "Anosmie",
             "ES": "anosmia",
@@ -107,9 +107,9 @@
         }
     },
     "antibody": {
-        "Descricao": "immunoglobulin Protein produced by B lymphocytes that can recognize and neutralize an antigen.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "immunoglobulin Protein produced by B lymphocytes that can recognize and neutralize an antigen.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "دض ، (syn.) مسج داضم ، نيليبولج يعانم",
             "DE": "Antikörper, (syn.) Immunglobulin",
             "ES": "anticuerpo, (syn.) inmunoglobulina",
@@ -122,9 +122,9 @@
         }
     },
     "antigen": {
-        "Descricao": "Particle, typically a protein, which the immune system recognizes as foreign.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Particle, typically a protein, which the immune system recognizes as foreign.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "سم دضت ، ( syn . ) لوم د م داض",
             "DE": "Antigen",
             "ES": "antígeno",
@@ -138,9 +138,9 @@
         }
     },
     "asymptomatic transmission": {
-        "Descricao": "COVID-19 Glossary 6 Mode of transmission of an infectious disease to another person from an infected person who does not develop symptoms.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "COVID-19 Glossary 6 Mode of transmission of an infectious disease to another person from an infected person who does not develop symptoms.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا نم باصم نودب ضارعأ",
             "DE": "asymptomatische Übertragung",
             "ES": "transmisión asintomática",
@@ -153,9 +153,9 @@
         }
     },
     "attack rate": {
-        "Descricao": "Proportion of people that contract a disease in a population initially free of the disease, i.e. during a disease outbreak.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Proportion of people that contract a disease in a population initially free of the disease, i.e. during a disease outbreak.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم موجه",
             "DE": "Befallsrate",
             "ES": "tasa de ataque",
@@ -168,9 +168,9 @@
         }
     },
     "basic reproduction number": {
-        "Descricao": "basic reproduction ratio, basic reproductive ratio, 𝑅₀ Average number of secondary cases that one case produces in a population at risk.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "basic reproduction ratio, basic reproductive ratio, 𝑅₀ Average number of secondary cases that one case produces in a population at risk.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ددع رثاكت يساسأ",
             "DE": "Basisreproduktionszahl, (syn.) 𝑅₀",
             "ES": "número básico de reproducción, (syn.) 𝑅₀ , tasa de contagio, tasa de reproducción",
@@ -183,9 +183,9 @@
         }
     },
     "biostatistics": {
-        "Descricao": "Application of statistical methods and tools to the fields of biological sciences and medicine, including study design, data collection and analysis, and interpretation of findings.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Application of statistical methods and tools to the fields of biological sciences and medicine, including study design, data collection and analysis, and interpretation of findings.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ءاصحإ يجولويب",
             "DE": "Biostatistik",
             "ES": "bioestadística",
@@ -198,9 +198,9 @@
         }
     },
     "blood plasma": {
-        "Descricao": "plasma Liquid part of the blood in which red and white blood cells and platelets are suspended and which carries such blood cells as well as proteins, mineral salts, sugars, fats, and hormones throughout the body.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "plasma Liquid part of the blood in which red and white blood cells and platelets are suspended and which carries such blood cells as well as proteins, mineral salts, sugars, fats, and hormones throughout the body.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ةروصم مدلا ، (syn.) امزلاب مدلا ، امزلاب",
             "DE": "Blutplasma",
             "ES": "plasma sanguíneo, (syn.) plasma",
@@ -213,9 +213,9 @@
         }
     },
     "case": {
-        "Descricao": "Person who is diagnosed as having a disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Person who is diagnosed as having a disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ، (syn.) ةلاح ةيضرم",
             "DE": "Fall",
             "ES": "caso",
@@ -228,9 +228,9 @@
         }
     },
     "case definition": {
-        "Descricao": "Set of criteria used to decide whether a person has contracted a specific disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Set of criteria used to decide whether a person has contracted a specific disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "فيرعت ةلاح ، (syn.) فيرعت ةلاح ةيضرم",
             "DE": "Falldefinition",
             "ES": "definición de caso",
@@ -243,9 +243,9 @@
         }
     },
     "case fatality rate": {
-        "Descricao": "CFR Proportion of people who die of a given disease out of all the confirmed cases.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "CFR Proportion of people who die of a given disease out of all the confirmed cases.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم ةتامإ ةلاحلا ، (syn.) لدعم تايفو ةلاحلا",
             "DE": "Fall-Verstorbenen-Anteil",
             "ES": "tasa de letalidad",
@@ -258,9 +258,9 @@
         }
     },
     "casual contact": {
-        "Descricao": "Person who has been in the proximity of a person affected by an infectious disease but does not live with or care for the infected person.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Person who has been in the proximity of a person affected by an infectious disease but does not live with or care for the infected person.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "طلاخم رباع",
             "DE": "Kontaktperson der Kategorie II",
             "ES": "contacto ocasional",
@@ -274,9 +274,9 @@
         }
     },
     "chain of infection": {
-        "Descricao": "Process in which an infectious agent leaves its reservoir or host through a portal of exit, is conveyed by a mode of transmission, and enters a susceptible host through a portal of entry.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Process in which an infectious agent leaves its reservoir or host through a portal of exit, is conveyed by a mode of transmission, and enters a susceptible host through a portal of entry.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "ةلسلس ىودع",
             "DE": "Übertragungskette",
             "ES": "cadena de transmission, (syn.) cadena epidemiológica",
@@ -289,9 +289,9 @@
         }
     },
     "chloroquine": {
-        "Descricao": "Quinoline that is substituted at position 4 by a [5(diethylamino)pentan-2-yl]amino group and at position 7 by chlorine and is used for the treatment of e.g. malaria, lupus erythematosus, and rheumatoid arthritis.",
-        "Categoria": "MEDI, Pharmacology",
-        "Traducoes": {
+        "definicao": "Quinoline that is substituted at position 4 by a [5(diethylamino)pentan-2-yl]amino group and at position 7 by chlorine and is used for the treatment of e.g. malaria, lupus erythematosus, and rheumatoid arthritis.",
+        "categoria": "MEDI, Pharmacology",
+        "traducoes": {
             "AR": "نيوكورولك ، (syn.) نيكورولك",
             "DE": "Chloroquin",
             "ES": "cloroquina",
@@ -304,9 +304,9 @@
         }
     },
     "close contact": {
-        "Descricao": "Person who lives with, cares for, or has direct contact with the respiratory secretions or body fluids of, a person affected by an infectious disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Person who lives with, cares for, or has direct contact with the respiratory secretions or body fluids of, a person affected by an infectious disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "طلاخم بيرق",
             "DE": "Kontaktperson der Kategorie I",
             "ES": "contacto cercano",
@@ -319,9 +319,9 @@
         }
     },
     "cluster": {
-        "Descricao": "disease cluster Aggregation of cases of a disease within a given place and time.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "disease cluster Aggregation of cases of a disease within a given place and time.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "دوقنع",
             "DE": "Cluster",
             "ES": "conglomerado de casos",
@@ -334,9 +334,9 @@
         }
     },
     "computed tomography": {
-        "Descricao": "computer-assisted tomography, computerized tomography, CT Medical imaging technique by which three-dimensional images of the body are obtained by directing a beam of x-rays at the patient and quickly rotating them around the patient’s body, producing cross-sectional images that are then stacked together by a computed tomography scanner.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "computer-assisted tomography, computerized tomography, CT Medical imaging technique by which three-dimensional images of the body are obtained by directing a beam of x-rays at the patient and quickly rotating them around the patient’s body, producing cross-sectional images that are then stacked together by a computed tomography scanner.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ريوصت يعطقم",
             "DE": "Computertomographie, CT",
             "ES": "tomografía computarizada, (syn.) TC",
@@ -350,9 +350,9 @@
         }
     },
     "confirmed case": {
-        "Descricao": "Case that is confirmed by a laboratory test. COVID-19 Glossary 9",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Case that is confirmed by a laboratory test. COVID-19 Glossary 9",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ةدكؤم ، (syn.) ةلاح ةدكؤم ةباصلإا ضرملاب",
             "DE": "bestätigter Fall",
             "ES": "caso confirmado, (syn.) paciente confirmado",
@@ -365,9 +365,9 @@
         }
     },
     "contact": {
-        "Descricao": "Person who has been in the proximity of another person affected by an infectious disease and who is at risk of having contracted this disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Person who has been in the proximity of another person affected by an infectious disease and who is at risk of having contracted this disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "طلاخم",
             "DE": "Kontaktperson",
             "ES": "contacto",
@@ -381,9 +381,9 @@
         }
     },
     "contact follow-up": {
-        "Descricao": "Process of monitoring the contacts of a case for symptoms of the disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Process of monitoring the contacts of a case for symptoms of the disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةعباتم نيطلاخم",
             "DE": "Kontaktpersonen-Nachverfolgung",
             "ES": "seguimiento de contactos",
@@ -396,9 +396,9 @@
         }
     },
     "contact identification": {
-        "Descricao": "Process aimed at identifying all contacts of a case by asking about the activities of the case and the activities and roles of the people around the case since the onset of the disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Process aimed at identifying all contacts of a case by asking about the activities of the case and the activities and roles of the people around the case since the onset of the disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ديدحت نيطلاخم",
             "DE": "Identifizierung von Kontaktpersonen",
             "ES": "identificación de contactos",
@@ -411,9 +411,9 @@
         }
     },
     "contact tracing": {
-        "Descricao": "Process of identification, listing and follow-up of contacts.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Process of identification, listing and follow-up of contacts.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "عبتت نيطلاخم",
             "DE": "Contact Tracing",
             "ES": "rastreo de contactos",
@@ -427,9 +427,9 @@
         }
     },
     "containment": {
-        "Descricao": "Strategy adopted by a public body to cut off transmission of a disease. COVID-19 Glossary 10",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Strategy adopted by a public body to cut off transmission of a disease. COVID-19 Glossary 10",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ءاوتحا",
             "DE": "Eindämmung",
             "ES": "contención",
@@ -442,9 +442,9 @@
         }
     },
     "convalescent plasma therapy": {
-        "Descricao": "Therapeutic treatment whereby the blood plasma donated by individuals who have recovered from an infectious disease is introduced into the blood of people who are suffering from the same disease in order to help control the symptoms and limit the progression of the disease.",
-        "Categoria": "MEDI, Therapeutics",
-        "Traducoes": {
+        "definicao": "Therapeutic treatment whereby the blood plasma donated by individuals who have recovered from an infectious disease is introduced into the blood of people who are suffering from the same disease in order to help control the symptoms and limit the progression of the disease.",
+        "categoria": "MEDI, Therapeutics",
+        "traducoes": {
             "AR": "جلاع امزلابب ةهاقنلا",
             "DE": "Therapie mit Rekonvaleszentenplasma",
             "ES": "tratamiento con plasma de convalecientes",
@@ -457,9 +457,9 @@
         }
     },
     "coronavirus": {
-        "Descricao": "CoV Family of viruses that consist of a core comprising a positive-sense single-stranded RNA, an envelope, a capsid, and spikes.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "CoV Family of viruses that consist of a core comprising a positive-sense single-stranded RNA, an envelope, a capsid, and spikes.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "سوريف يجات ، (syn.) سوريف يليلكإ ، سوريف لكم ل",
             "DE": "Coronavirus",
             "ES": "coronavirus, (syn.) CoV",
@@ -472,9 +472,9 @@
         }
     },
     "coronavirus disease 2019": {
-        "Descricao": "COVID-19 Infectious disease caused by SARS-CoV-2.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "COVID-19 Infectious disease caused by SARS-CoV-2.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ضرم ديفوك 19",
             "DE": "Covid-19",
             "ES": "enfermedad por coronavirus 2019, (syn.) covid-19",
@@ -487,9 +487,9 @@
         }
     },
     "cough reflex": {
-        "Descricao": "Body's natural response to help clear irritants from the airways.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Body's natural response to help clear irritants from the airways.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "م ن كع س سلا لاع",
             "DE": "Hustenreflex",
             "ES": "reflejo tusígeno, (syn.) reflejo de la tos",
@@ -502,9 +502,9 @@
         }
     },
     "cytokine release syndrome": {
-        "Descricao": "CRS COVID-19 Glossary 11 Systemic inflammatory response syndrome caused by a large and rapid release of cytokines into the blood, which may be triggered by different factors, e.g. a viral infection or the use of certain drugs in immunotherapy.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "CRS COVID-19 Glossary 11 Systemic inflammatory response syndrome caused by a large and rapid release of cytokines into the blood, which may be triggered by different factors, e.g. a viral infection or the use of certain drugs in immunotherapy.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةمزلاتم زارفإ نيكوتيسلا",
             "DE": "Zytokin-Freisetzungssyndrom",
             "ES": "síndrome de liberación de citocinas, (syn.) tormenta de citocinas",
@@ -517,9 +517,9 @@
         }
     },
     "death-to-case ratio": {
-        "Descricao": "Number of deaths attributed to a particular disease in a specified period divided by the number of new cases of the disease identified during the same period.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Number of deaths attributed to a particular disease in a specified period divided by the number of new cases of the disease identified during the same period.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم تايفولا نم تلااحلا ةباصملا",
             "DE": "Sterblichkeitsrate",
             "ES": "razón de muertes por casos nuevos",
@@ -533,9 +533,9 @@
         }
     },
     "direct contact transmission": {
-        "Descricao": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by direct contact or droplet transmission.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by direct contact or droplet transmission.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا رشابم",
             "DE": "direkte Kontaktübertagung, (syn.) direkte Übertragung",
             "ES": "transmisión directa",
@@ -549,9 +549,9 @@
         }
     },
     "disease": {
-        "Descricao": "Abnormal condition that has a negative impact on the structure or function of all or part of an organism, generally associated with certain signs and symptoms.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Abnormal condition that has a negative impact on the structure or function of all or part of an organism, generally associated with certain signs and symptoms.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ضرم ، (syn.) ءاد",
             "DE": "Krankheit",
             "ES": "enfermedad",
@@ -564,9 +564,9 @@
         }
     },
     "disease outbreak": {
-        "Descricao": "Cluster of a disease with a common cause and an overall number of cases that is inferior to that of an epidemic.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Cluster of a disease with a common cause and an overall number of cases that is inferior to that of an epidemic.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "يشفت ضرم",
             "DE": "Ausbruch",
             "ES": "brote epidémico",
@@ -579,9 +579,9 @@
         }
     },
     "deoxyribonucleic acid": {
-        "Descricao": "DNA Double-stranded nucleic acid whose nucleotides consist of a backbone made up by a modified sugar, called deoxyribose, a nitrogenous base, i.e. adenine, guanine, cytosine, and thymine, and a phosphate group.",
-        "Categoria": "SCIE, Biochemistry",
-        "Traducoes": {
+        "definicao": "DNA Double-stranded nucleic acid whose nucleotides consist of a backbone made up by a modified sugar, called deoxyribose, a nitrogenous base, i.e. adenine, guanine, cytosine, and thymine, and a phosphate group.",
+        "categoria": "SCIE, Biochemistry",
+        "traducoes": {
             "AR": "ضمح يوون صوقنم نيجسكلأا ، (syn.) اند",
             "DE": "Desoxyribonukleinsäure, (syn.) Desoxyribonucleinsäure, DNA, DNS",
             "ES": "ácido desoxirribonucleico, (syn.) ADN",
@@ -594,9 +594,9 @@
         }
     },
     "drive-through testing": {
-        "Descricao": "Method of performing swab tests on people whilst they remain in their vehicles.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Method of performing swab tests on people whilst they remain in their vehicles.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "صحف نم ةرايسلا",
             "DE": "Drive-in für Corona-Test",
             "ES": "prueba desde el auto",
@@ -609,9 +609,9 @@
         }
     },
     "droplet nucleus": {
-        "Descricao": "Dried residue, approximately ≤ 5 μm in diameter, which results from the evaporation of droplets coughed or sneezed into the air.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Dried residue, approximately ≤ 5 μm in diameter, which results from the evaporation of droplets coughed or sneezed into the air.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ىون ذاذر",
             "DE": "Tröpfchenkern",
             "ES": "núcleo goticular",
@@ -625,9 +625,9 @@
         }
     },
     "droplet transmission": {
-        "Descricao": "droplet spread Mode of direct transmission of an infectious disease that occurs when a person is in the proximity of an infected person who has respiratory symptoms, e.g., via coughing, sneezing, breathing, or talking.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "droplet spread Mode of direct transmission of an infectious disease that occurs when a person is in the proximity of an infected person who has respiratory symptoms, e.g., via coughing, sneezing, breathing, or talking.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا نع قيرط تاريطق",
             "DE": "Tröpchenübertragung",
             "ES": "transmisión por gotículas",
@@ -641,9 +641,9 @@
         }
     },
     "elimination": {
-        "Descricao": "suppression, elimination strategy Strategy adopted by a public body to reduce to zero the incidence of a disease in a given geographical area.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "suppression, elimination strategy Strategy adopted by a public body to reduce to zero the incidence of a disease in a given geographical area.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةطخ ءاضق ىلع ضرم ، (syn.) ةيجيتارتسا ةحفاكم ضرم ، ةيجيتارتسا ءاضق ىلع ضرم",
             "DE": "Tilgung",
             "ES": "eliminación",
@@ -656,9 +656,9 @@
         }
     },
     "endemic disease": {
-        "Descricao": "Disease for which there are as many cases as would be expected in a given population at a given time.",
-        "Categoria": "MEDI, Public health &amp; hygiene Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Disease for which there are as many cases as would be expected in a given population at a given time.",
+        "categoria": "MEDI, Public health &amp; hygiene Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ضرم نطوتم",
             "DE": "Endemie",
             "ES": "endemia",
@@ -671,9 +671,9 @@
         }
     },
     "environmental cleaning": {
-        "Descricao": "Set of actions and processes, including cleaning, disinfecting and monitoring, implemented in places at risk of spread of an infectious agent through contaminated objects.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Set of actions and processes, including cleaning, disinfecting and monitoring, implemented in places at risk of spread of an infectious agent through contaminated objects.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "فيظنت يئيب ، (syn.) فيظنت ةئيب ةطيحم",
             "DE": "Krankenhaushygiene",
             "ES": "limpieza ambiental",
@@ -687,9 +687,9 @@
         }
     },
     "epidemic curve": {
-        "Descricao": "Graphical representation of the incidence of a disease or other health-related event plotted over time.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Graphical representation of the incidence of a disease or other health-related event plotted over time.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ىنحنم يئابو",
             "DE": "epidemische Kurve",
             "ES": "curva epidemiológica",
@@ -703,9 +703,9 @@
         }
     },
     "epidemic disease": {
-        "Descricao": "Disease for which there are many more cases than would be expected at a given time in a given population and which can be ascribed to the same cause.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Disease for which there are many more cases than would be expected at a given time in a given population and which can be ascribed to the same cause.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ضرم يئابو",
             "DE": "Epidemie",
             "ES": "epidemia",
@@ -718,9 +718,9 @@
         }
     },
     "epidemic threshold": {
-        "Descricao": "Number of individuals within a population at risk that is required for an epidemic to occur.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Number of individuals within a population at risk that is required for an epidemic to occur.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةبتع ءابو",
             "DE": "epidemische Schwelle",
             "ES": "umbral epidémico",
@@ -733,9 +733,9 @@
         }
     },
     "epidemiology": {
-        "Descricao": "Scientific study of the occurrence of a disease or other health-related event in specified populations, and its application to the control of health problems.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Scientific study of the occurrence of a disease or other health-related event in specified populations, and its application to the control of health problems.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ملع تايئابولا ، (syn.) ملع ةئبولأا",
             "DE": "Epidemiologie",
             "ES": "epidemiología",
@@ -748,9 +748,9 @@
         }
     },
     "fever": {
-        "Descricao": "pyrexia Innate immune response mechanism that increases a person’s body temperature above the normal level.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "pyrexia Innate immune response mechanism that increases a person’s body temperature above the normal level.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ىمح ، (syn.) ةنوخس",
             "DE": "Fieber",
             "ES": "fiebre",
@@ -764,9 +764,9 @@
         }
     },
     "filtering facepiece respirator": {
-        "Descricao": "filtering face-piece respirator, FFR Respiratory protective equipment that uses filters to remove hazardous substances from the air being breathed by the wearer.",
-        "Categoria": "ENVR, Personal protective equipment",
-        "Traducoes": {
+        "definicao": "filtering face-piece respirator, FFR Respiratory protective equipment that uses filters to remove hazardous substances from the air being breathed by the wearer.",
+        "categoria": "ENVR, Personal protective equipment",
+        "traducoes": {
             "AR": "عانق سفنت حشرم",
             "DE": "partikelfiltrierende Halbmaske",
             "ES": "mascarilla autofiltrante",
@@ -780,9 +780,9 @@
         }
     },
     "fomite": {
-        "Descricao": "Inanimate object contaminated by an infectious agent that can indirectly transmit an infectious disease.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Inanimate object contaminated by an infectious agent that can indirectly transmit an infectious disease.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةادأ ىودع",
             "DE": "unbelebter Vektor",
             "ES": "fómite, (syn.) vector pasivo",
@@ -795,9 +795,9 @@
         }
     },
     "full face shield": {
-        "Descricao": "COVID-19 Glossary 15 face shield full-face visor visor Personal protective equipment that protects the wearer’s eyes and face from sprays, splashes, and large-particle droplets, and prevents the spread of respiratory droplets from the wearer to others.",
-        "Categoria": "ENVR, Personal protective equipment",
-        "Traducoes": {
+        "definicao": "COVID-19 Glossary 15 face shield full-face visor visor Personal protective equipment that protects the wearer’s eyes and face from sprays, splashes, and large-particle droplets, and prevents the spread of respiratory droplets from the wearer to others.",
+        "categoria": "ENVR, Personal protective equipment",
+        "traducoes": {
             "AR": "عانق قاو ، (syn.) عانق هجو",
             "DE": "Gesichtsschutz",
             "ES": "pantalla facial",
@@ -811,9 +811,9 @@
         }
     },
     "gene": {
-        "Descricao": "Sequence of DNA that carries the required information for making a specific molecule, typically a protein.",
-        "Categoria": "SCIE, Genetics",
-        "Traducoes": {
+        "definicao": "Sequence of DNA that carries the required information for making a specific molecule, typically a protein.",
+        "categoria": "SCIE, Genetics",
+        "traducoes": {
             "AR": "نيج ، (syn.) ةثروم",
             "DE": "Gen",
             "ES": "gen",
@@ -826,9 +826,9 @@
         }
     },
     "gene therapy": {
-        "Descricao": "Therapeutic treatment whereby one or more foreign genes are inserted into the genome of an organism by means of a vector, to compensate for abnormal genes or to help the organism produce a protein that can be beneficial for it.",
-        "Categoria": "MEDI, Therapeutics",
-        "Traducoes": {
+        "definicao": "Therapeutic treatment whereby one or more foreign genes are inserted into the genome of an organism by means of a vector, to compensate for abnormal genes or to help the organism produce a protein that can be beneficial for it.",
+        "categoria": "MEDI, Therapeutics",
+        "traducoes": {
             "AR": "جلاع ينيج ، (syn.) جلاع تانيجلاب",
             "DE": "Gentherapie",
             "ES": "genoterapia, (syn.) terapia génica",
@@ -841,9 +841,9 @@
         }
     },
     "genome": {
-        "Descricao": "Complete set of DNA of a living organism, including all of its genes.",
-        "Categoria": "SCIE, Genetics",
-        "Traducoes": {
+        "definicao": "Complete set of DNA of a living organism, including all of its genes.",
+        "categoria": "SCIE, Genetics",
+        "traducoes": {
             "AR": "موُني ِج ، (syn.) يجم ن",
             "DE": "Genom",
             "ES": "genoma",
@@ -856,9 +856,9 @@
         }
     },
     "hand sanitizer": {
-        "Descricao": "Gel, foam, or liquid used for handwashing that may or may not contain alcohol.",
-        "Categoria": "CHEM, Detergents &amp; cleaning agents",
-        "Traducoes": {
+        "definicao": "Gel, foam, or liquid used for handwashing that may or may not contain alcohol.",
+        "categoria": "CHEM, Detergents &amp; cleaning agents",
+        "traducoes": {
             "AR": "مقعم نيدي",
             "DE": "Händedesinfektionsmittel",
             "ES": "gel hidroalcohólico, (syn.) alcohol en gel",
@@ -871,9 +871,9 @@
         }
     },
     "hand washing": {
-        "Descricao": "Action of removing any unwanted substance or microorganism from a person's hands using water or another liquid, with or without soap or other detergents.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Action of removing any unwanted substance or microorganism from a person's hands using water or another liquid, with or without soap or other detergents.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لسغ نيدي",
             "DE": "Händewaschen",
             "ES": "lavado de las manos",
@@ -886,9 +886,9 @@
         }
     },
     "herd immunity": {
-        "Descricao": "community immunity Indirect protection from an infectious agent achieved in a population at risk when a sufficiently large proportion of individuals in the population show an acquired immunity to that infectious agent.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "community immunity Indirect protection from an infectious agent achieved in a population at risk when a sufficiently large proportion of individuals in the population show an acquired immunity to that infectious agent.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةعانم عيطق ، (syn.) ةعانم عمتجم",
             "DE": "Herdenimmunität",
             "ES": "inmunidad de grupo, (syn.) inmunidad colectiva, inmunidad de rebaño",
@@ -901,9 +901,9 @@
         }
     },
     "high-risk group": {
-        "Descricao": "Part of a population at risk that has higher than average prevalence, incidence or severity of a disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Part of a population at risk that has higher than average prevalence, incidence or severity of a disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةئف رثكأ ةضرع ةباصلإل",
             "DE": "besonders gefährdete Personengruppe",
             "ES": "grupo de alto riesgo",
@@ -917,9 +917,9 @@
         }
     },
     "hospital gown": {
-        "Descricao": "Garment of personal protective equipment worn in healthcare settings to reduce the risk of exposure to infectious agents.",
-        "Categoria": "MEDI, Medical equipment",
-        "Traducoes": {
+        "definicao": "Garment of personal protective equipment worn in healthcare settings to reduce the risk of exposure to infectious agents.",
+        "categoria": "MEDI, Medical equipment",
+        "traducoes": {
             "AR": "ةءابع ةيبط",
             "DE": "Schutzkittel",
             "ES": "bata quirúrgica",
@@ -933,9 +933,9 @@
         }
     },
     "hospitalization": {
-        "Descricao": "Admission and stay of a patient in a hospital for treatment.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Admission and stay of a patient in a hospital for treatment.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ءافشتسا COVID-19 Glossary 17",
             "DE": "Krankenhausaufenthalt",
             "ES": "hospitalización",
@@ -948,9 +948,9 @@
         }
     },
     "host": {
-        "Descricao": "Person or animal infected by an infectious agent.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Person or animal infected by an infectious agent.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "لئاع ، (syn.) فيضم",
             "DE": "Wirt",
             "ES": "hospedador, (syn.) hospedero",
@@ -963,9 +963,9 @@
         }
     },
     "hygiene": {
-        "Descricao": "Set of practices that help to maintain health and prevent the spread of diseases.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Set of practices that help to maintain health and prevent the spread of diseases.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةفاظن ، (syn.) ةفاظن ةيحص",
             "DE": "Hygiene",
             "ES": "higiene",
@@ -979,9 +979,9 @@
         }
     },
     "immune response": {
-        "Descricao": "Reaction of the immune system of an organism to potentially harmful stimuli.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Reaction of the immune system of an organism to potentially harmful stimuli.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ةباجتسا يعانم ة",
             "DE": "Immunantwort",
             "ES": "respuesta inmunitaria, (syn.) respuesta immune",
@@ -995,9 +995,9 @@
         }
     },
     "immune system": {
-        "Descricao": "Network of cells and antibodies that defends the body against the attack of agents perceived as extraneous and potentially harmful to it by triggering an immune response, which can be specific (adaptive) or not specific (innate).",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Network of cells and antibodies that defends the body against the attack of agents perceived as extraneous and potentially harmful to it by triggering an immune response, which can be specific (adaptive) or not specific (innate).",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "زاهج يعانم",
             "DE": "Immunsystem",
             "ES": "sistema inmunitario,",
@@ -1011,9 +1011,9 @@
         }
     },
     "immunity": {
-        "Descricao": "Condition of being protected against an infectious disease.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Condition of being protected against an infectious disease.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ةعانم COVID-19 Glossary 18",
             "DE": "Immunität",
             "ES": "inmunidad",
@@ -1026,9 +1026,9 @@
         }
     },
     "imported case": {
-        "Descricao": "Case who has a history of travel from an affected area some time before the onset of the disease and cannot be linked to local transmission.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Case who has a history of travel from an affected area some time before the onset of the disease and cannot be linked to local transmission.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ةدروتسم",
             "DE": "importierter Fall",
             "ES": "caso importado",
@@ -1042,9 +1042,9 @@
         }
     },
     "incidence": {
-        "Descricao": "New cases of a disease arising in a given period in a population at risk.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "New cases of a disease arising in a given period in a population at risk.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم ثودح",
             "DE": "Incidenz",
             "ES": "incidencia",
@@ -1058,9 +1058,9 @@
         }
     },
     "incubation period": {
-        "Descricao": "Lapse of time between the exposure to an infectious agent and the onset of the symptoms of a disease.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Lapse of time between the exposure to an infectious agent and the onset of the symptoms of a disease.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةرتف ةناضح",
             "DE": "Inkubationszeit",
             "ES": "período de incubación",
@@ -1073,9 +1073,9 @@
         }
     },
     "index case": {
-        "Descricao": "index patient The first known case of the outbreak of a disease in a cluster.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "index patient The first known case of the outbreak of a disease in a cluster.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ةلاد",
             "DE": "Indexfall",
             "ES": "caso índice",
@@ -1088,9 +1088,9 @@
         }
     },
     "indirect contact transmission": {
-        "Descricao": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by means of a vehicle, i.e. water, food or air, a vector or a fomite.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Mode of transmission that occurs when an infectious agent is transferred from a reservoir to a host by means of a vehicle, i.e. water, food or air, a vector or a fomite.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا ريغ رشابم",
             "DE": "indirekte Kontaktübertragung",
             "ES": "transmisión indirecta",
@@ -1104,9 +1104,9 @@
         }
     },
     "infection fatality rate": {
-        "Descricao": "IFR Proportion of people who will die of a certain disease out of all those who have been infected.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "IFR Proportion of people who will die of a certain disease out of all those who have been infected.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم ةتامإ ىودع",
             "DE": "Infizierten-Verstorbenen-Anteil",
             "ES": "tasa de letalidad",
@@ -1120,9 +1120,9 @@
         }
     },
     "infectious agent": {
-        "Descricao": "Biological agent that may or may not cause an infectious disease.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Biological agent that may or may not cause an infectious disease.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لماع دعم",
             "DE": "Infektionserreger",
             "ES": "agente infeccioso",
@@ -1135,9 +1135,9 @@
         }
     },
     "infectious disease": {
-        "Descricao": "Disease caused by a pathogen.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Disease caused by a pathogen.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ضرم دعم",
             "DE": "Infektionskrankheit",
             "ES": "enfermedad infecciosa",
@@ -1150,9 +1150,9 @@
         }
     },
     "infectivity": {
-        "Descricao": "Ability of an infectious agent to enter, survive, and multiply in a host.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Ability of an infectious agent to enter, survive, and multiply in a host.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "ةردق ىلع ثادحإ ىودع",
             "DE": "Infektiosität",
             "ES": "infecciosidad",
@@ -1165,9 +1165,9 @@
         }
     },
     "inflammation": {
-        "Descricao": "Series of innate immunity processes initiated by the body in response to an injury.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "Series of innate immunity processes initiated by the body in response to an injury.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "باهتلا",
             "DE": "Entzündung",
             "ES": "inflamación",
@@ -1181,9 +1181,9 @@
         }
     },
     "intensive care unit": {
-        "Descricao": "critical care unit, ICU, CCU Hospital facility that provides critical care and life support for acutely ill or injured patients.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "critical care unit, ICU, CCU Hospital facility that provides critical care and life support for acutely ill or injured patients.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ةدحو ةيانع كرم ةز ، (syn.) ةدحو ةياعر كرم ةز ، ةدحو ةيانع ثكم ةف ، ةدحو ةياعر ثكم ةف",
             "DE": "Intensivstation",
             "ES": "unidad de cuidados intensivos, (syn.) unidad de terapia intensiva, UCI, UTI",
@@ -1196,9 +1196,9 @@
         }
     },
     "intubation": {
-        "Descricao": "endotracheal intubation Invasive lung ventilation method in which a tube is inserted into the patient’s trachea through the mouth or nose.",
-        "Categoria": "MEDI, Surgery",
-        "Traducoes": {
+        "definicao": "endotracheal intubation Invasive lung ventilation method in which a tube is inserted into the patient’s trachea through the mouth or nose.",
+        "categoria": "MEDI, Surgery",
+        "traducoes": {
             "AR": "بيبنت",
             "DE": "Intubation, (syn.) Intubierung",
             "ES": "intubación",
@@ -1211,9 +1211,9 @@
         }
     },
     "laboratory test": {
-        "Descricao": "Diagnostic test performed on samples of a person’s body, e.g. blood, urine, saliva, tissues, typically in specially equipped facilities.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "Diagnostic test performed on samples of a person’s body, e.g. blood, urine, saliva, tissues, typically in specially equipped facilities.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "صحف يربخم ، (syn.) صحف يربتخم ، رابتخا يربخم",
             "DE": "Labortest",
             "ES": "prueba de laboratorio",
@@ -1226,9 +1226,9 @@
         }
     },
     "lockdown": {
-        "Descricao": "confinement Strategy adopted by a public body because of an emergency that requires people to remain in a certain location which they may not leave other than for exceptional reasons.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "confinement Strategy adopted by a public body because of an emergency that requires people to remain in a certain location which they may not leave other than for exceptional reasons.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "قلاغإ",
             "DE": "Massenquarantäne",
             "ES": "confinamiento",
@@ -1241,9 +1241,9 @@
         }
     },
     "magnetic resonance imaging": {
-        "Descricao": "magnetic resonance tomography, nuclear magnetic resonance imaging, MRI, MRT, NMRI Medical imaging technique by which three-dimensional images of the body are obtained by exciting protons present in the water of living tissues and detecting the change in the direction of their rotational axis by means of a magnetic resonance imaging scanner. MEDI,",
-        "Categoria": "Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "magnetic resonance tomography, nuclear magnetic resonance imaging, MRI, MRT, NMRI Medical imaging technique by which three-dimensional images of the body are obtained by exciting protons present in the water of living tissues and detecting the change in the direction of their rotational axis by means of a magnetic resonance imaging scanner. MEDI,",
+        "categoria": "Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ريوصت نينرلاب يسيطانغملا",
             "DE": "Magnetresonanztomographie, (syn.) MRT, Kernspintomographie, Magnetresonanz-Bildgebung",
             "ES": "imagen por resonancia magnética, (syn.) IRM",
@@ -1257,9 +1257,9 @@
         }
     },
     "mask": {
-        "Descricao": "Commercially produced or homemade covering for nose and mouth used to reduce the spread of respiratory droplets from the wearer to others.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Commercially produced or homemade covering for nose and mouth used to reduce the spread of respiratory droplets from the wearer to others.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةمامك ، (syn.) عانق",
             "DE": "Atemschutzmaske",
             "ES": "mascarilla, (syn.) barbijo (es-AR), tapaboca (es-CU)",
@@ -1272,9 +1272,9 @@
         }
     },
     "mechanical ventilation": {
-        "Descricao": "Lung ventilation provided by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Lung ventilation provided by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ةيوهت ةيكيناكيم",
             "DE": "maschinelle Beatmung",
             "ES": "ventilación mecánica",
@@ -1287,9 +1287,9 @@
         }
     },
     "mechanical ventilator": {
-        "Descricao": "ventilator Machine that helps patients to breathe by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure, replacing some or all of the muscular effort required for lung ventilation.",
-        "Categoria": "MEDI, Medical equipment",
-        "Traducoes": {
+        "definicao": "ventilator Machine that helps patients to breathe by driving fresh air into the lungs by positive pressure and/or by pumping expiratory air out of the lungs by negative pressure, replacing some or all of the muscular effort required for lung ventilation.",
+        "categoria": "MEDI, Medical equipment",
+        "traducoes": {
             "AR": "زاهج سفنت يعانطصا",
             "DE": "Beatmungsgerät, (syn.) mechanischer Ventilator, Respirator",
             "ES": "respirador, (syn.) ventilador mecánico",
@@ -1302,9 +1302,9 @@
         }
     },
     "medical care": {
-        "Descricao": "Administration and delivery of healthcare by professionals. COVID-19 Glossary 22",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Administration and delivery of healthcare by professionals. COVID-19 Glossary 22",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةياعر ةيبط ، (syn.) ةيانع ةيبط",
             "DE": "medizinische Versorgung",
             "ES": "atención médica",
@@ -1318,9 +1318,9 @@
         }
     },
     "medical glove": {
-        "Descricao": "Personal protective equipment for the hands typically worn by healthcare professionals to protect themselves from exposure to infectious agents or other biological, chemical or physical hazards.",
-        "Categoria": "MEDI, Medical equipment",
-        "Traducoes": {
+        "definicao": "Personal protective equipment for the hands typically worn by healthcare professionals to protect themselves from exposure to infectious agents or other biological, chemical or physical hazards.",
+        "categoria": "MEDI, Medical equipment",
+        "traducoes": {
             "AR": "زافق يبط",
             "DE": "Einmalhandschuh",
             "ES": "guante médico",
@@ -1333,9 +1333,9 @@
         }
     },
     "mitigation": {
-        "Descricao": "Strategy adopted by a public body to reduce the number of infected people in a given geographical area and limit the impact on the health system of a disease outbreak.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Strategy adopted by a public body to reduce the number of infected people in a given geographical area and limit the impact on the health system of a disease outbreak.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "فيفخت",
             "DE": "Folgenminderungsstrategie",
             "ES": "mitigación",
@@ -1348,9 +1348,9 @@
         }
     },
     "mode of transmission": {
-        "Descricao": "route of transmission Means by which an infectious agent spreads from one host to another.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "route of transmission Means by which an infectious agent spreads from one host to another.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةقيرط لاقتنا ىودع ، (syn.) ةليسو لاقتنا ىودع",
             "DE": "Übertragungsweg",
             "ES": "vía de transmisión",
@@ -1363,9 +1363,9 @@
         }
     },
     "monoclonal antibody": {
-        "Descricao": "Laboratory-produced molecule that targets and attacks specific antigens, thereby triggering a specific immune response.",
-        "Categoria": "SCIE, Therapeutics",
-        "Traducoes": {
+        "definicao": "Laboratory-produced molecule that targets and attacks specific antigens, thereby triggering a specific immune response.",
+        "categoria": "SCIE, Therapeutics",
+        "traducoes": {
             "AR": "مسج داضم ديحو ةليسنلا ، (syn.) ض د ديحو ةليسنلا ، مسج داضم يداحأ أشنملا",
             "DE": "monoklonaler Antikörper",
             "ES": "anticuerpo monoclonal",
@@ -1378,9 +1378,9 @@
         }
     },
     "morbidity": {
-        "Descricao": "Level of health and well-being of an individual. COVID-19 Glossary 23",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Level of health and well-being of an individual. COVID-19 Glossary 23",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةضارم",
             "DE": "Morbidität",
             "ES": "morbilidad",
@@ -1394,9 +1394,9 @@
         }
     },
     "multiple organ failure": {
-        "Descricao": "multiorgan failure, MOF Inability of two or more organs or organ systems to perform their function.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "multiorgan failure, MOF Inability of two or more organs or organ systems to perform their function.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لشف يوضع ددعتم",
             "DE": "Multiorganversagen, (syn.) MOV",
             "ES": "insuficiencia multiorgánica,",
@@ -1410,9 +1410,9 @@
         }
     },
     "nasopharyngeal swab test": {
-        "Descricao": "Method of collecting a specimen of nasal secretions for diagnostic purposes by inserting a swab into each nostril, extending it back into the nasopharynx, leaving it in place for a few seconds, and slowly withdrawing it with a rotating motion.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "Method of collecting a specimen of nasal secretions for diagnostic purposes by inserting a swab into each nostril, extending it back into the nasopharynx, leaving it in place for a few seconds, and slowly withdrawing it with a rotating motion.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ةحسم ةيموعلب ةيفنأ",
             "DE": "Nasen-Rachen-Abstrich",
             "ES": "hisopado nasofaríngeo",
@@ -1425,9 +1425,9 @@
         }
     },
     "non-invasive ventilation": {
-        "Descricao": "NIV Positive pressure ventilation provided through a person’s upper respiratory airways using an oxygen mask.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "NIV Positive pressure ventilation provided through a person’s upper respiratory airways using an oxygen mask.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ةيوهت ريغ ةعضاب",
             "DE": "nicht-invasive Beatmung",
             "ES": "ventilación no invasiva, (syn.) VNI",
@@ -1440,9 +1440,9 @@
         }
     },
     "nucleotide sequence": {
-        "Descricao": "Sequence of the repeating units of DNA or RNA.",
-        "Categoria": "SCIE, Biochemistry",
-        "Traducoes": {
+        "definicao": "Sequence of the repeating units of DNA or RNA.",
+        "categoria": "SCIE, Biochemistry",
+        "traducoes": {
             "AR": "لسلست تاديوونلا ، (syn.) لسلست تاديتويلكوينلا ، لسلست يديتويلكون",
             "DE": "Nukleotidsequenz",
             "ES": "secuencia nucleotídica, (syn.) secuencia de nucleótidos",
@@ -1456,9 +1456,9 @@
         }
     },
     "pandemic": {
-        "Descricao": "pandemic disease Epidemic disease that has spread to different countries and continents.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "pandemic disease Epidemic disease that has spread to different countries and continents.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةحئاج",
             "DE": "Pandemie",
             "ES": "pandemia",
@@ -1471,9 +1471,9 @@
         }
     },
     "pandemic preparedness": {
-        "Descricao": "Ability of a public body to deal with a threat to human health caused by a pandemic by ensuring that appropriate response plans are in place.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Ability of a public body to deal with a threat to human health caused by a pandemic by ensuring that appropriate response plans are in place.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "بهأت ةحئاجل",
             "DE": "Pandemievorbereitung",
             "ES": "preparación para pandemias",
@@ -1486,9 +1486,9 @@
         }
     },
     "pathogen": {
-        "Descricao": "Infectious agent causing a disease.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Infectious agent causing a disease.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "رمم ض",
             "DE": "Pathogen",
             "ES": "microorganismo patógeno",
@@ -1502,9 +1502,9 @@
         }
     },
     "personal protective equipment": {
-        "Descricao": "PPE Gear worn by an individual that provides protection against one or more risks to a person’s health and safety.",
-        "Categoria": "ENVR, Personal protective equipment",
-        "Traducoes": {
+        "definicao": "PPE Gear worn by an individual that provides protection against one or more risks to a person’s health and safety.",
+        "categoria": "ENVR, Personal protective equipment",
+        "traducoes": {
             "AR": "تادعم ةياقو ةيصخش",
             "DE": "persönliche Schutzausrüstung, (syn.) PSA",
             "ES": "equipo de protección individual, (syn.) EPI",
@@ -1517,9 +1517,9 @@
         }
     },
     "pharmacoepidemiology": {
-        "Descricao": "Study of the use and effects of drugs in large numbers of people, the aim of which is to estimate the probability of positive or negative effects of a drug.",
-        "Categoria": "MEDI, Pharmacology",
-        "Traducoes": {
+        "definicao": "Study of the use and effects of drugs in large numbers of people, the aim of which is to estimate the probability of positive or negative effects of a drug.",
+        "categoria": "MEDI, Pharmacology",
+        "traducoes": {
             "AR": "ةلديص ةيئابو",
             "DE": "Pharmakoepidemiologie",
             "ES": "farmacoepidemiología",
@@ -1532,9 +1532,9 @@
         }
     },
     "point-of-care testing": {
-        "Descricao": "point-of-collection testing, POCT Method of performing a laboratory test at or near the site of patient care.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "point-of-collection testing, POCT Method of performing a laboratory test at or near the site of patient care.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "رابتخإ ةطقُن ةياعرلا",
             "DE": "patientennahe Sofortdiagnostik, (syn.) patientennahe Labordiagnostik, POCT",
             "ES": "análisis junto al paciente, (syn.) pruebas a la cabecera del paciente",
@@ -1547,9 +1547,9 @@
         }
     },
     "polymerase chain reaction": {
-        "Descricao": "PCR Molecular biology technique that applies high temperature and a DNA polymerase to a sample of DNA containing the target sequence, thereby producing copies of small segments of the original DNA for use in further molecular and genetic analysis.",
-        "Categoria": "SCIE, Genetics",
-        "Traducoes": {
+        "definicao": "PCR Molecular biology technique that applies high temperature and a DNA polymerase to a sample of DNA containing the target sequence, thereby producing copies of small segments of the original DNA for use in further molecular and genetic analysis.",
+        "categoria": "SCIE, Genetics",
+        "traducoes": {
             "AR": "لسلستم ةرملب لعافت ، (syn.) لعافت يلسلست يزاريميلوب ، لعافت زاريميلوب لسلستم",
             "DE": "Polymerasekettenreaktion, (syn.) PolymeraseKettenreaktion, PCR",
             "ES": "reacción en cadena de la polimerasa, (syn.) RCP, PCR",
@@ -1563,9 +1563,9 @@
         }
     },
     "portal of entry": {
-        "Descricao": "Anatomical site at which an infectious agent enters a host.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Anatomical site at which an infectious agent enters a host.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ناكم لوخد",
             "DE": "Eintrittspforte",
             "ES": "puerta de entrada",
@@ -1578,9 +1578,9 @@
         }
     },
     "portal of exit": {
-        "Descricao": "Anatomical site at which an infectious agent leaves a host.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Anatomical site at which an infectious agent leaves a host.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ناكم جورخ",
             "DE": "Austrittspforte",
             "ES": "puerta de salida",
@@ -1593,9 +1593,9 @@
         }
     },
     "pre-symptomatic transmission": {
-        "Descricao": "Mode of transmission of an infectious disease to another person from an infected person who has not yet developed symptoms.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Mode of transmission of an infectious disease to another person from an infected person who has not yet developed symptoms.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا نم باصم لبق روهظ ضارعأ",
             "DE": "präsymptomatische Übertragung",
             "ES": "transmisión presintomática",
@@ -1608,9 +1608,9 @@
         }
     },
     "prevalence": {
-        "Descricao": "All cases of a disease observed at a given point in time in a population at risk.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "All cases of a disease observed at a given point in time in a population at risk.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لدعم راشتنا",
             "": "",
             "DE": "Prävalenz",
@@ -1624,9 +1624,9 @@
         }
     },
     "primary case": {
-        "Descricao": "patient zero Case to whom the onset of the outbreak of a disease can be traced back.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "patient zero Case to whom the onset of the outbreak of a disease can be traced back.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ةيلوأ ، (syn.) ضيرم مقر رفص",
             "": "",
             "DE": "Patient Null",
@@ -1640,9 +1640,9 @@
         }
     },
     "probable case": {
-        "Descricao": "Case that is compatible with a clinical case definition and for whom there is strong epidemiological evidence of disease, e.g. the person is a contact of a confirmed case but no laboratory test confirmation is available.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Case that is compatible with a clinical case definition and for whom there is strong epidemiological evidence of disease, e.g. the person is a contact of a confirmed case but no laboratory test confirmation is available.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح ةلمتحم",
             "DE": "wahrscheinlicher Fall",
             "ES": "caso probable",
@@ -1655,9 +1655,9 @@
         }
     },
     "public health": {
-        "Descricao": "Science of protecting and improving the health of people through the organized efforts of society by promoting a healthy lifestyle, preventing injuries, and preventing, detecting and responding to infectious diseases.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Science of protecting and improving the health of people through the organized efforts of society by promoting a healthy lifestyle, preventing injuries, and preventing, detecting and responding to infectious diseases.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةحص ةماع ، (syn.) ةحص ةيمومع",
             "DE": "öffentliches Gesundheitswesen",
             "ES": "salud pública",
@@ -1670,9 +1670,9 @@
         }
     },
     "public health surveillance": {
-        "Descricao": "Ongoing systematic collection, analysis, and dissemination of health data to help guide public health decision making and action.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Ongoing systematic collection, analysis, and dissemination of health data to help guide public health decision making and action.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةبقارم ةحصلا ةماعلا",
             "DE": "epidemiologische Überwachung",
             "ES": "vigilancia de la salud pública",
@@ -1685,9 +1685,9 @@
         }
     },
     "quarantine": {
-        "Descricao": "Strategy adopted by a public body to keep apart from the general population for a certain period of time all individuals suspected of having contact with a person affected by an infectious disease or coming from an affected area, until it is confirmed that they have not contracted the disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Strategy adopted by a public body to keep apart from the general population for a certain period of time all individuals suspected of having contact with a person affected by an infectious disease or coming from an affected area, until it is confirmed that they have not contracted the disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "رجح يحص",
             "DE": "Quarantäne",
             "ES": "cuarentena",
@@ -1700,9 +1700,9 @@
         }
     },
     "real-time reverse transcription- polymerase chain reaction": {
-        "Descricao": "real-time RT-PCR, rRT-PCR Reverse transcription polymerase chain reaction in which detection and quantification of amplified DNA sequences are performed after each PCR cycle.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "real-time RT-PCR, rRT-PCR Reverse transcription polymerase chain reaction in which detection and quantification of amplified DNA sequences are performed after each PCR cycle.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "لعافت زاريميلوب لسلستم خسنلل يسكعلا يف نمزلا يقيقحلا",
             "": "",
             "DE": "Echtzeit RT-PCR",
@@ -1716,9 +1716,9 @@
         }
     },
     "reservoir": {
-        "Descricao": "Natural habitat in which an infectious agent normally lives, grows, and multiplies.",
-        "Categoria": "SCIE, BiologyCIE, Biology",
-        "Traducoes": {
+        "definicao": "Natural habitat in which an infectious agent normally lives, grows, and multiplies.",
+        "categoria": "SCIE, BiologyCIE, Biology",
+        "traducoes": {
             "AR": "عدوتسم ، (syn.) نزاخ",
             "DE": "Reservoir",
             "ES": "reservorio",
@@ -1731,9 +1731,9 @@
         }
     },
     "respiratory disease": {
-        "Descricao": "Disease affecting the airways and the lungs and hindering normal breathing, which may be caused by, e.g., infection, air pollution, or exposure to noxious substances.",
-        "Categoria": "MEDI, Pathologyogy",
-        "Traducoes": {
+        "definicao": "Disease affecting the airways and the lungs and hindering normal breathing, which may be caused by, e.g., infection, air pollution, or exposure to noxious substances.",
+        "categoria": "MEDI, Pathologyogy",
+        "traducoes": {
             "AR": "ضرم يسفنت",
             "DE": "Atemwegserkrankung",
             "ES": "enfermedad respiratoria",
@@ -1746,9 +1746,9 @@
         }
     },
     "respiratory droplet": {
-        "Descricao": "droplet Particle made of water, proteins, viral RNA, and nonvolatile metabolites, which is &gt;510 μm in diameter and is exhaled from the nose and mouth of a person whilst e.g. coughing, sneezing breathing, or talking.",
-        "Categoria": "MEDI, Anatomy &amp; physiology",
-        "Traducoes": {
+        "definicao": "droplet Particle made of water, proteins, viral RNA, and nonvolatile metabolites, which is &gt;510 μm in diameter and is exhaled from the nose and mouth of a person whilst e.g. coughing, sneezing breathing, or talking.",
+        "categoria": "MEDI, Anatomy &amp; physiology",
+        "traducoes": {
             "AR": "ةريطق ، (syn.) ذاذر ، ذاذر يسفنت",
             "DE": "Tröpfchen",
             "ES": "gotícula",
@@ -1761,9 +1761,9 @@
         }
     },
     "respiratory hygiene": {
-        "Descricao": "cough etiquette Set of practices and behaviours adopted by an individual with the aim of preventing the spread of respiratory diseases.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "cough etiquette Set of practices and behaviours adopted by an individual with the aim of preventing the spread of respiratory diseases.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةفاظن ةيسفنت",
             "DE": "Husten-Nies-Etikette",
             "ES": "higiene respiratoria",
@@ -1776,9 +1776,9 @@
         }
     },
     "respiratory protective equipment": {
-        "Descricao": "respirator (en-US), RPE Personal protective equipment that protects the wearer against inhalation of hazardous substances in the air, such as dust, fumes, gases, or biological substances.",
-        "Categoria": "ENVR, Personal protective equipment",
-        "Traducoes": {
+        "definicao": "respirator (en-US), RPE Personal protective equipment that protects the wearer against inhalation of hazardous substances in the air, such as dust, fumes, gases, or biological substances.",
+        "categoria": "ENVR, Personal protective equipment",
+        "traducoes": {
             "AR": "تادعم ةيامح ةيسفنت ، (syn.) زاهج سفنت قاو",
             "DE": "Atemschutzgerät",
             "ES": "equipo de protección respiratoria",
@@ -1791,9 +1791,9 @@
         }
     },
     "risk factor": {
-        "Descricao": "Characteristic, condition, or behaviour that increases the likelihood that a person will contract a disease or sustain an injury.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Characteristic, condition, or behaviour that increases the likelihood that a person will contract a disease or sustain an injury.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لماع رطخ ، (syn.) لماع ةروطخ",
             "DE": "Risikofaktor",
             "ES": "factor de riesgo",
@@ -1806,9 +1806,9 @@
         }
     },
     "ribonucleic acid": {
-        "Descricao": "RNA Single-stranded nucleic acid whose nucleotides consist of a backbone made up by a simple sugar, called ribose, a phosphate group, and a nitrogenous base, i.e. adenine, guanine, cytosine, and uracil.",
-        "Categoria": "SCIE, Biochemistry",
-        "Traducoes": {
+        "definicao": "RNA Single-stranded nucleic acid whose nucleotides consist of a backbone made up by a simple sugar, called ribose, a phosphate group, and a nitrogenous base, i.e. adenine, guanine, cytosine, and uracil.",
+        "categoria": "SCIE, Biochemistry",
+        "traducoes": {
             "AR": "ضمح يوون يزوبير ، (syn.) انر",
             "DE": "Ribonukleinsäure, (syn.) RNA, RNS",
             "ES": "ácido ribonucleico, (syn.) ARN",
@@ -1821,9 +1821,9 @@
         }
     },
     "self-isolation": {
-        "Descricao": "self-quarantine Measure taken by an individual in order to avoid contact with other people and thus help to prevent the spread of an infectious disease.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "self-quarantine Measure taken by an individual in order to avoid contact with other people and thus help to prevent the spread of an infectious disease.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "لزع يتاذ",
             "DE": "Selbst-Isolation",
             "ES": "aislamiento voluntario",
@@ -1836,9 +1836,9 @@
         }
     },
     "sepsis": {
-        "Descricao": "Organ dysfunction syndrome caused by an impairment of the physiological regulatory mechanisms via which a host responds to infection.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Organ dysfunction syndrome caused by an impairment of the physiological regulatory mechanisms via which a host responds to infection.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ناتنإ ، (syn.) مخ ج",
             "DE": "Sepsis",
             "ES": "sepsis",
@@ -1851,9 +1851,9 @@
         }
     },
     "septic shock": {
-        "Descricao": "Class of sepsis in which abnormalities of circulation, i.e. persistent hypotension despite fluid resuscitation, and/or of cellular metabolism are serious enough to increase mortality substantially.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Class of sepsis in which abnormalities of circulation, i.e. persistent hypotension despite fluid resuscitation, and/or of cellular metabolism are serious enough to increase mortality substantially.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةمدص ةيناتنإ",
             "DE": "septischer Schock",
             "ES": "choque séptico",
@@ -1866,9 +1866,9 @@
         }
     },
     "serologic test": {
-        "Descricao": "serological test, antibody test Laboratory test aimed at detecting in the blood serum of an individual the presence of antibodies produced in response to a given disease. MEDI,",
-        "Categoria": "Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "serological test, antibody test Laboratory test aimed at detecting in the blood serum of an individual the presence of antibodies produced in response to a given disease. MEDI,",
+        "categoria": "Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "صحف يجولوريس ، (syn.) ليلحت لصم ، صحف لصم",
             "DE": "serologischer Test",
             "ES": "prueba serológica, (syn.) prueba de anticuerpos",
@@ -1881,9 +1881,9 @@
         }
     },
     "severe acute respiratory syndrome": {
-        "Descricao": "SARS Infectious disease caused by SARS-CoV-1.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "SARS Infectious disease caused by SARS-CoV-1.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةمزلاتم ةيسفنت ةداح ةميخو ، ( syn. ) ةمزلاتم باهتللاا يوئرلا داحلا ميخولا ، سراس",
             "DE": "schweres akutes Atemnotsyndrom, ( syn. ) schweres akutes Atemwegssyndrom, SARS",
             "ES": "síndrome respiratorio agudo grave, (syn.) SRAG",
@@ -1896,9 +1896,9 @@
         }
     },
     "severe acute respiratory syndrome  coronavirus 2": {
-        "Descricao": "SARS-CoV-2 Coronavirus that causes COVID-19.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "SARS-CoV-2 Coronavirus that causes COVID-19.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "سراس فوك 2",
             "DE": "schweres akutes respiratorisches Syndrom-Coronavirus2, (syn.) SARS-CoV-2",
             "ES": "coronavirus del síndrome respiratorio agudo grave 2, (syn.) coronavirus 2 del síndrome respiratorio agudo grave, SARS-CoV-2",
@@ -1911,9 +1911,9 @@
         }
     },
     "social distancing": {
-        "Descricao": "Strategy adopted by a public body to reduce physical contact and proximity between individuals in a community in order to reduce the risk of transmission of an infectious disease, for example by instructing or advising individuals to maintain a certain distance from each other or by prohibiting gatherings of more than a certain number of people.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Strategy adopted by a public body to reduce physical contact and proximity between individuals in a community in order to reduce the risk of transmission of an infectious disease, for example by instructing or advising individuals to maintain a certain distance from each other or by prohibiting gatherings of more than a certain number of people.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "دعابت يدسج",
             "DE": "räumliche Distanzierung",
             "ES": "distanciamiento social",
@@ -1927,9 +1927,9 @@
         }
     },
     "spike glycoprotein": {
-        "Descricao": "spike Glycoprotein complex made up of three protomers and located on the envelope of coronaviruses, which enables the virus to bind to the receptor site of the host cells.",
-        "Categoria": "SCIE, Biochemistry",
-        "Traducoes": {
+        "definicao": "spike Glycoprotein complex made up of three protomers and located on the envelope of coronaviruses, which enables the virus to bind to the receptor site of the host cells.",
+        "categoria": "SCIE, Biochemistry",
+        "traducoes": {
             "AR": "نيتورب ةكسح",
             "DE": "Spike-Glykoprotein, (syn.) Spike",
             "ES": "glicoproteína de la espícula, (syn.) espícula COVID-19 Glossary 31",
@@ -1942,9 +1942,9 @@
         }
     },
     "super-spreader": {
-        "Descricao": "Person affected by an infectious disease who transmits the disease to a significantly higher number of people than does the average infected person.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Person affected by an infectious disease who transmits the disease to a significantly higher number of people than does the average infected person.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "رشان ىودع قئاف",
             "DE": "Superverbreiter",
             "ES": "supercontagiador",
@@ -1957,9 +1957,9 @@
         }
     },
     "surgical mask": {
-        "Descricao": "Half-face mask, flat and rectangular in shape, made of nonwoven fabric and comprising filtration layers, with folds and elastic bands or long straight ties that can be looped behind a person’s ears or tied around a person’s head, which is used to protect the wearer from sprays, splashes, and large-particle droplets and to prevent the spread of respiratory droplets from the wearer to others.",
-        "Categoria": "MEDI, Medical equipment",
-        "Traducoes": {
+        "definicao": "Half-face mask, flat and rectangular in shape, made of nonwoven fabric and comprising filtration layers, with folds and elastic bands or long straight ties that can be looped behind a person’s ears or tied around a person’s head, which is used to protect the wearer from sprays, splashes, and large-particle droplets and to prevent the spread of respiratory droplets from the wearer to others.",
+        "categoria": "MEDI, Medical equipment",
+        "traducoes": {
             "AR": "عانق يحارج",
             "DE": "chirurgischer Mund-Nasen-Schutz",
             "ES": "mascarilla quirúrgica, (syn.) barbijo quirúrgico ( es-AR), tapaboca quirúrgico (es-CU)",
@@ -1972,9 +1972,9 @@
         }
     },
     "suspected case": {
-        "Descricao": "Case that is compatible with a clinical case definition but there is no laboratory test confirmation or strong epidemiological evidence, e.g. the person is not a contact of a confirmed case.",
-        "Categoria": "MEDI, Public health &amp; hygiene",
-        "Traducoes": {
+        "definicao": "Case that is compatible with a clinical case definition but there is no laboratory test confirmation or strong epidemiological evidence, e.g. the person is not a contact of a confirmed case.",
+        "categoria": "MEDI, Public health &amp; hygiene",
+        "traducoes": {
             "AR": "ةلاح هبتشم اهب ، (syn.) ةلاح ةهبتشم",
             "DE": "Verdachtsfall",
             "ES": "caso sospechoso",
@@ -1987,9 +1987,9 @@
         }
     },
     "swab": {
-        "Descricao": "Piece of soft material used by a healthcare professional for cleaning wounds or taking samples from a person’s body for testing purposes.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "Piece of soft material used by a healthcare professional for cleaning wounds or taking samples from a person’s body for testing purposes.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ةحسم",
             "DE": "Tupfer",
             "ES": "hisopo",
@@ -2002,9 +2002,9 @@
         }
     },
     "swab test": {
-        "Descricao": "COVID-19 Glossary 32 Method of collecting a sample of organic material for diagnostic purposes by inserting a swab into a person’s body orifices, e.g. nose, mouth, etc. MEDI,",
-        "Categoria": "Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "COVID-19 Glossary 32 Method of collecting a sample of organic material for diagnostic purposes by inserting a swab into a person’s body orifices, e.g. nose, mouth, etc. MEDI,",
+        "categoria": "Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "صحف ةحسم",
             "DE": "Tupfertest",
             "ES": "hisopado",
@@ -2017,9 +2017,9 @@
         }
     },
     "symptom": {
-        "Descricao": "Manifestation of a disease that is perceptible to only the patient (subjective symptom) or to the patient and others (objective symptom or sign).",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Manifestation of a disease that is perceptible to only the patient (subjective symptom) or to the patient and others (objective symptom or sign).",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ضرع",
             "DE": "Symptom",
             "ES": "síntoma",
@@ -2032,9 +2032,9 @@
         }
     },
     "symptomatic transmission": {
-        "Descricao": "Mode of transmission to another person of an infectious disease from an infected person who has developed symptoms.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Mode of transmission to another person of an infectious disease from an infected person who has developed symptoms.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لاقتنا نم باصم ضارعأب",
             "DE": "symptomatische Übertragung",
             "ES": "trasmisión sintomática",
@@ -2047,9 +2047,9 @@
         }
     },
     "systemic inflammatory response  syndrome": {
-        "Descricao": "SIRS Condition characterized by a disproportionate inflammatory response to a variety of severe clinical phenomena, including relating to body temperature (&gt;38°C or &lt;36°C), heart rate (&gt;90 beats per minute), respiratory rate (&gt;20 breaths per minute or PaCO2 &lt;32 mmHg), and white blood cell count (&gt;12,000/cu mm, &lt;4,000/cu mm, or &gt;10% immature band forms).",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "SIRS Condition characterized by a disproportionate inflammatory response to a variety of severe clinical phenomena, including relating to body temperature (&gt;38°C or &lt;36°C), heart rate (&gt;90 beats per minute), respiratory rate (&gt;20 breaths per minute or PaCO2 &lt;32 mmHg), and white blood cell count (&gt;12,000/cu mm, &lt;4,000/cu mm, or &gt;10% immature band forms).",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ةمزلاتم ةباجتسلاا ةيباهتللاا ةيزاهجلا",
             "DE": "systemisches inflammatorisches Response-Syndrom, (syn.) SIRS",
             "ES": "síndrome de respuesta inflamatoria sistémica, (syn.) SRIS",
@@ -2062,9 +2062,9 @@
         }
     },
     "telehealth": {
-        "Descricao": "Remote provision of clinical and non-clinical services using information and communication technologies, such as diagnosis and treatment of diseases and COVID-19 Glossary 33 injuries, research and evaluation, and education of health professionals.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Remote provision of clinical and non-clinical services using information and communication technologies, such as diagnosis and treatment of diseases and COVID-19 Glossary 33 injuries, research and evaluation, and education of health professionals.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ةحص نع دعب",
             "DE": "Telegesundheit",
             "ES": "telesalud",
@@ -2078,9 +2078,9 @@
         }
     },
     "thrombosis": {
-        "Descricao": "Vascular disease involving the formation of thrombi inside a blood vessel, i.e. an artery or a vein, obstructing circulation.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Vascular disease involving the formation of thrombi inside a blood vessel, i.e. an artery or a vein, obstructing circulation.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "لجت ط ، (syn.) اثخ ،ر رثخت",
             "DE": "Thrombose",
             "ES": "trombosis",
@@ -2093,9 +2093,9 @@
         }
     },
     "triage": {
-        "Descricao": "Process of sorting patients or casualties to determine priority of need and proper place of treatment.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Process of sorting patients or casualties to determine priority of need and proper place of treatment.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "زرف",
             "DE": "Triage",
             "ES": "triaje",
@@ -2108,9 +2108,9 @@
         }
     },
     "urgent care": {
-        "Descricao": "Medical care provided for illnesses or injuries that require prompt attention but are typically not so serious as to require the services of an emergency room.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "Medical care provided for illnesses or injuries that require prompt attention but are typically not so serious as to require the services of an emergency room.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "ةياعر ةلجاع",
             "DE": "Bagatell-Notfall",
             "ES": "atención de urgencias menores",
@@ -2123,9 +2123,9 @@
         }
     },
     "urgent care facility": {
-        "Descricao": "urgent care center A walk-in clinic led by qualified medical professionals, i.e. doctors and nurses, in which urgent care is delivered.",
-        "Categoria": "MEDI, Medical care",
-        "Traducoes": {
+        "definicao": "urgent care center A walk-in clinic led by qualified medical professionals, i.e. doctors and nurses, in which urgent care is delivered.",
+        "categoria": "MEDI, Medical care",
+        "traducoes": {
             "AR": "قفرم ةياعر ةلجاع",
             "DE": "Notfallpraxis",
             "ES": "dispensario de urgencias menores",
@@ -2138,9 +2138,9 @@
         }
     },
     "vaccine": {
-        "Descricao": "Therapeutic preparation containing an antigen, i.e. a virus or a segment of a virus or a toxin generated by bacteria, that may have been attenuated, inactivated or killed and which is able to trigger the immune response and generate immunity in an organism.",
-        "Categoria": "MEDI, Therapeutics",
-        "Traducoes": {
+        "definicao": "Therapeutic preparation containing an antigen, i.e. a virus or a segment of a virus or a toxin generated by bacteria, that may have been attenuated, inactivated or killed and which is able to trigger the immune response and generate immunity in an organism.",
+        "categoria": "MEDI, Therapeutics",
+        "traducoes": {
             "AR": "حاقل",
             "DE": "Impfstoff, (syn.) Vakzine",
             "ES": "vacuna",
@@ -2153,9 +2153,9 @@
         }
     },
     "vector": {
-        "Descricao": "Living organism that indirectly transmits an infectious disease to a susceptible host either by carrying the infectious agent on its body (mechanical vector) or by providing an environment in which the infectious agent can reproduce and survive (biological vector).",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Living organism that indirectly transmits an infectious disease to a susceptible host either by carrying the infectious agent on its body (mechanical vector) or by providing an environment in which the infectious agent can reproduce and survive (biological vector).",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "لقان",
             "DE": "Vektor",
             "ES": "vector",
@@ -2169,9 +2169,9 @@
         }
     },
     "viral load": {
-        "Descricao": "Amount of viral particles present in a millilitre of a fluid sample, e.g. blood.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "Amount of viral particles present in a millilitre of a fluid sample, e.g. blood.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ح لم يسوريف",
             "DE": "Viruslast",
             "ES": "carga viral",
@@ -2184,9 +2184,9 @@
         }
     },
     "viral vector": {
-        "Descricao": "Virus that has been genetically modified for use in gene therapy.",
-        "Categoria": "SCIE, Genetics",
-        "Traducoes": {
+        "definicao": "Virus that has been genetically modified for use in gene therapy.",
+        "categoria": "SCIE, Genetics",
+        "traducoes": {
             "AR": "لقان يسوريف",
             "DE": "viraler Vektor",
             "ES": "vector viral",
@@ -2199,9 +2199,9 @@
         }
     },
     "virus": {
-        "Descricao": "Microscopic infectious agent that can multiply only in living cells of animals, plants, or bacteria, consisting of genetic material, either DNA or RNA, housed inside a capsid.",
-        "Categoria": "SCIE, Biology",
-        "Traducoes": {
+        "definicao": "Microscopic infectious agent that can multiply only in living cells of animals, plants, or bacteria, consisting of genetic material, either DNA or RNA, housed inside a capsid.",
+        "categoria": "SCIE, Biology",
+        "traducoes": {
             "AR": "سوريف",
             "DE": "Virus",
             "ES": "virus",
@@ -2214,9 +2214,9 @@
         }
     },
     "X-ray image": {
-        "Descricao": "Image formed by the shadows of the objects inside a patient’s body when x-rays travel through it and pass through an x-ray detector on the other side of the patient.",
-        "Categoria": "MEDI, Diagnostic equipment &amp; procedures",
-        "Traducoes": {
+        "definicao": "Image formed by the shadows of the objects inside a patient’s body when x-rays travel through it and pass through an x-ray detector on the other side of the patient.",
+        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "traducoes": {
             "AR": "ةروص ةعشأ ةينيس ، (syn.) ةروص ةعشأ سكا",
             "DE": "Röntgenaufnahme",
             "ES": "radiografía",
@@ -2229,9 +2229,9 @@
         }
     },
     "zoonosis": {
-        "Descricao": "Infectious disease that is transmissible under natural conditions from vertebrate animals to humans.",
-        "Categoria": "MEDI, Pathology",
-        "Traducoes": {
+        "definicao": "Infectious disease that is transmissible under natural conditions from vertebrate animals to humans.",
+        "categoria": "MEDI, Pathology",
+        "traducoes": {
             "AR": "ضرم يناويح ردصملا",
             "DE": "Zoonose",
             "ES": "zoonosis",
