@@ -32,7 +32,7 @@ for c in conceitos[1:]:
         conceitos_dict[designacao] = {
             "id": id_n,
             "genero": gen,
-            "area": "",
+            "categoria": "",
             "traducoes": {},
             "sinonimos": [],
             "variantes": [],
@@ -60,13 +60,13 @@ for c in conceitos[1:]:
 
         # 2. TENTAR EXTRAIR A ÁREA (Tudo o que vem antes da primeira sigla ou marcador)
         # Procuramos o início até encontrar 'es ', 'en ', 'pt ', 'la ', 'SIN.-' ou 'Nota.-'
-        match_area = re.search(r'^(.*?)(?=\s*(?:\$|es|en|pt|la|SIN\.-|VAR\.-|Nota\.-))', corpo_unido)
-        if match_area:
-            conceitos_dict[designacao]["area"] = match_area.group(1).strip()
+        match_cat = re.search(r'^(.*?)(?=\s*(?:\$|es|en|pt|la|SIN\.-|VAR\.-|Nota\.-))', corpo_unido)
+        if match_cat:
+            conceitos_dict[designacao]["categoria"] = match_cat.group(1).strip()
         else:
             # Se não encontrar nenhuma sigla, assume que o corpo todo é a área (ou está vazio)
             if not any(x in corpo_unido for x in ['es ', 'en ', 'pt ', 'la ', 'SIN.-']):
-                conceitos_dict[designacao]["area"] = corpo_unido
+                conceitos_dict[designacao]["categoria"] = corpo_unido
 
         # 4. EXTRAIR SINÓNIMOS (SIN.-)
         m_sin = re.search(r'SIN\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|VAR\.-|Vid\.-|#)|$)', corpo_unido)

@@ -4,138 +4,158 @@ import unicodedata
 import os
 
 def normalizar_chave(texto):
-    """Garante que termos como 'Abdômen' e 'abdome' sejam a mesma chave."""
+    """Normaliza o termo para comparação (sem acentos, minúsculas)."""
     if not texto: return ""
-    # Remove acentos e converte para minúsculas
     nfkd = unicodedata.normalize('NFKD', str(texto))
     t = "".join([c for c in nfkd if not unicodedata.combining(c)]).lower()
-    # Remove marcas de país [Br], classes gramaticais e espaços extras
-    t = re.sub(r'\[.*?\]|\s+s\.[mf]\.|\s+n\s+[mf]|\(.*?\)', '', t)
+    t = re.sub(r'\[.*?\]|\s+s\.[mf]\.|\s+n\s+[mf]|\(.*\)', '', t)
     return t.strip()
 
-def obter_ou_criar_entrada(master, termo_pt):
-    """Cria a estrutura base para um novo termo se ele ainda não existir."""
-    chave = normalizar_chave(termo_pt)
-    if not chave: return None
-    
-    if chave not in master:
-        master[chave] = {
-            "termo_principal": termo_pt.split('[')[0].strip(),
-            "genero": "",
-            "sigla": "",
-            "categorias": set(),
-            "definicoes": [],
-            "inf_encicl": "",
-            "traducoes": {},
-            "fontes": set()
-        }
-    return master[chave]
-
-def consolidar_dicionario():
-    master = {}
-
-    # --- 1. MEDICINA.JSON (Extração direta pelo termo PT) ---
-    if os.path.exists("medicina/medicina.json"):
-        with open("medicina/medicina.json", "r", encoding="utf-8") as f:
-            dados_med = json.load(f)
-            for info in dados_med.values():
-                # Vamos buscar o termo português dentro do campo traducoes
-                termo_pt_completo = info.get("traducoes", {}).get("pt", "")
-                if termo_pt_completo:
-                    # Se houver vários sinónimos (separados por ;), processamos todos
-                    for termo in termo_pt_completo.split(';'):
-                        entry = obter_ou_criar_entrada(master, termo)
-                        if entry:
-                            entry["fontes"].add("medicina.json")
-                            if info.get("genero"): entry["genero"] = info["genero"]
-                            if info.get("area"): entry["categorias"].add(info["area"])
-                            # Adicionar outras línguas (es, en, la)
-                            for lang, trad in info.get("traducoes", {}).items():
-                                if lang != "pt":
-                                    # Limpa etiquetas como [ing] ou [esp]
-                                    limpa = re.sub(r'\s*\[.*?\]', '', str(trad)).strip()
-                                    entry["traducoes"][lang] = limpa
-
-    # --- 2. GLOSSÁRIO DE NEOLOGISMOS ---
-    if os.path.exists("glossario_neologismos/glossario_neologismos.json"):
-        with open("glossario_neologismos/glossario_neologismos.json", "r", encoding="utf-8") as f:
-            dados_neo = json.load(f)
-            for termo, info in dados_neo.items():
-                entry = obter_ou_criar_entrada(master, termo)
-                if entry:
-                    entry["fontes"].add("glossario_neologismos.json")
-                    if info.get("genero"): entry["genero"] = info["genero"]
-                    if info.get("sigla"): entry["sigla"] = info["sigla"]
-                    if info.get("descricao"): entry["definicoes"].append(info["descricao"])
-                    if info.get("inf_encicl"): entry["inf_encicl"] = info["inf_encicl"]
-                    # Traduções específicas deste ficheiro
-                    trads = info.get("traducao", {})
-                    for l, v in trads.items():
-                        chave_l = "en" if "ing" in l.lower() else "es" if "esp" in l.lower() else l
-                        entry["traducoes"][chave_l] = re.sub(r'\s*\[.*?\]', '', str(v)).strip()
-
-    # --- 3. DICIONÁRIOS COM CHAVE SIMPLES (Termo PT: Info) ---
-    fontes_simples = {
-        "Glossario_enfermagem/glossario_enfermagem.json": "definicao",
-        "glossario_ministerio/conceitos_ministerio.json": "Descricao",
-        "glossario_tematico/glossario_tematico_conceitos.json": "definicao",
-        "glossario_termos/glossario_termos.json": "significado"
+def criar_estrutura_base(termo_exibicao):
+    """Retorna o template do dicionário com listas para acumulação."""
+    return {
+        "termo_principal": termo_exibicao,
+        "genero": "",
+        "siglas": [],
+        "categorias": [],
+        "definicoes": [],
+        "pesquisa": [],
+        "inf_encicl": "",
+        "sinonimos": [],
+        "variantes": [],
+        "notas_extras": [],
+        "traducoes": {
+            "en": "", "es": "", "fr": "", "la": "", "it": "",
+            "AR": "", "DE": "", "JA": "", "KO": "", "RU": "", "ZH": "",
+            "oc": "", "eu": "", "gl": "", "nl": "", "ar": ""
+        },
+        "remissoes": [],
+        "fontes": []
     }
 
-    for ficheiro, campo_def in fontes_simples.items():
-        if os.path.exists(ficheiro):
-            with open(ficheiro, "r", encoding="utf-8") as f:
-                dados = json.load(f)
-                for termo, info in dados.items():
-                    entry = obter_ou_criar_entrada(master, termo)
-                    if entry and isinstance(info, dict):
-                        d = info.get(campo_def)
-                        if d and d not in entry["definicoes"]:
-                            entry["definicoes"].append(d)
-                        cat = info.get("Categoria") or info.get("area")
-                        if cat: entry["categorias"].add(cat)
-                        entry["fontes"].add(ficheiro)
+def consolidar_final():
+    master_dict = {}
 
-    # --- 4. ESTRUTURAS COMPLEXAS (CIPE e WIPO) ---
-    # CIPE (Dicionário de IDs, termo está lá dentro)
-    if os.path.exists("ICNP/cipe.json"):
-        with open("ICNP/cipe.json", "r", encoding="utf-8") as f:
-            for item in json.load(f).values():
-                entry = obter_ou_criar_entrada(master, item.get("termo", ""))
-                if entry:
-                    if item.get("descricao"): entry["definicoes"].append(item["descricao"])
-                    if item.get("eixo"): entry["categorias"].add(f"Eixo {item['eixo']}")
-                    entry["fontes"].add("cipe.json")
+    # --- 1. PROCESSAR FICHEIROS PORTUGUESES PRIMEIRO (Âncoras) ---
+    # Estes ficheiros definem o que "já existe" no dicionário
+    fontes_pt = [
+        ("medicina/medicina.json", "definicao"), 
+        ("Glossario_enfermagem/glossario_enfermagem.json", "definicao"),
+        ("glossario_ministerio/conceitos_ministerio.json", "Descricao"),
+        ("glossario_medico/glossario_medico.json", "definicao"),
+        ("glossario_neologismos/glossario_neologismos.json", "definição"),
+        ("glossario_tematico/glossario_tematico_conceitos.json", "definicao"),
+        ("glossario_termos/glossario_termos.json", "definicao"),
+        ("ICNP/cipe.json", "definicao"),
+        ("ossos/ossos.json", "definicao")
+    ]
 
-    # WIPO (Chave Inglês, Português dentro de Traduções)
-    if os.path.exists("WIPO/wipo.json"):
-        with open("WIPO/wipo.json", "r", encoding="utf-8") as f:
-            for info in json.load(f).values():
-                termo_pt = info.get("Traducoes", {}).get("PT", "")
-                if termo_pt:
-                    # Limpar variações do tipo "termo, (syn.)"
-                    limpo = termo_pt.split(',')[0].strip()
-                    entry = obter_ou_criar_entrada(master, limpo)
-                    if entry:
-                        if info.get("Descricao"): entry["definicoes"].append(info["Descricao"])
-                        entry["fontes"].add("wipo.json")
+    for filename, field_def in fontes_pt:
+        if not os.path.exists(filename): continue
+        with open(filename, 'r', encoding='utf-8') as f:
+            dados = json.load(f)
+            items = dados if isinstance(dados, list) else dados.items()
+            
+            for item in items:
+                if isinstance(item, tuple): termo, info = item
+                else: termo, info = item.get("termo", ""), item
+                
+                chave = normalizar_chave(termo)
+                if not chave: continue
+                
+                if chave not in master_dict:
+                    master_dict[chave] = criar_estrutura_base(termo)
+                
+                ent = master_dict[chave]
+                if filename not in ent["fontes"]: ent["fontes"].append(filename)
+                
+                if isinstance(info, dict):
+                    # Acumular definições
+                    d = info.get(field_def)
+                    if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
+                    
+                    # Acumular Categorias/Eixos
+                    cat = info.get("categoria") or info.get("area") or info.get("eixo")
+                    if cat and cat not in ent["categorias"]: ent["categorias"].append(cat)
+                    
+                    # Siglas e Género
+                    if info.get("sigla") and info["sigla"] not in ent["siglas"]: ent["siglas"].append(info["sigla"])
+                    if not ent["genero"] and info.get("genero"): ent["genero"] = info["genero"]
+                    
+                    # Notas e Pesquisa
+                    if info.get("nota") and info["nota"] not in ent["notas_extras"]: ent["notas_extras"].append(info["nota"])
+                    if info.get("pesquisa") and info["pesquisa"] not in ent["pesquisa"]: ent["pesquisa"].append(info["pesquisa"])
 
-    # --- 5. ORDENAÇÃO E EXPORTAÇÃO ---
-    # Ordenar o dicionário alfabeticamente pela chave normalizada
-    chaves_ordenadas = sorted(master.keys())
-    dicionario_final = {}
+                    # Lista de línguas que queres monitorizar
+                    linguas = ["en", "es", "fr", "la", "it", "AR", "DE", "JA", "KO", "RU", "ZH", "oc", "eu", "gl", "nl", "ar"]
 
-    for c in chaves_ordenadas:
-        item = master[c]
-        # Converter os sets para listas ordenadas para o JSON aceitar
-        item["categorias"] = sorted(list(item["categorias"]))
-        item["fontes"] = sorted(list(item["fontes"]))
-        dicionario_final[c] = item
+                    # Obtemos o dicionário de traduções do ficheiro atual (se existir)
+                    trads_fonte = info.get("traducoes") or info.get("Traducoes") or info.get("traducao") or {}
 
-    with open("DICIONARIO_CONSOLIDADO_FINAL.json", "w", encoding="utf-8") as f_out:
-        json.dump(dicionario_final, f_out, indent=4, ensure_ascii=False)
+                    if isinstance(trads_fonte, dict):
+                        for l in linguas:
+                            # Procuramos a tradução para a língua 'l' no ficheiro atual
+                            # Tentamos a chave em minúsculas e maiúsculas (ex: 'en' e 'EN')
+                            valor_trad = trads_fonte.get(l) or trads_fonte.get(l.upper())
+                            
+                            if valor_trad:
+                                # Se a língua ainda não for uma lista no dicionário mestre, inicializamos
+                                if not isinstance(ent["traducoes"].get(l), list):
+                                    ent["traducoes"][l] = []
+                                
+                                # Limpamos o termo (removendo [ing], [esp], etc.)
+                                termo_limpo = re.sub(r'\s*\[.*?\]', '', str(valor_trad)).strip()
+                                
+                                # Adicionamos à lista se ainda não lá estiver
+                                if termo_limpo and termo_limpo not in ent["traducoes"][l]:
+                                    ent["traducoes"][l].append(termo_limpo)
 
-    print(f"Sucesso! {len(dicionario_final)} termos consolidados em ordem alfabética.")
+    # --- 2. PROCESSAR WIPO E MULTILINGUE (Verificação e Enriquecimento) ---
+    # Só adiciona informação se o termo PT já existir no dicionário
+    fontes_multi = ["wipo.json", "multilingue.json"]
+    
+    for filename in fontes_multi:
+        if not os.path.exists(filename): continue
+        with open(filename, 'r', encoding='utf-8') as f:
+            dados = json.load(f)
+            for foreign_term, info in dados.items():
+                trads = info.get("traducoes", info.get("Traducoes", {}))
+                pt_term = trads.get("pt") or trads.get("PT") or trads.get("pt [PT]")
+                
+                if pt_term:
+                    # Limpar para encontrar a chave (ex: "SIDA; AIDS" -> "sida")
+                    pt_principal = pt_term.split(',')[0].split(';')[0].strip()
+                    chave_pt = normalizar_chave(pt_principal)
+                    
+                    if chave_pt in master_dict:
+                        ent = master_dict[chave_pt]
+                        if filename not in ent["fontes"]: ent["fontes"].append(filename)
+                        
+                        # Acumular definições estrangeiras
+                        d = info.get("definicao") or info.get("Definicao")
+                        if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
+                        
+                        # Preencher traduções em falta
+                        for lang, val in trads.items():
+                            l_std = lang.replace(" [PT]", "").replace(" [BR]", "").lower()
+                            if l_std in ent["traducoes"] and not ent["traducoes"][l_std]:
+                                ent["traducoes"][l_std] = val
+                            elif lang in ent["traducoes"] and not ent["traducoes"][lang]:
+                                ent["traducoes"][lang] = val
+
+    # --- 3. LIMPEZA FINAL ---
+    # Removemos duplicados exatos dentro das listas e ordenamos
+    for chave in master_dict:
+        # Usamos dict.fromkeys para remover duplicados mantendo a ordem original
+        master_dict[chave]["definicoes"] = list(dict.fromkeys(master_dict[chave]["definicoes"]))
+        master_dict[chave]["fontes"] = sorted(list(set(master_dict[chave]["fontes"])))
+        master_dict[chave]["categorias"] = sorted(list(set(master_dict[chave]["categorias"])))
+        master_dict[chave]["siglas"] = sorted(list(set(master_dict[chave]["siglas"])))
+
+    with open('DICIONARIO_GIGANTE_FINAL.json', 'w', encoding='utf-8') as f_out:
+        json.dump(master_dict, f_out, indent=4, ensure_ascii=False)
+
+    print(f"Sucesso! Dicionário consolidado com {len(master_dict)} termos únicos.")
 
 if __name__ == "__main__":
-    consolidar_dicionario()
+    consolidar_final()
