@@ -55,6 +55,7 @@ for termo, resto in lista_glos:
 
 f = open("siglas_ministerio.xml", "r", encoding="utf8")
 txt_sig = f.read()
+f.close() 
 
 # Limpezas básicas para siglas
 txt_sig = re.sub(r"</?page.*?>|<image.*?>|<fontspec.*?>", "", txt_sig)

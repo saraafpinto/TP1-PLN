@@ -6,6 +6,7 @@ import json
 # ==========================================
 f = open("glossario_termos.xml", "r", encoding="utf8")
 texto = f.read()
+f.close() 
 
 
 # ==========================================
@@ -58,8 +59,8 @@ dicionario_medico = {}
 
 for termo_raw, definicao_raw in conceitos:
     
-    # Limpar espaços extra (substitui duplos espaços por um simples)
-    termo = re.sub(r'\s+', ' ', termo_raw).strip()
+    # Limpar espaços extra e arrancar aspas (simples ou duplas) das pontas
+    termo = re.sub(r'\s+', ' ', termo_raw).strip().strip("'\"")
     definicao = re.sub(r'\s+', ' ', definicao_raw).strip()
 
     if termo and definicao:

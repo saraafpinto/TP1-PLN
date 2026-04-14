@@ -3,6 +3,7 @@ import json
 
 f = open("WIPOPearl_COVID-19_Glossary.xml", "r", encoding="utf8")
 texto = f.read()
+f.close() 
 
 # Remove as tags de página e imagens
 texto = re.sub(r"</?page.*?>", "", texto) 

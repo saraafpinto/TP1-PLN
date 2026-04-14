@@ -51,7 +51,6 @@ def consolidar_final():
     fontes_pt = [
         ("Glossario_enfermagem/glossario_enfermagem.json", "definicao"),
         ("glossario_ministerio/conceitos_ministerio.json", "definicao"),
-        ("glossario_medico/glossario_medico.json", "definicao"),
         ("glossario_neologismos/glossario_neologismos.json", "definição"),
         ("glossario_tematico/glossario_tematico_conceitos.json", "definicao"),
         ("glossario_termos/glossario_termos.json", "definicao"),

@@ -5,6 +5,7 @@ import json
 
 f = open("medicina.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
+f.close() 
 
 # 1. Normalizar espaços e tabs
 texto = re.sub(r'\n([^#\n]+?)\s+(Vid\.-[^\n]+)', r'\n#\1 \2#', texto)

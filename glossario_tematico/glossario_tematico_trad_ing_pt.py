@@ -5,6 +5,7 @@ import json
 
 f = open("glossario_tematico_trad_ing_pt.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
+f.close() 
 
 texto = re.sub(r'\f',"", texto)
 texto = re.sub(r'^[A-Z]$',"", texto)

@@ -3,6 +3,7 @@ import json
 
 f = open("medicina_latino.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
+f.close() 
 
 texto = re.sub(r'\s+Índice de denominacións latinas\s+\d+\n', '\n', texto)
 texto = re.sub(r'([a-z])\n([a-z])', r'\1 \2', texto)

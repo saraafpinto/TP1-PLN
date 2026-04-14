@@ -57,15 +57,7 @@
     },
     "Acidente": {
         "definicao": "Evento inesperado e não intencional, tipicamente resultando em lesões acidentais.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23889filter=ths_termall&q=acidenteA"
-    },
-    "GLOSSÁRIO DA LINGUAGEM ESPECIAL DE ENFERMAGEM": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "PARA A PRÁTICA JUNTO A POVOS INDÍGENAS NO CONTEXTO AMAZÔNICO": {
-        "definicao": "v sobre bases rmes, as medidas indicadas e e cientes que levam à prevenção e ao controle de determinadas doenças.",
-        "fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/glossario_ms.pdf"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=23889filter=ths_termall&q=acidenteAA"
     },
     "Acidente ofídico (picada de cobra)": {
         "definicao": "Mordeduras por serpentes. A mordida de uma serpente venenosa é caracterizada por dor pungente no local do ferimento. O veneno injetado no sítio da mordida é capaz de produzir um efeito nocivo no sangue ou no sistema nervoso.",
@@ -119,11 +111,7 @@
         "definicao": "Planejar: fazer um cronograma, isto é, uma agenda de horário.",
         "fonte": "CIPE 2019/2020"
     },
-    "Agendar consulta de": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "acompanhamento": {
+    "Agendar consulta de  acompanhamento": {
         "definicao": "Agendar.",
         "fonte": "CIPE 2019/2020"
     },
@@ -453,7 +441,7 @@
     },
     "Berço": {
         "definicao": "Pequena cama para crianças de colo, a que por vezes se pode imprimir movimentos de embalo.",
-        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
+        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009) B B"
     },
     "Boca": {
         "definicao": "Conjunto formado por essa cavidade e as estruturas que a delimitam.",
@@ -463,11 +451,7 @@
         "definicao": "Dispositivo para absorver ou coletar.",
         "fonte": "CIPE 2019/2020"
     },
-    "Bolsas plásticas para preservação": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "de sangue": {
+    "Bolsas plásticas para preservação  de sangue": {
         "definicao": "O termo “bolsa plástica” é utilizado para de nir o recipiente completo com o tubo de coleta e agulha, os tubos de saída, as soluções anticoagulantes e/ou preservadoras e os tubos de transferência e recipientes associados, quando existentes.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=51535filter=ths_termall&q=Bolsas%20pl%C3%A1sticas%20para%20preserva%C3%A7%C3%A3o%20de%20sangue"
     },
@@ -643,11 +627,7 @@
         "definicao": "Sensação de coceira intensa que produz a necessidade de friccionar ou coçar a pele para obter alívio.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=11976filter=ths_termall&q=COCEIRA"
     },
-    "Coleta do exame de preventivo": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(coletar células cervicais)": {
+    "Coleta do exame de preventivo  (coletar células cervicais)": {
         "definicao": "Coletar.",
         "fonte": "CIPE 2019/2020"
     },
@@ -655,11 +635,7 @@
         "definicao": "Obter: Trazer alguma coisa para junto, agrupar.",
         "fonte": "CIPE 2019/2020"
     },
-    "Coletar amostra de sangue arterial,": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "venoso e capilar": {
+    "Coletar amostra de sangue arterial,  venoso e capilar": {
         "definicao": "Coletar amostra (ou espécimen).",
         "fonte": "CIPE 2019/2020"
     },
@@ -684,8 +660,8 @@
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=13515filter=ths_termall&q=COLUNA%20VERTEBRAL"
     },
     "Comorbidade": {
-        "definicao": "Presença de doenças coexistentes ou adicionais em relação ao diagnóstico inicial ou à doença índice que é o objetivo do estudo. A comorbidade pode afetar o desempenho de indivíduos",
-        "fonte": ""
+        "definicao": "Presença de doenças coexistentes ou adicionais em relação ao diagnóstico inicial ou à doença índice que é o objetivo do estudo. A comorbidade pode afetar o desempenho de indivíduos c afetados e até mesmo a sua sobrevivência. Pode ser usada como um indicador prognóstico para a duração da hospitalização, fatores de custos e de melhoria ou sobrevivência.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=24572filter=ths_termall&q=COMORBIDADE"
     },
     "Competência pro ssional": {
         "definicao": "A capacidade para executar os deveres de uma pro ssão em geral ou de executar uma tarefa pro ssional especial com habilidade de qualidade aceitável.",
@@ -837,7 +813,7 @@
     },
     "Cordão umbilical": {
         "definicao": "Estrutura exível semelhante a uma corda, que conecta um feto em desenvolvimento à placenta em mamíferos. O cordão contém vasos sanguíneos que transportam oxigênio e nutrientes da mãe ao feto e resíduos para longe do feto.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869filter=ths_termall&q=CORD%C3%83O%20UMBILICAL"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14869filter=ths_termall&q=CORD%C3%83O%20UMBILICALc"
     },
     "Coração": {
         "definicao": "Componente do sistema cardiovascular.",
@@ -991,15 +967,7 @@
         "definicao": "Pensamento, distorcido.",
         "fonte": "CIPE 2019/2020"
     },
-    "Demanda de saúde": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(comportamento de busca de": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "saúde)": {
+    "Demanda de saúde  (comportamento de busca de  saúde)": {
         "definicao": "Comportamento: Maneira previsível para identi car, utilizar, gerenciar e assegurar recursos de atenção à saúde; expectativas relacionadas a modos aceitáveis para solicitar e obter assistência dos outros.",
         "fonte": "CIPE 2019/2020"
     },
@@ -1099,11 +1067,7 @@
         "definicao": "Qualidade ou caráter do que é difícil.",
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
-    "Di culdade na deglutição": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(deglutição, prejudicada)": {
+    "Di culdade na deglutição  (deglutição, prejudicada)": {
         "definicao": "Capacidade para deglutir.",
         "fonte": "CIPE 2019/2020"
     },
@@ -1132,8 +1096,8 @@
         "fonte": "CIPE 2019/2020"
     },
     "Disfagia": {
-        "definicao": "Di culdade na deglutição que pode ser consequência de um distúrbio neuromuscular ou de uma obstrução mecânica. A disfagia é classi cada em dois tipos distintos: disfagia orofaríngea, d",
-        "fonte": ""
+        "definicao": "Di culdade na deglutição que pode ser consequência de um distúrbio neuromuscular ou de uma obstrução mecânica. A disfagia é classi cada em dois tipos distintos: disfagia orofaríngea, d devido a mau funcionamento da faringe e do esfíncter esofágico superior; e disfagia esofágica, devido ao mau funcionamento do esôfago.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id =23977filter=ths_termall&q=DISFAGIA"
     },
     "Dispneia": {
         "definicao": "Processo do sistema respiratório, prejudicado: Movimento forçado de ar para dentro e fora dos pulmões; respiração curta, associado a insu ciência de oxigênio no sangue circulante; sensação de desconforto e ansiedade.",
@@ -1143,11 +1107,7 @@
         "definicao": "Processo do sistema musculoesquelético, prejudicado: Trauma de uma articulação que provoca dor e incapacidade (ou limitação); movimento articular interrompido e doloroso; sensibilidade, espasmo muscular, edema articular progressivo, descoloração; funcionamento prejudicado, associado a lesão traumática e ruptura do tecido conectivo que circunda uma articulação.",
         "fonte": "CIPE 2019/2020"
     },
-    "Distrito Sanitário Especial Indígena": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(DSEI)": {
+    "Distrito Sanitário Especial Indígena (DSEI)": {
         "definicao": "Distrito Sanitário Especial Indígena. Compreende a articulação dos recursos sociais existentes em um território ou região, com vista à resolutividade dos problemas de saúde da população, pautada numa organização regionalizada de serviços de atenção.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=23547filter=ths_termall&q=DISTRITO%20SANIT%C3%81RIO%20ESPECIAL%20IND%C3%8DGENA"
     },
@@ -1200,8 +1160,8 @@
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=30665filter=ths_termall&q=DOR%20LOMBAR"
     },
     "Dor muscular": {
-        "definicao": "Dor musculoesquelética: Sensação de dor originada por tensão muscular e distensão, associada a exercício físico, infecções e doenças musculoesqueléticas; a sensação de dor é normalmente d",
-        "fonte": ""
+        "definicao": "Dor musculoesquelética: Sensação de dor originada por tensão muscular e distensão, associada a exercício físico, infecções e doenças musculoesqueléticas; a sensação de dor é normalmente d descrita como cãibra, dor comprimida e pulsátil, quase sempre acompanhada por dor irradiada.",
+        "fonte": "CIPE 2019/2020"
     },
     "Dor nas mamas": {
         "definicao": "Dor.",
@@ -1289,7 +1249,7 @@
     },
     "Enfermeiro obstetra": {
         "definicao": "Enfermeiro(a) pro ssional com pós- graduação em tocologia.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9906filter=ths_termall&q=enfermeiroe"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9906filter=ths_termall&q=enfermeiroee"
     },
     "EPI": {
         "definicao": "Equipamento de Proteção Individual.",
@@ -1569,7 +1529,7 @@
     },
     "Fumo": {
         "definicao": "Gênero de plantas (família Solanaceae ) cujos membros contêm nicotina (e outros produtos químicos biologicamente ativos) e cujas folhas secas são usadas para tabagismo.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14415filter=ths_termall&q=fumof"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=14415filter=ths_termall&q=fumoff"
     },
     "Função": {
         "definicao": "Atividade natural ou característica de um órgão, aparelho, engrenagem.",
@@ -1621,7 +1581,7 @@
     },
     "Grupo": {
         "definicao": "Conjunto de coisas: Um agrupamento de seres humanos vistos como uma unidade social ou como um todo coletivo. A unidade social constituída pelo grupo como um todo é vista como algo mais do que os indivíduos e suas relações, que constituem as partes do grupo.",
-        "fonte": "CIPE 2019/2020 g"
+        "fonte": "CIPE 2019/2020 g h"
     },
     "Hábito": {
         "definicao": "Maneira usual de ser, fazer, sentir; costume, regra, modo.",
@@ -1665,7 +1625,7 @@
     },
     "Hipoglicemia": {
         "definicao": "Processo do Sistema Regulatório, prejudicado.",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 h"
     },
     "Hipotensão": {
         "definicao": "Processo do sistema circulatório, prejudicado: Fluxo de sangue através dos vasos com pressão menor do que a normal.",
@@ -1821,7 +1781,7 @@
     },
     "Joelho": {
         "definicao": "Região na extremidade inferior que envolve imediatamente e inclui a articulação do joelho.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id =7892filter=ths_termall&q=joelho.pdf"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id =7892filter=ths_termall&q=joelho.pdfjll"
     },
     "Lábio": {
         "definicao": "Região corporal.",
@@ -1869,7 +1829,7 @@
     },
     "Língua": {
         "definicao": "Componente do sistema sensorial",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 l"
     },
     "Linguagem": {
         "definicao": "Meio, verbal ou não verbal, de comunicar ideias ou sentimentos.",
@@ -1889,7 +1849,7 @@
     },
     "Luxação": {
         "definicao": "Deslocamento de ossos de suas posições normais em uma articulação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4265filter=ths_termall&q=luxa%C3%A7%C3%A3oid= 7892filter=ths_termall&q=joelho.pdfm"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=4265filter=ths_termall&q=luxa%C3%A7%C3%A3oid= 7892filter=ths_termall&q=joelho.pdfmm"
     },
     "Maca": {
         "definicao": "Lona retangular distendida sobre uma armação usada para transportar doentes, acidentados ou mortos. Cama provida de rodízios para transporte de enfermos, especialmente dentro dos hospitais.",
@@ -1945,7 +1905,7 @@
     },
     "Material": {
         "definicao": "Entidade.",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 m"
     },
     "Maxilar": {
         "definicao": "Região corporal.",
@@ -1993,7 +1953,7 @@
     },
     "Menino": {
         "definicao": "Criança ou adolescente do sexo masculino; garoto, guri.",
-        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
+        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009) m"
     },
     "Menstruação": {
         "definicao": "Processo do sistema reprodutivo: Ciclo recorrente de crescimento, proliferação e desprendimento do endométrio do útero, como menstruação; a duração média do ciclo menstrual, desde o primeiro dia de sangramento até o primeiro do próximo ciclo, é de 28 dias; a duração e a quantidade variam; os ciclos menstruais começam na menarca e terminam na menopausa.",
@@ -2044,8 +2004,8 @@
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=9285filter=ths_termall&q=muco"
     },
     "Mucosa": {
-        "definicao": "Epitélio com células secretoras de muco, como as células caliciformes, que forma o revestimento de muitas cavidades do corpo, como trato gastrointestinal, trato respiratório e trato reprodutivo. A",
-        "fonte": ""
+        "definicao": "Epitélio com células secretoras de muco, como as células caliciformes, que forma o revestimento de muitas cavidades do corpo, como trato gastrointestinal, trato respiratório e trato reprodutivo. A m mucosa, rica em sangue e em vasos linfáticos, compreende um epitélio interno, uma camada média (lâmina própria) do tecido conjuntivo frouxo e uma camada externa ( muscularis mucosae ) de células musculares lisas que separam a mucosa da submucosa.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9284filter=ths_termall&q=mucosa"
     },
     "Mucosa oral": {
         "definicao": "Revestimento da cavidade oral, incluindo gengiva, palato, lábio, bochecha, soalho da boca e outras estruturas. A mucosa geralmente é um epitélio escamoso estrati cado não queratinizado que reveste músculos, ossos ou glândulas, e pode mostrar graus variados de queratinização em locais especí cos.",
@@ -2216,8 +2176,8 @@
         "fonte": "CIPE 2019/2020"
     },
     "Parteira": {
-        "definicao": "A prática de assistir mulheres no parto. Obstetrizes: pro ssionais capacitadas para cuidar da saúde de gestantes, parturientes, puérperas, recém-nascidos e familiares, buscando promover e preservar a normalidade do processo de nascimento, atendendo as necessidades físicas, emocionais e socioculturais das",
-        "fonte": ""
+        "definicao": "A prática de assistir mulheres no parto. Obstetrizes: pro ssionais capacitadas para cuidar da saúde de gestantes, parturientes, puérperas, recém-nascidos e familiares, buscando promover e preservar a normalidade do processo de nascimento, atendendo as necessidades físicas, emocionais e socioculturais das p p mulheres. Parteira leiga: pessoa da comunidade que assiste partos, não possuindo formação acadêmica.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=9067filter=ths_termall&q=parteira"
     },
     "Participação": {
         "definicao": "Ação ou efeito de participar.",
@@ -2265,17 +2225,13 @@
     },
     "Perda": {
         "definicao": "Refere-se ao processo completo de pesar e luto e está associado a um sentimento profundo de perda e tristeza.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22845filter=ths_termall&q=perda"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=22845filter=ths_termall&q=perdap"
     },
     "Perfusão": {
         "definicao": "Procedimento terapêutico que envolve a injeção de líquido em um órgão ou tecido.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=10669filter=ths_termall&q=perfus%C3%A3o"
     },
-    "Perímetro abdominal": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(circunferência abdominal)": {
+    "Perímetro abdominal  (circunferência abdominal)": {
         "definicao": "Medida da circunferência do abdômen, correlacionada positivamente à gordura acumulada nessa região do corpo. É um preditor independente de risco de diabetes tipo II, doença arterial coronariana e hipertensão em adultos e idosos, com pontos de corte especí cos para cada sexo. Em homens, indica risco acima de 102 cm e, em mulheres, acima de 88 cm.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=50314filter=ths_termall&q=abdominal"
     },
@@ -2317,7 +2273,7 @@
     },
     "Picada": {
         "definicao": "Lesões in igidas por dentes ou envenenamento causado por venenos de animais.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1758filter=ths_termall&q=picada"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=1758filter=ths_termall&q=picadap"
     },
     "Picada de escorpião": {
         "definicao": "Efeitos locais e sistêmicos causados pelas picadas de escorpiões.",
@@ -2361,7 +2317,7 @@
     },
     "Pomada": {
         "definicao": "Preparações semi-sólidas usadas topicamente para obtenção de efeitos emolientes protetores ou como veículo para administração local de medicamentos. As bases das pomadas são várias misturas de gorduras, ceras, óleos animais e vegetais, e hidrocarbonetos sólidos e líquidos.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10009filter=ths_termall&q=pomada"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=10009filter=ths_termall&q=pomadap"
     },
     "População": {
         "definicao": "Número total de pessoas ou animais que habitam uma determinada região ou área.",
@@ -2411,13 +2367,9 @@
         "definicao": "Conjunto de ações que visa erradicar, eliminar ou reduzir o impacto de determinada doença ou incapacidade, ou, ainda, conter sua dispersão.",
         "fonte": "https://decs.bvsalud.org/ths/resource/?id=50219filter=ths_termall&q=preven%C3%A7%C3%A3o"
     },
-    "Preventivo do câncer": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "(rastreamento do câncer)": {
+    "Preventivo do câncer  (rastreamento do câncer)": {
         "definicao": "Rastreamento de câncer.",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 p"
     },
     "Primigesta": {
         "definicao": "Mulher que engravidou pela primeira vez; multigesta: a mulher que teve duas ou mais gestações.",
@@ -2457,7 +2409,7 @@
     },
     "Provisório": {
         "definicao": "Que não tem caráter permanente; temporário, provisional.",
-        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
+        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009) p"
     },
     "Prurido": {
         "definicao": "Percepção, prejudicada: Sensação de formigamento irritante; sensação cutânea seguida de impulso para coçar a pele ou o couro cabeludo.",
@@ -2513,7 +2465,7 @@
     },
     "Quimioterapia": {
         "definicao": "Terapia.",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 q r"
     },
     "Raiva": {
         "definicao": "Emoção, negativa: Sentimentos que variam de extremo desprazer a fúria, originados de uma resposta mental ou física a estímulos internos ou externos.",
@@ -2551,11 +2503,7 @@
         "definicao": "Artefato.",
         "fonte": "CIPE 2019/2020"
     },
-    "Referência (encaminhamento e": {
-        "definicao": "",
-        "fonte": ""
-    },
-    "consulta)": {
+    "Referência (encaminhamento e  consulta)": {
         "definicao": "Ato ou efeito de referir, contar ou relatar.",
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
@@ -2580,8 +2528,8 @@
         "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
     },
     "Remoção": {
-        "definicao": "Mover ou trazer algo de um nível mais baixo para um mais elevado. O conceito envolve tensões",
-        "fonte": ""
+        "definicao": "Mover ou trazer algo de um nível mais baixo para um mais elevado. O conceito envolve tensões r r biomecânicas resultantes do trabalho realizado ao se transferir objetos de um plano para outro, bem como efeitos de técnicas variadas de manipulação e de transferência de pacientes.",
+        "fonte": "CIPE 2019/2020"
     },
     "Repouso": {
         "definicao": "Liberdade de atividade.",
@@ -2625,7 +2573,7 @@
     },
     "Risco": {
         "definicao": "Potencialidade: Que existe em possibilidade, risco.",
-        "fonte": "CIPE 2019/2020"
+        "fonte": "CIPE 2019/2020 r"
     },
     "Ritmo": {
         "definicao": "Condição.",
@@ -2649,7 +2597,7 @@
     },
     "Ruído": {
         "definicao": "Processo ambiental: Som percebido por seres humanos.",
-        "fonte": "CIPE 2019/2020 S"
+        "fonte": "CIPE 2019/2020 S S"
     },
     "Sacro": {
         "definicao": "Região corporal.",
@@ -2745,7 +2693,7 @@
     },
     "Sinais vitais": {
         "definicao": "Sinais de vida que podem ser monitorados ou medidos, a saber: pulso, frequência respiratória, temperatura corporal e pressão sanguínea.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=53683filter=ths_termall&q=Sinais%20vitais"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=53683filter=ths_termall&q=Sinais%20vitaisSS"
     },
     "Sinal": {
         "definicao": "Fenômeno.",
@@ -2793,7 +2741,7 @@
     },
     "Sudorese": {
         "definicao": "Processo de secreção exógena das glândulas sudoríparas, que inclui o suor aquoso das glândulas écrinas e o complexo de líquidos viscosos das glândulas apócrinas.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13927filter=ths_termall&q=sudorese"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=13927filter=ths_termall&q=sudoreseS"
     },
     "Suicídio": {
         "definicao": "Comportamento, autodestrutivo: Executar atividades suicidas, que conduzam à própria morte.",
@@ -2885,7 +2833,7 @@
     },
     "Território sociocultural": {
         "definicao": "O Território como espaço de relações, no qual se manifesta a vida cotidiana dos indivíduos e das populações. É resultante de um acúmulo de situações históricas, econômicas, ambientais, sociais e culturais que promovem condições particulares para a produção de saúde. Ter o território de produção da saúde como referência de relações e atuação.",
-        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57875filter=ths_termall&q=territ%C3%B3rio%20sociocultural"
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=57875filter=ths_termall&q=territ%C3%B3rio%20socioculturaltt"
     },
     "Testar": {
         "definicao": "Avaliar: Experimentar ou fazer um teste com alguém ou alguma coisa.",
@@ -2936,8 +2884,8 @@
         "fonte": "CIPE 2019/2020"
     },
     "Triagem": {
-        "definicao": "Separação e classi cação de pacientes ou casualidades para determinar prioridade de necessidades e tratamento em local apropriado. Seleção e",
-        "fonte": ""
+        "definicao": "Separação e classi cação de pacientes ou casualidades para determinar prioridade de necessidades e tratamento em local apropriado. Seleção e t classi cação de vítimas através da aplicação de critérios que determinam sua probabilidade de sobrevivência.",
+        "fonte": "https://decs.bvsalud.org/ths/resource/?id=28838filter=ths_termall&q=triagem"
     },
     "Tristeza": {
         "definicao": "Emoção, negativa: Sentimentos de pesar, melancolia associada a falta de energia.",
@@ -2949,7 +2897,7 @@
     },
     "Tuxaua": {
         "definicao": "Indivíduo in uente no lugar em que mora.",
-        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009)"
+        "fonte": "Dicionário Houaiss da Língua Portuguesa (2009) u u"
     },
     "UBS": {
         "definicao": "Unidade Básica de Saúde.",
@@ -2997,7 +2945,7 @@
     },
     "UTI": {
         "definicao": "Unidade de Tratamento Intensivo.",
-        "fonte": "Siglário Eletrônico – BVS – Ministério da Saúde"
+        "fonte": "Siglário Eletrônico – BVS – Ministério da Saúde v v"
     },
     "Vacina": {
         "definicao": "Droga.",
@@ -3040,8 +2988,8 @@
         "fonte": "CIPE 2019/2020"
     },
     "Vigilância epidemiológica": {
-        "definicao": "Conjunto de atividades que permite reunir a informação indispensável para conhecer, a qualquer momento, o comportamento ou a história natural das doenças, bem como detectar ou prever alterações de seus fatores condicionantes, a m de recomendar oportunamente,",
-        "fonte": ""
+        "definicao": "Conjunto de atividades que permite reunir a informação indispensável para conhecer, a qualquer momento, o comportamento ou a história natural das doenças, bem como detectar ou prever alterações de seus fatores condicionantes, a m de recomendar oportunamente, v sobre bases rmes, as medidas indicadas e e cientes que levam à prevenção e ao controle de determinadas doenças.",
+        "fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/glossario_ms.pdf"
     },
     "Vínculo": {
         "definicao": "Parentalidade: Ligação afetiva entre um bebê (ou lactente) e os pais; formação de laços afetivos.",

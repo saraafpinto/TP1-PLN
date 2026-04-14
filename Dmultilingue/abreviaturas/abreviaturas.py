@@ -6,6 +6,7 @@ import json
 
 f = open("abreviaturas.xml", "r", encoding="utf8")
 texto = f.read()
+f.close() 
 
 # ==========================================
 # 2. MARCAÇÃO ESTRUTURAL (O Segredo do Regex)

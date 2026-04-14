@@ -2732,7 +2732,7 @@
         "definicao": "fraqueza, cansaço físico intenso"
     },
     {
-        "termo": "'blister'",
+        "termo": "blister",
         "definicao": "frasco de X comprimidos recobertos de plástico"
     },
     {
@@ -7202,10 +7202,6 @@
     {
         "termo": "tinitus (aurium)",
         "definicao": "zumbido do ouvido"
-    },
-    {
-        "termo": "blister",
-        "definicao": "frasco de X comprimidos recobertos de plástico"
     },
     {
         "termo": "droga",

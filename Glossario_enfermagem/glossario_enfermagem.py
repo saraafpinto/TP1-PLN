@@ -6,6 +6,10 @@ f = open("glossario_enfermagem.xml", "r", encoding="utf8")
 texto = f.read()
 f.close()
 
+texto = re.sub(r'<b>\d+</b>', ' ', texto)  # Apaga os números de página (ex: <b>47</b>)
+texto = re.sub(r'<b>GLOSSÁRIO DA LINGUAGEM ESPECIAL DE ENFERMAGEM</b>', ' ', texto)
+texto = re.sub(r'<b>PARA A PRÁTICA JUNTO A POVOS INDÍGENAS NO CONTEXTO AMAZÔNICO</b>', ' ', texto)
+
 # 2. Limpeza de tags irrelevantes, mas mantendo a estrutura <b>
 # Removemos as tags <text...>, <page...>, <fontspec...>, etc.
 texto = re.sub(r'</?text.*?>', ' ', texto)
@@ -13,6 +17,8 @@ texto = re.sub(r'</?page.*?>', ' ', texto)
 
 texto = re.sub(r'</i></text>\s*<text.*?><i>', '', texto)
 texto = re.sub(r'&amp;', r'', texto)
+
+texto = re.sub(r'</b>\s*<b>', ' ', texto)
 
 padrao = r'(?<!<i>)<b>(.*?)</b>\s*(.*?)(?=(?<!<i>)<b>|$)'
 conceitos = re.findall(padrao, texto, flags=re.S)

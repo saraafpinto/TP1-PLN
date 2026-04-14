@@ -4,6 +4,7 @@ import json
 
 f = open("cipe.xml", "r", encoding="utf8")
 texto = f.read()
+f.close() 
 
 
 # ==========================================
