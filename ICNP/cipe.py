@@ -49,7 +49,7 @@ for codigo, eixo, termo_raw, descricao_raw in conceitos:
     if termo:
         dicionario_cipe[termo] = {
             "id": codigo,
-            "eixo": eixo.strip(),
+            "eixo": f'eixo {eixo.strip()}',
             "definicao": descricao
         }
 

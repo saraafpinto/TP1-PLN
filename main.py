@@ -55,11 +55,10 @@ def consolidar_final():
         ("glossario_tematico/glossario_tematico_conceitos.json", "definicao"),
         ("glossario_termos/glossario_termos.json", "definicao"),
         ("ICNP/cipe.json", "definicao"),
-        ("ossos/ossos_conceitos.json", "definicao")
+        ("ossos/ossos_conceitos.json", "definicao"),
     ]
 
     for filename, field_def in fontes_pt:
-        if not os.path.exists(filename): continue
         with open(filename, 'r', encoding='utf-8') as f:
             dados = json.load(f)
             
@@ -126,44 +125,88 @@ def consolidar_final():
 
 
     # --- 2. PROCESSAR WIPO E MULTILINGUE (Verificação e Enriquecimento) ---
-    fontes_multi = ["WIPO/wipo.json", "Dmultilingue/conceitos/dicionario_conceitos.json"]
+    fontes_multi = ["WIPO/wipo.json", "Dmultilingue/conceitos/dicionario_conceitos.json", "medicina/medicina.json"]
     
     for filename in fontes_multi:
-        if not os.path.exists(filename): continue
         with open(filename, 'r', encoding='utf-8') as f:
             dados = json.load(f)
             
             # WIPO é um dict, Multilingue é uma list
-            lista_iteravel = dados.items() if isinstance(dados, dict) else [(item.get("termo", ""), item) for item in dados if isinstance(item, dict)]
+            lista_iteravel = dados.items() if isinstance(dados, dict) else [(item.get("termo", ""), item) for item in dados]
                 
             for termo_estrangeiro, info in lista_iteravel:
                 trads = info.get("traducoes", {})
                 
                 # O termo PT pode estar nas traduções, ou ser a própria chave (se for o dicionario_conceitos que tem o termo base em catalão/português)
-                pt_term = trads.get("PT") or trads.get("pt [PT]") or info.get("termo")
+                pt_term = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt") or info.get("termo")
+
+                if not pt_term: continue
+                chave_pt = None
+                termo_para_criar = pt_term.split(',')[0].split(';')[0].strip()
                 
-                if pt_term:
-                    pt_principal = pt_term.split(',')[0].split(';')[0].strip()
-                    chave_pt = normalizar_chave(pt_principal)
+                if filename == "medicina/medicina.json":
+                    pt_limpo = pt_term.replace('\n', ' ')
+                    pt_limpo = re.sub(r'\s+', ' ', pt_limpo).strip()
                     
-                    if chave_pt in master_dict:
-                        ent = master_dict[chave_pt]
-                        if filename not in ent["fontes"]: ent["fontes"].append(filename)
+                    partes = pt_limpo.split(';')
+                    candidatos = []
+
+                    for p in partes:
+                        # Se tiver [Pt.], extraímos o que está antes
+                        if "[Pt" in p or "[PT" in p:
+                            m = re.search(r'(.*?)\s*\[Pt', p, re.IGNORECASE)
+                            if m: candidatos.append(m.group(1).strip())
+                        else:
+                            # Se não tiver marca, limpamos qualquer outra marca [Br.] e guardamos
+                            candidatos.append(re.sub(r'\[.*?\]', '', p).strip())
+
+                    # Primeiro tentamos encontrar algum que já exista
+                    for cand in candidatos:
+                        ch = normalizar_chave(cand)
+                        if ch in master_dict:
+                            chave_pt = ch
+                            termo_para_criar = cand
+                            break
+                    
+                    # SE NÃO EXISTE, CRIAMOS (Para casos como 'alotipo' ou 'astrágal')
+                    if not chave_pt and candidatos:
+                        # Usamos o primeiro candidato (limpo) para criar a entrada
+                        termo_para_criar = candidatos[0]
+                        chave_pt = normalizar_chave(termo_para_criar)
+
+                else:
+                    chave_pt = normalizar_chave(termo_para_criar)
+                
+                # --- SÓ TRABALHA SE TIVERMOS UMA CHAVE VÁLIDA ---
+                if chave_pt and isinstance(chave_pt, str): 
+    
+                    if chave_pt not in master_dict:
+                        # Se permitires a criação de novos termos:
+                        master_dict[chave_pt] = criar_estrutura_base(termo_para_criar)
+
+                    ent = master_dict[chave_pt]
+                    if filename not in ent["fontes"]: ent["fontes"].append(filename)
+                    
+                    d = info.get("definicao") or info.get("Definicao") or info.get("descricao")
+                    if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
+                    
+                    c = info.get("categoria") or info.get("Categoria") or info.get("categoria_lexica") or info.get("area_tematica")
+                    if c and c not in ent["categorias"]: ent["categorias"].append(c)
+                    
+                    # Preencher traduções em falta
+                    for lang, val in trads.items():
+                        if not val: continue
+                        l_std = lang.replace(" [PT]", "").replace(" [BR]", "_br").lower()
+                        if l_std == "pt": continue 
                         
-                        d = info.get("definicao")
-                        if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
-                        
-                        c = info.get("categoria") or info.get("categoria_lexica") or info.get("area_tematica")
-                        if c and c not in ent["categorias"]: ent["categorias"].append(c)
-                        
-                        # Preencher traduções em falta
-                        for lang, val in trads.items():
-                            if not val: continue
-                            l_std = lang.replace(" [PT]", "").replace(" [BR]", "_br").lower()
-                            if l_std == "pt": continue 
-                            
-                            if l_std not in ent["traducoes"]: ent["traducoes"][l_std] = []
-                            if val not in ent["traducoes"][l_std]: ent["traducoes"][l_std].append(val)
+                        if l_std not in ent["traducoes"]: ent["traducoes"][l_std] = []
+                        if val not in ent["traducoes"][l_std]: ent["traducoes"][l_std].append(val)
+
+                    # Notas podem vir como lista (temático) ou string
+                    notas = info.get("notas") or info.get("nota") or []
+                    if isinstance(notas, str): notas = [notas]
+                    for n in notas:
+                        if n and n not in ent["notas_extras"]: ent["notas_extras"].append(n)
 
     # --- 3. LIMPEZA FINAL E ORDENAÇÃO ---
     for chave in master_dict:

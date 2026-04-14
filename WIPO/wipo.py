@@ -9,6 +9,7 @@ f.close()
 texto = re.sub(r"</?page.*?>", "", texto) 
 texto = re.sub(r"<image.*?>", "", texto)
 texto = re.sub(r"<fontspec.*?>", "", texto)
+texto = re.sub(r"&amp;", "&", texto)
 
 # Remove o título "WIPO Pearl" (font 0) e os cabeçalhos tipo "A" (font 1)
 texto = re.sub(r'<text.*font="(0|1)".*>.*</text>\n?', "", texto)

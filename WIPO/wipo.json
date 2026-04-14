@@ -16,7 +16,7 @@
     },
     "adaptive immunity": {
         "definicao": "acquired immunity Immunity acquired during a person’s lifetime upon exposure to an infectious agent either by previous infection or immunization.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ةعانم ةبستكم ، (syn.) ةعانم ةَّيفُيكت ، ةعانم ةفيكتم",
             "DE": "erworbene Immunität, (syn.) adaptive Immunität",
@@ -31,7 +31,7 @@
     },
     "aerosol": {
         "definicao": "Suspension of solid or liquid particles in a gas.",
-        "categoria": "CHEM, Chemical elements &amp; compounds",
+        "categoria": "CHEM, Chemical elements & compounds",
         "traducoes": {
             "AR": "ءابه يوج ، (syn.) لوسوريأ",
             "": "",
@@ -154,7 +154,7 @@
     },
     "attack rate": {
         "definicao": "Proportion of people that contract a disease in a population initially free of the disease, i.e. during a disease outbreak.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم موجه",
             "DE": "Befallsrate",
@@ -169,7 +169,7 @@
     },
     "basic reproduction number": {
         "definicao": "basic reproduction ratio, basic reproductive ratio, 𝑅₀ Average number of secondary cases that one case produces in a population at risk.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ددع رثاكت يساسأ",
             "DE": "Basisreproduktionszahl, (syn.) 𝑅₀",
@@ -184,7 +184,7 @@
     },
     "biostatistics": {
         "definicao": "Application of statistical methods and tools to the fields of biological sciences and medicine, including study design, data collection and analysis, and interpretation of findings.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ءاصحإ يجولويب",
             "DE": "Biostatistik",
@@ -199,7 +199,7 @@
     },
     "blood plasma": {
         "definicao": "plasma Liquid part of the blood in which red and white blood cells and platelets are suspended and which carries such blood cells as well as proteins, mineral salts, sugars, fats, and hormones throughout the body.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ةروصم مدلا ، (syn.) امزلاب مدلا ، امزلاب",
             "DE": "Blutplasma",
@@ -214,7 +214,7 @@
     },
     "case": {
         "definicao": "Person who is diagnosed as having a disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ، (syn.) ةلاح ةيضرم",
             "DE": "Fall",
@@ -229,7 +229,7 @@
     },
     "case definition": {
         "definicao": "Set of criteria used to decide whether a person has contracted a specific disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "فيرعت ةلاح ، (syn.) فيرعت ةلاح ةيضرم",
             "DE": "Falldefinition",
@@ -244,7 +244,7 @@
     },
     "case fatality rate": {
         "definicao": "CFR Proportion of people who die of a given disease out of all the confirmed cases.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم ةتامإ ةلاحلا ، (syn.) لدعم تايفو ةلاحلا",
             "DE": "Fall-Verstorbenen-Anteil",
@@ -259,7 +259,7 @@
     },
     "casual contact": {
         "definicao": "Person who has been in the proximity of a person affected by an infectious disease but does not live with or care for the infected person.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "طلاخم رباع",
             "DE": "Kontaktperson der Kategorie II",
@@ -305,7 +305,7 @@
     },
     "close contact": {
         "definicao": "Person who lives with, cares for, or has direct contact with the respiratory secretions or body fluids of, a person affected by an infectious disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "طلاخم بيرق",
             "DE": "Kontaktperson der Kategorie I",
@@ -320,7 +320,7 @@
     },
     "cluster": {
         "definicao": "disease cluster Aggregation of cases of a disease within a given place and time.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "دوقنع",
             "DE": "Cluster",
@@ -335,7 +335,7 @@
     },
     "computed tomography": {
         "definicao": "computer-assisted tomography, computerized tomography, CT Medical imaging technique by which three-dimensional images of the body are obtained by directing a beam of x-rays at the patient and quickly rotating them around the patient’s body, producing cross-sectional images that are then stacked together by a computed tomography scanner.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ريوصت يعطقم",
             "DE": "Computertomographie, CT",
@@ -351,7 +351,7 @@
     },
     "confirmed case": {
         "definicao": "Case that is confirmed by a laboratory test. COVID-19 Glossary 9",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ةدكؤم ، (syn.) ةلاح ةدكؤم ةباصلإا ضرملاب",
             "DE": "bestätigter Fall",
@@ -366,7 +366,7 @@
     },
     "contact": {
         "definicao": "Person who has been in the proximity of another person affected by an infectious disease and who is at risk of having contracted this disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "طلاخم",
             "DE": "Kontaktperson",
@@ -382,7 +382,7 @@
     },
     "contact follow-up": {
         "definicao": "Process of monitoring the contacts of a case for symptoms of the disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةعباتم نيطلاخم",
             "DE": "Kontaktpersonen-Nachverfolgung",
@@ -397,7 +397,7 @@
     },
     "contact identification": {
         "definicao": "Process aimed at identifying all contacts of a case by asking about the activities of the case and the activities and roles of the people around the case since the onset of the disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ديدحت نيطلاخم",
             "DE": "Identifizierung von Kontaktpersonen",
@@ -412,7 +412,7 @@
     },
     "contact tracing": {
         "definicao": "Process of identification, listing and follow-up of contacts.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "عبتت نيطلاخم",
             "DE": "Contact Tracing",
@@ -428,7 +428,7 @@
     },
     "containment": {
         "definicao": "Strategy adopted by a public body to cut off transmission of a disease. COVID-19 Glossary 10",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ءاوتحا",
             "DE": "Eindämmung",
@@ -488,7 +488,7 @@
     },
     "cough reflex": {
         "definicao": "Body's natural response to help clear irritants from the airways.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "م ن كع س سلا لاع",
             "DE": "Hustenreflex",
@@ -518,7 +518,7 @@
     },
     "death-to-case ratio": {
         "definicao": "Number of deaths attributed to a particular disease in a specified period divided by the number of new cases of the disease identified during the same period.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم تايفولا نم تلااحلا ةباصملا",
             "DE": "Sterblichkeitsrate",
@@ -565,7 +565,7 @@
     },
     "disease outbreak": {
         "definicao": "Cluster of a disease with a common cause and an overall number of cases that is inferior to that of an epidemic.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "يشفت ضرم",
             "DE": "Ausbruch",
@@ -610,7 +610,7 @@
     },
     "droplet nucleus": {
         "definicao": "Dried residue, approximately ≤ 5 μm in diameter, which results from the evaporation of droplets coughed or sneezed into the air.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ىون ذاذر",
             "DE": "Tröpfchenkern",
@@ -642,7 +642,7 @@
     },
     "elimination": {
         "definicao": "suppression, elimination strategy Strategy adopted by a public body to reduce to zero the incidence of a disease in a given geographical area.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةطخ ءاضق ىلع ضرم ، (syn.) ةيجيتارتسا ةحفاكم ضرم ، ةيجيتارتسا ءاضق ىلع ضرم",
             "DE": "Tilgung",
@@ -657,7 +657,7 @@
     },
     "endemic disease": {
         "definicao": "Disease for which there are as many cases as would be expected in a given population at a given time.",
-        "categoria": "MEDI, Public health &amp; hygiene Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene Public health & hygiene",
         "traducoes": {
             "AR": "ضرم نطوتم",
             "DE": "Endemie",
@@ -672,7 +672,7 @@
     },
     "environmental cleaning": {
         "definicao": "Set of actions and processes, including cleaning, disinfecting and monitoring, implemented in places at risk of spread of an infectious agent through contaminated objects.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "فيظنت يئيب ، (syn.) فيظنت ةئيب ةطيحم",
             "DE": "Krankenhaushygiene",
@@ -688,7 +688,7 @@
     },
     "epidemic curve": {
         "definicao": "Graphical representation of the incidence of a disease or other health-related event plotted over time.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ىنحنم يئابو",
             "DE": "epidemische Kurve",
@@ -704,7 +704,7 @@
     },
     "epidemic disease": {
         "definicao": "Disease for which there are many more cases than would be expected at a given time in a given population and which can be ascribed to the same cause.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ضرم يئابو",
             "DE": "Epidemie",
@@ -719,7 +719,7 @@
     },
     "epidemic threshold": {
         "definicao": "Number of individuals within a population at risk that is required for an epidemic to occur.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةبتع ءابو",
             "DE": "epidemische Schwelle",
@@ -734,7 +734,7 @@
     },
     "epidemiology": {
         "definicao": "Scientific study of the occurrence of a disease or other health-related event in specified populations, and its application to the control of health problems.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ملع تايئابولا ، (syn.) ملع ةئبولأا",
             "DE": "Epidemiologie",
@@ -749,7 +749,7 @@
     },
     "fever": {
         "definicao": "pyrexia Innate immune response mechanism that increases a person’s body temperature above the normal level.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ىمح ، (syn.) ةنوخس",
             "DE": "Fieber",
@@ -857,7 +857,7 @@
     },
     "hand sanitizer": {
         "definicao": "Gel, foam, or liquid used for handwashing that may or may not contain alcohol.",
-        "categoria": "CHEM, Detergents &amp; cleaning agents",
+        "categoria": "CHEM, Detergents & cleaning agents",
         "traducoes": {
             "AR": "مقعم نيدي",
             "DE": "Händedesinfektionsmittel",
@@ -872,7 +872,7 @@
     },
     "hand washing": {
         "definicao": "Action of removing any unwanted substance or microorganism from a person's hands using water or another liquid, with or without soap or other detergents.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لسغ نيدي",
             "DE": "Händewaschen",
@@ -887,7 +887,7 @@
     },
     "herd immunity": {
         "definicao": "community immunity Indirect protection from an infectious agent achieved in a population at risk when a sufficiently large proportion of individuals in the population show an acquired immunity to that infectious agent.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةعانم عيطق ، (syn.) ةعانم عمتجم",
             "DE": "Herdenimmunität",
@@ -902,7 +902,7 @@
     },
     "high-risk group": {
         "definicao": "Part of a population at risk that has higher than average prevalence, incidence or severity of a disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةئف رثكأ ةضرع ةباصلإل",
             "DE": "besonders gefährdete Personengruppe",
@@ -964,7 +964,7 @@
     },
     "hygiene": {
         "definicao": "Set of practices that help to maintain health and prevent the spread of diseases.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةفاظن ، (syn.) ةفاظن ةيحص",
             "DE": "Hygiene",
@@ -980,7 +980,7 @@
     },
     "immune response": {
         "definicao": "Reaction of the immune system of an organism to potentially harmful stimuli.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ةباجتسا يعانم ة",
             "DE": "Immunantwort",
@@ -996,7 +996,7 @@
     },
     "immune system": {
         "definicao": "Network of cells and antibodies that defends the body against the attack of agents perceived as extraneous and potentially harmful to it by triggering an immune response, which can be specific (adaptive) or not specific (innate).",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "زاهج يعانم",
             "DE": "Immunsystem",
@@ -1012,7 +1012,7 @@
     },
     "immunity": {
         "definicao": "Condition of being protected against an infectious disease.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ةعانم COVID-19 Glossary 18",
             "DE": "Immunität",
@@ -1027,7 +1027,7 @@
     },
     "imported case": {
         "definicao": "Case who has a history of travel from an affected area some time before the onset of the disease and cannot be linked to local transmission.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ةدروتسم",
             "DE": "importierter Fall",
@@ -1043,7 +1043,7 @@
     },
     "incidence": {
         "definicao": "New cases of a disease arising in a given period in a population at risk.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم ثودح",
             "DE": "Incidenz",
@@ -1074,7 +1074,7 @@
     },
     "index case": {
         "definicao": "index patient The first known case of the outbreak of a disease in a cluster.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ةلاد",
             "DE": "Indexfall",
@@ -1105,7 +1105,7 @@
     },
     "infection fatality rate": {
         "definicao": "IFR Proportion of people who will die of a certain disease out of all those who have been infected.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم ةتامإ ىودع",
             "DE": "Infizierten-Verstorbenen-Anteil",
@@ -1166,7 +1166,7 @@
     },
     "inflammation": {
         "definicao": "Series of innate immunity processes initiated by the body in response to an injury.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "باهتلا",
             "DE": "Entzündung",
@@ -1212,7 +1212,7 @@
     },
     "laboratory test": {
         "definicao": "Diagnostic test performed on samples of a person’s body, e.g. blood, urine, saliva, tissues, typically in specially equipped facilities.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "صحف يربخم ، (syn.) صحف يربتخم ، رابتخا يربخم",
             "DE": "Labortest",
@@ -1227,7 +1227,7 @@
     },
     "lockdown": {
         "definicao": "confinement Strategy adopted by a public body because of an emergency that requires people to remain in a certain location which they may not leave other than for exceptional reasons.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "قلاغإ",
             "DE": "Massenquarantäne",
@@ -1242,7 +1242,7 @@
     },
     "magnetic resonance imaging": {
         "definicao": "magnetic resonance tomography, nuclear magnetic resonance imaging, MRI, MRT, NMRI Medical imaging technique by which three-dimensional images of the body are obtained by exciting protons present in the water of living tissues and detecting the change in the direction of their rotational axis by means of a magnetic resonance imaging scanner. MEDI,",
-        "categoria": "Diagnostic equipment &amp; procedures",
+        "categoria": "Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ريوصت نينرلاب يسيطانغملا",
             "DE": "Magnetresonanztomographie, (syn.) MRT, Kernspintomographie, Magnetresonanz-Bildgebung",
@@ -1258,7 +1258,7 @@
     },
     "mask": {
         "definicao": "Commercially produced or homemade covering for nose and mouth used to reduce the spread of respiratory droplets from the wearer to others.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةمامك ، (syn.) عانق",
             "DE": "Atemschutzmaske",
@@ -1303,7 +1303,7 @@
     },
     "medical care": {
         "definicao": "Administration and delivery of healthcare by professionals. COVID-19 Glossary 22",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةياعر ةيبط ، (syn.) ةيانع ةيبط",
             "DE": "medizinische Versorgung",
@@ -1334,7 +1334,7 @@
     },
     "mitigation": {
         "definicao": "Strategy adopted by a public body to reduce the number of infected people in a given geographical area and limit the impact on the health system of a disease outbreak.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "فيفخت",
             "DE": "Folgenminderungsstrategie",
@@ -1379,7 +1379,7 @@
     },
     "morbidity": {
         "definicao": "Level of health and well-being of an individual. COVID-19 Glossary 23",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةضارم",
             "DE": "Morbidität",
@@ -1411,7 +1411,7 @@
     },
     "nasopharyngeal swab test": {
         "definicao": "Method of collecting a specimen of nasal secretions for diagnostic purposes by inserting a swab into each nostril, extending it back into the nasopharynx, leaving it in place for a few seconds, and slowly withdrawing it with a rotating motion.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ةحسم ةيموعلب ةيفنأ",
             "DE": "Nasen-Rachen-Abstrich",
@@ -1457,7 +1457,7 @@
     },
     "pandemic": {
         "definicao": "pandemic disease Epidemic disease that has spread to different countries and continents.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةحئاج",
             "DE": "Pandemie",
@@ -1472,7 +1472,7 @@
     },
     "pandemic preparedness": {
         "definicao": "Ability of a public body to deal with a threat to human health caused by a pandemic by ensuring that appropriate response plans are in place.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "بهأت ةحئاجل",
             "DE": "Pandemievorbereitung",
@@ -1609,7 +1609,7 @@
     },
     "prevalence": {
         "definicao": "All cases of a disease observed at a given point in time in a population at risk.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لدعم راشتنا",
             "": "",
@@ -1625,7 +1625,7 @@
     },
     "primary case": {
         "definicao": "patient zero Case to whom the onset of the outbreak of a disease can be traced back.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ةيلوأ ، (syn.) ضيرم مقر رفص",
             "": "",
@@ -1641,7 +1641,7 @@
     },
     "probable case": {
         "definicao": "Case that is compatible with a clinical case definition and for whom there is strong epidemiological evidence of disease, e.g. the person is a contact of a confirmed case but no laboratory test confirmation is available.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح ةلمتحم",
             "DE": "wahrscheinlicher Fall",
@@ -1656,7 +1656,7 @@
     },
     "public health": {
         "definicao": "Science of protecting and improving the health of people through the organized efforts of society by promoting a healthy lifestyle, preventing injuries, and preventing, detecting and responding to infectious diseases.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةحص ةماع ، (syn.) ةحص ةيمومع",
             "DE": "öffentliches Gesundheitswesen",
@@ -1671,7 +1671,7 @@
     },
     "public health surveillance": {
         "definicao": "Ongoing systematic collection, analysis, and dissemination of health data to help guide public health decision making and action.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةبقارم ةحصلا ةماعلا",
             "DE": "epidemiologische Überwachung",
@@ -1686,7 +1686,7 @@
     },
     "quarantine": {
         "definicao": "Strategy adopted by a public body to keep apart from the general population for a certain period of time all individuals suspected of having contact with a person affected by an infectious disease or coming from an affected area, until it is confirmed that they have not contracted the disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "رجح يحص",
             "DE": "Quarantäne",
@@ -1701,7 +1701,7 @@
     },
     "real-time reverse transcription- polymerase chain reaction": {
         "definicao": "real-time RT-PCR, rRT-PCR Reverse transcription polymerase chain reaction in which detection and quantification of amplified DNA sequences are performed after each PCR cycle.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "لعافت زاريميلوب لسلستم خسنلل يسكعلا يف نمزلا يقيقحلا",
             "": "",
@@ -1747,7 +1747,7 @@
     },
     "respiratory droplet": {
         "definicao": "droplet Particle made of water, proteins, viral RNA, and nonvolatile metabolites, which is &gt;510 μm in diameter and is exhaled from the nose and mouth of a person whilst e.g. coughing, sneezing breathing, or talking.",
-        "categoria": "MEDI, Anatomy &amp; physiology",
+        "categoria": "MEDI, Anatomy & physiology",
         "traducoes": {
             "AR": "ةريطق ، (syn.) ذاذر ، ذاذر يسفنت",
             "DE": "Tröpfchen",
@@ -1762,7 +1762,7 @@
     },
     "respiratory hygiene": {
         "definicao": "cough etiquette Set of practices and behaviours adopted by an individual with the aim of preventing the spread of respiratory diseases.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةفاظن ةيسفنت",
             "DE": "Husten-Nies-Etikette",
@@ -1792,7 +1792,7 @@
     },
     "risk factor": {
         "definicao": "Characteristic, condition, or behaviour that increases the likelihood that a person will contract a disease or sustain an injury.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لماع رطخ ، (syn.) لماع ةروطخ",
             "DE": "Risikofaktor",
@@ -1822,7 +1822,7 @@
     },
     "self-isolation": {
         "definicao": "self-quarantine Measure taken by an individual in order to avoid contact with other people and thus help to prevent the spread of an infectious disease.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "لزع يتاذ",
             "DE": "Selbst-Isolation",
@@ -1867,7 +1867,7 @@
     },
     "serologic test": {
         "definicao": "serological test, antibody test Laboratory test aimed at detecting in the blood serum of an individual the presence of antibodies produced in response to a given disease. MEDI,",
-        "categoria": "Diagnostic equipment &amp; procedures",
+        "categoria": "Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "صحف يجولوريس ، (syn.) ليلحت لصم ، صحف لصم",
             "DE": "serologischer Test",
@@ -1912,7 +1912,7 @@
     },
     "social distancing": {
         "definicao": "Strategy adopted by a public body to reduce physical contact and proximity between individuals in a community in order to reduce the risk of transmission of an infectious disease, for example by instructing or advising individuals to maintain a certain distance from each other or by prohibiting gatherings of more than a certain number of people.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "دعابت يدسج",
             "DE": "räumliche Distanzierung",
@@ -1943,7 +1943,7 @@
     },
     "super-spreader": {
         "definicao": "Person affected by an infectious disease who transmits the disease to a significantly higher number of people than does the average infected person.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "رشان ىودع قئاف",
             "DE": "Superverbreiter",
@@ -1973,7 +1973,7 @@
     },
     "suspected case": {
         "definicao": "Case that is compatible with a clinical case definition but there is no laboratory test confirmation or strong epidemiological evidence, e.g. the person is not a contact of a confirmed case.",
-        "categoria": "MEDI, Public health &amp; hygiene",
+        "categoria": "MEDI, Public health & hygiene",
         "traducoes": {
             "AR": "ةلاح هبتشم اهب ، (syn.) ةلاح ةهبتشم",
             "DE": "Verdachtsfall",
@@ -1988,7 +1988,7 @@
     },
     "swab": {
         "definicao": "Piece of soft material used by a healthcare professional for cleaning wounds or taking samples from a person’s body for testing purposes.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ةحسم",
             "DE": "Tupfer",
@@ -2003,7 +2003,7 @@
     },
     "swab test": {
         "definicao": "COVID-19 Glossary 32 Method of collecting a sample of organic material for diagnostic purposes by inserting a swab into a person’s body orifices, e.g. nose, mouth, etc. MEDI,",
-        "categoria": "Diagnostic equipment &amp; procedures",
+        "categoria": "Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "صحف ةحسم",
             "DE": "Tupfertest",
@@ -2170,7 +2170,7 @@
     },
     "viral load": {
         "definicao": "Amount of viral particles present in a millilitre of a fluid sample, e.g. blood.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ح لم يسوريف",
             "DE": "Viruslast",
@@ -2215,7 +2215,7 @@
     },
     "X-ray image": {
         "definicao": "Image formed by the shadows of the objects inside a patient’s body when x-rays travel through it and pass through an x-ray detector on the other side of the patient.",
-        "categoria": "MEDI, Diagnostic equipment &amp; procedures",
+        "categoria": "MEDI, Diagnostic equipment & procedures",
         "traducoes": {
             "AR": "ةروص ةعشأ ةينيس ، (syn.) ةروص ةعشأ سكا",
             "DE": "Röntgenaufnahme",
