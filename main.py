@@ -138,9 +138,10 @@ def consolidar_final():
                 trads = info.get("traducoes", {})
                 
                 # O termo PT pode estar nas traduções, ou ser a própria chave (se for o dicionario_conceitos que tem o termo base em catalão/português)
-                pt_term = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt") or info.get("termo")
+                pt_term = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt")
 
-                if not pt_term: continue
+                if not pt_term or str(pt_term).strip() == "" or str(pt_term).lower() == "none":
+                    continue
                 chave_pt = None
                 termo_para_criar = pt_term.split(',')[0].split(';')[0].strip()
                 
