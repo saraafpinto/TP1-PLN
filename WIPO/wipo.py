@@ -11,7 +11,7 @@ texto = re.sub(r"<image.*?>", "", texto)
 texto = re.sub(r"<fontspec.*?>", "", texto)
 texto = re.sub(r"&amp;", "&", texto)
 
-# Remove o título "WIPO Pearl" (font 0) e os cabeçalhos tipo "A" (font 1)
+# Remover o título "WIPO Pearl" (font 0) e os cabeçalhos tipo "A" (font 1)
 texto = re.sub(r'<text.*font="(0|1)".*>.*</text>\n?', "", texto)
 
 # Termo: asterisco antes e depois (font="8" com tag <b>)
@@ -28,7 +28,7 @@ texto = re.sub(r"<i>|</i>", "", texto) # retirar o itálico dos sinónimos
 texto = re.sub(r"-\s*\n\s*", "", texto) # Junta palavras que foram partidas com hífen
 texto = re.sub(r'^\s*$', "", texto, flags=re.MULTILINE) # Remove linhas vazias
 
-# caso o nome do termo ocupe duas linhas (junta os dois asteriscos)
+# caso o nome do termo ocupe duas linhas (juntar os dois asteriscos)
 texto = re.sub(r'\*\n\*(.*?)\*\n', r' \1*\n', texto)
 
 # Seapara o bloco *Termo* -> Descrição -> @Categoria -> Traduções
@@ -79,7 +79,7 @@ for correspondencia in correspondencias:
         # Cortar a string pela palavra "(syn.)" e a vírgula opcional antes dela
         lista_termos = [t.strip() for t in re.split(r',?\s*\(syn\.\)\s*', texto_traducao) if t.strip()]
         
-        # O 1º elemento é a tradução principal. O resto são sinónimos (se existirem)
+        # O 1º elemento é a tradução principal. O resto são sinónimos 
         termo_principal_trad = lista_termos[0] if len(lista_termos) > 0 else ""
         sinonimos_trad = lista_termos[1:] if len(lista_termos) > 1 else []
         

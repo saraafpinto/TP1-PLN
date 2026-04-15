@@ -9,7 +9,7 @@ def carregar_abreviaturas(ficheiro_abreviaturas):
             dados = json.load(f)
             for categoria in dados.values():
                 for abrev, extenso in categoria.items():
-                    # Se o valor for uma lista (caso do PT), pegar no primeiro elemento
+                    # Se o valor for uma lista, pegar no primeiro elemento
                     if isinstance(extenso, list):
                         mapa_plano[abrev] = extenso[0]
                     else:
@@ -36,7 +36,7 @@ def guardar_pendente(conceito, estado_atual, chave_atual, texto):
 def tratar_campo_multiplo(lista_original, mapa, ordens, remover_sin=False):
     lista_final = []
 
-    # Ordenar as abreviaturas por tamanho (maiores primeiro) para evitar que "n" substitua o "n" de "n m"
+    # Ordenar as abreviaturas por tamanho (maiores primeiro) 
     ordens_abrv = sorted(ordens, key=len, reverse=True)
 
     for s in lista_original:
@@ -71,7 +71,7 @@ def tratar_campo_multiplo(lista_original, mapa, ordens, remover_sin=False):
     return lista_final
 
 def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
-    # Carregar e preparar o mapa de abreviaturas
+    # Carregar o mapa de abreviaturas
     mapa_abrev = carregar_abreviaturas(ficheiro_abreviaturas)
 
     abrev_ordenadas = sorted(mapa_abrev.keys(), key=len, reverse=True)
@@ -93,7 +93,7 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
     padrao_continuacao = r'[;,]$'
 
     for linha in linhas:
-        # Limpezas iniciais de números de página/ordem
+        # Limpezas de números de página
         linha = re.sub(r'^\d+\s+', '', linha)
         linha = re.sub(r';\s*\d+$', ';', linha)
         
@@ -175,7 +175,7 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
             nota_completa = item["nota"].replace('\n', ' ')
             nota_completa = re.sub(r'\s+', ' ', nota_completa).strip()
             
-            # Faz o split pelos números
+            # Fazer o split pelos números
             partes_nota = re.split(r'\s*\b\d\.\s*', nota_completa)
             item["nota"] = [n.strip() for n in partes_nota if n.strip()]
 

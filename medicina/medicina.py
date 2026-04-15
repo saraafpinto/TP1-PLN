@@ -3,11 +3,11 @@ import json
 
 #ler ficheiro txt
 
-f = open("medicina.txt", "r", encoding="utf8") #se der problemas por 
+f = open("medicina.txt", "r", encoding="utf8") 
 texto = f.read()
 f.close() 
 
-# 1. Normalizar espaços e tabs
+# Normalizar espaços e tabs
 texto = re.sub(r'\n([^#\n]+?)\s+(Vid\.-[^\n]+)', r'\n#\1 \2#', texto)
 texto = re.sub(r'(?m)^[ \t]*(es|en|pt|la)\b', r'$\1', texto)
 texto = re.sub(r'^\d+\n', '\n', texto, flags=re.MULTILINE)
@@ -59,51 +59,51 @@ for c in conceitos[1:]:
         corpo = re.sub(r'[ \t]+', ' ', corpo)
         corpo_unido = re.sub(r'\s+', ' ', corpo).strip()
 
-        # 2. TENTAR EXTRAIR A ÁREA (Tudo o que vem antes da primeira sigla ou marcador)
-        # Procuramos o início até encontrar 'es ', 'en ', 'pt ', 'la ', 'SIN.-' ou 'Nota.-'
+        # --- tentar extrair área (Tudo o que vem antes da primeira sigla ou marcador) ---
+        # Procurar o início até encontrar 'es ', 'en ', 'pt ', 'la ', 'SIN.-' ou 'Nota.-'
         match_cat = re.search(r'^(.*?)(?=\s*(?:\$|es|en|pt|la|SIN\.-|VAR\.-|Nota\.-))', corpo_unido)
         if match_cat:
             conceitos_dict[designacao]["categoria"] = match_cat.group(1).strip()
         else:
-            # Se não encontrar nenhuma sigla, assume que o corpo todo é a área (ou está vazio)
+            # Se não encontrar nenhuma sigla, assumir que o corpo todo é a área (ou está vazio)
             if not any(x in corpo_unido for x in ['es ', 'en ', 'pt ', 'la ', 'SIN.-']):
                 conceitos_dict[designacao]["categoria"] = corpo_unido
 
-        # 4. EXTRAIR SINÓNIMOS (SIN.-)
+        # --- extrair sinonimos (SIN.-) ---
         m_sin = re.search(r'SIN\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|VAR\.-|Vid\.-|#)|$)', corpo_unido)
         if m_sin:
-            # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
+            # Limpamr pontos finais no fim da lista de sinónimos
             sins_raw = m_sin.group(1).strip().rstrip('.')
             sins = sins_raw.split(';')
             conceitos_dict[designacao]["sinonimos"] = [s.strip() for s in sins]
 
-        # 4. EXTRAIR Variantes (VAR)
+        # --- extrair variantes (VAR) ---
         m_sin = re.search(r'VAR\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|Vid\.-|#)|$)', corpo_unido)
         if m_sin:
-            # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
+            # Limpar pontos finais no fim da lista de sinónimos 
             sins_raw = m_sin.group(1).strip().rstrip('.')
             sins = sins_raw.split(';')
             conceitos_dict[designacao]["variantes"] = [s.strip() for s in sins]
 
-        # 5. EXTRAIR NOTAS (Nota.-)
+        # --- extrair notas (Nota.-) ---
         m_nota = re.search(r'Nota\.-\s+(.*?)(?=\s*(?:\b(?:es|en|pt|la)\b|SIN\.|-VAR\.-|Vid\.-|#)|$)', corpo_unido)
         if m_nota:
             conceitos_dict[designacao]["nota"] = m_nota.group(1).strip()
             corpo_unido = corpo_unido.replace(m_nota.group(0), "")
 
-        # 3. EXTRAIR TRADUÇÕES
+        # --- extrair traduções --- 
         corpo_unido = re.sub(r'\s+', ' ', corpo).strip()
         for lang in ['es', 'en', 'pt', 'la']:
-            # O padrão agora procura: § + sigla + espaço + tudo até ao próximo § ou fim
+            # O padrão procura: § + sigla + espaço + tudo até ao próximo § ou fim
             padrao = fr'\${lang}\s+(.*?)(?=\s*\$|$)'
             
             match_lang = re.search(padrao, corpo_unido)
             if match_lang:
-                # Extraímos o conteúdo e limpamos qualquer marcador residual
+                # Extrair o conteúdo e limpar qualquer marcador residual
                 conteudo = match_lang.group(1).strip()
                 
-                # Segurança extra para o caso do 'la' ainda aparecer no fim
-                # (Se a nota ou o SIN não foram marcados com §, paramos neles)
+                # Segurança extra 
+                #Se a nota ou o SIN não foram marcados com §, parar neles
                 for stop in ['SIN.-', 'Nota.-', 'Vid.-', '#']:
                     conteudo = conteudo.split(stop)[0].strip()
                     

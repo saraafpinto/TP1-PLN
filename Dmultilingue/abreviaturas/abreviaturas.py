@@ -9,7 +9,7 @@ texto = f.read()
 f.close() 
 
 
-# Transformar as coordenadas XML em "Etiquetas textuais" antes de apagar as tags
+# Transformar as coordenadas XML em etiquetas textuais
 # [CAT] -> Títulos de Categoria (font="3")
 texto = re.sub(r'<text[^>]*font="3"[^>]*>(.*?)</text>', r'[CAT] \1', texto)
 
@@ -19,7 +19,7 @@ texto = re.sub(r'<text[^>]*left="(?:63|442)"[^>]*font="4"[^>]*>(.*?)</text>', r'
 # [R] -> Descrições que estão mais à direita (qualquer 'left' diferente de 63 e 442)
 texto = re.sub(r'<text[^>]*left="(?!63|442)\d+"[^>]*font="4"[^>]*>(.*?)</text>', r'[R] \1', texto)
 
-# Limpamos restantes tags do HTML
+# Limpar restantes tags do HTML
 texto = re.sub(r'<[^>]+>', '', texto)
 
 # Limpar cabeçalho
@@ -29,7 +29,7 @@ texto = re.sub(r'Abreviacions', ' ', texto)
 
 resultado = {}
 
-# NÍVEL 1: bloco inteiro de cada Categoria
+# NÍVEL 1: bloco inteiro de cada categoria
 # [CAT] -> (Nome) -> (Conteúdo até ao próximo [CAT])
 padrao_categorias = r'\[CAT\]\s*([^\[]+)(.*?)(?=\[CAT\]|$)'
 categorias = re.findall(padrao_categorias, texto, flags=re.S)
