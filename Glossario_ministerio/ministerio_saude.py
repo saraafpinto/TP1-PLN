@@ -5,7 +5,7 @@ import re, json
 f = open("glossario_ministerio.xml", "r", encoding="utf8")
 texto_glos = f.read()
 
-## GLOSSARIO
+## ----------GLOSSARIO--------------------
 
 # Limpezas de tags 
 texto_glos = re.sub(r'</?page.*?>|</?pdf2xml.*?>|<image.*?>|<fontspec.*?>', '', texto_glos)
@@ -15,13 +15,13 @@ texto_glos = re.sub(r'-\s*\n\s*', '', texto_glos)
 texto_glos = re.sub(r'^\s*$', '', texto_glos, flags=re.MULTILINE)
 texto_glos = re.sub(r'</?i>', '', texto_glos)
 
-# Se encontrar um </b> seguido de um <b> na linha seguinte, ele apaga as tags e junta o texto
+# Se encontrar um </b> seguido de um <b> na linha seguinte, apagar as tags e juntar o texto
 texto_glos = re.sub(r'</b>\s*\n\s*<b>', ' ', texto_glos)
 
 # Findall que para no próximo bold ou no fim do ficheiro
 lista_glos = re.findall(r'<b>(.*?)</b>(.*?)(?=<b>|\Z)', texto_glos, re.DOTALL)
 
-# A ALTERAÇÃO: Agora "glossario" é uma lista (Array) em vez de um dicionário!
+
 glossario = [] 
 
 for termo, resto in lista_glos:
@@ -39,7 +39,7 @@ for termo, resto in lista_glos:
 
     d = re.sub(r'\s+', ' ', d)
     
-    # Validar se o termo é real (não deve ser apenas um número de página)
+    # Validar se o termo é real (sem ser um número de página)
     if not d.isdigit() and len(d) > 3:
         # A ALTERAÇÃO: Fazer o append do objeto criado
         glossario.append({
@@ -49,7 +49,7 @@ for termo, resto in lista_glos:
         })
 
 
-## SIGLAS
+## ----------SIGLAS-----------------
 
 # pdftohtml -xml -f 5 -l 9 Dados/glossario_ministerio_saude.pdf Dados/siglas.xml
 
@@ -57,13 +57,13 @@ f = open("siglas_ministerio.xml", "r", encoding="utf8")
 txt_sig = f.read()
 f.close() 
 
-# Limpezas básicas para siglas
+# Limpezas para siglas
 txt_sig = re.sub(r"</?page.*?>|<image.*?>|<fontspec.*?>", "", txt_sig)
 txt_sig = re.sub(r"</?text.*?>", "\n", txt_sig)
 txt_sig = re.sub(r"-\s*\n\s*", "", txt_sig)
 txt_sig = re.sub(r'^\s*$', r"", txt_sig, flags=re.MULTILINE)
 
-# apanha o <b> e tudo o que não for tag a seguir ([^<]+)
+# apanhar o <b> e tudo o que não for tag a seguir ([^<]+)
 lista_sig = re.findall(r"<b>(.+?)</b>\s*\n?([^<]+)", txt_sig)
 
 siglas_final = {}

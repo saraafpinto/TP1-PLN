@@ -5,8 +5,9 @@ import json
 
 f = open("ossos_anatomia.xml", "r", encoding="utf8")
 texto = f.read()
+f.close() 
 
-# Remover declarações do XML e lixo
+# Limpar as tags do XML 
 texto = re.sub(r'<\?xml.*?>|<!DOCTYPE.*?>|</?pdf2xml.*?>', '', texto)
 texto = re.sub(r'</?page.*?>|<image.*?>|<fontspec.*?>', '', texto)
 texto = re.sub(r'<text[^>]*font="[01234]"[^>]*>.*?</text>', '', texto, flags=re.DOTALL)
@@ -15,39 +16,30 @@ texto = re.sub(r'<text[^>]*font="[01234]"[^>]*>.*?</text>', '', texto, flags=re.
 texto = re.sub(r'</?b>', '', texto)
 texto = re.sub(r'</?i>', '', texto)
 
-# Transformar as tags <text> em quebras de linha limpas
+# Transformar as tags <text> em quebras de linha
 texto = re.sub(r'<text[^>]*>', '', texto)
 texto = re.sub(r'</text>', '\n', texto)
 
-# Juntar títulos que o PDF cortou (Ex: "FALANGE E META \n CARPO" -> "FALANGE E META CARPO")
+# Juntar títulos cortados
 texto = re.sub(r'([A-ZÀ-Ú,])\n\s*([A-ZÀ-Ú:])', r'\1 \2', texto)
 
 # Transformar o texto limpo numa lista de linhas, removendo linhas vazias
 linhas = [l.strip() for l in texto.split('\n') if l.strip()]
 
-# ==========================================
-# 2. MÁQUINA DE ESTADOS HIERÁRQUICA
-# ==========================================
+
 dicionario_final = {}
 
 sistema_atual = None
 regiao_atual = None
 vista_atual = None
 
-# ==========================================
-# AS REGEXES CORRIGIDAS E BLINDADAS
-# ==========================================
-re_sistema = re.compile(r'^SISTEMA\s+[A-ZÀ-Ú\sE]+$')             # Ex: SISTEMA MUSCULAR
-re_regiao = re.compile(r'^\d+\.\s+[A-ZÀ-Ú\s]+$')                 # Ex: 1. CABEÇA E PESCOÇO
-# Correção 1: Aceita subsecções "4.4.1" adicionando o (?:\.\d+)?
-re_vista = re.compile(r'^\d+\.\s*\d+(?:\.\d+)?\.?\s+[A-ZÀ-Ú].+$') # Ex: 1.1. CRÂNIO ou 4.4.1 VISTA
-# Correção 2: Troca de \s+ para \s* para aceitar "e)Corpo" colado
-re_item = re.compile(r'^([A-Za-z]\d?)\)\s*(.+)$')                # Ex: a) Osso, e)Corpo, d1) Olho
+
+re_sistema = re.compile(r'^SISTEMA\s+[A-ZÀ-Ú\sE]+$')              # sistema
+re_regiao = re.compile(r'^\d+\.\s+[A-ZÀ-Ú\s]+$')                  # secções
+re_vista = re.compile(r'^\d+\.\s*\d+(?:\.\d+)?\.?\s+[A-ZÀ-Ú].+$') # subsecções
+re_item = re.compile(r'^([A-Za-z]\d?)\)\s*(.+)$')                 # alineas
 
 for l in linhas:
-    # Ignorar eventuais restos de cabeçalhos
-    if "SUMÁRIO" in l or "AnAtomiA nA práticA" in l or l.isdigit():
-        continue
 
     # --- NÍVEL 0: SISTEMA ---
     if re_sistema.match(l):
@@ -70,11 +62,10 @@ for l in linhas:
     if re_vista.match(l):
         vista_atual = l
         if sistema_atual and regiao_atual:
-            # Cria a entrada da vista como um dicionário vazio para receber os itens
             dicionario_final[sistema_atual][regiao_atual][vista_atual] = {}
         continue
 
-    # --- NÍVEL 3: ITENS / ALÍNEAS ---
+    # --- NÍVEL 3: ALÍNEAS ---
     m_item = re_item.match(l)
     if m_item:
         letra = m_item.group(1)
@@ -85,7 +76,7 @@ for l in linhas:
             dicionario_final[sistema_atual][regiao_atual][vista_atual][letra] = nome_limpo
         continue
 
-    # --- RESOLVER TEXTO PARTIDO PELA QUEBRA DE PÁGINA/LINHA ---
+    # unir texto quebrado
     if sistema_atual and regiao_atual and vista_atual:
         itens_da_vista = dicionario_final[sistema_atual][regiao_atual][vista_atual]
         
