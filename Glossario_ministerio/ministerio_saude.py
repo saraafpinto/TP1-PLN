@@ -7,7 +7,7 @@ texto_glos = f.read()
 
 ## GLOSSARIO
 
-# Limpezas básicas de tags 
+# Limpezas de tags 
 texto_glos = re.sub(r'</?page.*?>|</?pdf2xml.*?>|<image.*?>|<fontspec.*?>', '', texto_glos)
 texto_glos = re.sub(r'</?text.*?>', '\n', texto_glos)
 texto_glos = re.sub(r'<i>Categoria:\s*</i>', '*\n', texto_glos)

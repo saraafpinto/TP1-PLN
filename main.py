@@ -8,7 +8,7 @@ def normalizar_chave(texto):
     if not texto: return ""
     nfkd = unicodedata.normalize('NFKD', str(texto))
     t = "".join([c for c in nfkd if not unicodedata.combining(c)]).lower()
-    t = re.sub(r'\[.*?\]|\s+s\.[mf]\.|\s+n\s+[mf]|\(.*\)', '', t)
+    t = re.sub(r'\[.*?\]|\s+s\.[mf]\.|\s+n\s+[mf]\b|\s+n\s+pl\b|\s+adj\b|\s+v\s+intr\b|\s+v\s+tr\b|\s+v\s+tr/intr\b|\s+-[a-z]\b|\(.*\)', '', t)
     return t.strip()
 
 def criar_estrutura_base(termo_exibicao):
@@ -90,8 +90,14 @@ def consolidar_final():
                     if info.get("sigla") and info["sigla"] not in ent["siglas"]: ent["siglas"].append(info["sigla"])
                     if not ent["genero"] and info.get("genero"): ent["genero"] = info["genero"]
                     
-                    # Acumular extras (do Glossário Temático e Neologismos)
-                    if info.get("sinonimo") and info["sinonimo"] not in ent["sinonimos"]: ent["sinonimos"].append(info["sinonimo"])
+                    # CORREÇÃO: Sinónimos (Apanha singular e plural)
+                    sins = info.get("sinonimos") or info.get("sinonimo") or []
+                    if isinstance(sins, str): sins = [sins]
+                    for s in sins:
+                        if s and s not in ent["sinonimos"]: ent["sinonimos"].append(s)
+
+                    if info.get("inf_encicl") and not ent["inf_encicl"]: 
+                        ent["inf_encicl"] = info.get("inf_encicl")
                     
                     # Notas podem vir como lista (temático) ou string
                     notas = info.get("notas") or info.get("nota") or []
@@ -188,12 +194,32 @@ def consolidar_final():
                     ent = master_dict[chave_pt]
                     if filename not in ent["fontes"]: ent["fontes"].append(filename)
                     
-                    d = info.get("definicao") or info.get("Definicao") or info.get("descricao")
-                    if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
-                    
-                    c = info.get("categoria") or info.get("Categoria") or info.get("categoria_lexica") or info.get("area_tematica")
-                    if c and c not in ent["categorias"]: ent["categorias"].append(c)
-                    
+                    # ========================================================
+                    # SE FOR O MEDICINA (PORTUGUÊS) -> GUARDA DEFINIÇÕES, SINÓNIMOS, ETC.
+                    # ========================================================
+                    if filename == "medicina/medicina.json":
+                        d = info.get("definicao") or info.get("Definicao") or info.get("descricao")
+                        if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
+                        
+                        c = info.get("categoria") or info.get("Categoria") or info.get("categoria_lexica") or info.get("area_tematica")
+                        if c and c not in ent["categorias"]: ent["categorias"].append(c)
+
+                        if not ent["genero"] and info.get("genero"): 
+                            ent["genero"] = info.get("genero")
+
+                        sins = info.get("sinonimos") or info.get("sinonimo") or []
+                        if isinstance(sins, str): sins = [sins]
+                        for s in sins:
+                            if s and s not in ent["sinonimos"]: ent["sinonimos"].append(s)
+                            
+                        notas = info.get("notas") or info.get("nota") or []
+                        if isinstance(notas, str): notas = [notas]
+                        for n in notas:
+                            if n and n not in ent["notas_extras"]: ent["notas_extras"].append(n)
+
+                    # ========================================================
+                    # TRADUÇÕES E CHAVES ESTRANGEIRAS (Aplica-se ao WIPO, Multilingue E Medicina)
+                    # ========================================================
                     # Preencher traduções em falta
                     for lang, val in trads.items():
                         if not val: continue
@@ -202,12 +228,16 @@ def consolidar_final():
                         
                         if l_std not in ent["traducoes"]: ent["traducoes"][l_std] = []
                         if val not in ent["traducoes"][l_std]: ent["traducoes"][l_std].append(val)
+                    
+                    # Salvar a chave do WIPO (que é o termo em Inglês!)
+                    if filename == "WIPO/wipo.json" and termo_estrangeiro:
+                        if "en" not in ent["traducoes"]: ent["traducoes"]["en"] = []
+                        if termo_estrangeiro not in ent["traducoes"]["en"]: ent["traducoes"]["en"].append(termo_estrangeiro)
 
-                    # Notas podem vir como lista (temático) ou string
-                    notas = info.get("notas") or info.get("nota") or []
-                    if isinstance(notas, str): notas = [notas]
-                    for n in notas:
-                        if n and n not in ent["notas_extras"]: ent["notas_extras"].append(n)
+                    # Salvar a chave do Multilingue (que é o termo em Italiano!)
+                    if filename == "Dmultilingue/conceitos/dicionario_conceitos.json" and termo_estrangeiro:
+                        if "it" not in ent["traducoes"]: ent["traducoes"]["it"] = []
+                        if termo_estrangeiro not in ent["traducoes"]["it"]: ent["traducoes"]["it"].append(termo_estrangeiro)
 
     # --- 3. LIMPEZA FINAL E ORDENAÇÃO ---
     for chave in master_dict:

@@ -21,7 +21,7 @@ texto = re.sub(r'^SISTEMA\s+[A-ZÀ-Ú\sE]+$', ' ', texto, flags=re.MULTILINE) # 
 # Padrão: 
 # 1. ^\s*(\d+)\.\s+([A-ZÀ-Ú\s]+)\n -> Captura o número e o NOME (ex: "CRÂNIO")
 # 2. (.*?) -> Captura tudo no meio (a definição)
-# 3. (?=^\s*\d+\.\d+|\Z) -> PÁRA quando encontrar a próxima secção (ex: 1.1) ou o fim do ficheiro (\Z)
+# 3. (?=^\s*\d+\.\d+|\Z) -> PÁRA quando encontrar a próxima secção principal (ex: 2.1) ou o fim do ficheiro (\Z)
 padrao_extracao = re.compile(r'^\s*(\d+)\.\s+([A-ZÀ-Ú\s]+)\n(.*?)(?=^\s*\d+\.\d+|\Z)', re.MULTILINE | re.DOTALL)
 
 blocos_extraidos = padrao_extracao.findall(texto)
@@ -35,8 +35,15 @@ for numero, termo_bruto, definicao_bruta in blocos_extraidos:
     
     termo = termo_bruto.strip()
     
+    # ---------------------------------------------------------
+    # A SOLUÇÃO ESTÁ AQUI: O Corta-Corrente de Legendas!
+    # Se aparecer algo como "1. 1. MÚSCULOS...", cortamos o texto 
+    # e ficamos apenas com a parte de cima (o índice [0]).
+    # ---------------------------------------------------------
+    definicao = re.split(r'\n\s*\d+\.\s*\d+\.\s*[A-ZÀ-Ú]', definicao_bruta)[0]
+    
     # Remover a palavra "Introdução" do início da definição, se ela existir
-    definicao = re.sub(r'^\s*Introdução\s*', '', definicao_bruta, flags=re.IGNORECASE)
+    definicao = re.sub(r'^\s*Introdução\s*', '', definicao, flags=re.IGNORECASE)
     
     # Substituir os 'Enters' (\n) por espaços, unindo o parágrafo cortado pelo PDF
     definicao = re.sub(r'\s+', ' ', definicao).strip()

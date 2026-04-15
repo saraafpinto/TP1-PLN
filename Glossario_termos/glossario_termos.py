@@ -12,13 +12,14 @@ f.close()
 # ==========================================
 # 2. ACHATAMENTO E LIMPEZA INICIAL
 # ==========================================
-# Removemos tags estruturais, mantendo apenas o recheio: <b> e <i>
+
+# Remover tags e manter <b> e <i>
 texto = re.sub(r'</?pdf2xml.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
 texto = re.sub(r'<fontspec.*?>', ' ', texto)
 texto = re.sub(r'</?text.*?>', ' ', texto)
 
-# Limpeza dos lixos do cabeçalho
+# Limpeza do cabeçalho
 texto = re.sub(r'Glossário de Termos.*?Portugal\)', ' ', texto, flags=re.S)
 texto = re.sub(r'Fonte:.*?Languages', ' ', texto, flags=re.S)
 texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.S)
@@ -26,12 +27,7 @@ texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.S)
 # Remover as letras do alfabeto soltas (A, B, C...)
 texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.I)
 
-# ==========================================
-# 3. COLAR AS METADES (O Segredo!)
-# ==========================================
-# Colamos APENAS as tags de itálico (<i>), porque as definições populares
-# são frases longas que o PDF partiu em várias linhas.
-# NÃO colamos as tags <b> para evitar o erro do "depressão abcesso"!
+
 texto = re.sub(r'</i>\s*<i>', ' ', texto)
 
 # ==========================================
