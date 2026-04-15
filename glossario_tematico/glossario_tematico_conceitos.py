@@ -1,7 +1,7 @@
 import re
 import json
 
-# Abrir o ficheiro XML
+# Abrir o ficheiro TXT
 f = open("glossario_tematico_conceitos.txt", "r", encoding="utf8")
 texto = f.read()
 f.close()
@@ -12,14 +12,14 @@ texto = re.sub(r'Glossário Temático\n\d+\n\w{3}',"", texto)
 texto = re.sub(r'Monitoramento e Avaliação\n\d+\n\w{3}',"", texto)
 texto = re.sub(r'⇒', "Lê-se como: ", texto)
 
-# Cabeçalho (Termo | Género $)
+# Cabeçalho (@Termo | Género $)
 texto = re.sub(r'^(.*), (fem\.|masc\.)', r'@\1 | \2 $', texto, flags=re.MULTILINE)
 
 # Marcar Sinónimos (Sin. até ao primeiro ponto final)
 texto = re.sub(r'(\$\s*)Sin\.\s+(.*?)\.\s+', r'\1#SIN:\2#DEF:', texto)
 texto = re.sub(r'\$\s+(?!#SIN:|#DEF:)', r'$ #DEF:', texto)
 
-# Marcar Notas (com ou sem i)
+# Marcar Notas (com ou sem i))
 texto = re.sub(r'Nota(s?)?:\s*(?:i\))?', r'#NOTA:', texto)
 texto = re.sub(r'\s+[iv]{2,}\)', r'#NOTA:', texto)
 
@@ -32,7 +32,7 @@ texto = re.sub(r'Em inglês:', r'#EN:', texto)
 
 conceitos_dict = {}
 
-# 2. Separar por conceitos (cada um começa com @)
+# Separar por conceitos (cada um começa com @)
 blocos = re.split(r'\n@', texto)
 
 for bloco in blocos:
@@ -44,7 +44,7 @@ for bloco in blocos:
     corpo = partes[1].strip()
     termo_principal = cabecalho.split('|')[0].strip()
     
-    # Criar objeto base
+    # Criar dicionario base
     res = {
         "genero": cabecalho.split('|')[1].strip() if '|' in cabecalho else "",
         "sinonimo": "",
@@ -54,7 +54,7 @@ for bloco in blocos:
         "traducoes": {}
     }
 
-    # 3. SPLIT POR # E ATRIBUIÇÃO DIRETA
+    # split pelo # e atribuição direta dos parâmetros
     campos = re.split(r'#', corpo)
     
     for c in campos:
@@ -62,15 +62,18 @@ for bloco in blocos:
         if not c: continue
         
         if c.startswith("SIN:"):
-            res["sinonimo"] = c.replace("SIN:", "").strip()
+            res["sinonimo"] = re.sub(r"SIN:", "", c).strip()
+
         elif c.startswith("DEF:"):
-            # Aqui guardamos a definição, mas limpamos se o "Ver" ficou lá preso por erro
-            def_limpa = c.replace("DEF:", "").strip()
+            def_limpa = re.sub(r"DEF:", "",c).strip()
+            # Verificar se o "Ver" ficou na definição
             res["definicao"] = re.split(r'\bVer\b', def_limpa, flags=re.IGNORECASE)[0].strip()
+
         elif c.startswith("VER:"):
-            conteudo_ver = c.replace("VER:", "").strip().replace('\n', ' ').rstrip('.')
-            
-            # Lógica especial para "Ver sin."
+            conteudo_ver = re.sub(r"VER:", "", c).strip().replace()
+            conteudo_ver = re.sub(r'\n', ' ', c).rstrip('.')
+
+            # Lógica para "Ver sin."
             if "sin." in conteudo_ver.lower():
                 limpo = re.sub(r'sin\.\s*', '', conteudo_ver, flags=re.IGNORECASE).strip()
                 partes_v = [p.strip() for p in limpo.split(';')]
@@ -82,19 +85,17 @@ for bloco in blocos:
                 res["remissa"] = [p.strip() for p in conteudo_ver.split(';')]
         
         elif c.startswith("NOTA:"):
-            res["notas"].append(c.replace("NOTA:", "").strip())
+            res["notas"].append(re.sub(r"NOTA:", "",c).strip())
         elif c.startswith("ES:"):
-            res["traducoes"]["espanhol"] = c.replace("ES:", "").strip()
+            res["traducoes"]["espanhol"] = re.sub(r"ES:", "",c).strip()
         elif c.startswith("EN:"):
-            res["traducoes"]["ingles"] = c.replace("EN:", "").strip()
+            res["traducoes"]["ingles"] = re.sub(r"EN:", "",c).strip()
 
     conceitos_dict[termo_principal] = res
 
 def gera_json(filename, dados):
     f_out = open(filename, 'w', encoding='utf8')
-    # Passamos a lista completa para o json.dump
     json.dump(dados, f_out, indent=4, ensure_ascii=False)
     f_out.close()
 
-# Chamada da função com a lista
 gera_json("glossario_tematico_conceitos.json", conceitos_dict)

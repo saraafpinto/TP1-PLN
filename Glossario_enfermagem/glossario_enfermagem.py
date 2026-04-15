@@ -1,17 +1,18 @@
 import re
 import json
 
-# 1. Carregar o XML como texto
+# Abrir o ficheiro XML
 f = open("glossario_enfermagem.xml", "r", encoding="utf8")
 texto = f.read()
 f.close()
 
-texto = re.sub(r'<b>\d+</b>', ' ', texto)  # Apaga os números de página (ex: <b>47</b>)
+# Apaga os números de página 
+texto = re.sub(r'<b>\d+</b>', ' ', texto)  
+
 texto = re.sub(r'<b>GLOSSÁRIO DA LINGUAGEM ESPECIAL DE ENFERMAGEM</b>', ' ', texto)
 texto = re.sub(r'<b>PARA A PRÁTICA JUNTO A POVOS INDÍGENAS NO CONTEXTO AMAZÔNICO</b>', ' ', texto)
 
-# 2. Limpeza de tags irrelevantes, mas mantendo a estrutura <b>
-# Removemos as tags <text...>, <page...>, <fontspec...>, etc.
+# Limpeza de tags irrelevantes
 texto = re.sub(r'</?text.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
 
@@ -25,12 +26,12 @@ conceitos = re.findall(padrao, texto, flags=re.S)
 
 res = {}
 for termo, bloco_texto in conceitos:
-    # Limpeza inicial do bloco de texto (remover tags <text>, etc.)
-    # Mas mantemos os espaços originais por agora para não colar palavras
+    # Limpeza inicial do bloco de texto
     bloco_limpo = re.sub(r'</?text.*?>', ' ', bloco_texto)
-    bloco_limpo = re.sub(r'<.*?>', '', bloco_limpo) # Remove <i>, etc.
+    # Remove <i>
+    bloco_limpo = re.sub(r'<.*?>', '', bloco_limpo) 
     
-    # 3. SEPARAÇÃO (Definição vs Fonte)
+    # separação da definição da fonte
     if "FONTE:" in bloco_limpo:
         partes = bloco_limpo.split("FONTE:")
         definicao_raw = partes[0]
@@ -39,25 +40,24 @@ for termo, bloco_texto in conceitos:
         definicao_raw = bloco_limpo
         fonte_raw = ""
 
-    # --- REGRAS PARA A DEFINIÇÃO ---
-    # Substituímos múltiplas quebras de linha/espaços por UM espaço
+    # Substituir múltiplas quebras de linha/espaços por UM espaço
     definicao = re.sub(r'\s+', ' ', definicao_raw).strip()
     # Consertar palavras cortadas conhecidas
     definicao = definicao.replace("nanceiros", "financeiros")
     definicao = definicao.replace("exploração a;", "exploração física;")
 
-    # --- REGRAS PARA A FONTE (LINK) ---
-    # Aqui podemos ser agressivos com os espaços porque links não os devem ter
+
+    # Retirar os espaços no meio dos links 
     fonte = re.sub(r'\s+', ' ', fonte_raw).strip()
     if "http" in fonte:
-        # Colar o link (ex: "idos o" -> "idoso")
+        # Colar o link 
         fonte = re.sub(r'(?<=[a-z0-9])\s+(?=[a-z0-9#])', '', fonte, flags=re.I)
         # Consertar parâmetros do DeCS
         fonte = fonte.replace("termallq=", "termall&q=")
         fonte = fonte.replace("?id=", "?id=")
         fonte = fonte.replace("lter=", "filter=").replace("lt er=", "filter=")
 
-    # 4. GUARDA NO DICIONÁRIO
+    # Guardar no dicionário 
     termo_final = termo.strip()
     if termo_final and "Glossário" not in termo_final and not termo_final.isdigit():
         res[termo_final] = {

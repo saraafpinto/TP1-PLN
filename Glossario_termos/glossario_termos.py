@@ -13,7 +13,7 @@ f.close()
 # 2. ACHATAMENTO E LIMPEZA INICIAL
 # ==========================================
 
-# Remover tags e manter <b> e <i>
+# Remover tags desnecessárias
 texto = re.sub(r'</?pdf2xml.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
 texto = re.sub(r'<fontspec.*?>', ' ', texto)
@@ -24,23 +24,17 @@ texto = re.sub(r'Glossário de Termos.*?Portugal\)', ' ', texto, flags=re.S)
 texto = re.sub(r'Fonte:.*?Languages', ' ', texto, flags=re.S)
 texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.S)
 
-# Remover as letras do alfabeto soltas (A, B, C...)
+# Remover as letras do alfabeto soltas 
 texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.I)
 
-
+# Corrigir quebras dentro das definições
 texto = re.sub(r'</i>\s*<i>', ' ', texto)
 
-# ==========================================
-# 4. EXTRAÇÃO COM REGEX "CIRÚRGICO"
-# ==========================================
-# Usamos [^<]+ (apanha tudo o que NÃO for um '<') 
-# Isto garante que o Regex nunca engole outras tags HTML por engano!
-
-# Padrão 1: Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
+#Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
 padrao_1 = r'<i>([^<]+)</i>\s*\(pop\)\s*,\s*<b>([^<]+)</b>'
 extraidos_1 = re.findall(padrao_1, texto, flags=re.S)
 
-# Padrão 2: Negrito (Termo) -> "," -> Itálico (Significado) -> "(pop)"
+# Negrito (Termo) -> "," -> Itálico (Significado) -> "(pop)"
 padrao_2 = r'<b>([^<]+)</b>\s*,\s*<i>([^<]+)</i>\s*\(pop\)'
 extraidos_2 = re.findall(padrao_2, texto, flags=re.S)
 

@@ -2,7 +2,6 @@ import re
 import json
 
 #ler ficheiro txt
-
 f = open("glossario_tematico_trad_esp_pt.txt", "r", encoding="utf8") #se der problemas por 
 texto = f.read()
 f.close() 
@@ -12,7 +11,7 @@ texto = re.sub(r'^[A-Z]$',"", texto)
 texto = re.sub(r'Glossário Temático\n\d+',"", texto)
 texto = re.sub(r'Monitoramento e Avaliação\n\d+',"", texto)
 
-conceitos = re.split(r"\n", texto, flags=re.MULTILINE)
+conceitos = re.split(r"\n", texto)
 
 conceitos_dict = {}
 for c in conceitos[1:]:
