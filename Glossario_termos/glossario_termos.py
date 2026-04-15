@@ -1,29 +1,31 @@
 import re
 import json
 
-# ==========================================
-# 1. LER O FICHEIRO XML
-# ==========================================
 f = open("glossario_termos.xml", "r", encoding="utf8")
 texto = f.read()
 f.close() 
 
+<<<<<<< HEAD
 
 # ==========================================
 # 2. ACHATAMENTO E LIMPEZA INICIAL
 # ==========================================
 
 # Remover tags desnecessárias
+=======
+# Limpeza das tags e manter <b> e <i>
+>>>>>>> 9a7caf3c96933b075b89819ebb4f04f148a2f2b4
 texto = re.sub(r'</?pdf2xml.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
 texto = re.sub(r'<fontspec.*?>', ' ', texto)
 texto = re.sub(r'</?text.*?>', ' ', texto)
 
 # Limpeza do cabeçalho
-texto = re.sub(r'Glossário de Termos.*?Portugal\)', ' ', texto, flags=re.S)
-texto = re.sub(r'Fonte:.*?Languages', ' ', texto, flags=re.S)
-texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.S)
+texto = re.sub(r'Glossário de Termos.*?Portugal\)', ' ', texto, flags=re.DOTALL)
+texto = re.sub(r'Fonte:.*?Languages', ' ', texto, flags=re.DOTALL)
+texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.DOTALL)
 
+<<<<<<< HEAD
 # Remover as letras do alfabeto soltas 
 texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.I)
 
@@ -31,55 +33,54 @@ texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.I)
 texto = re.sub(r'</i>\s*<i>', ' ', texto)
 
 #Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
+=======
+# Remover as letras do alfabeto soltas (A, B, C...)
+texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.IGNORECASE)
+
+texto = re.sub(r'</i>\s*<i>', ' ', texto)
+
+# Padrão 1: Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
+>>>>>>> 9a7caf3c96933b075b89819ebb4f04f148a2f2b4
 padrao_1 = r'<i>([^<]+)</i>\s*\(pop\)\s*,\s*<b>([^<]+)</b>'
-extraidos_1 = re.findall(padrao_1, texto, flags=re.S)
+extraidos_1 = re.findall(padrao_1, texto, flags=re.DOTALL)
 
 # Negrito (Termo) -> "," -> Itálico (Significado) -> "(pop)"
 padrao_2 = r'<b>([^<]+)</b>\s*,\s*<i>([^<]+)</i>\s*\(pop\)'
-extraidos_2 = re.findall(padrao_2, texto, flags=re.S)
+extraidos_2 = re.findall(padrao_2, texto, flags=re.DOTALL)
 
-# Colocamos tudo numa única lista garantindo a ordem: (Termo, Definição)
-conceitos = [(termo, definicao) for definicao, termo in extraidos_1]
-conceitos += [(termo, definicao) for termo, definicao in extraidos_2]
+# Colocar tudo numa única lista: (Termo, termo_popular)
+conceitos = [(termo, termo_popular) for termo_popular, termo in extraidos_1]
+conceitos += [(termo, termo_popular) for termo, termo_popular in extraidos_2]
 
-# ==========================================
-# 5. CONSTRUÇÃO DO DICIONÁRIO AUXILIAR
-# ==========================================
+
 dicionario_medico = {}
 
 for termo_raw, definicao_raw in conceitos:
     
-    # Limpar espaços extra e arrancar aspas (simples ou duplas) das pontas
+    # Limpar espaços extra e aspas das pontas
     termo = re.sub(r'\s+', ' ', termo_raw).strip().strip("'\"")
-    definicao = re.sub(r'\s+', ' ', definicao_raw).strip()
+    termo_popular = re.sub(r'\s+', ' ', definicao_raw).strip()
 
-    if termo and definicao:
-        # 1. Proteção contra inversões (ex: acomodação/adaptação)
-        if definicao in dicionario_medico and termo in dicionario_medico[definicao]["definicao"]:
-            continue
+    if termo and termo_popular:
             
-        # 2. Juntar definicao ao mesmo termo
-        elif termo in dicionario_medico:
-            if definicao not in dicionario_medico[termo]["definicao"]:
-                dicionario_medico[termo]["definicao"] += f" / {definicao}"
+        # Juntar termo_popular ao mesmo termo
+        if termo in dicionario_medico:
+            if termo_popular not in dicionario_medico[termo]["termo_popular"]:
+                dicionario_medico[termo]["termo_popular"] += f" / {termo_popular}"
                 
-        # 3. Termo novo
+        # Termo novo
         else:
-            dicionario_medico[termo] = {"definicao": definicao}
+            dicionario_medico[termo] = {"termo_popular": termo_popular}
 
-# ==========================================
-# 6. CONVERSÃO PARA O FORMATO FINAL (LISTA DE OBJETOS)
-# ==========================================
+
 lista_final = []
 for termo, dados in dicionario_medico.items():
     lista_final.append({
         "termo": termo,
-        "definicao": dados["definicao"]
+        "termo popular": dados["termo_popular"]
     })
 
-# ==========================================
-# 3. EXPORTAR PARA JSON
-# ==========================================
+
 def gera_json(filename, dicionario):
     f_out = open(filename, 'w', encoding='utf8')
     json.dump(dicionario, f_out, indent=4, ensure_ascii=False)
