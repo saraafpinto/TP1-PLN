@@ -26,7 +26,7 @@ dicionario_cipe = {}
 
 for codigo, eixo, termo_raw, descricao_raw in conceitos:
     
-    # Limpar os marcadores extra que podem ter ficado a meio de frases longas
+    # Limpar os marcadores extra 
     termo = termo_raw.replace("[TERMO]", " ")
     termo = re.sub(r'\s+', ' ', termo).strip()
     

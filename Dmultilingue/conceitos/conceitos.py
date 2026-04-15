@@ -10,7 +10,7 @@ def carregar_abreviaturas(ficheiro_abreviaturas):
             dados = json.load(f)
             for categoria in dados.values():
                 for abrev, extenso in categoria.items():
-                    # Se o valor for uma lista (caso do PT), pegamos no primeiro elemento
+                    # Se o valor for uma lista, pega no primeiro elemento
                     if isinstance(extenso, list):
                         mapa_plano[abrev] = extenso[0]
                     else:
@@ -41,7 +41,7 @@ def tratar_campo_multiplo(lista_original, mapa, ordens, remover_sin=False):
         s_limpo = s.replace('\n', ' ')
         s_limpo = re.sub(r'\s+', ' ', s_limpo).strip()
 
-        # Separar por ';' ANTES de remover abreviaturas para não perder o corte
+        # Separar por ';' 
         partes = s_limpo.split(';')
         
         for p in partes:
@@ -65,11 +65,10 @@ def tratar_campo_multiplo(lista_original, mapa, ordens, remover_sin=False):
     return lista_final
 
 def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
-    # 1. Carregar e preparar o mapa de abreviaturas
+    # Carregar o mapa de abreviaturas
     mapa_abrev = carregar_abreviaturas(ficheiro_abreviaturas)
     
     # Ordenar as abreviaturas por tamanho (maiores primeiro) 
-    # para evitar que "n" substitua o "n" de "n m"
     abrev_ordenadas = sorted(mapa_abrev.keys(), key=len, reverse=True)
 
     f = open(txt_input, "r", encoding="utf8")
@@ -106,7 +105,7 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
         m_termo = regex_novo_termo.match(linha)
 
         if not any([m_idioma, m_marcador, m_area_def, m_termo]) and conceito:
-            # Se o último estado foi nota, definição ou sinónimo, continuamos a acumular
+            # Se o último estado for nota, definição ou sinónimo, continua a acumular
             if estado_atual in ['nota', 'definicao', 'sinonimo', 'traducao', 'cas']:
                 guardar_pendente(conceito, estado_atual, chave_atual, linha)
                 continue
@@ -129,7 +128,6 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
                     estado_atual, conceito["nota"] = 'nota', resto
                 elif tipo == "veg.":
                     estado_atual = 'ver_tambem'
-                    # Guardamos sem o prefixo 'veg.', o pós-processamento trata da limpeza
                     conceito["ver_tambem"].append(resto)
                 else: 
                     estado_atual = 'sinonimo'
@@ -162,25 +160,24 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
 
     if conceito: dicionario.append(conceito)
 
-    # ==========================================
-    # PÓS-PROCESSAMENTO: LIMPEZA E FORMATAÇÃO
-    # ==========================================
+    
+    #  ---LIMPEZA E FORMATAÇÃO---
     for item in dicionario:
-        # 1. Separar Notas por número
+        # Separar Notas por número
         if item["nota"]:
-            # Primeiro junta tudo numa linha só para o split não falhar
+            # Junção de tudo numa linha
             nota_completa = item["nota"].replace('\n', ' ')
             nota_completa = re.sub(r'\s+', ' ', nota_completa).strip()
             
-            # Agora sim, faz o split pelos números
+            # split pelos números
             partes_nota = re.split(r'\s*\b\d\.\s*', nota_completa)
             item["nota"] = [n.strip() for n in partes_nota if n.strip()]
 
-        # 2. Sinónimos e Ver_Tambem (Aqui chamamos a função que perguntaste!)
+        # Sinónimos e Ver_Tambem 
         item["sinonimos"] = tratar_campo_multiplo(item["sinonimos"], mapa_abrev, abrev_ordenadas)
         item["ver_tambem"] = tratar_campo_multiplo(item["ver_tambem"], mapa_abrev, abrev_ordenadas)
 
-        # 4. Substituir abreviaturas nas TRADUÇÕES
+        # Substituir abreviaturas nas traduções
         for lang in item["traducoes"]:
             trad = item["traducoes"][lang].replace('\n', ' ')
             trad = re.sub(r'\s+', ' ', trad)
@@ -194,10 +191,8 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
             
             item["traducoes"][lang] = trad.strip()
 
-        # 5. Substituir na CATEGORIA principal
+        # Substituir na categoria principal
         if item["categoria"] in mapa_abrev:
-            # Aqui podes decidir: ou deixas só o extenso, ou limpas. 
-            # Geralmente na categoria quer-se o valor:
             item["categoria"] = mapa_abrev[item["categoria"]]
 
     with open(json_output, 'w', encoding='utf8') as f_out:
