@@ -111,7 +111,7 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
         m_termo = re.match(padrao_novo_termo, linha)
 
         if not any([m_idioma, m_marcador, m_area_def, m_termo]) and conceito:
-            # Se o último estado foi nota, definição ou sinónimo, continuamos a acumular
+            # Se o último estado for nota, definição ou sinónimo, continua a acumular
             if estado_atual in ['nota', 'definicao', 'sinonimo', 'traducao', 'cas']:
                 guardar_pendente(conceito, estado_atual, chave_atual, linha)
                 continue

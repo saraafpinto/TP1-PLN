@@ -48,7 +48,7 @@ def limpar_vazios(dicionario):
 def consolidar_final():
     master_dict = {}
 
-    # --- 1. PROCESSAR FICHEIROS PT (Listas e Dicionários de Objetos) ---
+    # --- PROCESSAR FICHEIROS PT (Listas e Dicionários) ---
     fontes_pt = [
         ("Glossario_enfermagem/glossario_enfermagem.json", "definicao"),
         ("glossario_ministerio/conceitos_ministerio.json", "definicao"),
@@ -63,7 +63,7 @@ def consolidar_final():
         with open(filename, 'r', encoding='utf-8') as f:
             dados = json.load(f)
             
-            # Universalizador: transforma Listas e Dicionários numa lista iterável uniforme
+            # transformar Listas e Dicionários numa lista iterável uniforme
             if isinstance(dados, dict):
                 items = dados.items()
             else:
@@ -85,7 +85,6 @@ def consolidar_final():
                     # Acumular definições
                     if filename == "glossario_termos/glossario_termos.json":
                         pop = info.get("termo popular")
-                        # O teu código junta-os com "/", por isso guardamos a string direta
                         if pop and pop not in ent["termos_populares"]: 
                             ent["termos_populares"].append(pop)
                     else:
@@ -93,16 +92,13 @@ def consolidar_final():
                         if d and d not in ent["definicoes"]: 
                             ent["definicoes"].append(d)
                             
-                    d = info.get(field_def)
-                    if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
-                    
                     # Acumular Categorias, Siglas e Género
                     cat = info.get("categoria") or info.get("area") or info.get("eixo")
                     if cat and cat not in ent["categorias"]: ent["categorias"].append(cat)
                     if info.get("sigla") and info["sigla"] not in ent["siglas"]: ent["siglas"].append(info["sigla"])
                     if not ent["genero"] and info.get("genero"): ent["genero"] = info["genero"]
                     
-                    # CORREÇÃO: Sinónimos (Apanha singular e plural)
+                    # Sinónimos
                     sins = info.get("sinonimos") or info.get("sinonimo") or []
                     if isinstance(sins, str): sins = [sins]
                     for s in sins:
@@ -111,7 +107,7 @@ def consolidar_final():
                     if info.get("inf_encicl") and not ent["inf_encicl"]: 
                         ent["inf_encicl"] = info.get("inf_encicl")
                     
-                    # Notas podem vir como lista (temático) ou string
+                    # Notas 
                     notas = info.get("notas") or info.get("nota") or []
                     if isinstance(notas, str): notas = [notas]
                     for n in notas:
@@ -142,7 +138,7 @@ def consolidar_final():
                                 ent["traducoes"][lang_limpa].append(termo_limpo)
 
 
-    # --- 2. PROCESSAR WIPO E MULTILINGUE (Verificação e Enriquecimento) ---
+    # --- PROCESSAR WIPO, MULTILINGUE E MEDICINA ---
     fontes_multi = ["WIPO/wipo.json", "Dmultilingue/conceitos/dicionario_conceitos.json", "medicina/medicina.json"]
     
     for filename in fontes_multi:
@@ -155,7 +151,7 @@ def consolidar_final():
             for termo_estrangeiro, info in lista_iteravel:
                 trads = info.get("traducoes", {})
                 
-                # O termo PT pode estar nas traduções, ou ser a própria chave (se for o dicionario_conceitos)
+                # O termo PT pode estar nas traduções, ou ser a própria chave 
                 pt_raw = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt")
 
                 if not pt_raw or str(pt_raw).strip() == "" or str(pt_raw).lower() == "none":
@@ -164,7 +160,6 @@ def consolidar_final():
                 pt_term = ""
                 pt_sinonimos = []
                 
-                # A CORREÇÃO MÁGICA: O pt_raw agora pode ser um dicionário (vindo do WIPO novo) ou uma string!
                 if isinstance(pt_raw, dict):
                     pt_term = pt_raw.get("termo", "")
                     pt_sinonimos = pt_raw.get("sinonimos", [])
@@ -205,7 +200,6 @@ def consolidar_final():
                 else:
                     chave_pt = normalizar_chave(termo_para_criar)
                 
-                # --- SÓ TRABALHA SE TIVERMOS UMA CHAVE VÁLIDA ---
                 if chave_pt and isinstance(chave_pt, str): 
     
                     if chave_pt not in master_dict:
@@ -214,12 +208,10 @@ def consolidar_final():
                     ent = master_dict[chave_pt]
                     if filename not in ent["fontes"]: ent["fontes"].append(filename)
                     
-                    # ========================================================
-                    # ========================================================
-                    # SE FOR O MEDICINA -> GUARDA DEFINIÇÕES, CATEGORIAS E GÉNERO
-                    # O WIPO e o Multilingue apenas contribuem com Traduções e Sinónimos!
-                    # ========================================================
-                    # ========================================================
+                    
+                    # se for medicina -> guarda definicoes, categoria, genero, sinonimos e notas
+                    # O WIPO e o Multilingue apenas contribuem com Traduções e Sinónimos da secção PT
+
                     if filename == "medicina/medicina.json":
                         d = info.get("definicao") or info.get("Definicao") or info.get("descricao")
                         if d and d not in ent["definicoes"]: ent["definicoes"].append(d)
@@ -230,29 +222,30 @@ def consolidar_final():
                         if not ent["genero"] and info.get("genero"): 
                             ent["genero"] = info.get("genero")
 
-                    # Injeta sinónimos da chave raiz E os sinónimos extraídos da língua PT do WIPO
-                    sins = info.get("sinonimos") or info.get("sinonimo") or []
-                    if isinstance(sins, str): sins = [sins]
-                    sins.extend(pt_sinonimos) # AQUI ENTRAM OS SINÓNIMOS NOVOS DO PT!
-                    
-                    for s in sins:
-                        if s and s not in ent["sinonimos"]: ent["sinonimos"].append(s)
-                        
-                    notas = info.get("notas") or info.get("nota") or []
-                    if isinstance(notas, str): notas = [notas]
-                    for n in notas:
-                        if n and n not in ent["notas_extras"]: ent["notas_extras"].append(n)
+                        # Sinónimos principais (só do dicionário PT)
+                        sins_raiz = info.get("sinonimos") or info.get("sinonimo") or []
+                        if isinstance(sins_raiz, str): sins_raiz = [sins_raiz]
+                        for s in sins_raiz:
+                            if s and s not in ent["sinonimos"]: ent["sinonimos"].append(s)
+                            
+                        # Notas (só do dicionário PT)
+                        notas = info.get("notas") or info.get("nota") or []
+                        if isinstance(notas, str): notas = [notas]
+                        for n in notas:
+                            if n and n not in ent["notas_extras"]: ent["notas_extras"].append(n)
 
-                    # ========================================================
-                    # TRADUÇÕES E CHAVES ESTRANGEIRAS
-                    # ========================================================
+                    # Sinonimos PT vindos do WIPO
+                    for s in pt_sinonimos:
+                        if s and s not in ent["sinonimos"]: ent["sinonimos"].append(s)
+
+                    # --- TRADUÇÕES ---
+
                     codigos_linguas = ['oc', 'eu', 'gl', 'es', 'en', 'fr', 'pt', 'nl', 'ar', 'ca', 'it', 'de', 'ru', 'ja', 'ko', 'zh']
                     for lang, val in trads.items():
                         if not val: continue
                         
                         l_std = lang.replace(" [PT]", "").replace(" [BR]", "_br").lower()
                         
-                        # NOVO: val pode ser um dicionário com sinonimos (WIPO) ou apenas string
                         val_termo = ""
                         val_sinonimos = []
                         if isinstance(val, dict):
@@ -276,18 +269,17 @@ def consolidar_final():
                         if termo_limpo and termo_limpo not in ent["traducoes"][l_std]:
                             ent["traducoes"][l_std].append(termo_limpo)
                             
-                        # INJETAR OS SINÓNIMOS ESTRANGEIROS DIRETAMENTE NA LISTA DA LÍNGUA
                         for s_trad in val_sinonimos:
                             s_trad_limpo = s_trad.strip()
                             if s_trad_limpo and s_trad_limpo not in ent["traducoes"][l_std]:
                                 ent["traducoes"][l_std].append(s_trad_limpo)
                     
-                    # Salvar a chave do WIPO (que é o termo em Inglês!)
+                    # Salvar a chave do WIPO (termo em Inglês)
                     if filename == "WIPO/wipo.json" and termo_estrangeiro:
                         if "en" not in ent["traducoes"]: ent["traducoes"]["en"] = []
                         if termo_estrangeiro not in ent["traducoes"]["en"]: ent["traducoes"]["en"].append(termo_estrangeiro)
 
-                    # Salvar a chave do Multilingue (que é o termo em Catalão/Italiano!)
+                    # Salvar a chave do Multilingue (termo em Catalão)
                     if filename == "Dmultilingue/conceitos/dicionario_conceitos.json" and termo_estrangeiro:
                         ca_val = str(termo_estrangeiro).strip()
                         ca_val = re.sub(r'^\d+\s+', '', ca_val)
@@ -300,7 +292,16 @@ def consolidar_final():
                         if ca_val and ca_val not in ent["traducoes"]["ca"]:
                             ent["traducoes"]["ca"].append(ca_val)
 
-    # --- 3. LIMPEZA FINAL E ORDENAÇÃO ---
+                        lista_siglas = info.get("siglas", [])
+                        if isinstance(lista_siglas, str): lista_siglas = [lista_siglas]
+                        
+                        for sg in lista_siglas:
+                            # Limpeza básica (remover espaços e hífen de categoria se houver)
+                            sg_limpa = sg.split(' - ')[0].strip()
+                            if sg_limpa and sg_limpa not in ent["siglas"]:
+                                ent["siglas"].append(sg_limpa)
+
+    # --- LIMPEZA FINAL E ORDENAÇÃO ---
     for chave in master_dict:
         master_dict[chave]["definicoes"] = list(dict.fromkeys(master_dict[chave]["definicoes"]))
         master_dict[chave]["termos_populares"] = list(dict.fromkeys(master_dict[chave]["termos_populares"])) 
@@ -314,18 +315,16 @@ def consolidar_final():
     dicionario_limpo = limpar_vazios(master_dict_ordenado)
 
     def gravar_json(filename, dicionario):
-        # 1. Gera a string JSON com a indentação normal
         json_str = json.dumps(dicionario, indent=4, ensure_ascii=False)
         
-        # 2. Achatar listas e dicionários vazios (caso algum escape à limpeza)
+        # Achatar listas e dicionários vazios
         json_str = re.sub(r'\[\s*\]', '[]', json_str)
         json_str = re.sub(r'\{\s*\}', '{}', json_str)
         
-        # 3. Achatar listas com apenas 1 elemento de texto
-        # Transforma: [ \n "termo" \n ]  ->  ["termo"]
+        #Achatar listas com apenas 1 elemento de texto
         json_str = re.sub(r'\[\s*("[^"]+")\s*\]', r'[\1]', json_str)
         
-        # 4. Gravar no ficheiro final
+        #Gravar no ficheiro final
         with open(filename, 'w', encoding='utf-8') as f_out:
             f_out.write(json_str)
         

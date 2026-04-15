@@ -21,7 +21,7 @@ def extrair_texto_pdf(pdf_path, txt_path):
     for l in linhas_finais:
         l = l.strip()
         if not l: continue
-        # Limpeza pesada de lixo
+        # Limpeza 
         if "QUADERNS 50" in l or "DICCIONARI MULTILINGÜE" in l: continue
         if l in ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Z", "QUAD", "Diccionari"]: continue
         

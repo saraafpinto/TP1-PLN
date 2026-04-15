@@ -12,13 +12,13 @@ f.close()
 texto = re.sub(r'A\s*natomia\s*na\s*prática\s*:\s*S\s*istema\s*M\s*usculoesquelético', ' ', texto, flags=re.IGNORECASE)
 texto = re.sub(r'^SUMÁRIO$', ' ', texto, flags=re.MULTILINE)
 texto = re.sub(r'^\d+$', ' ', texto, flags=re.MULTILINE) # Números de página 
-texto = re.sub(r'^SISTEMA\s+[A-ZÀ-Ú\sE]+$', ' ', texto, flags=re.MULTILINE) # Ex: SISTEMA ESQUELÉTICO
+texto = re.sub(r'^SISTEMA\s+[A-ZÀ-Ú\sE]+$', ' ', texto, flags=re.MULTILINE) 
 
 
 # Padrão: 
-# 1.Captura o número e o NOME (ex: "CRÂNIO"), 
+# 1.Captura o número e o nome, 
 # 2.Captura tudo no meio (a definição)
-# 3.Para quando encontrar a próxima secção principal (ex: 2.1) ou o fim do ficheiro (\Z)
+# 3.Para quando encontrar a próxima secção principal ou o fim do ficheiro
 padrao_extracao = re.compile(r'^\s*(\d+)\.\s+([A-ZÀ-Ú\s]+)\n(.*?)(?=^\s*\d+\.\d+|\Z)', re.MULTILINE | re.DOTALL)
 
 blocos_extraidos = padrao_extracao.findall(texto)

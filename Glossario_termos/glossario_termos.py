@@ -14,7 +14,6 @@ f.close()
 # Remover tags desnecessárias
 =======
 # Limpeza das tags e manter <b> e <i>
->>>>>>> 9a7caf3c96933b075b89819ebb4f04f148a2f2b4
 texto = re.sub(r'</?pdf2xml.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
 texto = re.sub(r'<fontspec.*?>', ' ', texto)
@@ -40,7 +39,6 @@ texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.IGNORECASE)
 texto = re.sub(r'</i>\s*<i>', ' ', texto)
 
 # Padrão 1: Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
->>>>>>> 9a7caf3c96933b075b89819ebb4f04f148a2f2b4
 padrao_1 = r'<i>([^<]+)</i>\s*\(pop\)\s*,\s*<b>([^<]+)</b>'
 extraidos_1 = re.findall(padrao_1, texto, flags=re.DOTALL)
 
