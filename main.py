@@ -144,10 +144,12 @@ def consolidar_final():
                 trads = info.get("traducoes", {})
                 
                 # O termo PT pode estar nas traduções, ou ser a própria chave (se for o dicionario_conceitos que tem o termo base em catalão/português)
-                pt_term = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt")
+                pt_raw = trads.get("PT") or trads.get("pt [PT]") or trads.get("pt")
 
-                if not pt_term or str(pt_term).strip() == "" or str(pt_term).lower() == "none":
+                if not pt_raw or str(pt_raw).strip() == "" or str(pt_raw).lower() == "none":
                     continue
+
+                pt_term = str(pt_raw).split(' - ')[0].strip()
                 chave_pt = None
                 termo_para_criar = pt_term.split(',')[0].split(';')[0].strip()
                 
@@ -221,13 +223,29 @@ def consolidar_final():
                     # TRADUÇÕES E CHAVES ESTRANGEIRAS (Aplica-se ao WIPO, Multilingue E Medicina)
                     # ========================================================
                     # Preencher traduções em falta
+                    codigos_linguas = ['oc', 'eu', 'gl', 'es', 'en', 'fr', 'pt', 'nl', 'ar', 'ca', 'it']
                     for lang, val in trads.items():
                         if not val: continue
-                        l_std = lang.replace(" [PT]", "").replace(" [BR]", "_br").lower()
-                        if l_std == "pt": continue 
                         
-                        if l_std not in ent["traducoes"]: ent["traducoes"][l_std] = []
-                        if val not in ent["traducoes"][l_std]: ent["traducoes"][l_std].append(val)
+                        # Normalizar código da língua (ex: "pt [PT]" -> "pt")
+                        l_std = lang.replace(" [PT]", "").replace(" [BR]", "_br").lower()
+                        
+                        # --- LIMPEZA DO VALOR ---
+                        val_limpo = str(val).strip()
+                        
+                        # A) Remover o prefixo da língua se ele estiver no texto (ex: "oc dazcapistat" -> "dazcapistat")
+                        # O regex \b{l_std}\s+ garante que só remove se for a palavra exata no início
+
+                        for cod in codigos_linguas:
+                            val_limpo = re.sub(rf'^.*?\b{cod}\b\s+', '', val_limpo, flags=re.IGNORECASE)
+
+                        # B) Remover categorias extensas (" - nom masculí")
+                        val_limpo = val_limpo.split(' - ')[0].strip()
+                        
+                        if l_std not in ent["traducoes"]: 
+                            ent["traducoes"][l_std] = []
+                        if val_limpo and val_limpo not in ent["traducoes"][l_std]:
+                            ent["traducoes"][l_std].append(val_limpo)
                     
                     # Salvar a chave do WIPO (que é o termo em Inglês!)
                     if filename == "WIPO/wipo.json" and termo_estrangeiro:
@@ -236,8 +254,18 @@ def consolidar_final():
 
                     # Salvar a chave do Multilingue (que é o termo em Italiano!)
                     if filename == "Dmultilingue/conceitos/dicionario_conceitos.json" and termo_estrangeiro:
-                        if "it" not in ent["traducoes"]: ent["traducoes"]["it"] = []
-                        if termo_estrangeiro not in ent["traducoes"]["it"]: ent["traducoes"]["it"].append(termo_estrangeiro)
+                        ca_val = str(termo_estrangeiro).strip()
+                        # Remover números iniciais (ex: "169 ")
+                        ca_val = re.sub(r'^\d+\s+', '', ca_val)
+                        for cod in codigos_linguas:
+                            ca_val = re.sub(rf'^.*?\b{cod}\b\s+', '', ca_val, flags=re.IGNORECASE)
+                        # Limpar categoria
+                        ca_val = ca_val.split(' - ')[0].strip()
+                        
+                        if "ca" not in ent["traducoes"]: 
+                            ent["traducoes"]["ca"] = []
+                        if ca_val and ca_val not in ent["traducoes"]["ca"]:
+                            ent["traducoes"]["ca"].append(ca_val)
 
     # --- 3. LIMPEZA FINAL E ORDENAÇÃO ---
     for chave in master_dict:

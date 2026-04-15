@@ -195,10 +195,10 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
             item["traducoes"][lang] = trad.strip()
 
         # 5. Substituir na CATEGORIA principal
-        for abrev in abrev_ordenadas:
-            if item["categoria"] == abrev:
-                item["categoria"] = f"- {mapa_abrev[abrev]}"
-                break
+        if item["categoria"] in mapa_abrev:
+            # Aqui podes decidir: ou deixas só o extenso, ou limpas. 
+            # Geralmente na categoria quer-se o valor:
+            item["categoria"] = mapa_abrev[item["categoria"]]
 
     with open(json_output, 'w', encoding='utf8') as f_out:
         json.dump(dicionario, f_out, indent=4, ensure_ascii=False)
