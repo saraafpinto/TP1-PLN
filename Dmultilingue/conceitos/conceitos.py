@@ -3,14 +3,13 @@ import json
 import os
 
 def carregar_abreviaturas(ficheiro_abreviaturas):
-    """Carrega e aplana o mapa de abreviaturas aninhado."""
     mapa_plano = {}
     if os.path.exists(ficheiro_abreviaturas):
         with open(ficheiro_abreviaturas, "r", encoding="utf8") as f:
             dados = json.load(f)
             for categoria in dados.values():
                 for abrev, extenso in categoria.items():
-                    # Se o valor for uma lista (caso do PT), pegamos no primeiro elemento
+                    # Se o valor for uma lista (caso do PT), pegar no primeiro elemento
                     if isinstance(extenso, list):
                         mapa_plano[abrev] = extenso[0]
                     else:
@@ -36,40 +35,45 @@ def guardar_pendente(conceito, estado_atual, chave_atual, texto):
 
 def tratar_campo_multiplo(lista_original, mapa, ordens, remover_sin=False):
     lista_final = []
+
+    # Ordenar as abreviaturas por tamanho (maiores primeiro) para evitar que "n" substitua o "n" de "n m"
+    ordens_abrv = sorted(ordens, key=len, reverse=True)
+
     for s in lista_original:
-        # Aplanar quebras de linha e normalizar espaços
-        s_limpo = s.replace('\n', ' ')
+        # Normalizar espaços e quebras de linhas
+        s_limpo = re.sub(r'\n', ' ', s) 
         s_limpo = re.sub(r'\s+', ' ', s_limpo).strip()
 
-        # Separar por ';' ANTES de remover abreviaturas para não perder o corte
-        partes = s_limpo.split(';')
+        partes = [p.strip() for p in s_limpo.split(';') if p.strip()]
         
         for p in partes:
-            p = p.strip()
-            if not p: continue
+            if re.search(r'\bsigla\b', p, flags=re.IGNORECASE):
+                p = re.sub(r'\bsigla\s*', '', p, flags=re.IGNORECASE).strip()
             
             # Limpeza de marcadores (sin, sin. compl, veg)
-            for abrev in ordens:
+            for abrev in ordens_abrv:
                 abrev_esc = re.escape(abrev)
-                pattern = re.compile(rf'\b{abrev_esc}' if abrev.endswith('.') else rf'\b{abrev_esc}\b')
-                
-                if "sin" in abrev or "veg" in abrev:
-                    p = pattern.sub("", p).strip()
-                else:
-                    # Substituir categorias gramaticais
-                    if abrev in mapa:
-                        p = pattern.sub(f"- {mapa[abrev]}", p).strip()
+                abrev_esc = abrev_esc.replace(r'\ ', r'\s+')
+                pattern = rf'\b{abrev_esc}\.?\s*'
+
+                if re.search(pattern, p, flags=re.IGNORECASE):
+                    if "sin" in abrev.lower() or "veg" in abrev.lower():
+                        p = re.sub(pattern,"", p).strip()
+                    else:
+                        # Substituir categorias gramaticais
+                        if abrev in mapa:
+                            extenso = mapa[abrev]
+                            p = re.sub(pattern, f"- {extenso}", p).strip()
+                    break
             
             p = re.sub(r'\s+', ' ', p).strip()
             if p: lista_final.append(p)
     return lista_final
 
 def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
-    # 1. Carregar e preparar o mapa de abreviaturas
+    # Carregar e preparar o mapa de abreviaturas
     mapa_abrev = carregar_abreviaturas(ficheiro_abreviaturas)
-    
-    # Ordenar as abreviaturas por tamanho (maiores primeiro) 
-    # para evitar que "n" substitua o "n" de "n m"
+
     abrev_ordenadas = sorted(mapa_abrev.keys(), key=len, reverse=True)
 
     f = open(txt_input, "r", encoding="utf8")
@@ -79,16 +83,17 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
     dicionario = []
     conceito = None
     estado_atual, chave_atual = None, None
-    id_gerado = 1
     espera_continuacao = False 
     
-    regex_novo_termo = re.compile(r'^(.*?)\s+\b(n m|n f|n m pl|n f pl|n m, f|n m/f|adj|v tr|v tr/intr|v intr|n)\b$')
-    regex_idioma = re.compile(r'^(oc|eu|gl|es|en|fr|pt \[PT\]|pt \[BR\]|pt|nl|ar)\s+(.*)')
-    regex_marcador = re.compile(r'^(CAS|Nota:|sigla|veg\.|sin\.|sin\. compl\.)\s+(.*)')
-    regex_area_def = re.compile(r'^([A-ZÀ-Ú\s\-]{5,})\.\s*(.*)')
-    regex_continuacao = re.compile(r'[;,]$')
+    # Padrões de Regex
+    padrao_novo_termo = r'^(.*?)\s+\b(n m|n f|n m pl|n f pl|n m, f|n m/f|adj|v tr|v tr/intr|v intr|n)\b$'
+    padrao_idioma = r'^(oc|eu|gl|es|en|fr|pt \[PT\]|pt \[BR\]|pt|nl|ar)\s+(.*)'
+    padrao_marcador = r'^(CAS|Nota:|sigla|veg\.|sin\. compl\.|sin\.)\s+(.*)'
+    padrao_area_def = r'^([A-ZÀ-Ú\s\-]{5,})\.\s*(.*)'
+    padrao_continuacao = r'[;,]$'
 
     for linha in linhas:
+        # Limpezas iniciais de números de página/ordem
         linha = re.sub(r'^\d+\s+', '', linha)
         linha = re.sub(r';\s*\d+$', ';', linha)
         
@@ -96,14 +101,14 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
 
         if espera_continuacao:
             guardar_pendente(conceito, estado_atual, chave_atual, linha)
-            espera_continuacao = bool(regex_continuacao.search(linha))
+            espera_continuacao = bool(re.search(padrao_continuacao,linha))
             continue
 
         tem_marcador = False
-        m_idioma = regex_idioma.match(linha)
-        m_marcador = regex_marcador.match(linha)
-        m_area_def = regex_area_def.match(linha)
-        m_termo = regex_novo_termo.match(linha)
+        m_idioma = re.match(padrao_idioma, linha)
+        m_marcador = re.match(padrao_marcador, linha)
+        m_area_def = re.match(padrao_area_def, linha)
+        m_termo = re.match(padrao_novo_termo, linha)
 
         if not any([m_idioma, m_marcador, m_area_def, m_termo]) and conceito:
             # Se o último estado foi nota, definição ou sinónimo, continuamos a acumular
@@ -129,8 +134,10 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
                     estado_atual, conceito["nota"] = 'nota', resto
                 elif tipo == "veg.":
                     estado_atual = 'ver_tambem'
-                    # Guardamos sem o prefixo 'veg.', o pós-processamento trata da limpeza
                     conceito["ver_tambem"].append(resto)
+                elif tipo == "sigla":
+                    estado_atual = 'sigla'
+                    conceito["siglas"].append(resto)
                 else: 
                     estado_atual = 'sinonimo'
                     conceito["sinonimos"].append(resto)
@@ -145,12 +152,10 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
         elif m_termo and ';' not in linha:
             if conceito: dicionario.append(conceito)
             conceito = {
-                "id": id_gerado,
                 "termo": m_termo.group(1).strip(),
                 "categoria": m_termo.group(2).strip(),
-                "traducoes": {}, "sinonimos": [], "ver_tambem": [], "CAS": "", "area_tematica": "", "definicao": "", "nota": ""
+                "traducoes": {}, "sinonimos": [], "ver_tambem": [], "siglas": [], "CAS": "", "area_tematica": "", "definicao": "", "nota": ""
             }
-            id_gerado += 1
             estado_atual = None
             espera_continuacao = False
             continue 
@@ -158,46 +163,43 @@ def processar_dicionario(txt_input, json_output, ficheiro_abreviaturas):
         if not tem_marcador and not m_termo:
             guardar_pendente(conceito, estado_atual, chave_atual, linha)
             
-        espera_continuacao = bool(regex_continuacao.search(linha))
+        espera_continuacao = bool(re.search(padrao_continuacao, linha))
 
     if conceito: dicionario.append(conceito)
 
-    # ==========================================
-    # PÓS-PROCESSAMENTO: LIMPEZA E FORMATAÇÃO
-    # ==========================================
+    # Limpeza e formatação
     for item in dicionario:
-        # 1. Separar Notas por número
+        # Separar Notas por número
         if item["nota"]:
-            # Primeiro junta tudo numa linha só para o split não falhar
+            # Primeiro junta tudo numa linha para o split não falhar
             nota_completa = item["nota"].replace('\n', ' ')
             nota_completa = re.sub(r'\s+', ' ', nota_completa).strip()
             
-            # Agora sim, faz o split pelos números
+            # Faz o split pelos números
             partes_nota = re.split(r'\s*\b\d\.\s*', nota_completa)
             item["nota"] = [n.strip() for n in partes_nota if n.strip()]
 
-        # 2. Sinónimos e Ver_Tambem (Aqui chamamos a função que perguntaste!)
+        # Sinónimos e Ver_Tambem
         item["sinonimos"] = tratar_campo_multiplo(item["sinonimos"], mapa_abrev, abrev_ordenadas)
         item["ver_tambem"] = tratar_campo_multiplo(item["ver_tambem"], mapa_abrev, abrev_ordenadas)
+        item["siglas"] = tratar_campo_multiplo(item["siglas"], mapa_abrev, abrev_ordenadas)
 
-        # 4. Substituir abreviaturas nas TRADUÇÕES
+        # Substituir abreviaturas nas traduções
         for lang in item["traducoes"]:
             trad = item["traducoes"][lang].replace('\n', ' ')
             trad = re.sub(r'\s+', ' ', trad)
             
-            for abrev in abrev_ordenadas:
+            for abrev in mapa_abrev:
                 extenso = mapa_abrev[abrev]
                 abrev_esc = re.escape(abrev)
-                pattern = re.compile(rf'\b{abrev_esc}' if abrev.endswith('.') else rf'\b{abrev_esc}\b')
+                pattern = rf'\b{abrev_esc}' if abrev.endswith('.') else rf'\b{abrev_esc}\b'
                 
-                trad = pattern.sub(f"- {extenso}", trad)
+                trad = re.sub(pattern, f"- {extenso}", trad)
             
             item["traducoes"][lang] = trad.strip()
 
-        # 5. Substituir na CATEGORIA principal
+        # Substituir na categoria principal
         if item["categoria"] in mapa_abrev:
-            # Aqui podes decidir: ou deixas só o extenso, ou limpas. 
-            # Geralmente na categoria quer-se o valor:
             item["categoria"] = mapa_abrev[item["categoria"]]
 
     with open(json_output, 'w', encoding='utf8') as f_out:
