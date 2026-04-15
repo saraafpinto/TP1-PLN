@@ -62,14 +62,14 @@ for c in conceitos[1:]:
         if match_cat:
             conceitos_dict[designacao]["categoria"] = match_cat.group(1).strip()
         else:
-            # Se não encontrar nenhuma sigla, assume que o corpo todo é a área (ou está vazio)
+            # Se não encontrar nenhuma sigla, assumir que o corpo todo é a área (ou está vazio)
             if not any(x in corpo_unido for x in ['es ', 'en ', 'pt ', 'la ', 'SIN.-']):
                 conceitos_dict[designacao]["categoria"] = corpo_unido
 
         # EXTRAIR SINÓNIMOS (SIN.-)
         m_sin = re.search(r'SIN\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|VAR\.-|Vid\.-|#)|$)', corpo_unido)
         if m_sin:
-            # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
+            # Limpamr pontos finais no fim da lista de sinónimos
             sins_raw = m_sin.group(1).strip().rstrip('.')
             sins = sins_raw.split(';')
             conceitos_dict[designacao]["sinonimos"] = [s.strip() for s in sins]
@@ -77,7 +77,7 @@ for c in conceitos[1:]:
         # EXTRAIR Variantes (VAR)
         m_sin = re.search(r'VAR\.-\s+(.*?)(?=\s*(?:\$|Nota\.-|Vid\.-|#)|$)', corpo_unido)
         if m_sin:
-            # Limpamos possíveis pontos finais no fim da lista de sinónimos antes do split
+            # Limpar pontos finais no fim da lista de sinónimos 
             sins_raw = m_sin.group(1).strip().rstrip('.')
             sins = sins_raw.split(';')
             conceitos_dict[designacao]["variantes"] = [s.strip() for s in sins]
@@ -91,12 +91,12 @@ for c in conceitos[1:]:
         # EXTRAIR TRADUÇÕES
         corpo_unido = re.sub(r'\s+', ' ', corpo).strip()
         for lang in ['es', 'en', 'pt', 'la']:
-            # O padrão agora procura: § + sigla + espaço + tudo até ao próximo § ou fim
+            # O padrão procura: § + sigla + espaço + tudo até ao próximo § ou fim
             padrao = fr'\${lang}\s+(.*?)(?=\s*\$|$)'
             
             match_lang = re.search(padrao, corpo_unido)
             if match_lang:
-                # Extraímos o conteúdo e limpamos qualquer marcador residual
+                # Extrair o conteúdo e limpar qualquer marcador residual
                 conteudo = match_lang.group(1).strip()
                 
                 # Segurança extra para o caso do 'la' ainda aparecer no fim

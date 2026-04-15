@@ -1,7 +1,7 @@
 import re
 import json
 
-f = open("medicina_latino.txt", "r", encoding="utf8") #se der problemas por 
+f = open("medicina_latino.txt", "r", encoding="utf8") 
 texto = f.read()
 f.close() 
 
@@ -18,7 +18,6 @@ for c in conceitos[1:]:
         descricao = elems[1]
         conceitos_dict[designacao] = descricao
     else:
-        #Fix me
         continue
 
 def gera_json(filename, dicionario):

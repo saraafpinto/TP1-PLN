@@ -5,14 +5,7 @@ f = open("glossario_termos.xml", "r", encoding="utf8")
 texto = f.read()
 f.close() 
 
-<<<<<<< HEAD
 
-# ==========================================
-# 2. ACHATAMENTO E LIMPEZA INICIAL
-# ==========================================
-
-# Remover tags desnecessárias
-=======
 # Limpeza das tags e manter <b> e <i>
 texto = re.sub(r'</?pdf2xml.*?>', ' ', texto)
 texto = re.sub(r'</?page.*?>', ' ', texto)
@@ -24,15 +17,12 @@ texto = re.sub(r'Glossário de Termos.*?Portugal\)', ' ', texto, flags=re.DOTALL
 texto = re.sub(r'Fonte:.*?Languages', ' ', texto, flags=re.DOTALL)
 texto = re.sub(r'Observação:.*?Linguistics\.', ' ', texto, flags=re.DOTALL)
 
-<<<<<<< HEAD
 # Remover as letras do alfabeto soltas 
 texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.I)
 
 # Corrigir quebras dentro das definições
 texto = re.sub(r'</i>\s*<i>', ' ', texto)
 
-#Itálico (Significado) -> "(pop) ," -> Negrito (Termo)
-=======
 # Remover as letras do alfabeto soltas (A, B, C...)
 texto = re.sub(r'\b<b>[A-ZÀ-Ú]</b>\b', ' ', texto, flags=re.IGNORECASE)
 

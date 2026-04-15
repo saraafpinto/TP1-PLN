@@ -41,7 +41,7 @@ for termo, resto in lista_glos:
     
     # Validar se o termo é real (sem ser um número de página)
     if not d.isdigit() and len(d) > 3:
-        # A ALTERAÇÃO: Fazer o append do objeto criado
+
         glossario.append({
             "termo": t,
             "categoria": c,

@@ -6,7 +6,7 @@ f = open("glossario_enfermagem.xml", "r", encoding="utf8")
 texto = f.read()
 f.close()
 
-# Apaga os números de página 
+# Apagar os números de página 
 texto = re.sub(r'<b>\d+</b>', ' ', texto)  
 
 texto = re.sub(r'<b>GLOSSÁRIO DA LINGUAGEM ESPECIAL DE ENFERMAGEM</b>', ' ', texto)
@@ -28,7 +28,7 @@ res = {}
 for termo, bloco_texto in conceitos:
     # Limpeza inicial do bloco de texto
     bloco_limpo = re.sub(r'</?text.*?>', ' ', bloco_texto)
-    # Remove <i>
+    # Remover <i>
     bloco_limpo = re.sub(r'<.*?>', '', bloco_limpo) 
     
     # separação da definição da fonte
@@ -40,7 +40,7 @@ for termo, bloco_texto in conceitos:
         definicao_raw = bloco_limpo
         fonte_raw = ""
 
-    # Substituir múltiplas quebras de linha/espaços por UM espaço
+    # Substituir múltiplas quebras de linha/espaços por um espaço
     definicao = re.sub(r'\s+', ' ', definicao_raw).strip()
     # Consertar palavras cortadas conhecidas
     definicao = definicao.replace("nanceiros", "financeiros")
